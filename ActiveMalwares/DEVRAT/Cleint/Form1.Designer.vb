@@ -1,0 +1,1187 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Form1
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
+        Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
+        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.ToolStripStatusLabel6 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.TabControl1 = New System.Windows.Forms.TabControl()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.c1 = New System.Windows.Forms.ComboBox()
+        Me.c2 = New System.Windows.Forms.ComboBox()
+        Me.c = New System.Windows.Forms.NumericUpDown()
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.Splitter1 = New System.Windows.Forms.Splitter()
+        Me.l1 = New System.Windows.Forms.ListView()
+        Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader2 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader3 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader4 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader5 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader6 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader7 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader8 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader80 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
+        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ScreenCapterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CamToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RegeditToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ProcToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.InstalledProgramToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GetClipordToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CmdToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.StartToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.REGToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RunScriptToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VbsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BatToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.الباسورداتToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.KlToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.InformationToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DDosAttackToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NormalToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.KillerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.اللعبToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OpenFileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FromLinkToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FromDiskToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BeeepToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GoogleChromeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MozilaFireFoxToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OperaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SafariToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.InternetExplolerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UnToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UninstallToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RestartToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RenameToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.P1 = New System.Windows.Forms.PictureBox()
+        Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.ToolStripStatusLabel2 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.ToolStripStatusLabel3 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.ToolStripStatusLabel4 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.ToolStripStatusLabel7 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.ToolStripStatusLabel5 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.BlueScreenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextMenuStrip1.SuspendLayout()
+        Me.StatusStrip1.SuspendLayout()
+        Me.TabControl1.SuspendLayout()
+        Me.TabPage1.SuspendLayout()
+        CType(Me.c, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'ContextMenuStrip1
+        '
+        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1, Me.ScreenCapterToolStripMenuItem, Me.CamToolStripMenuItem, Me.RegeditToolStripMenuItem, Me.ProcToolStripMenuItem, Me.InstalledProgramToolStripMenuItem, Me.GetClipordToolStripMenuItem, Me.CmdToolStripMenuItem, Me.StartToolStripMenuItem, Me.REGToolStripMenuItem, Me.RunScriptToolStripMenuItem, Me.الباسورداتToolStripMenuItem, Me.KlToolStripMenuItem, Me.InformationToolStripMenuItem, Me.DDosAttackToolStripMenuItem, Me.BlueScreenToolStripMenuItem, Me.اللعبToolStripMenuItem, Me.TeToolStripMenuItem, Me.OpenFileToolStripMenuItem, Me.BeeepToolStripMenuItem, Me.UnToolStripMenuItem})
+        Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(219, 488)
+        '
+        'ImageList1
+        '
+        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
+        Me.ImageList1.Images.SetKeyName(0, "1 - Copy.gif")
+        Me.ImageList1.Images.SetKeyName(1, "1.gif")
+        Me.ImageList1.Images.SetKeyName(2, "2.gif")
+        Me.ImageList1.Images.SetKeyName(3, "3.gif")
+        Me.ImageList1.Images.SetKeyName(4, "4.gif")
+        Me.ImageList1.Images.SetKeyName(5, "5.gif")
+        Me.ImageList1.Images.SetKeyName(6, "6.gif")
+        Me.ImageList1.Images.SetKeyName(7, "7.gif")
+        Me.ImageList1.Images.SetKeyName(8, "8.gif")
+        Me.ImageList1.Images.SetKeyName(9, "9.gif")
+        Me.ImageList1.Images.SetKeyName(10, "10.gif")
+        Me.ImageList1.Images.SetKeyName(11, "11.gif")
+        Me.ImageList1.Images.SetKeyName(12, "12.gif")
+        Me.ImageList1.Images.SetKeyName(13, "13.gif")
+        Me.ImageList1.Images.SetKeyName(14, "14.gif")
+        Me.ImageList1.Images.SetKeyName(15, "15.gif")
+        Me.ImageList1.Images.SetKeyName(16, "16.gif")
+        Me.ImageList1.Images.SetKeyName(17, "17.gif")
+        Me.ImageList1.Images.SetKeyName(18, "18.gif")
+        Me.ImageList1.Images.SetKeyName(19, "19.gif")
+        Me.ImageList1.Images.SetKeyName(20, "20.gif")
+        Me.ImageList1.Images.SetKeyName(21, "21.gif")
+        Me.ImageList1.Images.SetKeyName(22, "22.gif")
+        Me.ImageList1.Images.SetKeyName(23, "23.gif")
+        Me.ImageList1.Images.SetKeyName(24, "24.gif")
+        Me.ImageList1.Images.SetKeyName(25, "25.gif")
+        Me.ImageList1.Images.SetKeyName(26, "26.gif")
+        Me.ImageList1.Images.SetKeyName(27, "27.gif")
+        Me.ImageList1.Images.SetKeyName(28, "28.gif")
+        Me.ImageList1.Images.SetKeyName(29, "29.gif")
+        Me.ImageList1.Images.SetKeyName(30, "30.gif")
+        Me.ImageList1.Images.SetKeyName(31, "31.gif")
+        Me.ImageList1.Images.SetKeyName(32, "32.gif")
+        Me.ImageList1.Images.SetKeyName(33, "33.gif")
+        Me.ImageList1.Images.SetKeyName(34, "34.gif")
+        Me.ImageList1.Images.SetKeyName(35, "35.gif")
+        Me.ImageList1.Images.SetKeyName(36, "36.gif")
+        Me.ImageList1.Images.SetKeyName(37, "37.gif")
+        Me.ImageList1.Images.SetKeyName(38, "38.gif")
+        Me.ImageList1.Images.SetKeyName(39, "39.gif")
+        Me.ImageList1.Images.SetKeyName(40, "40.gif")
+        Me.ImageList1.Images.SetKeyName(41, "41.gif")
+        Me.ImageList1.Images.SetKeyName(42, "42.gif")
+        Me.ImageList1.Images.SetKeyName(43, "43.gif")
+        Me.ImageList1.Images.SetKeyName(44, "44.gif")
+        Me.ImageList1.Images.SetKeyName(45, "45.gif")
+        Me.ImageList1.Images.SetKeyName(46, "46.gif")
+        Me.ImageList1.Images.SetKeyName(47, "47.gif")
+        Me.ImageList1.Images.SetKeyName(48, "48.gif")
+        Me.ImageList1.Images.SetKeyName(49, "49.gif")
+        Me.ImageList1.Images.SetKeyName(50, "50.gif")
+        Me.ImageList1.Images.SetKeyName(51, "51.gif")
+        Me.ImageList1.Images.SetKeyName(52, "52.gif")
+        Me.ImageList1.Images.SetKeyName(53, "53.gif")
+        Me.ImageList1.Images.SetKeyName(54, "54.gif")
+        Me.ImageList1.Images.SetKeyName(55, "55.gif")
+        Me.ImageList1.Images.SetKeyName(56, "56.gif")
+        Me.ImageList1.Images.SetKeyName(57, "57.gif")
+        Me.ImageList1.Images.SetKeyName(58, "58.gif")
+        Me.ImageList1.Images.SetKeyName(59, "59.gif")
+        Me.ImageList1.Images.SetKeyName(60, "60.gif")
+        Me.ImageList1.Images.SetKeyName(61, "61.gif")
+        Me.ImageList1.Images.SetKeyName(62, "62.gif")
+        Me.ImageList1.Images.SetKeyName(63, "63.gif")
+        Me.ImageList1.Images.SetKeyName(64, "64.gif")
+        Me.ImageList1.Images.SetKeyName(65, "65.gif")
+        Me.ImageList1.Images.SetKeyName(66, "66.gif")
+        Me.ImageList1.Images.SetKeyName(67, "67.gif")
+        Me.ImageList1.Images.SetKeyName(68, "68.gif")
+        Me.ImageList1.Images.SetKeyName(69, "69.gif")
+        Me.ImageList1.Images.SetKeyName(70, "70.gif")
+        Me.ImageList1.Images.SetKeyName(71, "71.gif")
+        Me.ImageList1.Images.SetKeyName(72, "72.gif")
+        Me.ImageList1.Images.SetKeyName(73, "73.gif")
+        Me.ImageList1.Images.SetKeyName(74, "74.gif")
+        Me.ImageList1.Images.SetKeyName(75, "75.gif")
+        Me.ImageList1.Images.SetKeyName(76, "76.gif")
+        Me.ImageList1.Images.SetKeyName(77, "77.gif")
+        Me.ImageList1.Images.SetKeyName(78, "78.gif")
+        Me.ImageList1.Images.SetKeyName(79, "79.gif")
+        Me.ImageList1.Images.SetKeyName(80, "80.gif")
+        Me.ImageList1.Images.SetKeyName(81, "81.gif")
+        Me.ImageList1.Images.SetKeyName(82, "82.gif")
+        Me.ImageList1.Images.SetKeyName(83, "83.gif")
+        Me.ImageList1.Images.SetKeyName(84, "84.gif")
+        Me.ImageList1.Images.SetKeyName(85, "85.gif")
+        Me.ImageList1.Images.SetKeyName(86, "86.gif")
+        Me.ImageList1.Images.SetKeyName(87, "87.gif")
+        Me.ImageList1.Images.SetKeyName(88, "88.gif")
+        Me.ImageList1.Images.SetKeyName(89, "89.gif")
+        Me.ImageList1.Images.SetKeyName(90, "90.gif")
+        Me.ImageList1.Images.SetKeyName(91, "91.gif")
+        Me.ImageList1.Images.SetKeyName(92, "92.gif")
+        Me.ImageList1.Images.SetKeyName(93, "93.gif")
+        Me.ImageList1.Images.SetKeyName(94, "94.gif")
+        Me.ImageList1.Images.SetKeyName(95, "95.gif")
+        Me.ImageList1.Images.SetKeyName(96, "96.gif")
+        Me.ImageList1.Images.SetKeyName(97, "97.gif")
+        Me.ImageList1.Images.SetKeyName(98, "98.gif")
+        Me.ImageList1.Images.SetKeyName(99, "99.gif")
+        Me.ImageList1.Images.SetKeyName(100, "100.gif")
+        Me.ImageList1.Images.SetKeyName(101, "101.gif")
+        Me.ImageList1.Images.SetKeyName(102, "102.gif")
+        Me.ImageList1.Images.SetKeyName(103, "103.gif")
+        Me.ImageList1.Images.SetKeyName(104, "104.gif")
+        Me.ImageList1.Images.SetKeyName(105, "105.gif")
+        Me.ImageList1.Images.SetKeyName(106, "106.gif")
+        Me.ImageList1.Images.SetKeyName(107, "107.gif")
+        Me.ImageList1.Images.SetKeyName(108, "108.gif")
+        Me.ImageList1.Images.SetKeyName(109, "109.gif")
+        Me.ImageList1.Images.SetKeyName(110, "110.gif")
+        Me.ImageList1.Images.SetKeyName(111, "111.gif")
+        Me.ImageList1.Images.SetKeyName(112, "112.gif")
+        Me.ImageList1.Images.SetKeyName(113, "113.gif")
+        Me.ImageList1.Images.SetKeyName(114, "114.gif")
+        Me.ImageList1.Images.SetKeyName(115, "115.gif")
+        Me.ImageList1.Images.SetKeyName(116, "116.gif")
+        Me.ImageList1.Images.SetKeyName(117, "117.gif")
+        Me.ImageList1.Images.SetKeyName(118, "118.gif")
+        Me.ImageList1.Images.SetKeyName(119, "119.gif")
+        Me.ImageList1.Images.SetKeyName(120, "120.gif")
+        Me.ImageList1.Images.SetKeyName(121, "121.gif")
+        Me.ImageList1.Images.SetKeyName(122, "122.gif")
+        Me.ImageList1.Images.SetKeyName(123, "123.gif")
+        Me.ImageList1.Images.SetKeyName(124, "124.gif")
+        Me.ImageList1.Images.SetKeyName(125, "125.gif")
+        Me.ImageList1.Images.SetKeyName(126, "126.gif")
+        Me.ImageList1.Images.SetKeyName(127, "127.gif")
+        Me.ImageList1.Images.SetKeyName(128, "128.gif")
+        Me.ImageList1.Images.SetKeyName(129, "129.gif")
+        Me.ImageList1.Images.SetKeyName(130, "130.gif")
+        Me.ImageList1.Images.SetKeyName(131, "131.gif")
+        Me.ImageList1.Images.SetKeyName(132, "132.gif")
+        Me.ImageList1.Images.SetKeyName(133, "133.gif")
+        Me.ImageList1.Images.SetKeyName(134, "134.gif")
+        Me.ImageList1.Images.SetKeyName(135, "135.gif")
+        Me.ImageList1.Images.SetKeyName(136, "136.gif")
+        Me.ImageList1.Images.SetKeyName(137, "137.gif")
+        Me.ImageList1.Images.SetKeyName(138, "138.gif")
+        Me.ImageList1.Images.SetKeyName(139, "139.gif")
+        Me.ImageList1.Images.SetKeyName(140, "140.gif")
+        Me.ImageList1.Images.SetKeyName(141, "141.gif")
+        Me.ImageList1.Images.SetKeyName(142, "142.gif")
+        Me.ImageList1.Images.SetKeyName(143, "143.gif")
+        Me.ImageList1.Images.SetKeyName(144, "144.gif")
+        Me.ImageList1.Images.SetKeyName(145, "145.gif")
+        Me.ImageList1.Images.SetKeyName(146, "146.gif")
+        Me.ImageList1.Images.SetKeyName(147, "147.gif")
+        Me.ImageList1.Images.SetKeyName(148, "148.gif")
+        Me.ImageList1.Images.SetKeyName(149, "149.gif")
+        Me.ImageList1.Images.SetKeyName(150, "150.gif")
+        Me.ImageList1.Images.SetKeyName(151, "151.gif")
+        Me.ImageList1.Images.SetKeyName(152, "152.gif")
+        Me.ImageList1.Images.SetKeyName(153, "153.gif")
+        Me.ImageList1.Images.SetKeyName(154, "154.gif")
+        Me.ImageList1.Images.SetKeyName(155, "155.gif")
+        Me.ImageList1.Images.SetKeyName(156, "156.gif")
+        Me.ImageList1.Images.SetKeyName(157, "157.gif")
+        Me.ImageList1.Images.SetKeyName(158, "158.gif")
+        Me.ImageList1.Images.SetKeyName(159, "159.gif")
+        Me.ImageList1.Images.SetKeyName(160, "160.gif")
+        Me.ImageList1.Images.SetKeyName(161, "161.gif")
+        Me.ImageList1.Images.SetKeyName(162, "162.gif")
+        Me.ImageList1.Images.SetKeyName(163, "163.gif")
+        Me.ImageList1.Images.SetKeyName(164, "164.gif")
+        Me.ImageList1.Images.SetKeyName(165, "165.gif")
+        Me.ImageList1.Images.SetKeyName(166, "166.gif")
+        Me.ImageList1.Images.SetKeyName(167, "167.gif")
+        Me.ImageList1.Images.SetKeyName(168, "168.gif")
+        Me.ImageList1.Images.SetKeyName(169, "169.gif")
+        Me.ImageList1.Images.SetKeyName(170, "170.gif")
+        Me.ImageList1.Images.SetKeyName(171, "171.gif")
+        Me.ImageList1.Images.SetKeyName(172, "172.gif")
+        Me.ImageList1.Images.SetKeyName(173, "173.gif")
+        Me.ImageList1.Images.SetKeyName(174, "174.gif")
+        Me.ImageList1.Images.SetKeyName(175, "175.gif")
+        Me.ImageList1.Images.SetKeyName(176, "176.gif")
+        Me.ImageList1.Images.SetKeyName(177, "177.gif")
+        Me.ImageList1.Images.SetKeyName(178, "178.gif")
+        Me.ImageList1.Images.SetKeyName(179, "179.gif")
+        Me.ImageList1.Images.SetKeyName(180, "180.gif")
+        Me.ImageList1.Images.SetKeyName(181, "181.gif")
+        Me.ImageList1.Images.SetKeyName(182, "182.gif")
+        Me.ImageList1.Images.SetKeyName(183, "183.gif")
+        Me.ImageList1.Images.SetKeyName(184, "184.gif")
+        Me.ImageList1.Images.SetKeyName(185, "185.gif")
+        Me.ImageList1.Images.SetKeyName(186, "186.gif")
+        Me.ImageList1.Images.SetKeyName(187, "187.gif")
+        Me.ImageList1.Images.SetKeyName(188, "188.gif")
+        Me.ImageList1.Images.SetKeyName(189, "189.gif")
+        Me.ImageList1.Images.SetKeyName(190, "190.gif")
+        Me.ImageList1.Images.SetKeyName(191, "191.gif")
+        Me.ImageList1.Images.SetKeyName(192, "192.gif")
+        Me.ImageList1.Images.SetKeyName(193, "193.gif")
+        Me.ImageList1.Images.SetKeyName(194, "194.gif")
+        Me.ImageList1.Images.SetKeyName(195, "195.gif")
+        Me.ImageList1.Images.SetKeyName(196, "196.gif")
+        Me.ImageList1.Images.SetKeyName(197, "197.gif")
+        Me.ImageList1.Images.SetKeyName(198, "198.gif")
+        Me.ImageList1.Images.SetKeyName(199, "199.gif")
+        Me.ImageList1.Images.SetKeyName(200, "200.gif")
+        Me.ImageList1.Images.SetKeyName(201, "201.gif")
+        Me.ImageList1.Images.SetKeyName(202, "202.gif")
+        Me.ImageList1.Images.SetKeyName(203, "203.gif")
+        Me.ImageList1.Images.SetKeyName(204, "204.gif")
+        Me.ImageList1.Images.SetKeyName(205, "205.gif")
+        Me.ImageList1.Images.SetKeyName(206, "206.gif")
+        Me.ImageList1.Images.SetKeyName(207, "207.jpg")
+        Me.ImageList1.Images.SetKeyName(208, "208.gif")
+        Me.ImageList1.Images.SetKeyName(209, "209.gif")
+        Me.ImageList1.Images.SetKeyName(210, "210.gif")
+        Me.ImageList1.Images.SetKeyName(211, "211.gif")
+        Me.ImageList1.Images.SetKeyName(212, "212.gif")
+        Me.ImageList1.Images.SetKeyName(213, "213.gif")
+        Me.ImageList1.Images.SetKeyName(214, "214.gif")
+        Me.ImageList1.Images.SetKeyName(215, "215.gif")
+        Me.ImageList1.Images.SetKeyName(216, "216.gif")
+        Me.ImageList1.Images.SetKeyName(217, "217.gif")
+        Me.ImageList1.Images.SetKeyName(218, "218.gif")
+        Me.ImageList1.Images.SetKeyName(219, "219.gif")
+        Me.ImageList1.Images.SetKeyName(220, "220.gif")
+        Me.ImageList1.Images.SetKeyName(221, "221.gif")
+        Me.ImageList1.Images.SetKeyName(222, "222.gif")
+        Me.ImageList1.Images.SetKeyName(223, "223.gif")
+        Me.ImageList1.Images.SetKeyName(224, "224.gif")
+        Me.ImageList1.Images.SetKeyName(225, "225.gif")
+        Me.ImageList1.Images.SetKeyName(226, "226.gif")
+        Me.ImageList1.Images.SetKeyName(227, "227.gif")
+        Me.ImageList1.Images.SetKeyName(228, "228.gif")
+        Me.ImageList1.Images.SetKeyName(229, "229.gif")
+        Me.ImageList1.Images.SetKeyName(230, "230.gif")
+        Me.ImageList1.Images.SetKeyName(231, "231.gif")
+        Me.ImageList1.Images.SetKeyName(232, "232.gif")
+        Me.ImageList1.Images.SetKeyName(233, "233.gif")
+        Me.ImageList1.Images.SetKeyName(234, "234.gif")
+        Me.ImageList1.Images.SetKeyName(235, "235.gif")
+        Me.ImageList1.Images.SetKeyName(236, "236.gif")
+        Me.ImageList1.Images.SetKeyName(237, "237.gif")
+        Me.ImageList1.Images.SetKeyName(238, "238.gif")
+        Me.ImageList1.Images.SetKeyName(239, "239.gif")
+        Me.ImageList1.Images.SetKeyName(240, "240.gif")
+        Me.ImageList1.Images.SetKeyName(241, "241.gif")
+        Me.ImageList1.Images.SetKeyName(242, "basic.png")
+        Me.ImageList1.Images.SetKeyName(243, "connections.png")
+        Me.ImageList1.Images.SetKeyName(244, "group.png")
+        Me.ImageList1.Images.SetKeyName(245, "misc.png")
+        Me.ImageList1.Images.SetKeyName(246, "user.png")
+        Me.ImageList1.Images.SetKeyName(247, "user_gray.png")
+        Me.ImageList1.Images.SetKeyName(248, "001.png")
+        Me.ImageList1.Images.SetKeyName(249, "002.png")
+        Me.ImageList1.Images.SetKeyName(250, "003.png")
+        Me.ImageList1.Images.SetKeyName(251, "004.png")
+        Me.ImageList1.Images.SetKeyName(252, "005.png")
+        Me.ImageList1.Images.SetKeyName(253, "006.png")
+        Me.ImageList1.Images.SetKeyName(254, "007.png")
+        Me.ImageList1.Images.SetKeyName(255, "008.png")
+        Me.ImageList1.Images.SetKeyName(256, "009.png")
+        Me.ImageList1.Images.SetKeyName(257, "010.png")
+        Me.ImageList1.Images.SetKeyName(258, "011.png")
+        Me.ImageList1.Images.SetKeyName(259, "012.png")
+        Me.ImageList1.Images.SetKeyName(260, "013.png")
+        Me.ImageList1.Images.SetKeyName(261, "014.png")
+        Me.ImageList1.Images.SetKeyName(262, "015.png")
+        Me.ImageList1.Images.SetKeyName(263, "016.png")
+        Me.ImageList1.Images.SetKeyName(264, "017.png")
+        Me.ImageList1.Images.SetKeyName(265, "018.png")
+        Me.ImageList1.Images.SetKeyName(266, "019.png")
+        Me.ImageList1.Images.SetKeyName(267, "020.png")
+        Me.ImageList1.Images.SetKeyName(268, "021.png")
+        Me.ImageList1.Images.SetKeyName(269, "022.png")
+        Me.ImageList1.Images.SetKeyName(270, "023.png")
+        Me.ImageList1.Images.SetKeyName(271, "024.png")
+        Me.ImageList1.Images.SetKeyName(272, "025.png")
+        Me.ImageList1.Images.SetKeyName(273, "026.png")
+        Me.ImageList1.Images.SetKeyName(274, "027.png")
+        Me.ImageList1.Images.SetKeyName(275, "028.png")
+        Me.ImageList1.Images.SetKeyName(276, "029.png")
+        Me.ImageList1.Images.SetKeyName(277, "030.png")
+        Me.ImageList1.Images.SetKeyName(278, "031.png")
+        Me.ImageList1.Images.SetKeyName(279, "032.png")
+        Me.ImageList1.Images.SetKeyName(280, "033.png")
+        Me.ImageList1.Images.SetKeyName(281, "034.png")
+        Me.ImageList1.Images.SetKeyName(282, "035.png")
+        Me.ImageList1.Images.SetKeyName(283, "036.png")
+        Me.ImageList1.Images.SetKeyName(284, "037.png")
+        Me.ImageList1.Images.SetKeyName(285, "038.png")
+        Me.ImageList1.Images.SetKeyName(286, "039.png")
+        Me.ImageList1.Images.SetKeyName(287, "040.png")
+        Me.ImageList1.Images.SetKeyName(288, "041.png")
+        Me.ImageList1.Images.SetKeyName(289, "042.png")
+        Me.ImageList1.Images.SetKeyName(290, "043.png")
+        Me.ImageList1.Images.SetKeyName(291, "044.png")
+        Me.ImageList1.Images.SetKeyName(292, "045.png")
+        Me.ImageList1.Images.SetKeyName(293, "046.png")
+        Me.ImageList1.Images.SetKeyName(294, "047.png")
+        Me.ImageList1.Images.SetKeyName(295, "048.png")
+        Me.ImageList1.Images.SetKeyName(296, "049.png")
+        Me.ImageList1.Images.SetKeyName(297, "050.png")
+        Me.ImageList1.Images.SetKeyName(298, "051.png")
+        Me.ImageList1.Images.SetKeyName(299, "052.png")
+        Me.ImageList1.Images.SetKeyName(300, "053.png")
+        Me.ImageList1.Images.SetKeyName(301, "054.png")
+        Me.ImageList1.Images.SetKeyName(302, "055.png")
+        Me.ImageList1.Images.SetKeyName(303, "056.png")
+        Me.ImageList1.Images.SetKeyName(304, "057.png")
+        Me.ImageList1.Images.SetKeyName(305, "058.png")
+        Me.ImageList1.Images.SetKeyName(306, "059.png")
+        Me.ImageList1.Images.SetKeyName(307, "060.png")
+        Me.ImageList1.Images.SetKeyName(308, "061.png")
+        Me.ImageList1.Images.SetKeyName(309, "062.png")
+        Me.ImageList1.Images.SetKeyName(310, "063.png")
+        Me.ImageList1.Images.SetKeyName(311, "064.png")
+        Me.ImageList1.Images.SetKeyName(312, "065.png")
+        Me.ImageList1.Images.SetKeyName(313, "066.png")
+        Me.ImageList1.Images.SetKeyName(314, "067.png")
+        Me.ImageList1.Images.SetKeyName(315, "068.png")
+        Me.ImageList1.Images.SetKeyName(316, "069.png")
+        Me.ImageList1.Images.SetKeyName(317, "070.png")
+        Me.ImageList1.Images.SetKeyName(318, "071.png")
+        Me.ImageList1.Images.SetKeyName(319, "072.png")
+        Me.ImageList1.Images.SetKeyName(320, "073.png")
+        Me.ImageList1.Images.SetKeyName(321, "074.png")
+        Me.ImageList1.Images.SetKeyName(322, "075.png")
+        Me.ImageList1.Images.SetKeyName(323, "076.png")
+        Me.ImageList1.Images.SetKeyName(324, "077.png")
+        Me.ImageList1.Images.SetKeyName(325, "078.png")
+        Me.ImageList1.Images.SetKeyName(326, "079.png")
+        Me.ImageList1.Images.SetKeyName(327, "080.png")
+        Me.ImageList1.Images.SetKeyName(328, "081.png")
+        Me.ImageList1.Images.SetKeyName(329, "082.png")
+        Me.ImageList1.Images.SetKeyName(330, "083.png")
+        Me.ImageList1.Images.SetKeyName(331, "084.png")
+        Me.ImageList1.Images.SetKeyName(332, "085.png")
+        Me.ImageList1.Images.SetKeyName(333, "086.png")
+        Me.ImageList1.Images.SetKeyName(334, "087.png")
+        Me.ImageList1.Images.SetKeyName(335, "088.png")
+        Me.ImageList1.Images.SetKeyName(336, "089.png")
+        Me.ImageList1.Images.SetKeyName(337, "090.png")
+        Me.ImageList1.Images.SetKeyName(338, "091.png")
+        Me.ImageList1.Images.SetKeyName(339, "092.png")
+        Me.ImageList1.Images.SetKeyName(340, "093.png")
+        Me.ImageList1.Images.SetKeyName(341, "094.png")
+        Me.ImageList1.Images.SetKeyName(342, "095.png")
+        Me.ImageList1.Images.SetKeyName(343, "096.png")
+        Me.ImageList1.Images.SetKeyName(344, "097.png")
+        Me.ImageList1.Images.SetKeyName(345, "098.png")
+        Me.ImageList1.Images.SetKeyName(346, "099.png")
+        Me.ImageList1.Images.SetKeyName(347, "100.png")
+        Me.ImageList1.Images.SetKeyName(348, "101.png")
+        Me.ImageList1.Images.SetKeyName(349, "102.png")
+        Me.ImageList1.Images.SetKeyName(350, "103.png")
+        Me.ImageList1.Images.SetKeyName(351, "104.png")
+        Me.ImageList1.Images.SetKeyName(352, "105.png")
+        Me.ImageList1.Images.SetKeyName(353, "106.png")
+        Me.ImageList1.Images.SetKeyName(354, "107.png")
+        Me.ImageList1.Images.SetKeyName(355, "108.png")
+        Me.ImageList1.Images.SetKeyName(356, "109.png")
+        Me.ImageList1.Images.SetKeyName(357, "110.png")
+        Me.ImageList1.Images.SetKeyName(358, "111.png")
+        Me.ImageList1.Images.SetKeyName(359, "112.png")
+        Me.ImageList1.Images.SetKeyName(360, "113.png")
+        Me.ImageList1.Images.SetKeyName(361, "114.png")
+        Me.ImageList1.Images.SetKeyName(362, "115.png")
+        Me.ImageList1.Images.SetKeyName(363, "116.png")
+        Me.ImageList1.Images.SetKeyName(364, "117.png")
+        Me.ImageList1.Images.SetKeyName(365, "118.png")
+        Me.ImageList1.Images.SetKeyName(366, "119.png")
+        Me.ImageList1.Images.SetKeyName(367, "120.png")
+        Me.ImageList1.Images.SetKeyName(368, "121.png")
+        Me.ImageList1.Images.SetKeyName(369, "122.png")
+        Me.ImageList1.Images.SetKeyName(370, "123.png")
+        Me.ImageList1.Images.SetKeyName(371, "124.png")
+        Me.ImageList1.Images.SetKeyName(372, "125.png")
+        Me.ImageList1.Images.SetKeyName(373, "126.png")
+        Me.ImageList1.Images.SetKeyName(374, "127.png")
+        Me.ImageList1.Images.SetKeyName(375, "128.png")
+        Me.ImageList1.Images.SetKeyName(376, "129.png")
+        Me.ImageList1.Images.SetKeyName(377, "130.png")
+        Me.ImageList1.Images.SetKeyName(378, "131.png")
+        Me.ImageList1.Images.SetKeyName(379, "132.png")
+        Me.ImageList1.Images.SetKeyName(380, "133.png")
+        Me.ImageList1.Images.SetKeyName(381, "134.png")
+        Me.ImageList1.Images.SetKeyName(382, "135.png")
+        Me.ImageList1.Images.SetKeyName(383, "136.png")
+        Me.ImageList1.Images.SetKeyName(384, "137.png")
+        Me.ImageList1.Images.SetKeyName(385, "138.png")
+        Me.ImageList1.Images.SetKeyName(386, "139.png")
+        Me.ImageList1.Images.SetKeyName(387, "140.png")
+        Me.ImageList1.Images.SetKeyName(388, "141.png")
+        Me.ImageList1.Images.SetKeyName(389, "142.png")
+        Me.ImageList1.Images.SetKeyName(390, "143.png")
+        Me.ImageList1.Images.SetKeyName(391, "144.png")
+        Me.ImageList1.Images.SetKeyName(392, "145.png")
+        Me.ImageList1.Images.SetKeyName(393, "146.png")
+        Me.ImageList1.Images.SetKeyName(394, "147.png")
+        Me.ImageList1.Images.SetKeyName(395, "148.png")
+        Me.ImageList1.Images.SetKeyName(396, "149.png")
+        Me.ImageList1.Images.SetKeyName(397, "150.png")
+        Me.ImageList1.Images.SetKeyName(398, "151.png")
+        Me.ImageList1.Images.SetKeyName(399, "152.png")
+        Me.ImageList1.Images.SetKeyName(400, "153.png")
+        Me.ImageList1.Images.SetKeyName(401, "154.png")
+        Me.ImageList1.Images.SetKeyName(402, "155.png")
+        Me.ImageList1.Images.SetKeyName(403, "156.png")
+        Me.ImageList1.Images.SetKeyName(404, "157.png")
+        Me.ImageList1.Images.SetKeyName(405, "158.png")
+        Me.ImageList1.Images.SetKeyName(406, "159.png")
+        Me.ImageList1.Images.SetKeyName(407, "160.png")
+        Me.ImageList1.Images.SetKeyName(408, "161.png")
+        Me.ImageList1.Images.SetKeyName(409, "162.png")
+        Me.ImageList1.Images.SetKeyName(410, "163.png")
+        Me.ImageList1.Images.SetKeyName(411, "164.png")
+        Me.ImageList1.Images.SetKeyName(412, "165.png")
+        Me.ImageList1.Images.SetKeyName(413, "166.png")
+        Me.ImageList1.Images.SetKeyName(414, "167.png")
+        Me.ImageList1.Images.SetKeyName(415, "168.png")
+        Me.ImageList1.Images.SetKeyName(416, "169.png")
+        Me.ImageList1.Images.SetKeyName(417, "170.png")
+        Me.ImageList1.Images.SetKeyName(418, "171.png")
+        Me.ImageList1.Images.SetKeyName(419, "172.png")
+        Me.ImageList1.Images.SetKeyName(420, "173.png")
+        Me.ImageList1.Images.SetKeyName(421, "174.png")
+        Me.ImageList1.Images.SetKeyName(422, "175.png")
+        Me.ImageList1.Images.SetKeyName(423, "176.png")
+        Me.ImageList1.Images.SetKeyName(424, "177.png")
+        Me.ImageList1.Images.SetKeyName(425, "178.png")
+        Me.ImageList1.Images.SetKeyName(426, "179.png")
+        Me.ImageList1.Images.SetKeyName(427, "180.png")
+        Me.ImageList1.Images.SetKeyName(428, "181.png")
+        Me.ImageList1.Images.SetKeyName(429, "182.png")
+        Me.ImageList1.Images.SetKeyName(430, "183.png")
+        Me.ImageList1.Images.SetKeyName(431, "184.png")
+        Me.ImageList1.Images.SetKeyName(432, "185.png")
+        Me.ImageList1.Images.SetKeyName(433, "186.png")
+        Me.ImageList1.Images.SetKeyName(434, "187.png")
+        Me.ImageList1.Images.SetKeyName(435, "188.png")
+        Me.ImageList1.Images.SetKeyName(436, "189.png")
+        Me.ImageList1.Images.SetKeyName(437, "190.png")
+        Me.ImageList1.Images.SetKeyName(438, "191.png")
+        Me.ImageList1.Images.SetKeyName(439, "192.png")
+        Me.ImageList1.Images.SetKeyName(440, "193.png")
+        Me.ImageList1.Images.SetKeyName(441, "194.png")
+        Me.ImageList1.Images.SetKeyName(442, "195.png")
+        Me.ImageList1.Images.SetKeyName(443, "196.png")
+        Me.ImageList1.Images.SetKeyName(444, "197.png")
+        Me.ImageList1.Images.SetKeyName(445, "198.png")
+        Me.ImageList1.Images.SetKeyName(446, "199.png")
+        Me.ImageList1.Images.SetKeyName(447, "200.png")
+        '
+        'AboutToolStripMenuItem
+        '
+        Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AboutToolStripMenuItem.Text = "About"
+        '
+        'Timer1
+        '
+        Me.Timer1.Interval = 1
+        '
+        'Timer2
+        '
+        Me.Timer2.Enabled = True
+        '
+        'StatusStrip1
+        '
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.ToolStripStatusLabel2, Me.ToolStripStatusLabel3, Me.ToolStripStatusLabel4, Me.ToolStripStatusLabel7, Me.ToolStripStatusLabel5, Me.ToolStripStatusLabel6})
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 338)
+        Me.StatusStrip1.Name = "StatusStrip1"
+        Me.StatusStrip1.Size = New System.Drawing.Size(1147, 22)
+        Me.StatusStrip1.TabIndex = 3
+        Me.StatusStrip1.Text = "StatusStrip1"
+        '
+        'ToolStripStatusLabel6
+        '
+        Me.ToolStripStatusLabel6.Name = "ToolStripStatusLabel6"
+        Me.ToolStripStatusLabel6.Size = New System.Drawing.Size(79, 17)
+        Me.ToolStripStatusLabel6.Text = "Victim Online"
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Checked = True
+        Me.CheckBox1.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.CheckBox1.Location = New System.Drawing.Point(34, 152)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(94, 17)
+        Me.CheckBox1.TabIndex = 4
+        Me.CheckBox1.Text = "Show Desktop"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.CheckBox1.Visible = False
+        '
+        'TabControl1
+        '
+        Me.TabControl1.Controls.Add(Me.TabPage1)
+        Me.TabControl1.Dock = System.Windows.Forms.DockStyle.Right
+        Me.TabControl1.Location = New System.Drawing.Point(820, 0)
+        Me.TabControl1.Name = "TabControl1"
+        Me.TabControl1.SelectedIndex = 0
+        Me.TabControl1.Size = New System.Drawing.Size(327, 338)
+        Me.TabControl1.TabIndex = 5
+        '
+        'TabPage1
+        '
+        Me.TabPage1.Controls.Add(Me.P1)
+        Me.TabPage1.Controls.Add(Me.c1)
+        Me.TabPage1.Controls.Add(Me.c2)
+        Me.TabPage1.Controls.Add(Me.c)
+        Me.TabPage1.Controls.Add(Me.CheckBox2)
+        Me.TabPage1.Controls.Add(Me.CheckBox1)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage1.Name = "TabPage1"
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage1.Size = New System.Drawing.Size(319, 312)
+        Me.TabPage1.TabIndex = 0
+        Me.TabPage1.Text = "Screen"
+        Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'c1
+        '
+        Me.c1.FormattingEnabled = True
+        Me.c1.Location = New System.Drawing.Point(34, 217)
+        Me.c1.Name = "c1"
+        Me.c1.Size = New System.Drawing.Size(121, 21)
+        Me.c1.TabIndex = 21
+        Me.c1.Visible = False
+        '
+        'c2
+        '
+        Me.c2.FormattingEnabled = True
+        Me.c2.Location = New System.Drawing.Point(34, 190)
+        Me.c2.Name = "c2"
+        Me.c2.Size = New System.Drawing.Size(121, 21)
+        Me.c2.TabIndex = 20
+        Me.c2.Visible = False
+        '
+        'c
+        '
+        Me.c.Location = New System.Drawing.Point(35, 244)
+        Me.c.Name = "c"
+        Me.c.Size = New System.Drawing.Size(120, 20)
+        Me.c.TabIndex = 22
+        Me.c.Value = New Decimal(New Integer() {89, 0, 0, 0})
+        Me.c.Visible = False
+        '
+        'CheckBox2
+        '
+        Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.Checked = True
+        Me.CheckBox2.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.CheckBox2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.CheckBox2.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox2.ForeColor = System.Drawing.Color.Black
+        Me.CheckBox2.Location = New System.Drawing.Point(152, 152)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.Size = New System.Drawing.Size(65, 20)
+        Me.CheckBox2.TabIndex = 19
+        Me.CheckBox2.Text = "Repeat"
+        Me.CheckBox2.UseVisualStyleBackColor = True
+        Me.CheckBox2.Visible = False
+        '
+        'Splitter1
+        '
+        Me.Splitter1.Dock = System.Windows.Forms.DockStyle.Right
+        Me.Splitter1.Location = New System.Drawing.Point(800, 0)
+        Me.Splitter1.Name = "Splitter1"
+        Me.Splitter1.Size = New System.Drawing.Size(20, 338)
+        Me.Splitter1.TabIndex = 6
+        Me.Splitter1.TabStop = False
+        Me.Splitter1.Visible = False
+        '
+        'l1
+        '
+        Me.l1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5, Me.ColumnHeader6, Me.ColumnHeader7, Me.ColumnHeader8, Me.ColumnHeader80})
+        Me.l1.ContextMenuStrip = Me.ContextMenuStrip1
+        Me.l1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.l1.FullRowSelect = True
+        Me.l1.GridLines = True
+        Me.l1.LargeImageList = Me.ImageList1
+        Me.l1.Location = New System.Drawing.Point(0, 0)
+        Me.l1.Name = "l1"
+        Me.l1.Size = New System.Drawing.Size(800, 338)
+        Me.l1.SmallImageList = Me.ImageList1
+        Me.l1.TabIndex = 7
+        Me.l1.UseCompatibleStateImageBehavior = False
+        Me.l1.View = System.Windows.Forms.View.Details
+        '
+        'ColumnHeader1
+        '
+        Me.ColumnHeader1.Text = "Name"
+        Me.ColumnHeader1.Width = 100
+        '
+        'ColumnHeader2
+        '
+        Me.ColumnHeader2.Text = "Ip"
+        Me.ColumnHeader2.Width = 92
+        '
+        'ColumnHeader3
+        '
+        Me.ColumnHeader3.Text = "Computer/User"
+        Me.ColumnHeader3.Width = 121
+        '
+        'ColumnHeader4
+        '
+        Me.ColumnHeader4.Text = "Os"
+        Me.ColumnHeader4.Width = 100
+        '
+        'ColumnHeader5
+        '
+        Me.ColumnHeader5.Text = "Country"
+        Me.ColumnHeader5.Width = 87
+        '
+        'ColumnHeader6
+        '
+        Me.ColumnHeader6.Text = "Anti virus"
+        Me.ColumnHeader6.Width = 93
+        '
+        'ColumnHeader7
+        '
+        Me.ColumnHeader7.Text = "Ram"
+        Me.ColumnHeader7.Width = 70
+        '
+        'ColumnHeader8
+        '
+        Me.ColumnHeader8.Text = "Version"
+        Me.ColumnHeader8.Width = 92
+        '
+        'ColumnHeader80
+        '
+        Me.ColumnHeader80.Text = "Active Windo"
+        '
+        'Timer3
+        '
+        '
+        'ToolStripMenuItem1
+        '
+        Me.ToolStripMenuItem1.ForeColor = System.Drawing.Color.Blue
+        Me.ToolStripMenuItem1.Image = Global.Microsoft.My.Resources.Resources._2
+        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(218, 22)
+        Me.ToolStripMenuItem1.Text = "File Manager"
+        '
+        'ScreenCapterToolStripMenuItem
+        '
+        Me.ScreenCapterToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.ScreenCapterToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.monitor
+        Me.ScreenCapterToolStripMenuItem.Name = "ScreenCapterToolStripMenuItem"
+        Me.ScreenCapterToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.ScreenCapterToolStripMenuItem.Text = "Remote Screen"
+        '
+        'CamToolStripMenuItem
+        '
+        Me.CamToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.CamToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Webcam
+        Me.CamToolStripMenuItem.Name = "CamToolStripMenuItem"
+        Me.CamToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.CamToolStripMenuItem.Text = "Remote Cam"
+        '
+        'RegeditToolStripMenuItem
+        '
+        Me.RegeditToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.RegeditToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.R_4
+        Me.RegeditToolStripMenuItem.Name = "RegeditToolStripMenuItem"
+        Me.RegeditToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.RegeditToolStripMenuItem.Text = "Regedit"
+        '
+        'ProcToolStripMenuItem
+        '
+        Me.ProcToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.ProcToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources._6
+        Me.ProcToolStripMenuItem.Name = "ProcToolStripMenuItem"
+        Me.ProcToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.ProcToolStripMenuItem.Text = "Remote Processor"
+        '
+        'InstalledProgramToolStripMenuItem
+        '
+        Me.InstalledProgramToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.InstalledProgramToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources._179
+        Me.InstalledProgramToolStripMenuItem.Name = "InstalledProgramToolStripMenuItem"
+        Me.InstalledProgramToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.InstalledProgramToolStripMenuItem.Text = "Installed Program"
+        '
+        'GetClipordToolStripMenuItem
+        '
+        Me.GetClipordToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.GetClipordToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources._059
+        Me.GetClipordToolStripMenuItem.Name = "GetClipordToolStripMenuItem"
+        Me.GetClipordToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.GetClipordToolStripMenuItem.Text = "Get ClipBoard"
+        '
+        'CmdToolStripMenuItem
+        '
+        Me.CmdToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.CmdToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.command_prompt__2_
+        Me.CmdToolStripMenuItem.Name = "CmdToolStripMenuItem"
+        Me.CmdToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.CmdToolStripMenuItem.Text = "Command Prompt"
+        '
+        'StartToolStripMenuItem
+        '
+        Me.StartToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.StartToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources._102
+        Me.StartToolStripMenuItem.Name = "StartToolStripMenuItem"
+        Me.StartToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.StartToolStripMenuItem.Text = "Start Process"
+        '
+        'REGToolStripMenuItem
+        '
+        Me.REGToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.REGToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Microphone
+        Me.REGToolStripMenuItem.Name = "REGToolStripMenuItem"
+        Me.REGToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.REGToolStripMenuItem.Text = "Microphone"
+        '
+        'RunScriptToolStripMenuItem
+        '
+        Me.RunScriptToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.VbsToolStripMenuItem, Me.BatToolStripMenuItem})
+        Me.RunScriptToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.RunScriptToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.script_editor
+        Me.RunScriptToolStripMenuItem.Name = "RunScriptToolStripMenuItem"
+        Me.RunScriptToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.RunScriptToolStripMenuItem.Text = "Run Script"
+        '
+        'VbsToolStripMenuItem
+        '
+        Me.VbsToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.VbsToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.media_scripts
+        Me.VbsToolStripMenuItem.Name = "VbsToolStripMenuItem"
+        Me.VbsToolStripMenuItem.Size = New System.Drawing.Size(93, 22)
+        Me.VbsToolStripMenuItem.Text = "Vbs"
+        '
+        'BatToolStripMenuItem
+        '
+        Me.BatToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.BatToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Win_Command_Prompt_icon
+        Me.BatToolStripMenuItem.Name = "BatToolStripMenuItem"
+        Me.BatToolStripMenuItem.Size = New System.Drawing.Size(93, 22)
+        Me.BatToolStripMenuItem.Text = "Bat"
+        '
+        'الباسورداتToolStripMenuItem
+        '
+        Me.الباسورداتToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.الباسورداتToolStripMenuItem.Image = CType(resources.GetObject("الباسورداتToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.الباسورداتToolStripMenuItem.Name = "الباسورداتToolStripMenuItem"
+        Me.الباسورداتToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.الباسورداتToolStripMenuItem.Text = "Steal Passwords"
+        '
+        'KlToolStripMenuItem
+        '
+        Me.KlToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.KlToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.keyboard
+        Me.KlToolStripMenuItem.Name = "KlToolStripMenuItem"
+        Me.KlToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.KlToolStripMenuItem.Text = "Keylogger"
+        '
+        'InformationToolStripMenuItem
+        '
+        Me.InformationToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.InformationToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.get_info
+        Me.InformationToolStripMenuItem.Name = "InformationToolStripMenuItem"
+        Me.InformationToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.InformationToolStripMenuItem.Text = "Information"
+        '
+        'DDosAttackToolStripMenuItem
+        '
+        Me.DDosAttackToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NormalToolStripMenuItem, Me.KillerToolStripMenuItem})
+        Me.DDosAttackToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.DDosAttackToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources._001
+        Me.DDosAttackToolStripMenuItem.Name = "DDosAttackToolStripMenuItem"
+        Me.DDosAttackToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.DDosAttackToolStripMenuItem.Text = "DDos Attack"
+        '
+        'NormalToolStripMenuItem
+        '
+        Me.NormalToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.NormalToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources._152
+        Me.NormalToolStripMenuItem.Name = "NormalToolStripMenuItem"
+        Me.NormalToolStripMenuItem.Size = New System.Drawing.Size(114, 22)
+        Me.NormalToolStripMenuItem.Text = "Normal"
+        '
+        'KillerToolStripMenuItem
+        '
+        Me.KillerToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.KillerToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources._151
+        Me.KillerToolStripMenuItem.Name = "KillerToolStripMenuItem"
+        Me.KillerToolStripMenuItem.Size = New System.Drawing.Size(114, 22)
+        Me.KillerToolStripMenuItem.Text = "Killer"
+        '
+        'اللعبToolStripMenuItem
+        '
+        Me.اللعبToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.اللعبToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.sport_soccer
+        Me.اللعبToolStripMenuItem.Name = "اللعبToolStripMenuItem"
+        Me.اللعبToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.اللعبToolStripMenuItem.Text = "Fun"
+        '
+        'TeToolStripMenuItem
+        '
+        Me.TeToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.TeToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.sound
+        Me.TeToolStripMenuItem.Name = "TeToolStripMenuItem"
+        Me.TeToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.TeToolStripMenuItem.Text = "Write And Computer Speak"
+        '
+        'OpenFileToolStripMenuItem
+        '
+        Me.OpenFileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FromLinkToolStripMenuItem, Me.FromDiskToolStripMenuItem})
+        Me.OpenFileToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.OpenFileToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Up
+        Me.OpenFileToolStripMenuItem.Name = "OpenFileToolStripMenuItem"
+        Me.OpenFileToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.OpenFileToolStripMenuItem.Text = "Open File"
+        '
+        'FromLinkToolStripMenuItem
+        '
+        Me.FromLinkToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.FromLinkToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources._1359145624_link_add
+        Me.FromLinkToolStripMenuItem.Name = "FromLinkToolStripMenuItem"
+        Me.FromLinkToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.FromLinkToolStripMenuItem.Text = "From Link"
+        '
+        'FromDiskToolStripMenuItem
+        '
+        Me.FromDiskToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.FromDiskToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources._0
+        Me.FromDiskToolStripMenuItem.Name = "FromDiskToolStripMenuItem"
+        Me.FromDiskToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.FromDiskToolStripMenuItem.Text = "From Disk"
+        '
+        'BeeepToolStripMenuItem
+        '
+        Me.BeeepToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DToolStripMenuItem, Me.GoogleChromeToolStripMenuItem, Me.MozilaFireFoxToolStripMenuItem, Me.OperaToolStripMenuItem, Me.SafariToolStripMenuItem, Me.InternetExplolerToolStripMenuItem})
+        Me.BeeepToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.BeeepToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Load
+        Me.BeeepToolStripMenuItem.Name = "BeeepToolStripMenuItem"
+        Me.BeeepToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.BeeepToolStripMenuItem.Text = "Open Url"
+        '
+        'DToolStripMenuItem
+        '
+        Me.DToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.DToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Default_URL
+        Me.DToolStripMenuItem.Name = "DToolStripMenuItem"
+        Me.DToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
+        Me.DToolStripMenuItem.Text = "Default Browser"
+        '
+        'GoogleChromeToolStripMenuItem
+        '
+        Me.GoogleChromeToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.GoogleChromeToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Chrome
+        Me.GoogleChromeToolStripMenuItem.Name = "GoogleChromeToolStripMenuItem"
+        Me.GoogleChromeToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
+        Me.GoogleChromeToolStripMenuItem.Text = "Google Chrome"
+        '
+        'MozilaFireFoxToolStripMenuItem
+        '
+        Me.MozilaFireFoxToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.MozilaFireFoxToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Mozilla_Firefox
+        Me.MozilaFireFoxToolStripMenuItem.Name = "MozilaFireFoxToolStripMenuItem"
+        Me.MozilaFireFoxToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
+        Me.MozilaFireFoxToolStripMenuItem.Text = "Mozilla FireFox"
+        '
+        'OperaToolStripMenuItem
+        '
+        Me.OperaToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.OperaToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Opera
+        Me.OperaToolStripMenuItem.Name = "OperaToolStripMenuItem"
+        Me.OperaToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
+        Me.OperaToolStripMenuItem.Text = "Opera"
+        '
+        'SafariToolStripMenuItem
+        '
+        Me.SafariToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.SafariToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Safari
+        Me.SafariToolStripMenuItem.Name = "SafariToolStripMenuItem"
+        Me.SafariToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
+        Me.SafariToolStripMenuItem.Text = "Safari"
+        '
+        'InternetExplolerToolStripMenuItem
+        '
+        Me.InternetExplolerToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.InternetExplolerToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Internet_Explorer
+        Me.InternetExplolerToolStripMenuItem.Name = "InternetExplolerToolStripMenuItem"
+        Me.InternetExplolerToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
+        Me.InternetExplolerToolStripMenuItem.Text = "Internet Explorer"
+        '
+        'UnToolStripMenuItem
+        '
+        Me.UnToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UninstallToolStripMenuItem, Me.RestartToolStripMenuItem, Me.RenameToolStripMenuItem})
+        Me.UnToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.UnToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.server
+        Me.UnToolStripMenuItem.Name = "UnToolStripMenuItem"
+        Me.UnToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.UnToolStripMenuItem.Text = "Server Properties"
+        '
+        'UninstallToolStripMenuItem
+        '
+        Me.UninstallToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.UninstallToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Delete
+        Me.UninstallToolStripMenuItem.Name = "UninstallToolStripMenuItem"
+        Me.UninstallToolStripMenuItem.Size = New System.Drawing.Size(120, 22)
+        Me.UninstallToolStripMenuItem.Text = "Uninstall"
+        '
+        'RestartToolStripMenuItem
+        '
+        Me.RestartToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.RestartToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Refresh
+        Me.RestartToolStripMenuItem.Name = "RestartToolStripMenuItem"
+        Me.RestartToolStripMenuItem.Size = New System.Drawing.Size(120, 22)
+        Me.RestartToolStripMenuItem.Text = "Restart"
+        '
+        'RenameToolStripMenuItem
+        '
+        Me.RenameToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.RenameToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Redo
+        Me.RenameToolStripMenuItem.Name = "RenameToolStripMenuItem"
+        Me.RenameToolStripMenuItem.Size = New System.Drawing.Size(120, 22)
+        Me.RenameToolStripMenuItem.Text = "Rename"
+        '
+        'P1
+        '
+        Me.P1.BackColor = System.Drawing.SystemColors.Control
+        Me.P1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.P1.Location = New System.Drawing.Point(3, 3)
+        Me.P1.Name = "P1"
+        Me.P1.Size = New System.Drawing.Size(313, 306)
+        Me.P1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.P1.TabIndex = 23
+        Me.P1.TabStop = False
+        '
+        'ToolStripStatusLabel1
+        '
+        Me.ToolStripStatusLabel1.Image = Global.Microsoft.My.Resources.Resources.Create1
+        Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(118, 16)
+        Me.ToolStripStatusLabel1.Text = " [Create Server]     "
+        '
+        'ToolStripStatusLabel2
+        '
+        Me.ToolStripStatusLabel2.Image = Global.Microsoft.My.Resources.Resources._007
+        Me.ToolStripStatusLabel2.Name = "ToolStripStatusLabel2"
+        Me.ToolStripStatusLabel2.Size = New System.Drawing.Size(79, 16)
+        Me.ToolStripStatusLabel2.Text = " [About]    "
+        '
+        'ToolStripStatusLabel3
+        '
+        Me.ToolStripStatusLabel3.Image = Global.Microsoft.My.Resources.Resources.Cancel
+        Me.ToolStripStatusLabel3.Name = "ToolStripStatusLabel3"
+        Me.ToolStripStatusLabel3.Size = New System.Drawing.Size(75, 16)
+        Me.ToolStripStatusLabel3.Text = " [Close]    "
+        '
+        'ToolStripStatusLabel4
+        '
+        Me.ToolStripStatusLabel4.Image = Global.Microsoft.My.Resources.Resources.ي
+        Me.ToolStripStatusLabel4.Name = "ToolStripStatusLabel4"
+        Me.ToolStripStatusLabel4.Size = New System.Drawing.Size(80, 16)
+        Me.ToolStripStatusLabel4.Text = " [No-IP]     "
+        '
+        'ToolStripStatusLabel7
+        '
+        Me.ToolStripStatusLabel7.Image = Global.Microsoft.My.Resources.Resources._003
+        Me.ToolStripStatusLabel7.Name = "ToolStripStatusLabel7"
+        Me.ToolStripStatusLabel7.Size = New System.Drawing.Size(108, 16)
+        Me.ToolStripStatusLabel7.Text = " [Report Bug]     "
+        '
+        'ToolStripStatusLabel5
+        '
+        Me.ToolStripStatusLabel5.Image = Global.Microsoft.My.Resources.Resources.ش
+        Me.ToolStripStatusLabel5.Name = "ToolStripStatusLabel5"
+        Me.ToolStripStatusLabel5.Size = New System.Drawing.Size(187, 16)
+        Me.ToolStripStatusLabel5.Text = " [Scan Server]                               "
+        '
+        'BlueScreenToolStripMenuItem
+        '
+        Me.BlueScreenToolStripMenuItem.ForeColor = System.Drawing.Color.Blue
+        Me.BlueScreenToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.monitor
+        Me.BlueScreenToolStripMenuItem.Name = "BlueScreenToolStripMenuItem"
+        Me.BlueScreenToolStripMenuItem.Size = New System.Drawing.Size(218, 22)
+        Me.BlueScreenToolStripMenuItem.Text = "Blue Screen"
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(1147, 360)
+        Me.Controls.Add(Me.l1)
+        Me.Controls.Add(Me.Splitter1)
+        Me.Controls.Add(Me.TabControl1)
+        Me.Controls.Add(Me.StatusStrip1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.ContextMenuStrip1.ResumeLayout(False)
+        Me.StatusStrip1.ResumeLayout(False)
+        Me.StatusStrip1.PerformLayout()
+        Me.TabControl1.ResumeLayout(False)
+        Me.TabPage1.ResumeLayout(False)
+        Me.TabPage1.PerformLayout()
+        CType(Me.c, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents ImageList1 As System.Windows.Forms.ImageList
+    Friend WithEvents ContextMenuStrip1 As System.Windows.Forms.ContextMenuStrip
+    Friend WithEvents ScreenCapterToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CamToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents KlToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents AboutToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents الباسورداتToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents اللعبToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ProcToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents TeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents UnToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents BeeepToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents UninstallToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents RestartToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents RenameToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents OpenFileToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents FromLinkToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents FromDiskToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents DToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents GoogleChromeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MozilaFireFoxToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents OperaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents SafariToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents InternetExplolerToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CmdToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents Timer1 As System.Windows.Forms.Timer
+    Friend WithEvents InformationToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents Timer2 As System.Windows.Forms.Timer
+    Friend WithEvents RunScriptToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents VbsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents BatToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents REGToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents StatusStrip1 As System.Windows.Forms.StatusStrip
+    Friend WithEvents ToolStripStatusLabel1 As System.Windows.Forms.ToolStripStatusLabel
+    Friend WithEvents ToolStripStatusLabel2 As System.Windows.Forms.ToolStripStatusLabel
+    Friend WithEvents ToolStripStatusLabel3 As System.Windows.Forms.ToolStripStatusLabel
+    Friend WithEvents ToolStripStatusLabel4 As System.Windows.Forms.ToolStripStatusLabel
+    Friend WithEvents ToolStripStatusLabel5 As System.Windows.Forms.ToolStripStatusLabel
+    Friend WithEvents ToolStripStatusLabel6 As System.Windows.Forms.ToolStripStatusLabel
+    Friend WithEvents ToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripStatusLabel7 As System.Windows.Forms.ToolStripStatusLabel
+    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
+    Friend WithEvents TabControl1 As System.Windows.Forms.TabControl
+    Friend WithEvents TabPage1 As System.Windows.Forms.TabPage
+    Friend WithEvents P1 As System.Windows.Forms.PictureBox
+    Friend WithEvents c1 As System.Windows.Forms.ComboBox
+    Friend WithEvents c2 As System.Windows.Forms.ComboBox
+    Friend WithEvents c As System.Windows.Forms.NumericUpDown
+    Friend WithEvents CheckBox2 As System.Windows.Forms.CheckBox
+    Friend WithEvents Splitter1 As System.Windows.Forms.Splitter
+    Friend WithEvents l1 As System.Windows.Forms.ListView
+    Friend WithEvents ColumnHeader1 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader2 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader3 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader4 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader5 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader6 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader7 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader8 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents DDosAttackToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents NormalToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents KillerToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents Timer3 As System.Windows.Forms.Timer
+    Friend WithEvents ColumnHeader80 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents StartToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents RegeditToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents GetClipordToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents InstalledProgramToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents BlueScreenToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+
+End Class

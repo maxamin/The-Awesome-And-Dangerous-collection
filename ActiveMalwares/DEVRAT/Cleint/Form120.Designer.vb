@@ -1,0 +1,851 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Fun
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Fun))
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.InfluenceButton2 = New Microsoft.InfluenceButton()
+        Me.InfluenceTheme1 = New Microsoft.InfluenceTheme()
+        Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.Button39 = New System.Windows.Forms.Button()
+        Me.Button38 = New System.Windows.Forms.Button()
+        Me.GroupBox22 = New System.Windows.Forms.GroupBox()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
+        Me.GroupBox21 = New System.Windows.Forms.GroupBox()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.GroupBox20 = New System.Windows.Forms.GroupBox()
+        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton6 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton7 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton8 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton9 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton10 = New System.Windows.Forms.RadioButton()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.InfluenceButton1 = New Microsoft.InfluenceButton()
+        Me.GroupBox7 = New System.Windows.Forms.GroupBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button35 = New System.Windows.Forms.Button()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.InfluenceButton7 = New Microsoft.InfluenceButton()
+        Me.InfluenceButton6 = New Microsoft.InfluenceButton()
+        Me.InfluenceButton5 = New Microsoft.InfluenceButton()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.InfluenceButton4 = New Microsoft.InfluenceButton()
+        Me.InfluenceButton3 = New Microsoft.InfluenceButton()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.InfluenceButton12 = New Microsoft.InfluenceButton()
+        Me.InfluenceButton13 = New Microsoft.InfluenceButton()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.InfluenceButton14 = New Microsoft.InfluenceButton()
+        Me.InfluenceButton15 = New Microsoft.InfluenceButton()
+        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.InfluenceButton17 = New Microsoft.InfluenceButton()
+        Me.InfluenceButton16 = New Microsoft.InfluenceButton()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.InfluenceButton11 = New Microsoft.InfluenceButton()
+        Me.InfluenceButton10 = New Microsoft.InfluenceButton()
+        Me.InfluenceButton8 = New Microsoft.InfluenceButton()
+        Me.InfluenceButton9 = New Microsoft.InfluenceButton()
+        Me.TabControl1 = New System.Windows.Forms.TabControl()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.InfluenceTheme1.SuspendLayout()
+        Me.TabPage4.SuspendLayout()
+        Me.GroupBox22.SuspendLayout()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox21.SuspendLayout()
+        Me.GroupBox20.SuspendLayout()
+        Me.TabPage3.SuspendLayout()
+        Me.GroupBox7.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
+        Me.TabPage1.SuspendLayout()
+        Me.GroupBox4.SuspendLayout()
+        Me.GroupBox5.SuspendLayout()
+        Me.GroupBox6.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.TabControl1.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.Microsoft.My.Resources.Resources.block_Mouse_Keyboard
+        Me.PictureBox1.Location = New System.Drawing.Point(698, 516)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(16, 16)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox1.TabIndex = 12
+        Me.PictureBox1.TabStop = False
+        '
+        'InfluenceButton2
+        '
+        Me.InfluenceButton2.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton2.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton2.Location = New System.Drawing.Point(39, 226)
+        Me.InfluenceButton2.Name = "InfluenceButton2"
+        Me.InfluenceButton2.Size = New System.Drawing.Size(182, 30)
+        Me.InfluenceButton2.TabIndex = 2
+        Me.InfluenceButton2.Text = "MsgBox"
+        Me.InfluenceButton2.TextAlignment = System.Drawing.StringAlignment.Center
+        Me.InfluenceButton2.Visible = False
+        '
+        'InfluenceTheme1
+        '
+        Me.InfluenceTheme1.BackColor = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer))
+        Me.InfluenceTheme1.CloseButtonExitsApp = False
+        Me.InfluenceTheme1.Controls.Add(Me.TabControl1)
+        Me.InfluenceTheme1.Controls.Add(Me.InfluenceButton2)
+        Me.InfluenceTheme1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.InfluenceTheme1.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceTheme1.Location = New System.Drawing.Point(0, 0)
+        Me.InfluenceTheme1.MinimizeButton = False
+        Me.InfluenceTheme1.Name = "InfluenceTheme1"
+        Me.InfluenceTheme1.Size = New System.Drawing.Size(595, 419)
+        Me.InfluenceTheme1.TabIndex = 0
+        Me.InfluenceTheme1.Text = "Fun : "
+        '
+        'TabPage4
+        '
+        Me.TabPage4.Controls.Add(Me.GroupBox20)
+        Me.TabPage4.Controls.Add(Me.GroupBox21)
+        Me.TabPage4.Controls.Add(Me.GroupBox22)
+        Me.TabPage4.Controls.Add(Me.Button38)
+        Me.TabPage4.Controls.Add(Me.Button39)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage4.Name = "TabPage4"
+        Me.TabPage4.Size = New System.Drawing.Size(553, 349)
+        Me.TabPage4.TabIndex = 3
+        Me.TabPage4.Text = "MsgBox"
+        Me.TabPage4.UseVisualStyleBackColor = True
+        '
+        'Button39
+        '
+        Me.Button39.Image = Global.Microsoft.My.Resources.Resources._004
+        Me.Button39.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Button39.Location = New System.Drawing.Point(385, 211)
+        Me.Button39.Name = "Button39"
+        Me.Button39.Size = New System.Drawing.Size(142, 36)
+        Me.Button39.TabIndex = 12
+        Me.Button39.Text = "Send"
+        Me.Button39.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.Button39.UseVisualStyleBackColor = True
+        '
+        'Button38
+        '
+        Me.Button38.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button38.Location = New System.Drawing.Point(385, 253)
+        Me.Button38.Name = "Button38"
+        Me.Button38.Size = New System.Drawing.Size(142, 36)
+        Me.Button38.TabIndex = 11
+        Me.Button38.Text = "    Test"
+        Me.Button38.UseVisualStyleBackColor = True
+        '
+        'GroupBox22
+        '
+        Me.GroupBox22.Controls.Add(Me.RadioButton4)
+        Me.GroupBox22.Controls.Add(Me.PictureBox4)
+        Me.GroupBox22.Controls.Add(Me.RadioButton3)
+        Me.GroupBox22.Controls.Add(Me.PictureBox3)
+        Me.GroupBox22.Controls.Add(Me.RadioButton2)
+        Me.GroupBox22.Controls.Add(Me.PictureBox2)
+        Me.GroupBox22.Controls.Add(Me.RadioButton1)
+        Me.GroupBox22.Controls.Add(Me.PictureBox5)
+        Me.GroupBox22.Location = New System.Drawing.Point(3, 15)
+        Me.GroupBox22.Name = "GroupBox22"
+        Me.GroupBox22.Size = New System.Drawing.Size(376, 98)
+        Me.GroupBox22.TabIndex = 13
+        Me.GroupBox22.TabStop = False
+        Me.GroupBox22.Text = "MessageBox Icon"
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
+        Me.PictureBox5.Location = New System.Drawing.Point(34, 21)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(45, 45)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox5.TabIndex = 0
+        Me.PictureBox5.TabStop = False
+        '
+        'RadioButton1
+        '
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Checked = True
+        Me.RadioButton1.Location = New System.Drawing.Point(13, 72)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(92, 17)
+        Me.RadioButton1.TabIndex = 1
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Text = "Information"
+        Me.RadioButton1.UseVisualStyleBackColor = True
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(128, 21)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(45, 45)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 2
+        Me.PictureBox2.TabStop = False
+        '
+        'RadioButton2
+        '
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Location = New System.Drawing.Point(114, 72)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(75, 17)
+        Me.RadioButton2.TabIndex = 3
+        Me.RadioButton2.TabStop = True
+        Me.RadioButton2.Text = "Question"
+        Me.RadioButton2.UseVisualStyleBackColor = True
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
+        Me.PictureBox3.Location = New System.Drawing.Point(224, 21)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(45, 45)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 4
+        Me.PictureBox3.TabStop = False
+        '
+        'RadioButton3
+        '
+        Me.RadioButton3.AutoSize = True
+        Me.RadioButton3.Location = New System.Drawing.Point(212, 72)
+        Me.RadioButton3.Name = "RadioButton3"
+        Me.RadioButton3.Size = New System.Drawing.Size(71, 17)
+        Me.RadioButton3.TabIndex = 5
+        Me.RadioButton3.TabStop = True
+        Me.RadioButton3.Text = "Warning"
+        Me.RadioButton3.UseVisualStyleBackColor = True
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
+        Me.PictureBox4.Location = New System.Drawing.Point(317, 21)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(45, 45)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 6
+        Me.PictureBox4.TabStop = False
+        '
+        'RadioButton4
+        '
+        Me.RadioButton4.AutoSize = True
+        Me.RadioButton4.Location = New System.Drawing.Point(317, 72)
+        Me.RadioButton4.Name = "RadioButton4"
+        Me.RadioButton4.Size = New System.Drawing.Size(54, 17)
+        Me.RadioButton4.TabIndex = 7
+        Me.RadioButton4.TabStop = True
+        Me.RadioButton4.Text = "Error"
+        Me.RadioButton4.UseVisualStyleBackColor = True
+        '
+        'GroupBox21
+        '
+        Me.GroupBox21.Controls.Add(Me.TextBox5)
+        Me.GroupBox21.Controls.Add(Me.TextBox6)
+        Me.GroupBox21.Location = New System.Drawing.Point(3, 119)
+        Me.GroupBox21.Name = "GroupBox21"
+        Me.GroupBox21.Size = New System.Drawing.Size(376, 170)
+        Me.GroupBox21.TabIndex = 14
+        Me.GroupBox21.TabStop = False
+        Me.GroupBox21.Text = "MessageBox Content"
+        '
+        'TextBox6
+        '
+        Me.TextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox6.Location = New System.Drawing.Point(6, 21)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(364, 21)
+        Me.TextBox6.TabIndex = 0
+        '
+        'TextBox5
+        '
+        Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox5.Location = New System.Drawing.Point(6, 49)
+        Me.TextBox5.Multiline = True
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(364, 115)
+        Me.TextBox5.TabIndex = 1
+        '
+        'GroupBox20
+        '
+        Me.GroupBox20.Controls.Add(Me.RadioButton10)
+        Me.GroupBox20.Controls.Add(Me.RadioButton9)
+        Me.GroupBox20.Controls.Add(Me.RadioButton8)
+        Me.GroupBox20.Controls.Add(Me.RadioButton7)
+        Me.GroupBox20.Controls.Add(Me.RadioButton6)
+        Me.GroupBox20.Controls.Add(Me.RadioButton5)
+        Me.GroupBox20.Location = New System.Drawing.Point(385, 15)
+        Me.GroupBox20.Name = "GroupBox20"
+        Me.GroupBox20.Size = New System.Drawing.Size(164, 160)
+        Me.GroupBox20.TabIndex = 15
+        Me.GroupBox20.TabStop = False
+        Me.GroupBox20.Text = "MessageBox Button"
+        '
+        'RadioButton5
+        '
+        Me.RadioButton5.AutoSize = True
+        Me.RadioButton5.Checked = True
+        Me.RadioButton5.Location = New System.Drawing.Point(6, 21)
+        Me.RadioButton5.Name = "RadioButton5"
+        Me.RadioButton5.Size = New System.Drawing.Size(72, 17)
+        Me.RadioButton5.TabIndex = 0
+        Me.RadioButton5.TabStop = True
+        Me.RadioButton5.Text = "Yes - No"
+        Me.RadioButton5.UseVisualStyleBackColor = True
+        '
+        'RadioButton6
+        '
+        Me.RadioButton6.AutoSize = True
+        Me.RadioButton6.Location = New System.Drawing.Point(6, 44)
+        Me.RadioButton6.Name = "RadioButton6"
+        Me.RadioButton6.Size = New System.Drawing.Size(124, 17)
+        Me.RadioButton6.TabIndex = 1
+        Me.RadioButton6.Text = "Yes - No - Cancel"
+        Me.RadioButton6.UseVisualStyleBackColor = True
+        '
+        'RadioButton7
+        '
+        Me.RadioButton7.AutoSize = True
+        Me.RadioButton7.Location = New System.Drawing.Point(6, 67)
+        Me.RadioButton7.Name = "RadioButton7"
+        Me.RadioButton7.Size = New System.Drawing.Size(42, 17)
+        Me.RadioButton7.TabIndex = 2
+        Me.RadioButton7.Text = "OK"
+        Me.RadioButton7.UseVisualStyleBackColor = True
+        '
+        'RadioButton8
+        '
+        Me.RadioButton8.AutoSize = True
+        Me.RadioButton8.Location = New System.Drawing.Point(6, 90)
+        Me.RadioButton8.Name = "RadioButton8"
+        Me.RadioButton8.Size = New System.Drawing.Size(94, 17)
+        Me.RadioButton8.TabIndex = 3
+        Me.RadioButton8.Text = "OK - Cancel"
+        Me.RadioButton8.UseVisualStyleBackColor = True
+        '
+        'RadioButton9
+        '
+        Me.RadioButton9.AutoSize = True
+        Me.RadioButton9.Location = New System.Drawing.Point(6, 113)
+        Me.RadioButton9.Name = "RadioButton9"
+        Me.RadioButton9.Size = New System.Drawing.Size(108, 17)
+        Me.RadioButton9.TabIndex = 4
+        Me.RadioButton9.Text = "Retry - Cancel"
+        Me.RadioButton9.UseVisualStyleBackColor = True
+        '
+        'RadioButton10
+        '
+        Me.RadioButton10.AutoSize = True
+        Me.RadioButton10.Location = New System.Drawing.Point(6, 136)
+        Me.RadioButton10.Name = "RadioButton10"
+        Me.RadioButton10.Size = New System.Drawing.Size(152, 17)
+        Me.RadioButton10.TabIndex = 5
+        Me.RadioButton10.Text = "Abort - Retry - Cancel"
+        Me.RadioButton10.UseVisualStyleBackColor = True
+        '
+        'TabPage3
+        '
+        Me.TabPage3.BackColor = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer))
+        Me.TabPage3.Controls.Add(Me.GroupBox7)
+        Me.TabPage3.Controls.Add(Me.InfluenceButton1)
+        Me.TabPage3.ForeColor = System.Drawing.Color.White
+        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Size = New System.Drawing.Size(553, 349)
+        Me.TabPage3.TabIndex = 2
+        Me.TabPage3.Text = "Other"
+        '
+        'InfluenceButton1
+        '
+        Me.InfluenceButton1.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton1.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton1.Location = New System.Drawing.Point(3, 129)
+        Me.InfluenceButton1.Name = "InfluenceButton1"
+        Me.InfluenceButton1.Size = New System.Drawing.Size(225, 30)
+        Me.InfluenceButton1.TabIndex = 1
+        Me.InfluenceButton1.Text = "Chat"
+        Me.InfluenceButton1.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'GroupBox7
+        '
+        Me.GroupBox7.Controls.Add(Me.TextBox2)
+        Me.GroupBox7.Controls.Add(Me.Label2)
+        Me.GroupBox7.Controls.Add(Me.Button35)
+        Me.GroupBox7.Controls.Add(Me.Label1)
+        Me.GroupBox7.Controls.Add(Me.TextBox3)
+        Me.GroupBox7.ForeColor = System.Drawing.Color.White
+        Me.GroupBox7.Location = New System.Drawing.Point(5, 3)
+        Me.GroupBox7.Name = "GroupBox7"
+        Me.GroupBox7.Size = New System.Drawing.Size(227, 120)
+        Me.GroupBox7.TabIndex = 2
+        Me.GroupBox7.TabStop = False
+        Me.GroupBox7.Text = "Beep"
+        '
+        'TextBox3
+        '
+        Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox3.Location = New System.Drawing.Point(23, 70)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(161, 21)
+        Me.TextBox3.TabIndex = 0
+        Me.TextBox3.Text = "500"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(22, 15)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(32, 13)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "HZ :"
+        '
+        'Button35
+        '
+        Me.Button35.ForeColor = System.Drawing.Color.Red
+        Me.Button35.Location = New System.Drawing.Point(109, 91)
+        Me.Button35.Name = "Button35"
+        Me.Button35.Size = New System.Drawing.Size(75, 23)
+        Me.Button35.TabIndex = 0
+        Me.Button35.Text = "Start"
+        Me.Button35.UseVisualStyleBackColor = True
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(22, 54)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(44, 13)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "Time :"
+        '
+        'TextBox2
+        '
+        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox2.Location = New System.Drawing.Point(23, 31)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(161, 21)
+        Me.TextBox2.TabIndex = 0
+        Me.TextBox2.Text = "15000"
+        '
+        'TabPage2
+        '
+        Me.TabPage2.BackColor = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer))
+        Me.TabPage2.Controls.Add(Me.GroupBox1)
+        Me.TabPage2.Controls.Add(Me.GroupBox3)
+        Me.TabPage2.ForeColor = System.Drawing.Color.White
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(553, 349)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "Computer"
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer))
+        Me.GroupBox3.Controls.Add(Me.InfluenceButton5)
+        Me.GroupBox3.Controls.Add(Me.InfluenceButton6)
+        Me.GroupBox3.Controls.Add(Me.InfluenceButton7)
+        Me.GroupBox3.ForeColor = System.Drawing.Color.White
+        Me.GroupBox3.Location = New System.Drawing.Point(6, 112)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(245, 132)
+        Me.GroupBox3.TabIndex = 14
+        Me.GroupBox3.TabStop = False
+        Me.GroupBox3.Text = "Computer"
+        '
+        'InfluenceButton7
+        '
+        Me.InfluenceButton7.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton7.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton7.Location = New System.Drawing.Point(6, 20)
+        Me.InfluenceButton7.Name = "InfluenceButton7"
+        Me.InfluenceButton7.Size = New System.Drawing.Size(226, 29)
+        Me.InfluenceButton7.TabIndex = 7
+        Me.InfluenceButton7.Text = "Log Off"
+        Me.InfluenceButton7.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'InfluenceButton6
+        '
+        Me.InfluenceButton6.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton6.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton6.Location = New System.Drawing.Point(6, 92)
+        Me.InfluenceButton6.Name = "InfluenceButton6"
+        Me.InfluenceButton6.Size = New System.Drawing.Size(226, 29)
+        Me.InfluenceButton6.TabIndex = 6
+        Me.InfluenceButton6.Text = "Restrat"
+        Me.InfluenceButton6.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'InfluenceButton5
+        '
+        Me.InfluenceButton5.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton5.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton5.Location = New System.Drawing.Point(6, 56)
+        Me.InfluenceButton5.Name = "InfluenceButton5"
+        Me.InfluenceButton5.Size = New System.Drawing.Size(226, 29)
+        Me.InfluenceButton5.TabIndex = 5
+        Me.InfluenceButton5.Text = "Shut Down"
+        Me.InfluenceButton5.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer))
+        Me.GroupBox1.Controls.Add(Me.InfluenceButton3)
+        Me.GroupBox1.Controls.Add(Me.InfluenceButton4)
+        Me.GroupBox1.ForeColor = System.Drawing.Color.White
+        Me.GroupBox1.Location = New System.Drawing.Point(6, 6)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(245, 100)
+        Me.GroupBox1.TabIndex = 13
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "CD-Rom"
+        '
+        'InfluenceButton4
+        '
+        Me.InfluenceButton4.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton4.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton4.Location = New System.Drawing.Point(6, 64)
+        Me.InfluenceButton4.Name = "InfluenceButton4"
+        Me.InfluenceButton4.Size = New System.Drawing.Size(226, 30)
+        Me.InfluenceButton4.TabIndex = 4
+        Me.InfluenceButton4.Text = "Close"
+        Me.InfluenceButton4.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'InfluenceButton3
+        '
+        Me.InfluenceButton3.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton3.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton3.Location = New System.Drawing.Point(6, 20)
+        Me.InfluenceButton3.Name = "InfluenceButton3"
+        Me.InfluenceButton3.Size = New System.Drawing.Size(226, 30)
+        Me.InfluenceButton3.TabIndex = 3
+        Me.InfluenceButton3.Text = "Open"
+        Me.InfluenceButton3.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'TabPage1
+        '
+        Me.TabPage1.BackColor = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer))
+        Me.TabPage1.Controls.Add(Me.GroupBox2)
+        Me.TabPage1.Controls.Add(Me.GroupBox6)
+        Me.TabPage1.Controls.Add(Me.GroupBox5)
+        Me.TabPage1.Controls.Add(Me.GroupBox4)
+        Me.TabPage1.ForeColor = System.Drawing.Color.White
+        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage1.Name = "TabPage1"
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage1.Size = New System.Drawing.Size(553, 349)
+        Me.TabPage1.TabIndex = 0
+        Me.TabPage1.Text = "Control"
+        '
+        'GroupBox4
+        '
+        Me.GroupBox4.Controls.Add(Me.InfluenceButton13)
+        Me.GroupBox4.Controls.Add(Me.InfluenceButton12)
+        Me.GroupBox4.ForeColor = System.Drawing.Color.White
+        Me.GroupBox4.Location = New System.Drawing.Point(218, 114)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Size = New System.Drawing.Size(200, 100)
+        Me.GroupBox4.TabIndex = 12
+        Me.GroupBox4.TabStop = False
+        Me.GroupBox4.Text = "TaskBar"
+        '
+        'InfluenceButton12
+        '
+        Me.InfluenceButton12.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton12.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton12.Location = New System.Drawing.Point(6, 20)
+        Me.InfluenceButton12.Name = "InfluenceButton12"
+        Me.InfluenceButton12.Size = New System.Drawing.Size(188, 30)
+        Me.InfluenceButton12.TabIndex = 0
+        Me.InfluenceButton12.Text = "Hide"
+        Me.InfluenceButton12.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'InfluenceButton13
+        '
+        Me.InfluenceButton13.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton13.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton13.Location = New System.Drawing.Point(6, 64)
+        Me.InfluenceButton13.Name = "InfluenceButton13"
+        Me.InfluenceButton13.Size = New System.Drawing.Size(188, 30)
+        Me.InfluenceButton13.TabIndex = 1
+        Me.InfluenceButton13.Text = "Show"
+        Me.InfluenceButton13.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'GroupBox5
+        '
+        Me.GroupBox5.Controls.Add(Me.InfluenceButton15)
+        Me.GroupBox5.Controls.Add(Me.InfluenceButton14)
+        Me.GroupBox5.ForeColor = System.Drawing.Color.White
+        Me.GroupBox5.Location = New System.Drawing.Point(12, 224)
+        Me.GroupBox5.Name = "GroupBox5"
+        Me.GroupBox5.Size = New System.Drawing.Size(314, 108)
+        Me.GroupBox5.TabIndex = 0
+        Me.GroupBox5.TabStop = False
+        Me.GroupBox5.Text = "Windows Update"
+        '
+        'InfluenceButton14
+        '
+        Me.InfluenceButton14.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton14.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton14.Location = New System.Drawing.Point(6, 64)
+        Me.InfluenceButton14.Name = "InfluenceButton14"
+        Me.InfluenceButton14.Size = New System.Drawing.Size(302, 30)
+        Me.InfluenceButton14.TabIndex = 2
+        Me.InfluenceButton14.Text = "Disable"
+        Me.InfluenceButton14.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'InfluenceButton15
+        '
+        Me.InfluenceButton15.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton15.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton15.Location = New System.Drawing.Point(6, 20)
+        Me.InfluenceButton15.Name = "InfluenceButton15"
+        Me.InfluenceButton15.Size = New System.Drawing.Size(302, 30)
+        Me.InfluenceButton15.TabIndex = 3
+        Me.InfluenceButton15.Text = "Enable"
+        Me.InfluenceButton15.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'GroupBox6
+        '
+        Me.GroupBox6.Controls.Add(Me.InfluenceButton16)
+        Me.GroupBox6.Controls.Add(Me.InfluenceButton17)
+        Me.GroupBox6.ForeColor = System.Drawing.Color.White
+        Me.GroupBox6.Location = New System.Drawing.Point(12, 114)
+        Me.GroupBox6.Name = "GroupBox6"
+        Me.GroupBox6.Size = New System.Drawing.Size(200, 100)
+        Me.GroupBox6.TabIndex = 15
+        Me.GroupBox6.TabStop = False
+        Me.GroupBox6.Text = "Control Panal"
+        '
+        'InfluenceButton17
+        '
+        Me.InfluenceButton17.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton17.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton17.Location = New System.Drawing.Point(6, 17)
+        Me.InfluenceButton17.Name = "InfluenceButton17"
+        Me.InfluenceButton17.Size = New System.Drawing.Size(188, 30)
+        Me.InfluenceButton17.TabIndex = 5
+        Me.InfluenceButton17.Text = "Enable"
+        Me.InfluenceButton17.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'InfluenceButton16
+        '
+        Me.InfluenceButton16.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton16.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton16.Location = New System.Drawing.Point(6, 64)
+        Me.InfluenceButton16.Name = "InfluenceButton16"
+        Me.InfluenceButton16.Size = New System.Drawing.Size(188, 30)
+        Me.InfluenceButton16.TabIndex = 4
+        Me.InfluenceButton16.Text = "Disable"
+        Me.InfluenceButton16.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer))
+        Me.GroupBox2.Controls.Add(Me.InfluenceButton9)
+        Me.GroupBox2.Controls.Add(Me.InfluenceButton8)
+        Me.GroupBox2.Controls.Add(Me.InfluenceButton10)
+        Me.GroupBox2.Controls.Add(Me.InfluenceButton11)
+        Me.GroupBox2.ForeColor = System.Drawing.Color.White
+        Me.GroupBox2.Location = New System.Drawing.Point(6, 6)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(419, 100)
+        Me.GroupBox2.TabIndex = 14
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Mouse And KeyBoard"
+        '
+        'InfluenceButton11
+        '
+        Me.InfluenceButton11.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton11.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton11.Location = New System.Drawing.Point(173, 56)
+        Me.InfluenceButton11.Name = "InfluenceButton11"
+        Me.InfluenceButton11.Size = New System.Drawing.Size(240, 30)
+        Me.InfluenceButton11.TabIndex = 11
+        Me.InfluenceButton11.Text = "Reverse Mouse"
+        Me.InfluenceButton11.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'InfluenceButton10
+        '
+        Me.InfluenceButton10.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton10.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton10.Location = New System.Drawing.Point(173, 20)
+        Me.InfluenceButton10.Name = "InfluenceButton10"
+        Me.InfluenceButton10.Size = New System.Drawing.Size(240, 30)
+        Me.InfluenceButton10.TabIndex = 10
+        Me.InfluenceButton10.Text = "Normal Mouse"
+        Me.InfluenceButton10.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'InfluenceButton8
+        '
+        Me.InfluenceButton8.BackColor = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer))
+        Me.InfluenceButton8.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton8.Location = New System.Drawing.Point(6, 20)
+        Me.InfluenceButton8.Name = "InfluenceButton8"
+        Me.InfluenceButton8.Size = New System.Drawing.Size(158, 30)
+        Me.InfluenceButton8.TabIndex = 8
+        Me.InfluenceButton8.Text = "Block"
+        Me.InfluenceButton8.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'InfluenceButton9
+        '
+        Me.InfluenceButton9.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton9.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton9.Location = New System.Drawing.Point(6, 56)
+        Me.InfluenceButton9.Name = "InfluenceButton9"
+        Me.InfluenceButton9.Size = New System.Drawing.Size(158, 30)
+        Me.InfluenceButton9.TabIndex = 9
+        Me.InfluenceButton9.Text = "Un Block"
+        Me.InfluenceButton9.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'TabControl1
+        '
+        Me.TabControl1.Controls.Add(Me.TabPage1)
+        Me.TabControl1.Controls.Add(Me.TabPage2)
+        Me.TabControl1.Controls.Add(Me.TabPage3)
+        Me.TabControl1.Controls.Add(Me.TabPage4)
+        Me.TabControl1.Location = New System.Drawing.Point(12, 33)
+        Me.TabControl1.Name = "TabControl1"
+        Me.TabControl1.SelectedIndex = 0
+        Me.TabControl1.Size = New System.Drawing.Size(561, 375)
+        Me.TabControl1.SizeMode = System.Windows.Forms.TabSizeMode.FillToRight
+        Me.TabControl1.TabIndex = 16
+        '
+        'Fun
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(595, 419)
+        Me.Controls.Add(Me.InfluenceTheme1)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Name = "Fun"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Fun :"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.InfluenceTheme1.ResumeLayout(False)
+        Me.TabPage4.ResumeLayout(False)
+        Me.GroupBox22.ResumeLayout(False)
+        Me.GroupBox22.PerformLayout()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox21.ResumeLayout(False)
+        Me.GroupBox21.PerformLayout()
+        Me.GroupBox20.ResumeLayout(False)
+        Me.GroupBox20.PerformLayout()
+        Me.TabPage3.ResumeLayout(False)
+        Me.GroupBox7.ResumeLayout(False)
+        Me.GroupBox7.PerformLayout()
+        Me.TabPage2.ResumeLayout(False)
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox1.ResumeLayout(False)
+        Me.TabPage1.ResumeLayout(False)
+        Me.GroupBox4.ResumeLayout(False)
+        Me.GroupBox5.ResumeLayout(False)
+        Me.GroupBox6.ResumeLayout(False)
+        Me.GroupBox2.ResumeLayout(False)
+        Me.TabControl1.ResumeLayout(False)
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents InfluenceButton2 As Microsoft.InfluenceButton
+    Friend WithEvents InfluenceTheme1 As Microsoft.InfluenceTheme
+    Friend WithEvents TabControl1 As System.Windows.Forms.TabControl
+    Friend WithEvents TabPage1 As System.Windows.Forms.TabPage
+    Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
+    Friend WithEvents InfluenceButton9 As Microsoft.InfluenceButton
+    Friend WithEvents InfluenceButton8 As Microsoft.InfluenceButton
+    Friend WithEvents InfluenceButton10 As Microsoft.InfluenceButton
+    Friend WithEvents InfluenceButton11 As Microsoft.InfluenceButton
+    Friend WithEvents GroupBox6 As System.Windows.Forms.GroupBox
+    Friend WithEvents InfluenceButton16 As Microsoft.InfluenceButton
+    Friend WithEvents InfluenceButton17 As Microsoft.InfluenceButton
+    Friend WithEvents GroupBox5 As System.Windows.Forms.GroupBox
+    Friend WithEvents InfluenceButton15 As Microsoft.InfluenceButton
+    Friend WithEvents InfluenceButton14 As Microsoft.InfluenceButton
+    Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
+    Friend WithEvents InfluenceButton13 As Microsoft.InfluenceButton
+    Friend WithEvents InfluenceButton12 As Microsoft.InfluenceButton
+    Friend WithEvents TabPage2 As System.Windows.Forms.TabPage
+    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents InfluenceButton3 As Microsoft.InfluenceButton
+    Friend WithEvents InfluenceButton4 As Microsoft.InfluenceButton
+    Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
+    Friend WithEvents InfluenceButton5 As Microsoft.InfluenceButton
+    Friend WithEvents InfluenceButton6 As Microsoft.InfluenceButton
+    Friend WithEvents InfluenceButton7 As Microsoft.InfluenceButton
+    Friend WithEvents TabPage3 As System.Windows.Forms.TabPage
+    Friend WithEvents GroupBox7 As System.Windows.Forms.GroupBox
+    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Button35 As System.Windows.Forms.Button
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
+    Friend WithEvents InfluenceButton1 As Microsoft.InfluenceButton
+    Friend WithEvents TabPage4 As System.Windows.Forms.TabPage
+    Friend WithEvents GroupBox20 As System.Windows.Forms.GroupBox
+    Friend WithEvents RadioButton10 As System.Windows.Forms.RadioButton
+    Friend WithEvents RadioButton9 As System.Windows.Forms.RadioButton
+    Friend WithEvents RadioButton8 As System.Windows.Forms.RadioButton
+    Friend WithEvents RadioButton7 As System.Windows.Forms.RadioButton
+    Friend WithEvents RadioButton6 As System.Windows.Forms.RadioButton
+    Friend WithEvents RadioButton5 As System.Windows.Forms.RadioButton
+    Friend WithEvents GroupBox21 As System.Windows.Forms.GroupBox
+    Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox6 As System.Windows.Forms.TextBox
+    Friend WithEvents GroupBox22 As System.Windows.Forms.GroupBox
+    Friend WithEvents RadioButton4 As System.Windows.Forms.RadioButton
+    Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
+    Friend WithEvents RadioButton3 As System.Windows.Forms.RadioButton
+    Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
+    Friend WithEvents RadioButton2 As System.Windows.Forms.RadioButton
+    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
+    Friend WithEvents RadioButton1 As System.Windows.Forms.RadioButton
+    Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
+    Friend WithEvents Button38 As System.Windows.Forms.Button
+    Friend WithEvents Button39 As System.Windows.Forms.Button
+End Class

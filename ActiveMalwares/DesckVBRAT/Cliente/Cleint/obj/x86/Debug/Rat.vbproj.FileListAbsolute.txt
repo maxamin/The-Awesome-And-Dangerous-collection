@@ -1,0 +1,199 @@
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\bin\Debug\DesckVB Rat.exe.config
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\bin\Debug\DesckVB Rat.exe
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\bin\Debug\DesckVB Rat.pdb
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\bin\Debug\DesckVB Rat.xml
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Rat.vbproj.GenerateResource.Cache
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\DesckVB Rat.exe
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\DesckVB Rat.xml
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\DesckVB Rat.pdb
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Rat.vbprojResolveAssemblyReference.cache
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\DesckVB.Descktop.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\DesckVB.Fm.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\DesckVB.Keylogger.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\DesckVB.password.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\DesckVB.Form1.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\DesckVB.Server.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\DesckVB.Form3.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\DesckVB.Form4.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\DesckVB.Aborte.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\DesckVB.opções.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\DesckVB.Report.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\DesckVB.Resources.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\DesckVB.Hidekill.resources
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\bin\Debug\DesckVB Rat.exe.config
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB Rat.exe
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB Rat.xml
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB Rat.pdb
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\bin\Debug\DesckVB Rat.exe
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\bin\Debug\DesckVB Rat.pdb
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\bin\Debug\DesckVB Rat.xml
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\obj\x86\Debug\Rat.vbprojResolveAssemblyReference.cache
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Descktop.resources
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Fm.resources
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Keylogger.resources
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.password.resources
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Form1.resources
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Server.resources
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Form3.resources
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Form4.resources
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Aborte.resources
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.opções.resources
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Report.resources
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Resources.resources
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\obj\x86\Debug\Rat.vbproj.GenerateResource.Cache
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Cmdcomando.resources
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Info.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\bin\Debug\DesckVB Rat.exe.config
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB Rat.exe
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB Rat.xml
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB Rat.pdb
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\bin\Debug\DesckVB Rat.exe
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\bin\Debug\DesckVB Rat.pdb
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\bin\Debug\DesckVB Rat.xml
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\obj\x86\Debug\Rat.vbprojResolveAssemblyReference.cache
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Cmdcomando.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Descktop.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Fm.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Info.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Keylogger.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.password.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Form1.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Server.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Form3.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Form4.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Aborte.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.opções.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Report.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.Resources.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\obj\x86\Debug\Rat.vbproj.GenerateResource.Cache
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cleint\Cleint\obj\x86\Debug\DesckVB.TXT_Editor.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\bin\Debug\DesckVB Rat.exe.config
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\obj\x86\Debug\DesckVB Rat.exe
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\obj\x86\Debug\DesckVB Rat.xml
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\obj\x86\Debug\DesckVB Rat.pdb
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\bin\Debug\DesckVB Rat.exe
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\bin\Debug\DesckVB Rat.pdb
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\bin\Debug\DesckVB Rat.xml
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\obj\x86\Debug\DesckVB.Cmdcomando.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\obj\x86\Debug\DesckVB.Descktop.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\obj\x86\Debug\DesckVB.Fm.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\obj\x86\Debug\DesckVB.Info.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\obj\x86\Debug\DesckVB.Keylogger.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\obj\x86\Debug\DesckVB.password.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\obj\x86\Debug\DesckVB.Form1.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\obj\x86\Debug\DesckVB.Server.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\obj\x86\Debug\DesckVB.Form3.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\obj\x86\Debug\DesckVB.Form4.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\obj\x86\Debug\DesckVB.Aborte.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\obj\x86\Debug\DesckVB.opções.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\obj\x86\Debug\DesckVB.Report.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\obj\x86\Debug\DesckVB.Resources.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\obj\x86\Debug\DesckVB.TXT_Editor.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\obj\x86\Debug\Rat.vbproj.GenerateResource.Cache
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Cliente\Cleint\obj\x86\Debug\Rat.vbprojResolveAssemblyReference.cache
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\bin\Debug\DesckVB Rat.exe.config
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB Rat.exe
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB Rat.xml
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB Rat.pdb
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\bin\Debug\DesckVB Rat.exe
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\bin\Debug\DesckVB Rat.pdb
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\bin\Debug\DesckVB Rat.xml
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Cmdcomando.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Descktop.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Fm.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Info.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Keylogger.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.password.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Form1.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Server.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Form3.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Aborte.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.opções.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Report.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Resources.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.TXT_Editor.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\Rat.vbproj.GenerateResource.Cache
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.TXT_Send.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.TXT.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\Rat.vbprojResolveAssemblyReference.cache
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Informaçoes.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Creat_Server_DownloadFile.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Updeterdesck.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Noip.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Fun.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.keylogger_online.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Reg.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Rgv.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.clickbord.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\bin\Debug\DesckVB Rat.exe.config
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB Rat.exe
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB Rat.xml
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB Rat.pdb
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\bin\Debug\DesckVB Rat.exe
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\bin\Debug\DesckVB Rat.pdb
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\bin\Debug\DesckVB Rat.xml
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\Rat.vbprojResolveAssemblyReference.cache
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.clickbord.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Cmdcomando.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Creat_Server_DownloadFile.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Fun.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Informaçoes.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.keylogger_online.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Reg.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Descktop.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Fm.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Info.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Keylogger.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.password.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Form1.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Server.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Form3.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Noip.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Aborte.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.opções.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Report.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Resources.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Rgv.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.TXT_Editor.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.TXT_Send.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.TXT.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Updeterdesck.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\Rat.vbproj.GenerateResource.Cache
+C:\Users\João\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Emailreport.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\bin\Debug\DesckVB Rat.exe.config
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB Rat.exe
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB Rat.pdb
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\bin\Debug\DesckVB Rat.exe
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\bin\Debug\DesckVB Rat.pdb
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\Rat.vbprojResolveAssemblyReference.cache
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.clickbord.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Cmdcomando.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Creat_Server_DownloadFile.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Emailreport.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Fun.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Informaçoes.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.keylogger_online.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Reg.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Descktop.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Fm.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Info.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Keylogger.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.password.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Form1.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Server.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Form3.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Noip.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Aborte.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.opções.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Report.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Resources.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Rgv.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.TXT_Editor.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.TXT_Send.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.TXT.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Updeterdesck.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\Rat.vbproj.GenerateResource.Cache
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\bin\Debug\DesckVB Rat.xml
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB Rat.xml
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Pasta_compartihadas.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Cliente\Cleint\obj\x86\Debug\DesckVB.Port_Teste.resources

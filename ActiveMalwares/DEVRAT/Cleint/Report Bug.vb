@@ -1,0 +1,26 @@
+﻿Imports System.Net
+Imports System.Net.Mail
+Public Class Report_Bug
+
+    Private Sub CyberTopButton1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CyberTopButton1.Click
+        Me.Close()
+    End Sub
+
+    Private Sub CyberButton1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CyberButton1.Click
+        Dim Mail As New MailMessage
+        Mail.Subject = ""
+        Mail.To.Add("x.code5555@gmail.com")
+        Mail.From = New MailAddress("x.code5555@gmail.com")
+        Mail.Body = "Os : " & ComboBox1.Text & vbNewLine & "Bit : " & ComboBox2.Text & vbNewLine & "Email : " & TextBox1.Text & vbNewLine & "Report : " & TextBox2.Text
+        Dim SMTP As New SmtpClient("smtp.gmail.com")
+        SMTP.EnableSsl = True
+        SMTP.Credentials = New System.Net.NetworkCredential("x.code5555@gmail.com", "01526523328")
+        SMTP.Port = "587"
+        SMTP.Send(Mail)
+        MsgBox("Report Sent We Will Answer To" & TextBox1.Text, MsgBoxStyle.Information, "")
+    End Sub
+
+    Private Sub LinkLabel1_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        Me.Close()
+    End Sub
+End Class

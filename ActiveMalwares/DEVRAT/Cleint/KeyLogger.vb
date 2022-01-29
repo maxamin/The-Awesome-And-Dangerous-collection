@@ -1,0 +1,25 @@
+﻿Imports System.IO
+Public Class Form27
+    Public sock As Integer
+
+    Private Sub DownloadToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles DownloadToolStripMenuItem.Click
+        Form1.s.Send(sock, "getlogs")
+    End Sub
+
+    Private Sub SaveToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SaveToolStripMenuItem.Click
+        Dim x As New SaveFileDialog
+        With x
+            .Filter = "TXT|*.txt"
+
+        End With
+
+        If x.ShowDialog = Windows.Forms.DialogResult.OK Then
+            FileOpen(1, x.FileName, OpenMode.Binary)
+            FilePut(1, TextBox1.Text)
+            FileClose(1)
+            MsgBox("Logs Saved", MsgBoxStyle.Information, "")
+        End If
+
+
+    End Sub
+End Class

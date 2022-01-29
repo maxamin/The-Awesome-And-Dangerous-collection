@@ -1,0 +1,3 @@
+Line 17: Class XtremeSuiteControls.ProgressBar of control pbProgress was not a loaded control class.
+Line 24: Class MSComctlLib.ListView of control lstResults was not a loaded control class.
+Line 31: Class XtremeSuiteControls.PushButton of control cmdCancel was not a loaded control class.

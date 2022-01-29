@@ -1,0 +1,75 @@
+F:\Egyption rat\-\الدرس الاول\Server\Server\bin\Release\Server.exe
+F:\Egyption rat\-\الدرس الاول\Server\Server\bin\Release\Server.pdb
+F:\Egyption rat\-\الدرس الاول\Server\Server\bin\Release\Server.xml
+F:\Egyption rat\-\الدرس الاول\Server\Server\obj\x86\Release\Server.vbprojResolveAssemblyReference.cache
+F:\Egyption rat\-\الدرس الاول\Server\Server\obj\x86\Release\Server.Form1.resources
+F:\Egyption rat\-\الدرس الاول\Server\Server\obj\x86\Release\Server.Resources.resources
+F:\Egyption rat\-\الدرس الاول\Server\Server\obj\x86\Release\Server.vbproj.GenerateResource.Cache
+C:\Users\Mahmoud\Desktop\server\Server.exe
+C:\Users\Mahmoud\Desktop\server\Server.pdb
+C:\Users\Mahmoud\Desktop\server\Server.xml
+F:\Egyption rat\-\الدرس الاول\Server\Server\obj\x86\Release\Server.exe
+F:\Egyption rat\-\الدرس الاول\Server\Server\obj\x86\Release\Server.xml
+F:\Egyption rat\-\الدرس الاول\Server\Server\obj\x86\Release\Server.pdb
+E:\Server\obj\x86\Release\Server.vbprojResolveAssemblyReference.cache
+E:\Server\obj\x86\Release\Server.Form1.resources
+E:\Server\obj\x86\Release\Server.Resources.resources
+E:\Server\obj\x86\Release\Server.vbproj.GenerateResource.Cache
+E:\Server\obj\x86\Release\Server.exe
+E:\Server\obj\x86\Release\Server.xml
+E:\Server\obj\x86\Release\Server.pdb
+C:\Users\Mahmoud\Desktop\Server\obj\x86\Release\Server.vbprojResolveAssemblyReference.cache
+C:\Users\Mahmoud\Desktop\Server\obj\x86\Release\Server.Form1.resources
+C:\Users\Mahmoud\Desktop\Server\obj\x86\Release\Server.Resources.resources
+C:\Users\Mahmoud\Desktop\Server\obj\x86\Release\Server.vbproj.GenerateResource.Cache
+C:\Users\Mahmoud\Desktop\Server\obj\x86\Release\Server.exe
+C:\Users\Mahmoud\Desktop\Server\obj\x86\Release\Server.xml
+C:\Users\Mahmoud\Desktop\Server\obj\x86\Release\Server.pdb
+C:\Users\Mahmoud\Desktop\Cleint\Server\obj\x86\Release\Server.exe
+C:\Users\Mahmoud\Desktop\Cleint\Server\obj\x86\Release\Server.xml
+C:\Users\Mahmoud\Desktop\Cleint\Server\obj\x86\Release\Server.pdb
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\ser\Stub.exe
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\ser\Stub.pdb
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\ser\Stub.xml
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\Server\obj\x86\Release\Server.vbprojResolveAssemblyReference.cache
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\Server\obj\x86\Release\Stub.Form1.resources
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\Server\obj\x86\Release\Stub.Resources.resources
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\Server\obj\x86\Release\Server.vbproj.GenerateResource.Cache
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\Server\obj\x86\Release\Stub.exe
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\Server\obj\x86\Release\Stub.xml
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\Server\obj\x86\Release\Stub.pdb
+C:\Users\Mahmoud\Desktop\ser\Stub.exe
+C:\Users\Mahmoud\Desktop\ser\Stub.pdb
+C:\Users\Mahmoud\Desktop\ser\Stub.xml
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Server\obj\x86\Release\Stub.exe
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Server\obj\x86\Release\Stub.xml
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Server\obj\x86\Release\Stub.pdb
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Server\obj\x86\Release\Server.vbprojResolveAssemblyReference.cache
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Server\obj\x86\Release\Stub.Form1.resources
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Server\obj\x86\Release\Stub.Resources.resources
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Server\obj\x86\Release\Server.vbproj.GenerateResource.Cache
+F:\Egypt-Rat v1.2\Server\obj\x86\Release\Stub.exe
+F:\Egypt-Rat v1.2\Server\obj\x86\Release\Stub.xml
+F:\Egypt-Rat v1.2\Server\obj\x86\Release\Stub.pdb
+F:\Egypt-Rat v1.2\Server\obj\x86\Release\Stub.Form1.resources
+F:\Egypt-Rat v1.2\Server\obj\x86\Release\Stub.Resources.resources
+F:\Egypt-Rat v1.2\Server\obj\x86\Release\ResolveAssemblyReference.cache
+F:\Egypt-Rat v1.2\Server\obj\x86\Release\ResGen.read.1.tlog
+F:\Egypt-Rat v1.2\Server\obj\x86\Release\ResGen.write.1.tlog
+F:\Egypt-Rat v1.2\Server\obj\x86\Release\Stub.chat.resources
+F:\sorce 2\Server\obj\x86\Release\Stub.exe
+F:\sorce 2\Server\obj\x86\Release\Stub.xml
+F:\sorce 2\Server\obj\x86\Release\Stub.pdb
+F:\sorce 2\Server\obj\x86\Release\ResolveAssemblyReference.cache
+F:\sorce 2\Server\obj\x86\Release\Stub.chat.resources
+F:\sorce 2\Server\obj\x86\Release\Stub.Form1.resources
+F:\sorce 2\Server\obj\x86\Release\Stub.Resources.resources
+F:\sorce 2\Server\obj\x86\Release\ResGen.read.1.tlog
+F:\sorce 2\Server\obj\x86\Release\ResGen.write.1.tlog
+C:\Users\Mahmoud\Downloads\Compressed\sorce 2\sorce 2\Server\obj\x86\Release\Stub.exe
+C:\Users\Mahmoud\Downloads\Compressed\sorce 2\sorce 2\Server\obj\x86\Release\Stub.xml
+C:\Users\Mahmoud\Downloads\Compressed\sorce 2\sorce 2\Server\obj\x86\Release\Stub.pdb
+F:\برامجي\سورسات برامجي\Devils-Rat Sorce\Server 2\Server\obj\x86\Release\Stub.xml
+F:\برامجي\سورسات برامجي\Devils-Rat Sorce\Server 2\Server\obj\x86\Release\Stub.pdb
+F:\برامجي\Devils-Rat Sorce\Server 2\Server\obj\x86\Release\Stub.xml
+F:\برامجي\Devils-Rat Sorce\Server 2\Server\obj\x86\Release\Stub.pdb

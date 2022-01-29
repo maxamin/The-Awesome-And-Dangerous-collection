@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A4E82671-07FF-4CB6-9071-262C5D87A792}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>DesckVB.My.MyApplication</StartupObject>
+    <RootNamespace>DesckVB</RootNamespace>
+    <AssemblyName>DesckVB Rat</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DesckVB Rat.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DesckVB Rat.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>troia.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clickbord.Designer.vb">
+      <DependentUpon>clickbord.vb</DependentUpon>
+    </Compile>
+    <Compile Include="clickbord.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Creat Server DownloadFile.Designer.vb">
+      <DependentUpon>Creat Server DownloadFile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Creat Server DownloadFile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Email.Designer.vb">
+      <DependentUpon>Email.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Email.vb">
+      <SubType>form</SubType>
+    </Compile>
+    <Compile Include="Fun.Designer.vb">
+      <DependentUpon>Fun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Informaçoes.Designer.vb">
+      <DependentUpon>Informaçoes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Informaçoes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keylogger online.Designer.vb">
+      <DependentUpon>keylogger online.vb</DependentUpon>
+    </Compile>
+    <Compile Include="keylogger online.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListViewColumnSorter.vb" />
+    <Compile Include="Cmd.Designer.vb">
+      <DependentUpon>Cmd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cmd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pasta compartihadas.Designer.vb">
+      <DependentUpon>Pasta compartihadas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pasta compartihadas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Port Teste.Designer.vb">
+      <DependentUpon>Port Teste.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Port Teste.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reg.Designer.vb">
+      <DependentUpon>Reg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Remote Descktop.Designer.vb">
+      <DependentUpon>Remote Descktop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Remote Descktop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rgv.Designer.vb">
+      <DependentUpon>Rgv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rgv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SocketServer.vb" />
+    <Compile Include="Efeito Agua.vb">
+      <SubType>component</SubType>
+    </Compile>
+    <Compile Include="File manager.Designer.vb">
+      <DependentUpon>File manager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="File manager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info.Designer.vb">
+      <DependentUpon>Info.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Info.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Keylogger.Designer.vb">
+      <DependentUpon>Keylogger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Keylogger.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Get password.Designer.vb">
+      <DependentUpon>Get password.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Get password.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesckVB Rat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesckVB Rat.Designer.vb">
+      <DependentUpon>DesckVB Rat.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Creat Server.Designer.vb">
+      <DependentUpon>Creat Server.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Creat Server.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Process manager.Designer.vb">
+      <DependentUpon>Process manager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Process manager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="No-ip.Designer.vb">
+      <DependentUpon>No-ip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="No-ip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aborte.Designer.vb">
+      <DependentUpon>Aborte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Aborte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="opções.Designer.vb">
+      <DependentUpon>opções.vb</DependentUpon>
+    </Compile>
+    <Compile Include="opções.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report.Designer.vb">
+      <DependentUpon>Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bandeiras.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="TXT Editor.Designer.vb">
+      <DependentUpon>TXT Editor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TXT Editor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TXT Sonido.Designer.vb">
+      <DependentUpon>TXT Sonido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TXT Sonido.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TXT Msgbox.Designer.vb">
+      <DependentUpon>TXT Msgbox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TXT Msgbox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updeter.Designer.vb">
+      <DependentUpon>Updeter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Updeter.vb">
+      <SubType>form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="clickbord.resx">
+      <DependentUpon>clickbord.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cmd.resx">
+      <DependentUpon>Cmd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Creat Server DownloadFile.resx">
+      <DependentUpon>Creat Server DownloadFile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email.resx">
+      <DependentUpon>Email.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fun.resx">
+      <DependentUpon>Fun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informaçoes.resx">
+      <DependentUpon>Informaçoes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keylogger online.resx">
+      <DependentUpon>keylogger online.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pasta compartihadas.resx">
+      <DependentUpon>Pasta compartihadas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Port Teste.resx">
+      <DependentUpon>Port Teste.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reg.resx">
+      <DependentUpon>Reg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Remote Descktop.resx">
+      <DependentUpon>Remote Descktop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="File manager.resx">
+      <DependentUpon>File manager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info.resx">
+      <DependentUpon>Info.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Keylogger.resx">
+      <DependentUpon>Keylogger.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Get password.resx">
+      <DependentUpon>Get password.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesckVB Rat.resx">
+      <DependentUpon>DesckVB Rat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Creat Server.resx">
+      <DependentUpon>Creat Server.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Process manager.resx">
+      <DependentUpon>Process manager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="No-ip.resx">
+      <DependentUpon>No-ip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aborte.resx">
+      <DependentUpon>Aborte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="opções.resx">
+      <DependentUpon>opções.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rgv.resx">
+      <DependentUpon>Rgv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TXT Editor.resx">
+      <DependentUpon>TXT Editor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TXT Sonido.resx">
+      <DependentUpon>TXT Sonido.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TXT Msgbox.resx">
+      <DependentUpon>TXT Msgbox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updeter.resx">
+      <DependentUpon>Updeter.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Res.exe" />
+    <None Include="Resources\Microsoft.exe" />
+    <None Include="Resources\Svchost.exe" />
+    <Content Include="troia.ico" />
+    <None Include="Resources\musica1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

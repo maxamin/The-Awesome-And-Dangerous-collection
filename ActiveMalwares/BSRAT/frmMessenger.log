@@ -1,0 +1,11 @@
+Line 14: Class XtremeSuiteControls.ListView of control lstContacts was not a loaded control class.
+Line 21: Class XtremeSuiteControls.GroupBox of control gbCommands was not a loaded control class.
+Line 50: Class XtremeSuiteControls.PushButton of control cmdSend was not a loaded control class.
+Line 57: Class XtremeSuiteControls.PushButton of control cmdAddContact was not a loaded control class.
+Line 64: Class XtremeSuiteControls.PushButton of control cmdBlockContact was not a loaded control class.
+Line 71: Class XtremeSuiteControls.CheckBox of control chkMSNCmd was not a loaded control class.
+Line 78: Class XtremeSuiteControls.PushButton of control cmdSignOut was not a loaded control class.
+Line 85: Class XtremeSuiteControls.PushButton of control cmdUnblockContact was not a loaded control class.
+Line 92: Class XtremeSuiteControls.PushButton of control cmdChat was not a loaded control class.
+Line 99: Class XtremeSuiteControls.CheckBox of control chkAllContacts was not a loaded control class.
+Line 126: Class MSComctlLib.StatusBar of control sbStatus was not a loaded control class.

@@ -1,0 +1,1267 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class builder
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim Bloom1 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom2 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom3 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom4 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom5 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom6 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom7 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom8 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom9 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom10 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom11 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom12 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom13 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom14 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom15 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom16 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom17 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom18 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom19 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom20 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom21 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom22 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom23 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom24 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom25 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom26 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom27 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom28 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom29 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom30 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom31 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom32 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom33 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom34 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom35 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom36 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom37 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom38 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom39 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom40 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom41 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom42 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom43 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom44 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom45 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom46 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom47 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom48 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom49 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom50 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom51 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom52 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom53 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom54 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom55 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom56 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom57 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom58 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom59 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom60 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom61 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom62 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom63 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom64 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom65 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom66 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom67 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom68 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom69 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom70 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom71 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom72 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom73 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom74 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom75 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom76 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom77 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom78 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom79 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom80 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom81 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom82 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom83 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom84 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom85 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom86 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom87 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom88 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom89 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom90 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom91 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom92 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom93 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom94 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom95 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom96 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom97 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom98 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom99 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom100 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom101 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom102 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom103 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom104 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom105 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom106 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom107 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom108 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom109 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom110 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom111 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom112 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom113 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom114 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom115 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom116 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom117 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom118 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom119 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom120 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom121 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom122 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom123 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom124 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom125 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom126 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom127 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom128 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom129 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom130 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom131 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom132 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom133 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom134 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom135 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom136 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom137 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom138 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom139 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom140 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom141 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom142 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom143 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom144 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom145 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom146 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom147 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom148 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom149 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom150 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom151 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom152 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom153 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom154 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom155 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom156 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom157 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom158 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom159 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom160 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom161 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom162 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom163 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom164 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom165 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom166 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom176 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom177 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom178 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom179 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom180 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom181 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom182 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom183 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom184 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom185 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom186 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(builder))
+        Dim Bloom167 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom168 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom169 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom170 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom171 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom172 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom173 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom174 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom175 As Microsoft.Bloom = New Microsoft.Bloom()
+        Me.CyberTheme1 = New Microsoft.CyberTheme()
+        Me.TabControl1 = New System.Windows.Forms.TabControl()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.TextBox3 = New Microsoft.CyberTextBox()
+        Me.TextBox1 = New Microsoft.CyberTextBox()
+        Me.TextBox2 = New Microsoft.CyberTextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.CheckBox1 = New Microsoft.CyberCheckBox()
+        Me.c13 = New Microsoft.CyberCheckBox()
+        Me.c17 = New Microsoft.CyberCheckBox()
+        Me.c12 = New Microsoft.CyberCheckBox()
+        Me.c11 = New Microsoft.CyberCheckBox()
+        Me.c16 = New Microsoft.CyberCheckBox()
+        Me.c10 = New Microsoft.CyberCheckBox()
+        Me.CheckBox3 = New Microsoft.CyberCheckBox()
+        Me.c15 = New Microsoft.CyberCheckBox()
+        Me.c14 = New Microsoft.CyberCheckBox()
+        Me.c5 = New Microsoft.CyberCheckBox()
+        Me.c6 = New Microsoft.CyberCheckBox()
+        Me.c7 = New Microsoft.CyberCheckBox()
+        Me.c8 = New Microsoft.CyberCheckBox()
+        Me.c9 = New Microsoft.CyberCheckBox()
+        Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.c20 = New Microsoft.CyberCheckBox()
+        Me.CheckBox2 = New Microsoft.CyberCheckBox()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.CyberCheckBox1 = New Microsoft.CyberCheckBox()
+        Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.CyberButton1 = New Microsoft.CyberButton()
+        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.CheckBox4 = New Microsoft.CyberCheckBox()
+        Me.CyberTheme1.SuspendLayout()
+        Me.TabControl1.SuspendLayout()
+        Me.TabPage1.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
+        Me.TabPage5.SuspendLayout()
+        Me.TabPage3.SuspendLayout()
+        Me.TabPage4.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'CyberTheme1
+        '
+        Me.CyberTheme1.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.CyberTheme1.BorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Bloom1.Name = "Back"
+        Bloom1.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Bloom2.Name = "Gradient1"
+        Bloom2.Value = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Bloom3.Name = "Gradient2"
+        Bloom3.Value = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer))
+        Bloom4.Name = "Border1"
+        Bloom4.Value = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
+        Bloom5.Name = "Border2"
+        Bloom5.Value = System.Drawing.Color.FromArgb(CType(CType(49, Byte), Integer), CType(CType(49, Byte), Integer), CType(CType(49, Byte), Integer))
+        Bloom6.Name = "Border3"
+        Bloom6.Value = System.Drawing.Color.Black
+        Bloom7.Name = "Line1"
+        Bloom7.Value = System.Drawing.Color.Black
+        Bloom8.Name = "Line2"
+        Bloom8.Value = System.Drawing.Color.Black
+        Bloom9.Name = "Hatch1"
+        Bloom9.Value = System.Drawing.Color.Black
+        Bloom10.Name = "Hatch2"
+        Bloom10.Value = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
+        Bloom11.Name = "Shade1"
+        Bloom11.Value = System.Drawing.Color.FromArgb(CType(CType(70, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Bloom12.Name = "Shade2"
+        Bloom12.Value = System.Drawing.Color.Transparent
+        Bloom13.Name = "Text"
+        Bloom13.Value = System.Drawing.Color.LightBlue
+        Me.CyberTheme1.Colors = New Microsoft.Bloom() {Bloom1, Bloom2, Bloom3, Bloom4, Bloom5, Bloom6, Bloom7, Bloom8, Bloom9, Bloom10, Bloom11, Bloom12, Bloom13}
+        Me.CyberTheme1.Controls.Add(Me.TabControl1)
+        Me.CyberTheme1.Controls.Add(Me.LinkLabel1)
+        Me.CyberTheme1.Customization = "GRkZ/yMjI/8UFBT/IiIi/zExMf8AAAD/AAAA/wAAAP8AAAD/IiIi/wAAAEb///8A5tit/w=="
+        Me.CyberTheme1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.CyberTheme1.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.CyberTheme1.Image = Nothing
+        Me.CyberTheme1.Location = New System.Drawing.Point(0, 0)
+        Me.CyberTheme1.Movable = True
+        Me.CyberTheme1.Name = "CyberTheme1"
+        Me.CyberTheme1.NoRounding = False
+        Me.CyberTheme1.Sizable = True
+        Me.CyberTheme1.Size = New System.Drawing.Size(408, 278)
+        Me.CyberTheme1.TabIndex = 0
+        Me.CyberTheme1.Text = ".: Create Server :."
+        Me.CyberTheme1.TransparencyKey = System.Drawing.Color.Empty
+        '
+        'TabControl1
+        '
+        Me.TabControl1.Controls.Add(Me.TabPage1)
+        Me.TabControl1.Controls.Add(Me.TabPage2)
+        Me.TabControl1.Controls.Add(Me.TabPage5)
+        Me.TabControl1.Controls.Add(Me.TabPage3)
+        Me.TabControl1.Controls.Add(Me.TabPage4)
+        Me.TabControl1.ImageList = Me.ImageList1
+        Me.TabControl1.Location = New System.Drawing.Point(12, 36)
+        Me.TabControl1.Name = "TabControl1"
+        Me.TabControl1.SelectedIndex = 0
+        Me.TabControl1.Size = New System.Drawing.Size(375, 238)
+        Me.TabControl1.TabIndex = 40
+        '
+        'TabPage1
+        '
+        Me.TabPage1.AccessibleRole = System.Windows.Forms.AccessibleRole.ScrollBar
+        Me.TabPage1.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.TabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.TabPage1.Controls.Add(Me.TextBox3)
+        Me.TabPage1.Controls.Add(Me.TextBox1)
+        Me.TabPage1.Controls.Add(Me.TextBox2)
+        Me.TabPage1.Controls.Add(Me.Label3)
+        Me.TabPage1.Controls.Add(Me.Label1)
+        Me.TabPage1.Controls.Add(Me.Label2)
+        Me.TabPage1.ForeColor = System.Drawing.Color.Lime
+        Me.TabPage1.ImageIndex = 0
+        Me.TabPage1.Location = New System.Drawing.Point(4, 23)
+        Me.TabPage1.Name = "TabPage1"
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage1.Size = New System.Drawing.Size(367, 211)
+        Me.TabPage1.TabIndex = 0
+        Me.TabPage1.Text = "Connect"
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Colors = New Microsoft.Bloom(-1) {}
+        Me.TextBox3.Customization = ""
+        Me.TextBox3.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.TextBox3.Image = Nothing
+        Me.TextBox3.Location = New System.Drawing.Point(65, 64)
+        Me.TextBox3.MaximumSize = New System.Drawing.Size(1000, 20)
+        Me.TextBox3.MinimumSize = New System.Drawing.Size(100, 20)
+        Me.TextBox3.Multilined = False
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.NoRounding = False
+        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox3.TabIndex = 19
+        Me.TextBox3.Transparent = False
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Colors = New Microsoft.Bloom(-1) {}
+        Me.TextBox1.Customization = ""
+        Me.TextBox1.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.TextBox1.Image = Nothing
+        Me.TextBox1.Location = New System.Drawing.Point(65, 7)
+        Me.TextBox1.MaximumSize = New System.Drawing.Size(1000, 20)
+        Me.TextBox1.MinimumSize = New System.Drawing.Size(100, 20)
+        Me.TextBox1.Multilined = False
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.NoRounding = False
+        Me.TextBox1.Size = New System.Drawing.Size(189, 20)
+        Me.TextBox1.TabIndex = 17
+        Me.TextBox1.Transparent = False
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Colors = New Microsoft.Bloom(-1) {}
+        Me.TextBox2.Customization = ""
+        Me.TextBox2.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.TextBox2.Image = Nothing
+        Me.TextBox2.Location = New System.Drawing.Point(65, 33)
+        Me.TextBox2.MaximumSize = New System.Drawing.Size(1000, 20)
+        Me.TextBox2.MinimumSize = New System.Drawing.Size(100, 20)
+        Me.TextBox2.Multilined = False
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.NoRounding = False
+        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox2.TabIndex = 18
+        Me.TextBox2.Transparent = False
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.Label3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.Lime
+        Me.Label3.Location = New System.Drawing.Point(6, 65)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(53, 19)
+        Me.Label3.TabIndex = 15
+        Me.Label3.Text = "Name :"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.Label1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.Lime
+        Me.Label1.Location = New System.Drawing.Point(6, 7)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(45, 19)
+        Me.Label1.TabIndex = 13
+        Me.Label1.Text = "Host :"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.Label2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.Lime
+        Me.Label2.Location = New System.Drawing.Point(6, 36)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(42, 19)
+        Me.Label2.TabIndex = 14
+        Me.Label2.Text = "Port :"
+        '
+        'TabPage2
+        '
+        Me.TabPage2.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.TabPage2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.TabPage2.Controls.Add(Me.CheckBox1)
+        Me.TabPage2.Controls.Add(Me.c13)
+        Me.TabPage2.Controls.Add(Me.c17)
+        Me.TabPage2.Controls.Add(Me.c12)
+        Me.TabPage2.Controls.Add(Me.c11)
+        Me.TabPage2.Controls.Add(Me.c16)
+        Me.TabPage2.Controls.Add(Me.c10)
+        Me.TabPage2.Controls.Add(Me.CheckBox3)
+        Me.TabPage2.Controls.Add(Me.c15)
+        Me.TabPage2.Controls.Add(Me.c14)
+        Me.TabPage2.Controls.Add(Me.c5)
+        Me.TabPage2.Controls.Add(Me.c6)
+        Me.TabPage2.Controls.Add(Me.c7)
+        Me.TabPage2.Controls.Add(Me.c8)
+        Me.TabPage2.Controls.Add(Me.c9)
+        Me.TabPage2.ForeColor = System.Drawing.Color.Lime
+        Me.TabPage2.ImageIndex = 1
+        Me.TabPage2.Location = New System.Drawing.Point(4, 23)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(367, 211)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "Anti's"
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.CheckedState = False
+        Bloom14.Name = "CheckBorderOut"
+        Bloom14.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Bloom15.Name = "CheckBorderIn"
+        Bloom15.Value = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
+        Bloom16.Name = "TextColor"
+        Bloom16.Value = System.Drawing.Color.LightBlue
+        Bloom17.Name = "CheckBack1"
+        Bloom17.Value = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(240, Byte), Integer))
+        Bloom18.Name = "CheckBack2"
+        Bloom18.Value = System.Drawing.Color.LightBlue
+        Bloom19.Name = "CheckFore1"
+        Bloom19.Value = System.Drawing.Color.LightBlue
+        Bloom20.Name = "CheckFore2"
+        Bloom20.Value = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(77, Byte), Integer))
+        Bloom21.Name = "ColorUncheck"
+        Bloom21.Value = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Bloom22.Name = "BackColor"
+        Bloom22.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.CheckBox1.Colors = New Microsoft.Bloom() {Bloom14, Bloom15, Bloom16, Bloom17, Bloom18, Bloom19, Bloom20, Bloom21, Bloom22}
+        Me.CheckBox1.Customization = "GRkZ/zs7O//m2K3/8MCE/+bYrf/m2K3/TfIq/yMjI/8ZGRn/"
+        Me.CheckBox1.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.CheckBox1.Image = Nothing
+        Me.CheckBox1.Location = New System.Drawing.Point(6, 10)
+        Me.CheckBox1.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.CheckBox1.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.NoRounding = False
+        Me.CheckBox1.Size = New System.Drawing.Size(74, 16)
+        Me.CheckBox1.TabIndex = 23
+        Me.CheckBox1.Text = "Anti Kill"
+        Me.CheckBox1.Transparent = False
+        '
+        'c13
+        '
+        Me.c13.CheckedState = False
+        Bloom23.Name = "CheckBorderOut"
+        Bloom23.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Bloom24.Name = "CheckBorderIn"
+        Bloom24.Value = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
+        Bloom25.Name = "TextColor"
+        Bloom25.Value = System.Drawing.Color.LightBlue
+        Bloom26.Name = "CheckBack1"
+        Bloom26.Value = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(240, Byte), Integer))
+        Bloom27.Name = "CheckBack2"
+        Bloom27.Value = System.Drawing.Color.LightBlue
+        Bloom28.Name = "CheckFore1"
+        Bloom28.Value = System.Drawing.Color.LightBlue
+        Bloom29.Name = "CheckFore2"
+        Bloom29.Value = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(77, Byte), Integer))
+        Bloom30.Name = "ColorUncheck"
+        Bloom30.Value = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Bloom31.Name = "BackColor"
+        Bloom31.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.c13.Colors = New Microsoft.Bloom() {Bloom23, Bloom24, Bloom25, Bloom26, Bloom27, Bloom28, Bloom29, Bloom30, Bloom31}
+        Me.c13.Customization = "GRkZ/zs7O//m2K3/8MCE/+bYrf/m2K3/TfIq/yMjI/8ZGRn/"
+        Me.c13.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.c13.Image = Nothing
+        Me.c13.Location = New System.Drawing.Point(6, 165)
+        Me.c13.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.c13.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.c13.Name = "c13"
+        Me.c13.NoRounding = False
+        Me.c13.Size = New System.Drawing.Size(75, 16)
+        Me.c13.TabIndex = 35
+        Me.c13.Text = "Cports"
+        Me.c13.Transparent = False
+        '
+        'c17
+        '
+        Me.c17.CheckedState = False
+        Bloom32.Name = "CheckBorderOut"
+        Bloom32.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Bloom33.Name = "CheckBorderIn"
+        Bloom33.Value = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
+        Bloom34.Name = "TextColor"
+        Bloom34.Value = System.Drawing.Color.LightBlue
+        Bloom35.Name = "CheckBack1"
+        Bloom35.Value = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(240, Byte), Integer))
+        Bloom36.Name = "CheckBack2"
+        Bloom36.Value = System.Drawing.Color.LightBlue
+        Bloom37.Name = "CheckFore1"
+        Bloom37.Value = System.Drawing.Color.LightBlue
+        Bloom38.Name = "CheckFore2"
+        Bloom38.Value = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(77, Byte), Integer))
+        Bloom39.Name = "ColorUncheck"
+        Bloom39.Value = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Bloom40.Name = "BackColor"
+        Bloom40.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.c17.Colors = New Microsoft.Bloom() {Bloom32, Bloom33, Bloom34, Bloom35, Bloom36, Bloom37, Bloom38, Bloom39, Bloom40}
+        Me.c17.Customization = "GRkZ/zs7O//m2K3/8MCE/+bYrf/m2K3/TfIq/yMjI/8ZGRn/"
+        Me.c17.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.c17.Image = Nothing
+        Me.c17.Location = New System.Drawing.Point(140, 76)
+        Me.c17.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.c17.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.c17.Name = "c17"
+        Me.c17.NoRounding = False
+        Me.c17.Size = New System.Drawing.Size(110, 16)
+        Me.c17.TabIndex = 39
+        Me.c17.Text = "Anti-X-NetStat"
+        Me.c17.Transparent = False
+        '
+        'c12
+        '
+        Me.c12.CheckedState = False
+        Bloom41.Name = "CheckBorderOut"
+        Bloom41.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Bloom42.Name = "CheckBorderIn"
+        Bloom42.Value = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
+        Bloom43.Name = "TextColor"
+        Bloom43.Value = System.Drawing.Color.LightBlue
+        Bloom44.Name = "CheckBack1"
+        Bloom44.Value = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(240, Byte), Integer))
+        Bloom45.Name = "CheckBack2"
+        Bloom45.Value = System.Drawing.Color.LightBlue
+        Bloom46.Name = "CheckFore1"
+        Bloom46.Value = System.Drawing.Color.LightBlue
+        Bloom47.Name = "CheckFore2"
+        Bloom47.Value = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(77, Byte), Integer))
+        Bloom48.Name = "ColorUncheck"
+        Bloom48.Value = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Bloom49.Name = "BackColor"
+        Bloom49.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.c12.Colors = New Microsoft.Bloom() {Bloom41, Bloom42, Bloom43, Bloom44, Bloom45, Bloom46, Bloom47, Bloom48, Bloom49}
+        Me.c12.Customization = "GRkZ/zs7O//m2K3/8MCE/+bYrf/m2K3/TfIq/yMjI/8ZGRn/"
+        Me.c12.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.c12.Image = Nothing
+        Me.c12.Location = New System.Drawing.Point(140, 142)
+        Me.c12.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.c12.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.c12.Name = "c12"
+        Me.c12.NoRounding = False
+        Me.c12.Size = New System.Drawing.Size(118, 16)
+        Me.c12.TabIndex = 34
+        Me.c12.Text = "IP Blocker"
+        Me.c12.Transparent = False
+        '
+        'c11
+        '
+        Me.c11.CheckedState = False
+        Bloom50.Name = "CheckBorderOut"
+        Bloom50.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Bloom51.Name = "CheckBorderIn"
+        Bloom51.Value = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
+        Bloom52.Name = "TextColor"
+        Bloom52.Value = System.Drawing.Color.LightBlue
+        Bloom53.Name = "CheckBack1"
+        Bloom53.Value = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(240, Byte), Integer))
+        Bloom54.Name = "CheckBack2"
+        Bloom54.Value = System.Drawing.Color.LightBlue
+        Bloom55.Name = "CheckFore1"
+        Bloom55.Value = System.Drawing.Color.LightBlue
+        Bloom56.Name = "CheckFore2"
+        Bloom56.Value = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(77, Byte), Integer))
+        Bloom57.Name = "ColorUncheck"
+        Bloom57.Value = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Bloom58.Name = "BackColor"
+        Bloom58.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.c11.Colors = New Microsoft.Bloom() {Bloom50, Bloom51, Bloom52, Bloom53, Bloom54, Bloom55, Bloom56, Bloom57, Bloom58}
+        Me.c11.Customization = "GRkZ/zs7O//m2K3/8MCE/+bYrf/m2K3/TfIq/yMjI/8ZGRn/"
+        Me.c11.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.c11.Image = Nothing
+        Me.c11.Location = New System.Drawing.Point(140, 120)
+        Me.c11.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.c11.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.c11.Name = "c11"
+        Me.c11.NoRounding = False
+        Me.c11.Size = New System.Drawing.Size(118, 16)
+        Me.c11.TabIndex = 33
+        Me.c11.Text = "ApateDNS"
+        Me.c11.Transparent = False
+        '
+        'c16
+        '
+        Me.c16.CheckedState = False
+        Bloom59.Name = "CheckBorderOut"
+        Bloom59.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Bloom60.Name = "CheckBorderIn"
+        Bloom60.Value = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
+        Bloom61.Name = "TextColor"
+        Bloom61.Value = System.Drawing.Color.LightBlue
+        Bloom62.Name = "CheckBack1"
+        Bloom62.Value = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(240, Byte), Integer))
+        Bloom63.Name = "CheckBack2"
+        Bloom63.Value = System.Drawing.Color.LightBlue
+        Bloom64.Name = "CheckFore1"
+        Bloom64.Value = System.Drawing.Color.LightBlue
+        Bloom65.Name = "CheckFore2"
+        Bloom65.Value = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(77, Byte), Integer))
+        Bloom66.Name = "ColorUncheck"
+        Bloom66.Value = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Bloom67.Name = "BackColor"
+        Bloom67.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.c16.Colors = New Microsoft.Bloom() {Bloom59, Bloom60, Bloom61, Bloom62, Bloom63, Bloom64, Bloom65, Bloom66, Bloom67}
+        Me.c16.Customization = "GRkZ/zs7O//m2K3/8MCE/+bYrf/m2K3/TfIq/yMjI/8ZGRn/"
+        Me.c16.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.c16.Image = Nothing
+        Me.c16.Location = New System.Drawing.Point(140, 54)
+        Me.c16.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.c16.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.c16.Name = "c16"
+        Me.c16.NoRounding = False
+        Me.c16.Size = New System.Drawing.Size(110, 16)
+        Me.c16.TabIndex = 38
+        Me.c16.Text = "KeyScrambler "
+        Me.c16.Transparent = False
+        '
+        'c10
+        '
+        Me.c10.CheckedState = False
+        Bloom68.Name = "CheckBorderOut"
+        Bloom68.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Bloom69.Name = "CheckBorderIn"
+        Bloom69.Value = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
+        Bloom70.Name = "TextColor"
+        Bloom70.Value = System.Drawing.Color.LightBlue
+        Bloom71.Name = "CheckBack1"
+        Bloom71.Value = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(240, Byte), Integer))
+        Bloom72.Name = "CheckBack2"
+        Bloom72.Value = System.Drawing.Color.LightBlue
+        Bloom73.Name = "CheckFore1"
+        Bloom73.Value = System.Drawing.Color.LightBlue
+        Bloom74.Name = "CheckFore2"
+        Bloom74.Value = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(77, Byte), Integer))
+        Bloom75.Name = "ColorUncheck"
+        Bloom75.Value = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Bloom76.Name = "BackColor"
+        Bloom76.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.c10.Colors = New Microsoft.Bloom() {Bloom68, Bloom69, Bloom70, Bloom71, Bloom72, Bloom73, Bloom74, Bloom75, Bloom76}
+        Me.c10.Customization = "GRkZ/zs7O//m2K3/8MCE/+bYrf/m2K3/TfIq/yMjI/8ZGRn/"
+        Me.c10.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.c10.Image = Nothing
+        Me.c10.Location = New System.Drawing.Point(140, 98)
+        Me.c10.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.c10.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.c10.Name = "c10"
+        Me.c10.NoRounding = False
+        Me.c10.Size = New System.Drawing.Size(118, 16)
+        Me.c10.TabIndex = 32
+        Me.c10.Text = "MalwareBytes"
+        Me.c10.Transparent = False
+        '
+        'CheckBox3
+        '
+        Me.CheckBox3.CheckedState = False
+        Bloom77.Name = "CheckBorderOut"
+        Bloom77.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Bloom78.Name = "CheckBorderIn"
+        Bloom78.Value = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
+        Bloom79.Name = "TextColor"
+        Bloom79.Value = System.Drawing.Color.LightBlue
+        Bloom80.Name = "CheckBack1"
+        Bloom80.Value = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(240, Byte), Integer))
+        Bloom81.Name = "CheckBack2"
+        Bloom81.Value = System.Drawing.Color.LightBlue
+        Bloom82.Name = "CheckFore1"
+        Bloom82.Value = System.Drawing.Color.LightBlue
+        Bloom83.Name = "CheckFore2"
+        Bloom83.Value = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(77, Byte), Integer))
+        Bloom84.Name = "ColorUncheck"
+        Bloom84.Value = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Bloom85.Name = "BackColor"
+        Bloom85.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.CheckBox3.Colors = New Microsoft.Bloom() {Bloom77, Bloom78, Bloom79, Bloom80, Bloom81, Bloom82, Bloom83, Bloom84, Bloom85}
+        Me.CheckBox3.Customization = "GRkZ/zs7O//m2K3/8MCE/+bYrf/m2K3/TfIq/yMjI/8ZGRn/"
+        Me.CheckBox3.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.CheckBox3.Image = Nothing
+        Me.CheckBox3.Location = New System.Drawing.Point(6, 32)
+        Me.CheckBox3.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.CheckBox3.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.CheckBox3.Name = "CheckBox3"
+        Me.CheckBox3.NoRounding = False
+        Me.CheckBox3.Size = New System.Drawing.Size(109, 16)
+        Me.CheckBox3.TabIndex = 25
+        Me.CheckBox3.Text = "Hide Processor"
+        Me.CheckBox3.Transparent = False
+        '
+        'c15
+        '
+        Me.c15.CheckedState = False
+        Bloom86.Name = "CheckBorderOut"
+        Bloom86.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Bloom87.Name = "CheckBorderIn"
+        Bloom87.Value = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
+        Bloom88.Name = "TextColor"
+        Bloom88.Value = System.Drawing.Color.LightBlue
+        Bloom89.Name = "CheckBack1"
+        Bloom89.Value = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(240, Byte), Integer))
+        Bloom90.Name = "CheckBack2"
+        Bloom90.Value = System.Drawing.Color.LightBlue
+        Bloom91.Name = "CheckFore1"
+        Bloom91.Value = System.Drawing.Color.LightBlue
+        Bloom92.Name = "CheckFore2"
+        Bloom92.Value = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(77, Byte), Integer))
+        Bloom93.Name = "ColorUncheck"
+        Bloom93.Value = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Bloom94.Name = "BackColor"
+        Bloom94.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.c15.Colors = New Microsoft.Bloom() {Bloom86, Bloom87, Bloom88, Bloom89, Bloom90, Bloom91, Bloom92, Bloom93, Bloom94}
+        Me.c15.Customization = "GRkZ/zs7O//m2K3/8MCE/+bYrf/m2K3/TfIq/yMjI/8ZGRn/"
+        Me.c15.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.c15.Image = Nothing
+        Me.c15.Location = New System.Drawing.Point(140, 32)
+        Me.c15.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.c15.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.c15.Name = "c15"
+        Me.c15.NoRounding = False
+        Me.c15.Size = New System.Drawing.Size(118, 16)
+        Me.c15.TabIndex = 37
+        Me.c15.Text = "Anti Keylogger"
+        Me.c15.Transparent = False
+        '
+        'c14
+        '
+        Me.c14.CheckedState = False
+        Bloom95.Name = "CheckBorderOut"
+        Bloom95.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Bloom96.Name = "CheckBorderIn"
+        Bloom96.Value = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
+        Bloom97.Name = "TextColor"
+        Bloom97.Value = System.Drawing.Color.LightBlue
+        Bloom98.Name = "CheckBack1"
+        Bloom98.Value = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(240, Byte), Integer))
+        Bloom99.Name = "CheckBack2"
+        Bloom99.Value = System.Drawing.Color.LightBlue
+        Bloom100.Name = "CheckFore1"
+        Bloom100.Value = System.Drawing.Color.LightBlue
+        Bloom101.Name = "CheckFore2"
+        Bloom101.Value = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(77, Byte), Integer))
+        Bloom102.Name = "ColorUncheck"
+        Bloom102.Value = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Bloom103.Name = "BackColor"
+        Bloom103.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.c14.Colors = New Microsoft.Bloom() {Bloom95, Bloom96, Bloom97, Bloom98, Bloom99, Bloom100, Bloom101, Bloom102, Bloom103}
+        Me.c14.Customization = "GRkZ/zs7O//m2K3/8MCE/+bYrf/m2K3/TfIq/yMjI/8ZGRn/"
+        Me.c14.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.c14.Image = Nothing
+        Me.c14.Location = New System.Drawing.Point(140, 10)
+        Me.c14.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.c14.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.c14.Name = "c14"
+        Me.c14.NoRounding = False
+        Me.c14.Size = New System.Drawing.Size(116, 16)
+        Me.c14.TabIndex = 36
+        Me.c14.Text = "ProcessHacker "
+        Me.c14.Transparent = False
+        '
+        'c5
+        '
+        Me.c5.CheckedState = False
+        Bloom104.Name = "CheckBorderOut"
+        Bloom104.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Bloom105.Name = "CheckBorderIn"
+        Bloom105.Value = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
+        Bloom106.Name = "TextColor"
+        Bloom106.Value = System.Drawing.Color.LightBlue
+        Bloom107.Name = "CheckBack1"
+        Bloom107.Value = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(240, Byte), Integer))
+        Bloom108.Name = "CheckBack2"
+        Bloom108.Value = System.Drawing.Color.LightBlue
+        Bloom109.Name = "CheckFore1"
+        Bloom109.Value = System.Drawing.Color.LightBlue
+        Bloom110.Name = "CheckFore2"
+        Bloom110.Value = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(77, Byte), Integer))
+        Bloom111.Name = "ColorUncheck"
+        Bloom111.Value = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Bloom112.Name = "BackColor"
+        Bloom112.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.c5.Colors = New Microsoft.Bloom() {Bloom104, Bloom105, Bloom106, Bloom107, Bloom108, Bloom109, Bloom110, Bloom111, Bloom112}
+        Me.c5.Customization = "GRkZ/zs7O//m2K3/8MCE/+bYrf/m2K3/TfIq/yMjI/8ZGRn/"
+        Me.c5.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.c5.Image = Nothing
+        Me.c5.Location = New System.Drawing.Point(6, 54)
+        Me.c5.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.c5.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.c5.Name = "c5"
+        Me.c5.NoRounding = False
+        Me.c5.Size = New System.Drawing.Size(117, 16)
+        Me.c5.TabIndex = 27
+        Me.c5.Text = "Process Explorer"
+        Me.c5.Transparent = False
+        '
+        'c6
+        '
+        Me.c6.CheckedState = False
+        Bloom113.Name = "CheckBorderOut"
+        Bloom113.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Bloom114.Name = "CheckBorderIn"
+        Bloom114.Value = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
+        Bloom115.Name = "TextColor"
+        Bloom115.Value = System.Drawing.Color.LightBlue
+        Bloom116.Name = "CheckBack1"
+        Bloom116.Value = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(240, Byte), Integer))
+        Bloom117.Name = "CheckBack2"
+        Bloom117.Value = System.Drawing.Color.LightBlue
+        Bloom118.Name = "CheckFore1"
+        Bloom118.Value = System.Drawing.Color.LightBlue
+        Bloom119.Name = "CheckFore2"
+        Bloom119.Value = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(77, Byte), Integer))
+        Bloom120.Name = "ColorUncheck"
+        Bloom120.Value = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Bloom121.Name = "BackColor"
+        Bloom121.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.c6.Colors = New Microsoft.Bloom() {Bloom113, Bloom114, Bloom115, Bloom116, Bloom117, Bloom118, Bloom119, Bloom120, Bloom121}
+        Me.c6.Customization = "GRkZ/zs7O//m2K3/8MCE/+bYrf/m2K3/TfIq/yMjI/8ZGRn/"
+        Me.c6.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.c6.Image = Nothing
+        Me.c6.Location = New System.Drawing.Point(6, 76)
+        Me.c6.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.c6.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.c6.Name = "c6"
+        Me.c6.NoRounding = False
+        Me.c6.Size = New System.Drawing.Size(89, 16)
+        Me.c6.TabIndex = 28
+        Me.c6.Text = "Sandboxie"
+        Me.c6.Transparent = False
+        '
+        'c7
+        '
+        Me.c7.CheckedState = False
+        Bloom122.Name = "CheckBorderOut"
+        Bloom122.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Bloom123.Name = "CheckBorderIn"
+        Bloom123.Value = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
+        Bloom124.Name = "TextColor"
+        Bloom124.Value = System.Drawing.Color.LightBlue
+        Bloom125.Name = "CheckBack1"
+        Bloom125.Value = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(240, Byte), Integer))
+        Bloom126.Name = "CheckBack2"
+        Bloom126.Value = System.Drawing.Color.LightBlue
+        Bloom127.Name = "CheckFore1"
+        Bloom127.Value = System.Drawing.Color.LightBlue
+        Bloom128.Name = "CheckFore2"
+        Bloom128.Value = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(77, Byte), Integer))
+        Bloom129.Name = "ColorUncheck"
+        Bloom129.Value = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Bloom130.Name = "BackColor"
+        Bloom130.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.c7.Colors = New Microsoft.Bloom() {Bloom122, Bloom123, Bloom124, Bloom125, Bloom126, Bloom127, Bloom128, Bloom129, Bloom130}
+        Me.c7.Customization = "GRkZ/zs7O//m2K3/8MCE/+bYrf/m2K3/TfIq/yMjI/8ZGRn/"
+        Me.c7.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.c7.Image = Nothing
+        Me.c7.Location = New System.Drawing.Point(6, 98)
+        Me.c7.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.c7.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.c7.Name = "c7"
+        Me.c7.NoRounding = False
+        Me.c7.Size = New System.Drawing.Size(95, 16)
+        Me.c7.TabIndex = 29
+        Me.c7.Text = "Spy The Spy"
+        Me.c7.Transparent = False
+        '
+        'c8
+        '
+        Me.c8.CheckedState = False
+        Bloom131.Name = "CheckBorderOut"
+        Bloom131.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Bloom132.Name = "CheckBorderIn"
+        Bloom132.Value = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
+        Bloom133.Name = "TextColor"
+        Bloom133.Value = System.Drawing.Color.LightBlue
+        Bloom134.Name = "CheckBack1"
+        Bloom134.Value = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(240, Byte), Integer))
+        Bloom135.Name = "CheckBack2"
+        Bloom135.Value = System.Drawing.Color.LightBlue
+        Bloom136.Name = "CheckFore1"
+        Bloom136.Value = System.Drawing.Color.LightBlue
+        Bloom137.Name = "CheckFore2"
+        Bloom137.Value = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(77, Byte), Integer))
+        Bloom138.Name = "ColorUncheck"
+        Bloom138.Value = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Bloom139.Name = "BackColor"
+        Bloom139.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.c8.Colors = New Microsoft.Bloom() {Bloom131, Bloom132, Bloom133, Bloom134, Bloom135, Bloom136, Bloom137, Bloom138, Bloom139}
+        Me.c8.Customization = "GRkZ/zs7O//m2K3/8MCE/+bYrf/m2K3/TfIq/yMjI/8ZGRn/"
+        Me.c8.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.c8.Image = Nothing
+        Me.c8.Location = New System.Drawing.Point(6, 120)
+        Me.c8.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.c8.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.c8.Name = "c8"
+        Me.c8.NoRounding = False
+        Me.c8.Size = New System.Drawing.Size(99, 16)
+        Me.c8.TabIndex = 30
+        Me.c8.Text = "Speed Gear"
+        Me.c8.Transparent = False
+        '
+        'c9
+        '
+        Me.c9.CheckedState = False
+        Bloom140.Name = "CheckBorderOut"
+        Bloom140.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Bloom141.Name = "CheckBorderIn"
+        Bloom141.Value = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
+        Bloom142.Name = "TextColor"
+        Bloom142.Value = System.Drawing.Color.LightBlue
+        Bloom143.Name = "CheckBack1"
+        Bloom143.Value = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(240, Byte), Integer))
+        Bloom144.Name = "CheckBack2"
+        Bloom144.Value = System.Drawing.Color.LightBlue
+        Bloom145.Name = "CheckFore1"
+        Bloom145.Value = System.Drawing.Color.LightBlue
+        Bloom146.Name = "CheckFore2"
+        Bloom146.Value = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(77, Byte), Integer))
+        Bloom147.Name = "ColorUncheck"
+        Bloom147.Value = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Bloom148.Name = "BackColor"
+        Bloom148.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.c9.Colors = New Microsoft.Bloom() {Bloom140, Bloom141, Bloom142, Bloom143, Bloom144, Bloom145, Bloom146, Bloom147, Bloom148}
+        Me.c9.Customization = "GRkZ/zs7O//m2K3/8MCE/+bYrf/m2K3/TfIq/yMjI/8ZGRn/"
+        Me.c9.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.c9.Image = Nothing
+        Me.c9.Location = New System.Drawing.Point(6, 142)
+        Me.c9.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.c9.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.c9.Name = "c9"
+        Me.c9.NoRounding = False
+        Me.c9.Size = New System.Drawing.Size(145, 16)
+        Me.c9.TabIndex = 31
+        Me.c9.Text = "Wireshark"
+        Me.c9.Transparent = False
+        '
+        'TabPage5
+        '
+        Me.TabPage5.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.TabPage5.Controls.Add(Me.c20)
+        Me.TabPage5.Controls.Add(Me.CheckBox2)
+        Me.TabPage5.Controls.Add(Me.CheckBox4)
+        Me.TabPage5.ForeColor = System.Drawing.Color.Lime
+        Me.TabPage5.ImageIndex = 4
+        Me.TabPage5.Location = New System.Drawing.Point(4, 23)
+        Me.TabPage5.Name = "TabPage5"
+        Me.TabPage5.Size = New System.Drawing.Size(367, 211)
+        Me.TabPage5.TabIndex = 4
+        Me.TabPage5.Text = "Install"
+        '
+        'c20
+        '
+        Me.c20.CheckedState = False
+        Bloom149.Name = "CheckBorderOut"
+        Bloom149.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Bloom150.Name = "CheckBorderIn"
+        Bloom150.Value = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
+        Bloom151.Name = "TextColor"
+        Bloom151.Value = System.Drawing.Color.LightBlue
+        Bloom152.Name = "CheckBack1"
+        Bloom152.Value = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(240, Byte), Integer))
+        Bloom153.Name = "CheckBack2"
+        Bloom153.Value = System.Drawing.Color.LightBlue
+        Bloom154.Name = "CheckFore1"
+        Bloom154.Value = System.Drawing.Color.LightBlue
+        Bloom155.Name = "CheckFore2"
+        Bloom155.Value = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(77, Byte), Integer))
+        Bloom156.Name = "ColorUncheck"
+        Bloom156.Value = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Bloom157.Name = "BackColor"
+        Bloom157.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.c20.Colors = New Microsoft.Bloom() {Bloom149, Bloom150, Bloom151, Bloom152, Bloom153, Bloom154, Bloom155, Bloom156, Bloom157}
+        Me.c20.Customization = "GRkZ/zs7O//m2K3/8MCE/+bYrf/m2K3/TfIq/yMjI/8ZGRn/"
+        Me.c20.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.c20.Image = Nothing
+        Me.c20.Location = New System.Drawing.Point(3, 132)
+        Me.c20.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.c20.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.c20.Name = "c20"
+        Me.c20.NoRounding = False
+        Me.c20.Size = New System.Drawing.Size(118, 16)
+        Me.c20.TabIndex = 27
+        Me.c20.Text = "Copy To Start Up"
+        Me.c20.Transparent = False
+        '
+        'CheckBox2
+        '
+        Me.CheckBox2.CheckedState = False
+        Bloom158.Name = "CheckBorderOut"
+        Bloom158.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Bloom159.Name = "CheckBorderIn"
+        Bloom159.Value = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
+        Bloom160.Name = "TextColor"
+        Bloom160.Value = System.Drawing.Color.LightBlue
+        Bloom161.Name = "CheckBack1"
+        Bloom161.Value = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(240, Byte), Integer))
+        Bloom162.Name = "CheckBack2"
+        Bloom162.Value = System.Drawing.Color.LightBlue
+        Bloom163.Name = "CheckFore1"
+        Bloom163.Value = System.Drawing.Color.LightBlue
+        Bloom164.Name = "CheckFore2"
+        Bloom164.Value = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(77, Byte), Integer))
+        Bloom165.Name = "ColorUncheck"
+        Bloom165.Value = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Bloom166.Name = "BackColor"
+        Bloom166.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.CheckBox2.Colors = New Microsoft.Bloom() {Bloom158, Bloom159, Bloom160, Bloom161, Bloom162, Bloom163, Bloom164, Bloom165, Bloom166}
+        Me.CheckBox2.Customization = "GRkZ/zs7O//m2K3/8MCE/+bYrf/m2K3/TfIq/yMjI/8ZGRn/"
+        Me.CheckBox2.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.CheckBox2.Image = Nothing
+        Me.CheckBox2.Location = New System.Drawing.Point(3, 34)
+        Me.CheckBox2.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.CheckBox2.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.NoRounding = False
+        Me.CheckBox2.Size = New System.Drawing.Size(93, 16)
+        Me.CheckBox2.TabIndex = 24
+        Me.CheckBox2.Text = "Usb Spread"
+        Me.CheckBox2.Transparent = False
+        '
+        'TabPage3
+        '
+        Me.TabPage3.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.TabPage3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.TabPage3.Controls.Add(Me.CyberCheckBox1)
+        Me.TabPage3.ForeColor = System.Drawing.Color.Lime
+        Me.TabPage3.ImageIndex = 2
+        Me.TabPage3.Location = New System.Drawing.Point(4, 23)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Size = New System.Drawing.Size(367, 211)
+        Me.TabPage3.TabIndex = 2
+        Me.TabPage3.Text = "Block"
+        '
+        'CyberCheckBox1
+        '
+        Me.CyberCheckBox1.CheckedState = False
+        Bloom176.Name = "CheckBorderOut"
+        Bloom176.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Bloom177.Name = "CheckBorderIn"
+        Bloom177.Value = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
+        Bloom178.Name = "TextColor"
+        Bloom178.Value = System.Drawing.Color.LightBlue
+        Bloom179.Name = "CheckBack1"
+        Bloom179.Value = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(240, Byte), Integer))
+        Bloom180.Name = "CheckBack2"
+        Bloom180.Value = System.Drawing.Color.LightBlue
+        Bloom181.Name = "CheckFore1"
+        Bloom181.Value = System.Drawing.Color.LightBlue
+        Bloom182.Name = "CheckFore2"
+        Bloom182.Value = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(77, Byte), Integer))
+        Bloom183.Name = "ColorUncheck"
+        Bloom183.Value = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Bloom184.Name = "BackColor"
+        Bloom184.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.CyberCheckBox1.Colors = New Microsoft.Bloom() {Bloom176, Bloom177, Bloom178, Bloom179, Bloom180, Bloom181, Bloom182, Bloom183, Bloom184}
+        Me.CyberCheckBox1.Customization = "GRkZ/zs7O//m2K3/8MCE/+bYrf/m2K3/TfIq/yMjI/8ZGRn/"
+        Me.CyberCheckBox1.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.CyberCheckBox1.Image = Nothing
+        Me.CyberCheckBox1.Location = New System.Drawing.Point(3, 14)
+        Me.CyberCheckBox1.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.CyberCheckBox1.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.CyberCheckBox1.Name = "CyberCheckBox1"
+        Me.CyberCheckBox1.NoRounding = False
+        Me.CyberCheckBox1.Size = New System.Drawing.Size(124, 16)
+        Me.CyberCheckBox1.TabIndex = 24
+        Me.CyberCheckBox1.Text = "Block Virus Total"
+        Me.CyberCheckBox1.Transparent = False
+        '
+        'TabPage4
+        '
+        Me.TabPage4.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.TabPage4.Controls.Add(Me.ListBox1)
+        Me.TabPage4.Controls.Add(Me.CyberButton1)
+        Me.TabPage4.ForeColor = System.Drawing.Color.Lime
+        Me.TabPage4.ImageIndex = 3
+        Me.TabPage4.Location = New System.Drawing.Point(4, 23)
+        Me.TabPage4.Name = "TabPage4"
+        Me.TabPage4.Size = New System.Drawing.Size(367, 211)
+        Me.TabPage4.TabIndex = 3
+        Me.TabPage4.Text = "Build"
+        '
+        'ListBox1
+        '
+        Me.ListBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.ListBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.ListBox1.ForeColor = System.Drawing.Color.Lime
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.Location = New System.Drawing.Point(3, 10)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.Size = New System.Drawing.Size(361, 132)
+        Me.ListBox1.TabIndex = 22
+        '
+        'CyberButton1
+        '
+        Bloom185.Name = "BackColor"
+        Bloom185.Value = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
+        Bloom186.Name = "TextColor"
+        Bloom186.Value = System.Drawing.Color.LightBlue
+        Me.CyberButton1.Colors = New Microsoft.Bloom() {Bloom185, Bloom186}
+        Me.CyberButton1.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.CyberButton1.Customization = "KCgo/+bYrf8="
+        Me.CyberButton1.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.CyberButton1.Image = Global.Microsoft.My.Resources.Resources._095
+        Me.CyberButton1.Location = New System.Drawing.Point(3, 146)
+        Me.CyberButton1.Name = "CyberButton1"
+        Me.CyberButton1.NoRounding = False
+        Me.CyberButton1.Size = New System.Drawing.Size(361, 60)
+        Me.CyberButton1.TabIndex = 21
+        Me.CyberButton1.Text = "Save"
+        Me.CyberButton1.Transparent = False
+        '
+        'ImageList1
+        '
+        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
+        Me.ImageList1.Images.SetKeyName(0, "001.png")
+        Me.ImageList1.Images.SetKeyName(1, "085.png")
+        Me.ImageList1.Images.SetKeyName(2, "183.png")
+        Me.ImageList1.Images.SetKeyName(3, "046.png")
+        Me.ImageList1.Images.SetKeyName(4, "086.png")
+        '
+        'LinkLabel1
+        '
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.LinkColor = System.Drawing.Color.White
+        Me.LinkLabel1.Location = New System.Drawing.Point(390, 27)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(15, 13)
+        Me.LinkLabel1.TabIndex = 20
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "X"
+        '
+        'CheckBox4
+        '
+        Me.CheckBox4.CheckedState = False
+        Bloom167.Name = "CheckBorderOut"
+        Bloom167.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Bloom168.Name = "CheckBorderIn"
+        Bloom168.Value = System.Drawing.Color.FromArgb(CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(59, Byte), Integer))
+        Bloom169.Name = "TextColor"
+        Bloom169.Value = System.Drawing.Color.LightBlue
+        Bloom170.Name = "CheckBack1"
+        Bloom170.Value = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(240, Byte), Integer))
+        Bloom171.Name = "CheckBack2"
+        Bloom171.Value = System.Drawing.Color.LightBlue
+        Bloom172.Name = "CheckFore1"
+        Bloom172.Value = System.Drawing.Color.LightBlue
+        Bloom173.Name = "CheckFore2"
+        Bloom173.Value = System.Drawing.Color.FromArgb(CType(CType(42, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(77, Byte), Integer))
+        Bloom174.Name = "ColorUncheck"
+        Bloom174.Value = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Bloom175.Name = "BackColor"
+        Bloom175.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.CheckBox4.Colors = New Microsoft.Bloom() {Bloom167, Bloom168, Bloom169, Bloom170, Bloom171, Bloom172, Bloom173, Bloom174, Bloom175}
+        Me.CheckBox4.Customization = "GRkZ/zs7O//m2K3/8MCE/+bYrf/m2K3/TfIq/yMjI/8ZGRn/"
+        Me.CheckBox4.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.CheckBox4.Image = Nothing
+        Me.CheckBox4.Location = New System.Drawing.Point(3, 84)
+        Me.CheckBox4.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.CheckBox4.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.CheckBox4.Name = "CheckBox4"
+        Me.CheckBox4.NoRounding = False
+        Me.CheckBox4.Size = New System.Drawing.Size(109, 16)
+        Me.CheckBox4.TabIndex = 26
+        Me.CheckBox4.Text = "Melt And Inject"
+        Me.CheckBox4.Transparent = False
+        Me.CheckBox4.Visible = False
+        '
+        'builder
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(408, 278)
+        Me.Controls.Add(Me.CyberTheme1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Name = "builder"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Create Server"
+        Me.CyberTheme1.ResumeLayout(False)
+        Me.CyberTheme1.PerformLayout()
+        Me.TabControl1.ResumeLayout(False)
+        Me.TabPage1.ResumeLayout(False)
+        Me.TabPage1.PerformLayout()
+        Me.TabPage2.ResumeLayout(False)
+        Me.TabPage5.ResumeLayout(False)
+        Me.TabPage3.ResumeLayout(False)
+        Me.TabPage4.ResumeLayout(False)
+        Me.ResumeLayout(False)
+
+    End Sub
+    Friend WithEvents CyberTheme1 As Microsoft.CyberTheme
+    Friend WithEvents TextBox3 As Microsoft.CyberTextBox
+    Friend WithEvents TextBox2 As Microsoft.CyberTextBox
+    Friend WithEvents TextBox1 As Microsoft.CyberTextBox
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
+    Friend WithEvents CyberButton1 As Microsoft.CyberButton
+    Friend WithEvents CheckBox1 As Microsoft.CyberCheckBox
+    Friend WithEvents CheckBox2 As Microsoft.CyberCheckBox
+    Friend WithEvents CheckBox3 As Microsoft.CyberCheckBox
+    Friend WithEvents c5 As Microsoft.CyberCheckBox
+    Friend WithEvents c6 As Microsoft.CyberCheckBox
+    Friend WithEvents c7 As Microsoft.CyberCheckBox
+    Friend WithEvents c8 As Microsoft.CyberCheckBox
+    Friend WithEvents c9 As Microsoft.CyberCheckBox
+    Friend WithEvents c10 As Microsoft.CyberCheckBox
+    Friend WithEvents c11 As Microsoft.CyberCheckBox
+    Friend WithEvents c12 As Microsoft.CyberCheckBox
+    Friend WithEvents c13 As Microsoft.CyberCheckBox
+    Friend WithEvents c14 As Microsoft.CyberCheckBox
+    Friend WithEvents c15 As Microsoft.CyberCheckBox
+    Friend WithEvents c16 As Microsoft.CyberCheckBox
+    Friend WithEvents TabControl1 As System.Windows.Forms.TabControl
+    Friend WithEvents TabPage1 As System.Windows.Forms.TabPage
+    Friend WithEvents TabPage2 As System.Windows.Forms.TabPage
+    Friend WithEvents TabPage3 As System.Windows.Forms.TabPage
+    Friend WithEvents TabPage4 As System.Windows.Forms.TabPage
+    Friend WithEvents ImageList1 As System.Windows.Forms.ImageList
+    Friend WithEvents c17 As Microsoft.CyberCheckBox
+    Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
+    Friend WithEvents CyberCheckBox1 As Microsoft.CyberCheckBox
+    Friend WithEvents TabPage5 As System.Windows.Forms.TabPage
+    Friend WithEvents c20 As Microsoft.CyberCheckBox
+    Friend WithEvents CheckBox4 As Microsoft.CyberCheckBox
+End Class

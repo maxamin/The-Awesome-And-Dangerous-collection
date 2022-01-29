@@ -1,0 +1,15 @@
+﻿Public Class chat
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        If TextBox2.Text.Length > 0 Then
+            Form1.c.Send("chatback" & "||" & TextBox2.Text)
+            TextBox1.Text = TextBox1.Text & Me.Text & " said: " & TextBox2.Text & vbNewLine
+            TextBox2.Text = ""
+        Else
+        End If
+    End Sub
+
+    Private Sub chat_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
+    End Sub
+End Class

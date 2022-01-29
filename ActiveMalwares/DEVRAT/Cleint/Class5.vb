@@ -1,0 +1,63 @@
+﻿' Copyright by MaxXor 2012
+
+Imports System.Drawing
+Imports System.Drawing.Drawing2D
+Imports System.Windows.Forms
+Imports System.ComponentModel
+
+Public Class Win8Progressbar
+    Inherits ProgressBar
+
+    Public Sub New()
+        MyBase.New()
+        MyBase.SetStyle(ControlStyles.UserPaint, True)
+        MyBase.SetStyle(ControlStyles.DoubleBuffer, True)
+        MyBase.SetStyle(ControlStyles.SupportsTransparentBackColor, True)
+    End Sub
+
+    Private Sub Grafic(ByVal sender As Object, ByVal e As PaintEventArgs) Handles MyBase.Paint
+        e.Graphics.SmoothingMode = SmoothingMode.HighQuality
+
+        'Höhe des Hintergrundes
+        Dim HintergrundH As Integer = MyBase.ClientRectangle.Height
+
+        'Breite des Hintergrundes
+        Dim HintergrundB As Integer = MyBase.ClientRectangle.Width
+
+        'Höhe des Anzeigebalkens
+        Dim BalkenH As Integer = MyBase.ClientRectangle.Height
+
+        'Differenz zwischen Maximum und Minimun
+        Dim Diff As Integer = MyBase.Maximum - MyBase.Minimum
+
+        'Breite des Anzeigebalkens  
+        Dim BalkenB As Integer = CInt((HintergrundB / Diff) * Value)
+
+        'Obere Hintergrundfarbe
+        Dim HintergrundfarbeOben As Color = Color.FromArgb(244, 244, 244)
+
+        'Untere Hintergrundfarbe
+        Dim HintergrundfarbeUnten As Color = Color.FromArgb(222, 222, 222)
+
+        'Obere Balkenfarbe
+        Dim BalkenfarbeOben As Color = Color.FromArgb(80, 207, 102)
+
+        'Untere Balkenfarbe
+        Dim BalkenfarbeUnten As Color = Color.FromArgb(21, 203, 52)
+
+        'Brush für den Hintergrund
+        Dim HintergrundBrush As New LinearGradientBrush(New Point(0, 0), New Point(0, HintergrundH), HintergrundfarbeOben, HintergrundfarbeUnten)
+
+        'Brush für den Balken
+        Dim Balkenbrush As New LinearGradientBrush(New Point(0, 0), New Point(0, BalkenH), BalkenfarbeOben, BalkenfarbeUnten)
+
+        e.Graphics.FillRectangle(HintergrundBrush, 0, 2, HintergrundB, HintergrundH - 4)
+        e.Graphics.DrawRectangle(Pens.Black, 0, 0, HintergrundB - 1, HintergrundH - 1)
+
+        If MyBase.Value = MyBase.Maximum Then
+            e.Graphics.FillRectangle(Balkenbrush, 0, 0, BalkenB - 1, BalkenH - 1)
+        Else
+            e.Graphics.FillRectangle(Balkenbrush, 0, 0, BalkenB, BalkenH - 1)
+        End If
+    End Sub
+End Class

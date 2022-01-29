@@ -1,0 +1,5 @@
+Line 14: Class XtremeSuiteControls.ListView of control lstResults was not a loaded control class.
+Line 21: Class XtremeSuiteControls.GroupBox of control gbBotkiller was not a loaded control class.
+Line 32: Class XtremeSuiteControls.PushButton of control cmdStart was not a loaded control class.
+Line 39: Class XtremeSuiteControls.PushButton of control cmdStop was not a loaded control class.
+Line 47: Class MSComctlLib.StatusBar of control sbBotkiller was not a loaded control class.

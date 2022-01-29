@@ -1,0 +1,5 @@
+﻿Public Class Class7
+    Public Function xxx() As Boolean
+
+    End Function
+End Class

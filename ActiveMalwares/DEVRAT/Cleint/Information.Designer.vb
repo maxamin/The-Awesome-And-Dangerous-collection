@@ -1,0 +1,159 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Information
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.TabControl1 = New System.Windows.Forms.TabControl()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.rtinfo = New System.Windows.Forms.TextBox()
+        Me.rtinfo1 = New System.Windows.Forms.TextBox()
+        Me.rtinfo2 = New System.Windows.Forms.TextBox()
+        Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
+        Me.InfluenceButton1 = New Microsoft.InfluenceButton()
+        Me.TabControl1.SuspendLayout()
+        Me.TabPage1.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
+        Me.TabPage3.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'TabControl1
+        '
+        Me.TabControl1.Controls.Add(Me.TabPage1)
+        Me.TabControl1.Controls.Add(Me.TabPage2)
+        Me.TabControl1.Controls.Add(Me.TabPage3)
+        Me.TabControl1.Location = New System.Drawing.Point(3, 1)
+        Me.TabControl1.Name = "TabControl1"
+        Me.TabControl1.SelectedIndex = 0
+        Me.TabControl1.Size = New System.Drawing.Size(730, 295)
+        Me.TabControl1.TabIndex = 0
+        '
+        'TabPage1
+        '
+        Me.TabPage1.BackColor = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer))
+        Me.TabPage1.Controls.Add(Me.rtinfo)
+        Me.TabPage1.ForeColor = System.Drawing.Color.White
+        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage1.Name = "TabPage1"
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage1.Size = New System.Drawing.Size(722, 269)
+        Me.TabPage1.TabIndex = 0
+        Me.TabPage1.Text = "Connection Information"
+        '
+        'TabPage2
+        '
+        Me.TabPage2.BackColor = System.Drawing.Color.Black
+        Me.TabPage2.Controls.Add(Me.rtinfo1)
+        Me.TabPage2.ForeColor = System.Drawing.Color.White
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(722, 269)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "User Information"
+        '
+        'TabPage3
+        '
+        Me.TabPage3.BackColor = System.Drawing.Color.Black
+        Me.TabPage3.Controls.Add(Me.rtinfo2)
+        Me.TabPage3.ForeColor = System.Drawing.Color.White
+        Me.TabPage3.ImageKey = "(none)"
+        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Size = New System.Drawing.Size(722, 269)
+        Me.TabPage3.TabIndex = 2
+        Me.TabPage3.Text = "Computer Information"
+        '
+        'rtinfo
+        '
+        Me.rtinfo.Location = New System.Drawing.Point(5, 6)
+        Me.rtinfo.Multiline = True
+        Me.rtinfo.Name = "rtinfo"
+        Me.rtinfo.Size = New System.Drawing.Size(708, 252)
+        Me.rtinfo.TabIndex = 0
+        '
+        'rtinfo1
+        '
+        Me.rtinfo1.Location = New System.Drawing.Point(6, 6)
+        Me.rtinfo1.Multiline = True
+        Me.rtinfo1.Name = "rtinfo1"
+        Me.rtinfo1.Size = New System.Drawing.Size(707, 252)
+        Me.rtinfo1.TabIndex = 0
+        '
+        'rtinfo2
+        '
+        Me.rtinfo2.Location = New System.Drawing.Point(6, 9)
+        Me.rtinfo2.Multiline = True
+        Me.rtinfo2.Name = "rtinfo2"
+        Me.rtinfo2.Size = New System.Drawing.Size(711, 245)
+        Me.rtinfo2.TabIndex = 0
+        '
+        'SaveFileDialog1
+        '
+        '
+        'InfluenceButton1
+        '
+        Me.InfluenceButton1.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton1.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.InfluenceButton1.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton1.Location = New System.Drawing.Point(0, 298)
+        Me.InfluenceButton1.Name = "InfluenceButton1"
+        Me.InfluenceButton1.Size = New System.Drawing.Size(735, 34)
+        Me.InfluenceButton1.TabIndex = 1
+        Me.InfluenceButton1.Text = "Save"
+        Me.InfluenceButton1.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'Information
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(735, 332)
+        Me.Controls.Add(Me.InfluenceButton1)
+        Me.Controls.Add(Me.TabControl1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
+        Me.Name = "Information"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Information"
+        Me.TabControl1.ResumeLayout(False)
+        Me.TabPage1.ResumeLayout(False)
+        Me.TabPage1.PerformLayout()
+        Me.TabPage2.ResumeLayout(False)
+        Me.TabPage2.PerformLayout()
+        Me.TabPage3.ResumeLayout(False)
+        Me.TabPage3.PerformLayout()
+        Me.ResumeLayout(False)
+
+    End Sub
+    Friend WithEvents TabControl1 As System.Windows.Forms.TabControl
+    Friend WithEvents TabPage1 As System.Windows.Forms.TabPage
+    Friend WithEvents TabPage2 As System.Windows.Forms.TabPage
+    Friend WithEvents rtinfo As System.Windows.Forms.TextBox
+    Friend WithEvents rtinfo1 As System.Windows.Forms.TextBox
+    Friend WithEvents TabPage3 As System.Windows.Forms.TabPage
+    Friend WithEvents rtinfo2 As System.Windows.Forms.TextBox
+    Friend WithEvents InfluenceButton1 As Microsoft.InfluenceButton
+    Friend WithEvents SaveFileDialog1 As System.Windows.Forms.SaveFileDialog
+End Class

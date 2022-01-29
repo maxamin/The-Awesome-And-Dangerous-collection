@@ -1,0 +1,28 @@
+﻿Public Class Scan
+
+    Private Sub Scan_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        WebBrowser1.Navigate("http://vscan.novirusthanks.org/")
+        WebBrowser1.Visible = False
+    End Sub
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        On Error Resume Next
+        WebBrowser1.Document.GetElementById("upfile").InvokeMember("click")
+        WebBrowser1.Document.GetElementById("submitav").InvokeMember("click")
+        Button2.Enabled = True
+        Button2.Text = "Scan"
+    End Sub
+
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+        WebBrowser1.Document.GetElementById("submitfile").InvokeMember("click")
+        Timer1.Start()
+    End Sub
+
+    Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
+        ProgressBar1.Increment(2)
+        If ProgressBar1.Value = 100 Then
+            Timer1.Stop()
+            WebBrowser1.Show()
+        End If
+    End Sub
+End Class

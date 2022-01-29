@@ -1,0 +1,13 @@
+F:\Egyption rat\-\الدرس الاول\Server\Server\bin\Release\Server.exe
+F:\Egyption rat\-\الدرس الاول\Server\Server\bin\Release\Server.pdb
+F:\Egyption rat\-\الدرس الاول\Server\Server\bin\Release\Server.xml
+F:\Egyption rat\-\الدرس الاول\Server\Server\obj\x86\Release\Server.vbprojResolveAssemblyReference.cache
+F:\Egyption rat\-\الدرس الاول\Server\Server\obj\x86\Release\Server.Form1.resources
+F:\Egyption rat\-\الدرس الاول\Server\Server\obj\x86\Release\Server.Resources.resources
+F:\Egyption rat\-\الدرس الاول\Server\Server\obj\x86\Release\Server.vbproj.GenerateResource.Cache
+C:\Users\Mahmoud\Desktop\server\Server.exe
+C:\Users\Mahmoud\Desktop\server\Server.pdb
+C:\Users\Mahmoud\Desktop\server\Server.xml
+F:\Egyption rat\-\الدرس الاول\Server\Server\obj\x86\Release\Server.exe
+F:\Egyption rat\-\الدرس الاول\Server\Server\obj\x86\Release\Server.xml
+F:\Egyption rat\-\الدرس الاول\Server\Server\obj\x86\Release\Server.pdb

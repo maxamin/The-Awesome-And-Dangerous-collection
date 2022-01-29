@@ -1,0 +1,60 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Form15
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.ProgramsLvw = New System.Windows.Forms.ListView()
+        Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.SuspendLayout()
+        '
+        'ProgramsLvw
+        '
+        Me.ProgramsLvw.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1})
+        Me.ProgramsLvw.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.ProgramsLvw.FullRowSelect = True
+        Me.ProgramsLvw.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable
+        Me.ProgramsLvw.Location = New System.Drawing.Point(0, 0)
+        Me.ProgramsLvw.Name = "ProgramsLvw"
+        Me.ProgramsLvw.Size = New System.Drawing.Size(529, 511)
+        Me.ProgramsLvw.TabIndex = 8
+        Me.ProgramsLvw.UseCompatibleStateImageBehavior = False
+        Me.ProgramsLvw.View = System.Windows.Forms.View.Details
+        '
+        'ColumnHeader1
+        '
+        Me.ColumnHeader1.Text = "Name"
+        Me.ColumnHeader1.Width = 506
+        '
+        'Form15
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(529, 511)
+        Me.Controls.Add(Me.ProgramsLvw)
+        Me.Name = "Form15"
+        Me.Text = "Installed Program"
+        Me.ResumeLayout(False)
+
+    End Sub
+    Friend WithEvents ProgramsLvw As System.Windows.Forms.ListView
+    Friend WithEvents ColumnHeader1 As System.Windows.Forms.ColumnHeader
+End Class

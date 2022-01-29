@@ -1,0 +1,17 @@
+﻿Public Class cam
+    Public sock As Integer
+
+    Private Sub cam_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
+        Form1.s.Send(sock, "camclose")
+    End Sub
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        If Button1.Text = "start" Then
+            Form1.s.Send(sock, "cam" & "||" & ComboBox1.SelectedIndex)
+            Button1.Text = "stop"
+        Else
+            Form1.s.Send(sock, "camclose")
+            Button1.Text = "Start"
+        End If
+    End Sub
+End Class

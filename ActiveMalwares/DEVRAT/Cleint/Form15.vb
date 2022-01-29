@@ -1,0 +1,6 @@
+﻿Public Class Form15
+    Public sock As Integer
+    Private Sub Form15_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Form1.s.Send(sock, "iprog")
+    End Sub
+End Class

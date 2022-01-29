@@ -1,0 +1,559 @@
+Line 19: Class XtremeSuiteControls.TabControl of control TabControl1 was not a loaded control class.
+Line 44: Class XtremeSuiteControls.TabControlPage of control TabControlPage4 was not a loaded control class.
+Line 56: Class XtremeSuiteControls.ListBox of control ListBox2 was not a loaded control class.
+Line 80: Class XtremeSuiteControls.TabControlPage of control TabControlPage3 was not a loaded control class.
+Line 92: Class XtremeSuiteControls.CheckBox of control CheckBox3 was not a loaded control class.
+Line 114: Class XtremeSuiteControls.GroupBox of control GroupBox9 was not a loaded control class.
+Line 136: Class XtremeSuiteControls.PushButton of control PushButton20 was not a loaded control class.
+Line 177: Class XtremeSuiteControls.PushButton of control PushButton15 was not a loaded control class.
+Line 200: Class XtremeSuiteControls.PushButton of control PushButton19 was not a loaded control class.
+Line 214: Class XtremeSuiteControls.ListBox of control ListBox1 was not a loaded control class.
+Line 237: Class XtremeSuiteControls.PushButton of control cmdExit was not a loaded control class.
+Line 260: Class XtremeSuiteControls.PushButton of control cmdBuild was not a loaded control class.
+Line 285: Class XtremeSuiteControls.TabControlPage of control TabControlPage2 was not a loaded control class.
+Line 297: Class XtremeSuiteControls.GroupBox of control GroupBox10 was not a loaded control class.
+Line 310: Class XtremeSuiteControls.PushButton of control PushButton22 was not a loaded control class.
+Line 324: Class XtremeSuiteControls.FlatEdit of control FlatEdit1 was not a loaded control class.
+Line 340: Class XtremeSuiteControls.GroupBox of control GroupBox8 was not a loaded control class.
+Line 362: Class XtremeSuiteControls.FlatEdit of control txtSpreadname was not a loaded control class.
+Line 387: Class XtremeSuiteControls.GroupBox of control GroupBox7 was not a loaded control class.
+Line 409: Class XtremeSuiteControls.FlatEdit of control txtBytes was not a loaded control class.
+Line 434: Class XtremeSuiteControls.GroupBox of control GroupBox6 was not a loaded control class.
+Line 456: Class XtremeSuiteControls.PushButton of control PushButton16 was not a loaded control class.
+Line 479: Class XtremeSuiteControls.FlatEdit of control txtBindFile was not a loaded control class.
+Line 504: Class XtremeSuiteControls.GroupBox of control GroupBox5 was not a loaded control class.
+Line 559: Class XtremeSuiteControls.RadioButton of control RadioExclamation was not a loaded control class.
+Line 580: Class XtremeSuiteControls.RadioButton of control RadioInformation was not a loaded control class.
+Line 601: Class XtremeSuiteControls.RadioButton of control RadioCritical was not a loaded control class.
+Line 622: Class XtremeSuiteControls.FlatEdit of control txtText was not a loaded control class.
+Line 643: Class XtremeSuiteControls.FlatEdit of control txtTitle was not a loaded control class.
+Line 664: Class XtremeSuiteControls.Label of control Label2 was not a loaded control class.
+Line 685: Class XtremeSuiteControls.Label of control Label1 was not a loaded control class.
+Line 707: Class XtremeSuiteControls.GroupBox of control GroupBox3 was not a loaded control class.
+Line 728: Class XtremeSuiteControls.PushButton of control PushButton21 was not a loaded control class.
+Line 741: Class XtremeSuiteControls.CheckBox of control chkIconChanger was not a loaded control class.
+Line 763: Class XtremeSuiteControls.PushButton of control PushButton18 was not a loaded control class.
+Line 777: Class XtremeSuiteControls.CheckBox of control chkspread was not a loaded control class.
+Line 799: Class XtremeSuiteControls.PushButton of control PushButton17 was not a loaded control class.
+Line 813: Class XtremeSuiteControls.CheckBox of control CheckBox1 was not a loaded control class.
+Line 835: Class XtremeSuiteControls.PushButton of control PushButton10 was not a loaded control class.
+Line 849: Class XtremeSuiteControls.PushButton of control PushButton9 was not a loaded control class.
+Line 863: Class XtremeSuiteControls.PushButton of control PushButton8 was not a loaded control class.
+Line 877: Class XtremeSuiteControls.PushButton of control PushButton7 was not a loaded control class.
+Line 891: Class XtremeSuiteControls.PushButton of control PushButton6 was not a loaded control class.
+Line 905: Class XtremeSuiteControls.PushButton of control PushButton5 was not a loaded control class.
+Line 919: Class XtremeSuiteControls.PushButton of control PushButton4 was not a loaded control class.
+Line 933: Class XtremeSuiteControls.PushButton of control PushButton3 was not a loaded control class.
+Line 947: Class XtremeSuiteControls.PushButton of control PushButton2 was not a loaded control class.
+Line 961: Class XtremeSuiteControls.PushButton of control PushButton1 was not a loaded control class.
+Line 975: Class XtremeSuiteControls.CheckBox of control chkAutostart was not a loaded control class.
+Line 997: Class XtremeSuiteControls.CheckBox of control chkBinder was not a loaded control class.
+Line 1019: Class XtremeSuiteControls.CheckBox of control chkFake was not a loaded control class.
+Line 1041: Class XtremeSuiteControls.CheckBox of control chkVirtual was not a loaded control class.
+Line 1063: Class XtremeSuiteControls.CheckBox of control chkSniffer was not a loaded control class.
+Line 1085: Class XtremeSuiteControls.CheckBox of control chkSandbox was not a loaded control class.
+Line 1107: Class XtremeSuiteControls.CheckBox of control chkEOF was not a loaded control class.
+Line 1129: Class XtremeSuiteControls.CheckBox of control chkValidatePE was not a loaded control class.
+Line 1151: Class XtremeSuiteControls.CheckBox of control chkFixChecksum was not a loaded control class.
+Line 1173: Class XtremeSuiteControls.CheckBox of control chkRealignpe was not a loaded control class.
+Line 1199: Class XtremeSuiteControls.TabControlPage of control TabControlPage1 was not a loaded control class.
+Line 1210: Class XtremeSuiteControls.GroupBox of control GroupBox4 was not a loaded control class.
+Line 1231: Class XtremeSuiteControls.PushButton of control PushButton14 was not a loaded control class.
+Line 1245: Class XtremeSuiteControls.PushButton of control PushButton13 was not a loaded control class.
+Line 1259: Class XtremeSuiteControls.RadioButton of control RadioBrowser was not a loaded control class.
+Line 1281: Class XtremeSuiteControls.RadioButton of control RadioStub was not a loaded control class.
+Line 1305: Class XtremeSuiteControls.GroupBox of control GroupBox2 was not a loaded control class.
+Line 1326: Class XtremeSuiteControls.PushButton of control PushButton12 was not a loaded control class.
+Line 1340: Class XtremeSuiteControls.PushButton of control cmdGen was not a loaded control class.
+Line 1363: Class XtremeSuiteControls.FlatEdit of control txtPass was not a loaded control class.
+Line 1386: Class XtremeSuiteControls.GroupBox of control GroupBox1 was not a loaded control class.
+Line 1407: Class XtremeSuiteControls.PushButton of control PushButton11 was not a loaded control class.
+Line 1421: Class XtremeSuiteControls.PushButton of control cmdFile was not a loaded control class.
+Line 1444: Class XtremeSuiteControls.FlatEdit of control txtFile was not a loaded control class.
+Line 1469: Class XtremeSuiteControls.CommonDialog of control CommonDialog1 was not a loaded control class.
+Line 1484: Class XtremeSuiteControls.CommonDialog of control cd4 was not a loaded control class.
+Line 1492: Class XtremeSuiteControls.CommonDialog of control cd3 was not a loaded control class.
+Line 1500: Class XtremeSuiteControls.CommonDialog of control cd2 was not a loaded control class.
+Line 1508: Class XtremeSuiteControls.CommonDialog of control cd1 was not a loaded control class.
+Line 25: The property name _Version in TabControl1 is invalid.
+Line 26: The property name _ExtentX in TabControl1 is invalid.
+Line 27: The property name _ExtentY in TabControl1 is invalid.
+Line 28: The property name _StockProps in TabControl1 is invalid.
+Line 30: The property name Color in TabControl1 is invalid.
+Line 31: The property name ItemCount in TabControl1 is invalid.
+Line 32: The property name Item(0).Caption in TabControl1 is invalid.
+Line 33: The property name Item(0).ControlCount in TabControl1 is invalid.
+Line 34: The property name Item(0).Control(0) in TabControl1 is invalid.
+Line 35: The property name Item(1).Caption in TabControl1 is invalid.
+Line 36: The property name Item(1).ControlCount in TabControl1 is invalid.
+Line 37: The property name Item(1).Control(0) in TabControl1 is invalid.
+Line 38: The property name Item(2).Caption in TabControl1 is invalid.
+Line 39: The property name Item(2).ControlCount in TabControl1 is invalid.
+Line 40: The property name Item(2).Control(0) in TabControl1 is invalid.
+Line 41: The property name Item(3).Caption in TabControl1 is invalid.
+Line 42: The property name Item(3).ControlCount in TabControl1 is invalid.
+Line 43: The property name Item(3).Control(0) in TabControl1 is invalid.
+Line 19: Property Appearance in TabControl1 could not be set.
+Line 51: The property name _Version in TabControlPage4 is invalid.
+Line 52: The property name _ExtentX in TabControlPage4 is invalid.
+Line 53: The property name _ExtentY in TabControlPage4 is invalid.
+Line 54: The property name _StockProps in TabControlPage4 is invalid.
+Line 55: The property name Page in TabControlPage4 is invalid.
+Line 62: The property name _Version in ListBox2 is invalid.
+Line 63: The property name _ExtentX in ListBox2 is invalid.
+Line 64: The property name _ExtentY in ListBox2 is invalid.
+Line 65: The property name _StockProps in ListBox2 is invalid.
+Line 77: The property name UseVisualStyle in ListBox2 is invalid.
+Line 56: Property Appearance in ListBox2 could not be set.
+Line 87: The property name _Version in TabControlPage3 is invalid.
+Line 88: The property name _ExtentX in TabControlPage3 is invalid.
+Line 89: The property name _ExtentY in TabControlPage3 is invalid.
+Line 90: The property name _StockProps in TabControlPage3 is invalid.
+Line 91: The property name Page in TabControlPage3 is invalid.
+Line 98: The property name _Version in CheckBox3 is invalid.
+Line 99: The property name _ExtentX in CheckBox3 is invalid.
+Line 100: The property name _ExtentY in CheckBox3 is invalid.
+Line 101: The property name _StockProps in CheckBox3 is invalid.
+Line 102: The property name Caption in CheckBox3 is invalid.
+Line 112: The property name UseVisualStyle in CheckBox3 is invalid.
+Line 120: The property name _Version in GroupBox9 is invalid.
+Line 121: The property name _ExtentX in GroupBox9 is invalid.
+Line 122: The property name _ExtentY in GroupBox9 is invalid.
+Line 123: The property name _StockProps in GroupBox9 is invalid.
+Line 124: The property name Caption in GroupBox9 is invalid.
+Line 114: Property Appearance in GroupBox9 could not be set.
+Line 142: The property name _Version in PushButton20 is invalid.
+Line 143: The property name _ExtentX in PushButton20 is invalid.
+Line 144: The property name _ExtentY in PushButton20 is invalid.
+Line 145: The property name _StockProps in PushButton20 is invalid.
+Line 146: The property name Caption in PushButton20 is invalid.
+Line 136: Property Picture in PushButton20 could not be set.
+Line 136: Property Appearance in PushButton20 could not be set.
+Line 183: The property name _Version in PushButton15 is invalid.
+Line 184: The property name _ExtentX in PushButton15 is invalid.
+Line 185: The property name _ExtentY in PushButton15 is invalid.
+Line 186: The property name _StockProps in PushButton15 is invalid.
+Line 187: The property name Caption in PushButton15 is invalid.
+Line 177: Property Picture in PushButton15 could not be set.
+Line 177: Property Appearance in PushButton15 could not be set.
+Line 206: The property name _Version in PushButton19 is invalid.
+Line 207: The property name _ExtentX in PushButton19 is invalid.
+Line 208: The property name _ExtentY in PushButton19 is invalid.
+Line 209: The property name _StockProps in PushButton19 is invalid.
+Line 210: The property name Caption in PushButton19 is invalid.
+Line 200: Property Picture in PushButton19 could not be set.
+Line 200: Property Appearance in PushButton19 could not be set.
+Line 220: The property name _Version in ListBox1 is invalid.
+Line 221: The property name _ExtentX in ListBox1 is invalid.
+Line 222: The property name _ExtentY in ListBox1 is invalid.
+Line 223: The property name _StockProps in ListBox1 is invalid.
+Line 235: The property name UseVisualStyle in ListBox1 is invalid.
+Line 214: Property Appearance in ListBox1 could not be set.
+Line 243: The property name _Version in cmdExit is invalid.
+Line 244: The property name _ExtentX in cmdExit is invalid.
+Line 245: The property name _ExtentY in cmdExit is invalid.
+Line 246: The property name _StockProps in cmdExit is invalid.
+Line 247: The property name Caption in cmdExit is invalid.
+Line 237: Property Picture in cmdExit could not be set.
+Line 237: Property Appearance in cmdExit could not be set.
+Line 266: The property name _Version in cmdBuild is invalid.
+Line 267: The property name _ExtentX in cmdBuild is invalid.
+Line 268: The property name _ExtentY in cmdBuild is invalid.
+Line 269: The property name _StockProps in cmdBuild is invalid.
+Line 270: The property name Caption in cmdBuild is invalid.
+Line 280: The property name TextAlignment in cmdBuild is invalid.
+Line 260: Property Picture in cmdBuild could not be set.
+Line 260: Property Appearance in cmdBuild could not be set.
+Line 292: The property name _Version in TabControlPage2 is invalid.
+Line 293: The property name _ExtentX in TabControlPage2 is invalid.
+Line 294: The property name _ExtentY in TabControlPage2 is invalid.
+Line 295: The property name _StockProps in TabControlPage2 is invalid.
+Line 296: The property name Page in TabControlPage2 is invalid.
+Line 303: The property name _Version in GroupBox10 is invalid.
+Line 304: The property name _ExtentX in GroupBox10 is invalid.
+Line 305: The property name _ExtentY in GroupBox10 is invalid.
+Line 306: The property name _StockProps in GroupBox10 is invalid.
+Line 307: The property name Caption in GroupBox10 is invalid.
+Line 297: Property Appearance in GroupBox10 could not be set.
+Line 316: The property name _Version in PushButton22 is invalid.
+Line 317: The property name _ExtentX in PushButton22 is invalid.
+Line 318: The property name _ExtentY in PushButton22 is invalid.
+Line 319: The property name _StockProps in PushButton22 is invalid.
+Line 320: The property name Caption in PushButton22 is invalid.
+Line 310: Property Picture in PushButton22 could not be set.
+Line 310: Property Appearance in PushButton22 could not be set.
+Line 330: The property name _Version in FlatEdit1 is invalid.
+Line 331: The property name _ExtentX in FlatEdit1 is invalid.
+Line 332: The property name _ExtentY in FlatEdit1 is invalid.
+Line 333: The property name _StockProps in FlatEdit1 is invalid.
+Line 335: The property name Text in FlatEdit1 is invalid.
+Line 337: The property name UseVisualStyle in FlatEdit1 is invalid.
+Line 324: Property Appearance in FlatEdit1 could not be set.
+Line 346: The property name _Version in GroupBox8 is invalid.
+Line 347: The property name _ExtentX in GroupBox8 is invalid.
+Line 348: The property name _ExtentY in GroupBox8 is invalid.
+Line 349: The property name _StockProps in GroupBox8 is invalid.
+Line 350: The property name Caption in GroupBox8 is invalid.
+Line 340: Property Appearance in GroupBox8 could not be set.
+Line 368: The property name _Version in txtSpreadname is invalid.
+Line 369: The property name _ExtentX in txtSpreadname is invalid.
+Line 370: The property name _ExtentY in txtSpreadname is invalid.
+Line 371: The property name _StockProps in txtSpreadname is invalid.
+Line 382: The property name Text in txtSpreadname is invalid.
+Line 384: The property name UseVisualStyle in txtSpreadname is invalid.
+Line 362: Property Appearance in txtSpreadname could not be set.
+Line 393: The property name _Version in GroupBox7 is invalid.
+Line 394: The property name _ExtentX in GroupBox7 is invalid.
+Line 395: The property name _ExtentY in GroupBox7 is invalid.
+Line 396: The property name _StockProps in GroupBox7 is invalid.
+Line 397: The property name Caption in GroupBox7 is invalid.
+Line 387: Property Appearance in GroupBox7 could not be set.
+Line 415: The property name _Version in txtBytes is invalid.
+Line 416: The property name _ExtentX in txtBytes is invalid.
+Line 417: The property name _ExtentY in txtBytes is invalid.
+Line 418: The property name _StockProps in txtBytes is invalid.
+Line 429: The property name Text in txtBytes is invalid.
+Line 431: The property name UseVisualStyle in txtBytes is invalid.
+Line 409: Property Appearance in txtBytes could not be set.
+Line 440: The property name _Version in GroupBox6 is invalid.
+Line 441: The property name _ExtentX in GroupBox6 is invalid.
+Line 442: The property name _ExtentY in GroupBox6 is invalid.
+Line 443: The property name _StockProps in GroupBox6 is invalid.
+Line 444: The property name Caption in GroupBox6 is invalid.
+Line 434: Property Appearance in GroupBox6 could not be set.
+Line 462: The property name _Version in PushButton16 is invalid.
+Line 463: The property name _ExtentX in PushButton16 is invalid.
+Line 464: The property name _ExtentY in PushButton16 is invalid.
+Line 465: The property name _StockProps in PushButton16 is invalid.
+Line 466: The property name Caption in PushButton16 is invalid.
+Line 456: Property Picture in PushButton16 could not be set.
+Line 456: Property Appearance in PushButton16 could not be set.
+Line 485: The property name _Version in txtBindFile is invalid.
+Line 486: The property name _ExtentX in txtBindFile is invalid.
+Line 487: The property name _ExtentY in txtBindFile is invalid.
+Line 488: The property name _StockProps in txtBindFile is invalid.
+Line 499: The property name Text in txtBindFile is invalid.
+Line 501: The property name UseVisualStyle in txtBindFile is invalid.
+Line 479: Property Appearance in txtBindFile could not be set.
+Line 510: The property name _Version in GroupBox5 is invalid.
+Line 511: The property name _ExtentX in GroupBox5 is invalid.
+Line 512: The property name _ExtentY in GroupBox5 is invalid.
+Line 513: The property name _StockProps in GroupBox5 is invalid.
+Line 514: The property name Caption in GroupBox5 is invalid.
+Line 504: Property Appearance in GroupBox5 could not be set.
+Line 565: The property name _Version in RadioExclamation is invalid.
+Line 566: The property name _ExtentX in RadioExclamation is invalid.
+Line 567: The property name _ExtentY in RadioExclamation is invalid.
+Line 568: The property name _StockProps in RadioExclamation is invalid.
+Line 559: Property Appearance in RadioExclamation could not be set.
+Line 586: The property name _Version in RadioInformation is invalid.
+Line 587: The property name _ExtentX in RadioInformation is invalid.
+Line 588: The property name _ExtentY in RadioInformation is invalid.
+Line 589: The property name _StockProps in RadioInformation is invalid.
+Line 580: Property Appearance in RadioInformation could not be set.
+Line 607: The property name _Version in RadioCritical is invalid.
+Line 608: The property name _ExtentX in RadioCritical is invalid.
+Line 609: The property name _ExtentY in RadioCritical is invalid.
+Line 610: The property name _StockProps in RadioCritical is invalid.
+Line 601: Property Appearance in RadioCritical could not be set.
+Line 628: The property name _Version in txtText is invalid.
+Line 629: The property name _ExtentX in txtText is invalid.
+Line 630: The property name _ExtentY in txtText is invalid.
+Line 631: The property name _StockProps in txtText is invalid.
+Line 649: The property name _Version in txtTitle is invalid.
+Line 650: The property name _ExtentX in txtTitle is invalid.
+Line 651: The property name _ExtentY in txtTitle is invalid.
+Line 652: The property name _StockProps in txtTitle is invalid.
+Line 670: The property name _Version in Label2 is invalid.
+Line 671: The property name _ExtentX in Label2 is invalid.
+Line 672: The property name _ExtentY in Label2 is invalid.
+Line 673: The property name _StockProps in Label2 is invalid.
+Line 674: The property name Caption in Label2 is invalid.
+Line 691: The property name _Version in Label1 is invalid.
+Line 692: The property name _ExtentX in Label1 is invalid.
+Line 693: The property name _ExtentY in Label1 is invalid.
+Line 694: The property name _StockProps in Label1 is invalid.
+Line 695: The property name Caption in Label1 is invalid.
+Line 713: The property name _Version in GroupBox3 is invalid.
+Line 714: The property name _ExtentX in GroupBox3 is invalid.
+Line 715: The property name _ExtentY in GroupBox3 is invalid.
+Line 716: The property name _StockProps in GroupBox3 is invalid.
+Line 717: The property name Caption in GroupBox3 is invalid.
+Line 707: Property Appearance in GroupBox3 could not be set.
+Line 734: The property name _Version in PushButton21 is invalid.
+Line 735: The property name _ExtentX in PushButton21 is invalid.
+Line 736: The property name _ExtentY in PushButton21 is invalid.
+Line 737: The property name _StockProps in PushButton21 is invalid.
+Line 728: Property Picture in PushButton21 could not be set.
+Line 728: Property Appearance in PushButton21 could not be set.
+Line 747: The property name _Version in chkIconChanger is invalid.
+Line 748: The property name _ExtentX in chkIconChanger is invalid.
+Line 749: The property name _ExtentY in chkIconChanger is invalid.
+Line 750: The property name _StockProps in chkIconChanger is invalid.
+Line 751: The property name Caption in chkIconChanger is invalid.
+Line 741: Property Appearance in chkIconChanger could not be set.
+Line 769: The property name _Version in PushButton18 is invalid.
+Line 770: The property name _ExtentX in PushButton18 is invalid.
+Line 771: The property name _ExtentY in PushButton18 is invalid.
+Line 772: The property name _StockProps in PushButton18 is invalid.
+Line 773: The property name Caption in PushButton18 is invalid.
+Line 763: Property Picture in PushButton18 could not be set.
+Line 763: Property Appearance in PushButton18 could not be set.
+Line 783: The property name _Version in chkspread is invalid.
+Line 784: The property name _ExtentX in chkspread is invalid.
+Line 785: The property name _ExtentY in chkspread is invalid.
+Line 786: The property name _StockProps in chkspread is invalid.
+Line 787: The property name Caption in chkspread is invalid.
+Line 777: Property Appearance in chkspread could not be set.
+Line 805: The property name _Version in PushButton17 is invalid.
+Line 806: The property name _ExtentX in PushButton17 is invalid.
+Line 807: The property name _ExtentY in PushButton17 is invalid.
+Line 808: The property name _StockProps in PushButton17 is invalid.
+Line 809: The property name Caption in PushButton17 is invalid.
+Line 799: Property Picture in PushButton17 could not be set.
+Line 799: Property Appearance in PushButton17 could not be set.
+Line 819: The property name _Version in CheckBox1 is invalid.
+Line 820: The property name _ExtentX in CheckBox1 is invalid.
+Line 821: The property name _ExtentY in CheckBox1 is invalid.
+Line 822: The property name _StockProps in CheckBox1 is invalid.
+Line 823: The property name Caption in CheckBox1 is invalid.
+Line 813: Property Appearance in CheckBox1 could not be set.
+Line 841: The property name _Version in PushButton10 is invalid.
+Line 842: The property name _ExtentX in PushButton10 is invalid.
+Line 843: The property name _ExtentY in PushButton10 is invalid.
+Line 844: The property name _StockProps in PushButton10 is invalid.
+Line 845: The property name Caption in PushButton10 is invalid.
+Line 835: Property Picture in PushButton10 could not be set.
+Line 835: Property Appearance in PushButton10 could not be set.
+Line 855: The property name _Version in PushButton9 is invalid.
+Line 856: The property name _ExtentX in PushButton9 is invalid.
+Line 857: The property name _ExtentY in PushButton9 is invalid.
+Line 858: The property name _StockProps in PushButton9 is invalid.
+Line 859: The property name Caption in PushButton9 is invalid.
+Line 849: Property Picture in PushButton9 could not be set.
+Line 849: Property Appearance in PushButton9 could not be set.
+Line 869: The property name _Version in PushButton8 is invalid.
+Line 870: The property name _ExtentX in PushButton8 is invalid.
+Line 871: The property name _ExtentY in PushButton8 is invalid.
+Line 872: The property name _StockProps in PushButton8 is invalid.
+Line 873: The property name Caption in PushButton8 is invalid.
+Line 863: Property Picture in PushButton8 could not be set.
+Line 863: Property Appearance in PushButton8 could not be set.
+Line 883: The property name _Version in PushButton7 is invalid.
+Line 884: The property name _ExtentX in PushButton7 is invalid.
+Line 885: The property name _ExtentY in PushButton7 is invalid.
+Line 886: The property name _StockProps in PushButton7 is invalid.
+Line 887: The property name Caption in PushButton7 is invalid.
+Line 877: Property Picture in PushButton7 could not be set.
+Line 877: Property Appearance in PushButton7 could not be set.
+Line 897: The property name _Version in PushButton6 is invalid.
+Line 898: The property name _ExtentX in PushButton6 is invalid.
+Line 899: The property name _ExtentY in PushButton6 is invalid.
+Line 900: The property name _StockProps in PushButton6 is invalid.
+Line 901: The property name Caption in PushButton6 is invalid.
+Line 891: Property Picture in PushButton6 could not be set.
+Line 891: Property Appearance in PushButton6 could not be set.
+Line 911: The property name _Version in PushButton5 is invalid.
+Line 912: The property name _ExtentX in PushButton5 is invalid.
+Line 913: The property name _ExtentY in PushButton5 is invalid.
+Line 914: The property name _StockProps in PushButton5 is invalid.
+Line 915: The property name Caption in PushButton5 is invalid.
+Line 905: Property Picture in PushButton5 could not be set.
+Line 905: Property Appearance in PushButton5 could not be set.
+Line 925: The property name _Version in PushButton4 is invalid.
+Line 926: The property name _ExtentX in PushButton4 is invalid.
+Line 927: The property name _ExtentY in PushButton4 is invalid.
+Line 928: The property name _StockProps in PushButton4 is invalid.
+Line 929: The property name Caption in PushButton4 is invalid.
+Line 919: Property Picture in PushButton4 could not be set.
+Line 919: Property Appearance in PushButton4 could not be set.
+Line 939: The property name _Version in PushButton3 is invalid.
+Line 940: The property name _ExtentX in PushButton3 is invalid.
+Line 941: The property name _ExtentY in PushButton3 is invalid.
+Line 942: The property name _StockProps in PushButton3 is invalid.
+Line 943: The property name Caption in PushButton3 is invalid.
+Line 933: Property Picture in PushButton3 could not be set.
+Line 933: Property Appearance in PushButton3 could not be set.
+Line 953: The property name _Version in PushButton2 is invalid.
+Line 954: The property name _ExtentX in PushButton2 is invalid.
+Line 955: The property name _ExtentY in PushButton2 is invalid.
+Line 956: The property name _StockProps in PushButton2 is invalid.
+Line 957: The property name Caption in PushButton2 is invalid.
+Line 947: Property Picture in PushButton2 could not be set.
+Line 947: Property Appearance in PushButton2 could not be set.
+Line 967: The property name _Version in PushButton1 is invalid.
+Line 968: The property name _ExtentX in PushButton1 is invalid.
+Line 969: The property name _ExtentY in PushButton1 is invalid.
+Line 970: The property name _StockProps in PushButton1 is invalid.
+Line 971: The property name Caption in PushButton1 is invalid.
+Line 961: Property Picture in PushButton1 could not be set.
+Line 961: Property Appearance in PushButton1 could not be set.
+Line 981: The property name _Version in chkAutostart is invalid.
+Line 982: The property name _ExtentX in chkAutostart is invalid.
+Line 983: The property name _ExtentY in chkAutostart is invalid.
+Line 984: The property name _StockProps in chkAutostart is invalid.
+Line 985: The property name Caption in chkAutostart is invalid.
+Line 975: Property Appearance in chkAutostart could not be set.
+Line 1003: The property name _Version in chkBinder is invalid.
+Line 1004: The property name _ExtentX in chkBinder is invalid.
+Line 1005: The property name _ExtentY in chkBinder is invalid.
+Line 1006: The property name _StockProps in chkBinder is invalid.
+Line 1007: The property name Caption in chkBinder is invalid.
+Line 997: Property Appearance in chkBinder could not be set.
+Line 1025: The property name _Version in chkFake is invalid.
+Line 1026: The property name _ExtentX in chkFake is invalid.
+Line 1027: The property name _ExtentY in chkFake is invalid.
+Line 1028: The property name _StockProps in chkFake is invalid.
+Line 1029: The property name Caption in chkFake is invalid.
+Line 1019: Property Appearance in chkFake could not be set.
+Line 1047: The property name _Version in chkVirtual is invalid.
+Line 1048: The property name _ExtentX in chkVirtual is invalid.
+Line 1049: The property name _ExtentY in chkVirtual is invalid.
+Line 1050: The property name _StockProps in chkVirtual is invalid.
+Line 1051: The property name Caption in chkVirtual is invalid.
+Line 1041: Property Appearance in chkVirtual could not be set.
+Line 1069: The property name _Version in chkSniffer is invalid.
+Line 1070: The property name _ExtentX in chkSniffer is invalid.
+Line 1071: The property name _ExtentY in chkSniffer is invalid.
+Line 1072: The property name _StockProps in chkSniffer is invalid.
+Line 1073: The property name Caption in chkSniffer is invalid.
+Line 1063: Property Appearance in chkSniffer could not be set.
+Line 1091: The property name _Version in chkSandbox is invalid.
+Line 1092: The property name _ExtentX in chkSandbox is invalid.
+Line 1093: The property name _ExtentY in chkSandbox is invalid.
+Line 1094: The property name _StockProps in chkSandbox is invalid.
+Line 1095: The property name Caption in chkSandbox is invalid.
+Line 1085: Property Appearance in chkSandbox could not be set.
+Line 1113: The property name _Version in chkEOF is invalid.
+Line 1114: The property name _ExtentX in chkEOF is invalid.
+Line 1115: The property name _ExtentY in chkEOF is invalid.
+Line 1116: The property name _StockProps in chkEOF is invalid.
+Line 1117: The property name Caption in chkEOF is invalid.
+Line 1107: Property Appearance in chkEOF could not be set.
+Line 1135: The property name _Version in chkValidatePE is invalid.
+Line 1136: The property name _ExtentX in chkValidatePE is invalid.
+Line 1137: The property name _ExtentY in chkValidatePE is invalid.
+Line 1138: The property name _StockProps in chkValidatePE is invalid.
+Line 1139: The property name Caption in chkValidatePE is invalid.
+Line 1129: Property Appearance in chkValidatePE could not be set.
+Line 1157: The property name _Version in chkFixChecksum is invalid.
+Line 1158: The property name _ExtentX in chkFixChecksum is invalid.
+Line 1159: The property name _ExtentY in chkFixChecksum is invalid.
+Line 1160: The property name _StockProps in chkFixChecksum is invalid.
+Line 1161: The property name Caption in chkFixChecksum is invalid.
+Line 1151: Property Appearance in chkFixChecksum could not be set.
+Line 1179: The property name _Version in chkRealignpe is invalid.
+Line 1180: The property name _ExtentX in chkRealignpe is invalid.
+Line 1181: The property name _ExtentY in chkRealignpe is invalid.
+Line 1182: The property name _StockProps in chkRealignpe is invalid.
+Line 1183: The property name Caption in chkRealignpe is invalid.
+Line 1195: The property name Value in chkRealignpe is invalid.
+Line 1173: Property Appearance in chkRealignpe could not be set.
+Line 1205: The property name _Version in TabControlPage1 is invalid.
+Line 1206: The property name _ExtentX in TabControlPage1 is invalid.
+Line 1207: The property name _ExtentY in TabControlPage1 is invalid.
+Line 1208: The property name _StockProps in TabControlPage1 is invalid.
+Line 1209: The property name Page in TabControlPage1 is invalid.
+Line 1216: The property name _Version in GroupBox4 is invalid.
+Line 1217: The property name _ExtentX in GroupBox4 is invalid.
+Line 1218: The property name _ExtentY in GroupBox4 is invalid.
+Line 1219: The property name _StockProps in GroupBox4 is invalid.
+Line 1220: The property name Caption in GroupBox4 is invalid.
+Line 1210: Property Appearance in GroupBox4 could not be set.
+Line 1237: The property name _Version in PushButton14 is invalid.
+Line 1238: The property name _ExtentX in PushButton14 is invalid.
+Line 1239: The property name _ExtentY in PushButton14 is invalid.
+Line 1240: The property name _StockProps in PushButton14 is invalid.
+Line 1241: The property name Caption in PushButton14 is invalid.
+Line 1231: Property Picture in PushButton14 could not be set.
+Line 1231: Property Appearance in PushButton14 could not be set.
+Line 1251: The property name _Version in PushButton13 is invalid.
+Line 1252: The property name _ExtentX in PushButton13 is invalid.
+Line 1253: The property name _ExtentY in PushButton13 is invalid.
+Line 1254: The property name _StockProps in PushButton13 is invalid.
+Line 1255: The property name Caption in PushButton13 is invalid.
+Line 1245: Property Picture in PushButton13 could not be set.
+Line 1245: Property Appearance in PushButton13 could not be set.
+Line 1265: The property name _Version in RadioBrowser is invalid.
+Line 1266: The property name _ExtentX in RadioBrowser is invalid.
+Line 1267: The property name _ExtentY in RadioBrowser is invalid.
+Line 1268: The property name _StockProps in RadioBrowser is invalid.
+Line 1269: The property name Caption in RadioBrowser is invalid.
+Line 1259: Property Appearance in RadioBrowser could not be set.
+Line 1287: The property name _Version in RadioStub is invalid.
+Line 1288: The property name _ExtentX in RadioStub is invalid.
+Line 1289: The property name _ExtentY in RadioStub is invalid.
+Line 1290: The property name _StockProps in RadioStub is invalid.
+Line 1291: The property name Caption in RadioStub is invalid.
+Line 1302: The property name Value in RadioStub is invalid.
+Line 1281: Property Appearance in RadioStub could not be set.
+Line 1311: The property name _Version in GroupBox2 is invalid.
+Line 1312: The property name _ExtentX in GroupBox2 is invalid.
+Line 1313: The property name _ExtentY in GroupBox2 is invalid.
+Line 1314: The property name _StockProps in GroupBox2 is invalid.
+Line 1315: The property name Caption in GroupBox2 is invalid.
+Line 1305: Property Appearance in GroupBox2 could not be set.
+Line 1332: The property name _Version in PushButton12 is invalid.
+Line 1333: The property name _ExtentX in PushButton12 is invalid.
+Line 1334: The property name _ExtentY in PushButton12 is invalid.
+Line 1335: The property name _StockProps in PushButton12 is invalid.
+Line 1336: The property name Caption in PushButton12 is invalid.
+Line 1326: Property Picture in PushButton12 could not be set.
+Line 1326: Property Appearance in PushButton12 could not be set.
+Line 1346: The property name _Version in cmdGen is invalid.
+Line 1347: The property name _ExtentX in cmdGen is invalid.
+Line 1348: The property name _ExtentY in cmdGen is invalid.
+Line 1349: The property name _StockProps in cmdGen is invalid.
+Line 1350: The property name Caption in cmdGen is invalid.
+Line 1340: Property Picture in cmdGen could not be set.
+Line 1340: Property Appearance in cmdGen could not be set.
+Line 1369: The property name _Version in txtPass is invalid.
+Line 1370: The property name _ExtentX in txtPass is invalid.
+Line 1371: The property name _ExtentY in txtPass is invalid.
+Line 1372: The property name _StockProps in txtPass is invalid.
+Line 1383: The property name Text in txtPass is invalid.
+Line 1392: The property name _Version in GroupBox1 is invalid.
+Line 1393: The property name _ExtentX in GroupBox1 is invalid.
+Line 1394: The property name _ExtentY in GroupBox1 is invalid.
+Line 1395: The property name _StockProps in GroupBox1 is invalid.
+Line 1396: The property name Caption in GroupBox1 is invalid.
+Line 1386: Property Appearance in GroupBox1 could not be set.
+Line 1413: The property name _Version in PushButton11 is invalid.
+Line 1414: The property name _ExtentX in PushButton11 is invalid.
+Line 1415: The property name _ExtentY in PushButton11 is invalid.
+Line 1416: The property name _StockProps in PushButton11 is invalid.
+Line 1417: The property name Caption in PushButton11 is invalid.
+Line 1407: Property Picture in PushButton11 could not be set.
+Line 1407: Property Appearance in PushButton11 could not be set.
+Line 1427: The property name _Version in cmdFile is invalid.
+Line 1428: The property name _ExtentX in cmdFile is invalid.
+Line 1429: The property name _ExtentY in cmdFile is invalid.
+Line 1430: The property name _StockProps in cmdFile is invalid.
+Line 1431: The property name Caption in cmdFile is invalid.
+Line 1421: Property Picture in cmdFile could not be set.
+Line 1421: Property Appearance in cmdFile could not be set.
+Line 1450: The property name _Version in txtFile is invalid.
+Line 1451: The property name _ExtentX in txtFile is invalid.
+Line 1452: The property name _ExtentY in txtFile is invalid.
+Line 1453: The property name _StockProps in txtFile is invalid.
+Line 1464: The property name Text in txtFile is invalid.
+Line 1472: The property name _Version in CommonDialog1 is invalid.
+Line 1473: The property name _ExtentX in CommonDialog1 is invalid.
+Line 1474: The property name _ExtentY in CommonDialog1 is invalid.
+Line 1475: The property name _StockProps in CommonDialog1 is invalid.
+Line 1487: The property name _Version in cd4 is invalid.
+Line 1488: The property name _ExtentX in cd4 is invalid.
+Line 1489: The property name _ExtentY in cd4 is invalid.
+Line 1490: The property name _StockProps in cd4 is invalid.
+Line 1495: The property name _Version in cd3 is invalid.
+Line 1496: The property name _ExtentX in cd3 is invalid.
+Line 1497: The property name _ExtentY in cd3 is invalid.
+Line 1498: The property name _StockProps in cd3 is invalid.
+Line 1503: The property name _Version in cd2 is invalid.
+Line 1504: The property name _ExtentX in cd2 is invalid.
+Line 1505: The property name _ExtentY in cd2 is invalid.
+Line 1506: The property name _StockProps in cd2 is invalid.
+Line 1511: The property name _Version in cd1 is invalid.
+Line 1512: The property name _ExtentX in cd1 is invalid.
+Line 1513: The property name _ExtentY in cd1 is invalid.
+Line 1514: The property name _StockProps in cd1 is invalid.

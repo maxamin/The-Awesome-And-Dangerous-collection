@@ -1,0 +1,5 @@
+Line 14: Class XtremeSuiteControls.ListView of control lstAds was not a loaded control class.
+Line 21: Class XtremeSuiteControls.GroupBox of control gbCommands was not a loaded control class.
+Line 90: Class XtremeSuiteControls.PushButton of control cmdSet was not a loaded control class.
+Line 97: Class XtremeSuiteControls.PushButton of control cmdADLocator was not a loaded control class.
+Line 181: Class MSComctlLib.StatusBar of control sbStatus was not a loaded control class.

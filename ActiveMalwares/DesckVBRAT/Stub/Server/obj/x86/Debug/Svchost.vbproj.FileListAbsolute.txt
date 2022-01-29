@@ -1,0 +1,98 @@
+C:\Users\João\Desktop\Server\Server\obj\x86\Debug\Svchost.Form1.resources
+C:\Users\João\Desktop\Server\Server\obj\x86\Debug\Svchost.Resources.resources
+C:\Users\João\Desktop\Server\Server\obj\x86\Debug\Svchost.vbproj.GenerateResource.Cache
+C:\Users\João\Desktop\Server\Server\bin\Debug\Stub.exe.config
+C:\Users\João\Desktop\Server\Server\bin\Debug\Stub.exe
+C:\Users\João\Desktop\Server\Server\bin\Debug\Stub.pdb
+C:\Users\João\Desktop\Server\Server\bin\Debug\Stub.xml
+C:\Users\João\Desktop\Server\Server\obj\x86\Debug\Stub.exe
+C:\Users\João\Desktop\Server\Server\obj\x86\Debug\Stub.xml
+C:\Users\João\Desktop\Server\Server\obj\x86\Debug\Stub.pdb
+C:\Users\João\Desktop\Server\Server\obj\x86\Debug\Svchost.vbprojResolveAssemblyReference.cache
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Server\Server\obj\x86\Debug\Svchost.vbprojResolveAssemblyReference.cache
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Server\Server\obj\x86\Debug\Svchost.Resources.resources
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Server\Server\obj\x86\Debug\Svchost.vbproj.GenerateResource.Cache
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Server\Server\bin\Debug\Svchost.exe.config
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Server\Server\bin\Debug\Svchost.exe
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Server\Server\bin\Debug\Svchost.pdb
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Server\Server\bin\Debug\Svchost.xml
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Server\Server\obj\x86\Debug\Svchost.exe
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Server\Server\obj\x86\Debug\Svchost.xml
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Server\Server\obj\x86\Debug\Svchost.pdb
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Server\Server\obj\x86\Debug\Svchost.Svchost.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Server\Server\obj\x86\Debug\Svchost.vbprojResolveAssemblyReference.cache
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Server\Server\obj\x86\Debug\Svchost.vbproj.GenerateResource.Cache
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Server\Server\obj\x86\Debug\Microsoft.Svchost.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Server\Server\obj\x86\Debug\Microsoft.Resources.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Server\Server\bin\Debug\Stub.exe.config
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Server\Server\bin\Debug\Stub.exe
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Server\Server\bin\Debug\Stub.pdb
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Server\Server\bin\Debug\Stub.xml
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Server\Server\obj\x86\Debug\Stub.exe
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Server\Server\obj\x86\Debug\Stub.xml
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Server\Server\obj\x86\Debug\Stub.pdb
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Server\Server\bin\Debug\Stub.exe.config
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Server\Server\obj\x86\Debug\Stub.exe
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Server\Server\obj\x86\Debug\Stub.xml
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Server\Server\obj\x86\Debug\Stub.pdb
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Server\Server\bin\Debug\Stub.exe
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Server\Server\bin\Debug\Stub.pdb
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Server\Server\bin\Debug\Stub.xml
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Server\Server\obj\x86\Debug\Svchost.vbprojResolveAssemblyReference.cache
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Server\Server\obj\x86\Debug\Microsoft.Svchost.resources
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Server\Server\obj\x86\Debug\Microsoft.Resources.resources
+C:\Users\João\Desktop\DesckVB Rat v2.4 Crc\Server\Server\obj\x86\Debug\Svchost.vbproj.GenerateResource.Cache
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Server\Server\obj\x86\Debug\Svchost.vbprojResolveAssemblyReference.cache
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Server\Server\obj\x86\Debug\Microsoft.Svchost.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Server\Server\obj\x86\Debug\Microsoft.Resources.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Server\Server\obj\x86\Debug\Svchost.vbproj.GenerateResource.Cache
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Server\Server\bin\Debug\Microsoft.exe.config
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Server\Server\bin\Debug\Microsoft.exe
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Server\Server\bin\Debug\Microsoft.pdb
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Server\Server\bin\Debug\Microsoft.xml
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Server\Server\obj\x86\Debug\Microsoft.exe
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Server\Server\obj\x86\Debug\Microsoft.xml
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Server\Server\obj\x86\Debug\Microsoft.pdb
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Stub\Server\bin\Debug\Microsoft.exe.config
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Stub\Server\obj\x86\Debug\Microsoft.exe
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Stub\Server\obj\x86\Debug\Microsoft.xml
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Stub\Server\obj\x86\Debug\Microsoft.pdb
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Stub\Server\obj\x86\Debug\Microsoft.Svchost.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Stub\Server\obj\x86\Debug\Microsoft.Resources.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Stub\Server\obj\x86\Debug\Svchost.vbproj.GenerateResource.Cache
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Stub\Server\bin\Debug\Microsoft.exe
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Stub\Server\bin\Debug\Microsoft.pdb
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Stub\Server\bin\Debug\Microsoft.xml
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Stub\Server\bin\Debug\Microsoft.exe.config
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Stub\Server\obj\x86\Debug\Microsoft.exe
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Stub\Server\obj\x86\Debug\Microsoft.xml
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Stub\Server\obj\x86\Debug\Microsoft.pdb
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Stub\Server\bin\Debug\Microsoft.exe
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Stub\Server\bin\Debug\Microsoft.pdb
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Stub\Server\bin\Debug\Microsoft.xml
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Stub\Server\obj\x86\Debug\Microsoft.Svchost.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Stub\Server\obj\x86\Debug\Microsoft.Resources.resources
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Stub\Server\obj\x86\Debug\Svchost.vbproj.GenerateResource.Cache
+C:\Users\João\Desktop\DesckVB Rat v2.5 Crc\Crc DesckVB Rat\Stub\Server\obj\x86\Debug\Svchost.vbprojResolveAssemblyReference.cache
+C:\Users\João\Desktop\Crc DesckVB Rat\Stub\Server\bin\Debug\Microsoft.exe.config
+C:\Users\João\Desktop\Crc DesckVB Rat\Stub\Server\obj\x86\Debug\Microsoft.exe
+C:\Users\João\Desktop\Crc DesckVB Rat\Stub\Server\obj\x86\Debug\Microsoft.xml
+C:\Users\João\Desktop\Crc DesckVB Rat\Stub\Server\obj\x86\Debug\Microsoft.pdb
+C:\Users\João\Desktop\Crc DesckVB Rat\Stub\Server\obj\x86\Debug\Svchost.vbprojResolveAssemblyReference.cache
+C:\Users\João\Desktop\Crc DesckVB Rat\Stub\Server\obj\x86\Debug\Microsoft.Svchost.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Stub\Server\obj\x86\Debug\Microsoft.Resources.resources
+C:\Users\João\Desktop\Crc DesckVB Rat\Stub\Server\obj\x86\Debug\Svchost.vbproj.GenerateResource.Cache
+C:\Users\João\Desktop\Crc DesckVB Rat\Stub\Server\bin\Debug\Microsoft.exe
+C:\Users\João\Desktop\Crc DesckVB Rat\Stub\Server\bin\Debug\Microsoft.pdb
+C:\Users\João\Desktop\Crc DesckVB Rat\Stub\Server\bin\Debug\Microsoft.xml
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Stub\Server\bin\Debug\Microsoft.exe.config
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Stub\Server\obj\x86\Debug\Microsoft.exe
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Stub\Server\obj\x86\Debug\Microsoft.xml
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Stub\Server\obj\x86\Debug\Microsoft.pdb
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Stub\Server\bin\Debug\Microsoft.exe
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Stub\Server\bin\Debug\Microsoft.pdb
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Stub\Server\bin\Debug\Microsoft.xml
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Stub\Server\obj\x86\Debug\Svchost.vbprojResolveAssemblyReference.cache
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Stub\Server\obj\x86\Debug\Microsoft.Svchost.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Stub\Server\obj\x86\Debug\Microsoft.Resources.resources
+C:\Users\Pjoao1578\Desktop\Crc DesckVB Rat\Stub\Server\obj\x86\Debug\Svchost.vbproj.GenerateResource.Cache

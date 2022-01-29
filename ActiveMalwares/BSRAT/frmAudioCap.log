@@ -1,0 +1,11 @@
+Line 20: Class XtremeSuiteControls.GroupBox of control gbStreams was not a loaded control class.
+Line 26: Class XtremeSuiteControls.ListView of control lstStreams was not a loaded control class.
+Line 34: Class XtremeSuiteControls.GroupBox of control gbSettings was not a loaded control class.
+Line 45: Class XtremeSuiteControls.PushButton of control cmdStart was not a loaded control class.
+Line 52: Class XtremeSuiteControls.ComboBox of control cmbChannels was not a loaded control class.
+Line 60: Class XtremeSuiteControls.ComboBox of control cmbBits was not a loaded control class.
+Line 68: Class XtremeSuiteControls.CheckBox of control chkSave was not a loaded control class.
+Line 85: Class XtremeSuiteControls.ComboBox of control cmbLength was not a loaded control class.
+Line 93: Class XtremeSuiteControls.ComboBox of control cmbSamples was not a loaded control class.
+Line 101: Class XtremeSuiteControls.CheckBox of control chkAuto was not a loaded control class.
+Line 108: Class XtremeSuiteControls.CheckBox of control chkPlay was not a loaded control class.

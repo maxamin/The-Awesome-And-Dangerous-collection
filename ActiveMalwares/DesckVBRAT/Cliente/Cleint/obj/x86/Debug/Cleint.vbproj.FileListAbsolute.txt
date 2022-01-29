@@ -1,0 +1,42 @@
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.vbprojResolveAssemblyReference.cache
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.Fm.resources
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.Form1.resources
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.Form3.resources
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.Form4.resources
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.opções.resources
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.Report.resources
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.Resources.resources
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.vbproj.GenerateResource.Cache
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Cleint\Cleint\bin\Debug\DesckVB Rat.exe.config
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Cleint\Cleint\bin\Debug\DesckVB Rat.exe
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Cleint\Cleint\bin\Debug\DesckVB Rat.pdb
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Cleint\Cleint\bin\Debug\DesckVB Rat.xml
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\DesckVB Rat.exe
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\DesckVB Rat.xml
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\DesckVB Rat.pdb
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.Aborte.resources
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.Descktop.resources
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.Server.resources
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.password.resources
+C:\Users\João\Desktop\VB.Net Malki Rat [Src]\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.Keylogger.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\bin\Debug\DesckVB Rat.exe.config
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\DesckVB Rat.exe
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\DesckVB Rat.xml
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\DesckVB Rat.pdb
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\bin\Debug\DesckVB Rat.exe
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\bin\Debug\DesckVB Rat.pdb
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\bin\Debug\DesckVB Rat.xml
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.vbprojResolveAssemblyReference.cache
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.Descktop.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.Fm.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.Keylogger.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.password.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.Form1.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.Server.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.Form3.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.Form4.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.Aborte.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.opções.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.Report.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.Resources.resources
+C:\Users\João\Desktop\Desck Vb Rat Crc\VB.Net Rat Source\Cleint\Cleint\obj\x86\Debug\Cleint.vbproj.GenerateResource.Cache

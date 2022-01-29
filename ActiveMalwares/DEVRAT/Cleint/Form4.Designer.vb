@@ -1,0 +1,442 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class fm
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(fm))
+        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
+        Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.RunToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RenameToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DeleteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DownToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DestroyFileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HideFileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ShowFileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NewFolderToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PlayMusicInHiddenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NewTextFileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ViweeditTextFileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CrypteDecryptTextToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SetAsWallpaperToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ShowPicToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader2 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ListView1 = New System.Windows.Forms.ListView()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.InfluenceButton4 = New Microsoft.InfluenceButton()
+        Me.InfluenceButton2 = New Microsoft.InfluenceButton()
+        Me.InfluenceButton1 = New Microsoft.InfluenceButton()
+        Me.InfluenceButton3 = New Microsoft.InfluenceButton()
+        Me.InfluenceButton5 = New Microsoft.InfluenceButton()
+        Me.InfluenceButton6 = New Microsoft.InfluenceButton()
+        Me.InfluenceButton7 = New Microsoft.InfluenceButton()
+        Me.InfluenceButton8 = New Microsoft.InfluenceButton()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
+        Me.pic1 = New System.Windows.Forms.PictureBox()
+        Me.ContextMenuStrip1.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
+        CType(Me.pic1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'ImageList1
+        '
+        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
+        Me.ImageList1.Images.SetKeyName(0, "0.png")
+        Me.ImageList1.Images.SetKeyName(1, "1.png")
+        Me.ImageList1.Images.SetKeyName(2, "2.png")
+        Me.ImageList1.Images.SetKeyName(3, "3.png")
+        Me.ImageList1.Images.SetKeyName(4, "4.png")
+        Me.ImageList1.Images.SetKeyName(5, "5.png")
+        Me.ImageList1.Images.SetKeyName(6, "6.png")
+        Me.ImageList1.Images.SetKeyName(7, "7.png")
+        Me.ImageList1.Images.SetKeyName(8, "8.png")
+        '
+        'ContextMenuStrip1
+        '
+        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RunToolStripMenuItem, Me.RenameToolStripMenuItem, Me.DeleteToolStripMenuItem, Me.UpToolStripMenuItem, Me.DownToolStripMenuItem, Me.OpToolStripMenuItem, Me.DestroyFileToolStripMenuItem, Me.HideFileToolStripMenuItem, Me.ShowFileToolStripMenuItem, Me.NewFolderToolStripMenuItem, Me.PlayMusicInHiddenToolStripMenuItem, Me.NewTextFileToolStripMenuItem, Me.ViweeditTextFileToolStripMenuItem, Me.CrypteDecryptTextToolStripMenuItem, Me.SetAsWallpaperToolStripMenuItem, Me.ShowPicToolStripMenuItem})
+        Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(202, 356)
+        '
+        'RunToolStripMenuItem
+        '
+        Me.RunToolStripMenuItem.Image = CType(resources.GetObject("RunToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.RunToolStripMenuItem.Name = "RunToolStripMenuItem"
+        Me.RunToolStripMenuItem.Size = New System.Drawing.Size(201, 22)
+        Me.RunToolStripMenuItem.Text = "Run"
+        '
+        'RenameToolStripMenuItem
+        '
+        Me.RenameToolStripMenuItem.Image = CType(resources.GetObject("RenameToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.RenameToolStripMenuItem.Name = "RenameToolStripMenuItem"
+        Me.RenameToolStripMenuItem.Size = New System.Drawing.Size(201, 22)
+        Me.RenameToolStripMenuItem.Text = "Rename"
+        '
+        'DeleteToolStripMenuItem
+        '
+        Me.DeleteToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Delete1
+        Me.DeleteToolStripMenuItem.Name = "DeleteToolStripMenuItem"
+        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(201, 22)
+        Me.DeleteToolStripMenuItem.Text = "Delete "
+        '
+        'UpToolStripMenuItem
+        '
+        Me.UpToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Upload
+        Me.UpToolStripMenuItem.Name = "UpToolStripMenuItem"
+        Me.UpToolStripMenuItem.Size = New System.Drawing.Size(201, 22)
+        Me.UpToolStripMenuItem.Text = "Upload"
+        '
+        'DownToolStripMenuItem
+        '
+        Me.DownToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Download
+        Me.DownToolStripMenuItem.Name = "DownToolStripMenuItem"
+        Me.DownToolStripMenuItem.Size = New System.Drawing.Size(201, 22)
+        Me.DownToolStripMenuItem.Text = "Download"
+        '
+        'OpToolStripMenuItem
+        '
+        Me.OpToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Open_Folder
+        Me.OpToolStripMenuItem.Name = "OpToolStripMenuItem"
+        Me.OpToolStripMenuItem.Size = New System.Drawing.Size(201, 22)
+        Me.OpToolStripMenuItem.Text = "Open Downloads Folder"
+        '
+        'DestroyFileToolStripMenuItem
+        '
+        Me.DestroyFileToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Abort
+        Me.DestroyFileToolStripMenuItem.Name = "DestroyFileToolStripMenuItem"
+        Me.DestroyFileToolStripMenuItem.Size = New System.Drawing.Size(201, 22)
+        Me.DestroyFileToolStripMenuItem.Text = "Destroy file"
+        '
+        'HideFileToolStripMenuItem
+        '
+        Me.HideFileToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.hide_folder
+        Me.HideFileToolStripMenuItem.Name = "HideFileToolStripMenuItem"
+        Me.HideFileToolStripMenuItem.Size = New System.Drawing.Size(201, 22)
+        Me.HideFileToolStripMenuItem.Text = "Hide File "
+        '
+        'ShowFileToolStripMenuItem
+        '
+        Me.ShowFileToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.show_folder
+        Me.ShowFileToolStripMenuItem.Name = "ShowFileToolStripMenuItem"
+        Me.ShowFileToolStripMenuItem.Size = New System.Drawing.Size(201, 22)
+        Me.ShowFileToolStripMenuItem.Text = "Show File"
+        '
+        'NewFolderToolStripMenuItem
+        '
+        Me.NewFolderToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.add_folder
+        Me.NewFolderToolStripMenuItem.Name = "NewFolderToolStripMenuItem"
+        Me.NewFolderToolStripMenuItem.Size = New System.Drawing.Size(201, 22)
+        Me.NewFolderToolStripMenuItem.Text = "New Folder "
+        '
+        'PlayMusicInHiddenToolStripMenuItem
+        '
+        Me.PlayMusicInHiddenToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Audio
+        Me.PlayMusicInHiddenToolStripMenuItem.Name = "PlayMusicInHiddenToolStripMenuItem"
+        Me.PlayMusicInHiddenToolStripMenuItem.Size = New System.Drawing.Size(201, 22)
+        Me.PlayMusicInHiddenToolStripMenuItem.Text = "Play Music In Hidden"
+        '
+        'NewTextFileToolStripMenuItem
+        '
+        Me.NewTextFileToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Create1
+        Me.NewTextFileToolStripMenuItem.Name = "NewTextFileToolStripMenuItem"
+        Me.NewTextFileToolStripMenuItem.Size = New System.Drawing.Size(201, 22)
+        Me.NewTextFileToolStripMenuItem.Text = "New Text File"
+        '
+        'ViweeditTextFileToolStripMenuItem
+        '
+        Me.ViweeditTextFileToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Edittext
+        Me.ViweeditTextFileToolStripMenuItem.Name = "ViweeditTextFileToolStripMenuItem"
+        Me.ViweeditTextFileToolStripMenuItem.Size = New System.Drawing.Size(201, 22)
+        Me.ViweeditTextFileToolStripMenuItem.Text = "View/Edit Text"
+        '
+        'CrypteDecryptTextToolStripMenuItem
+        '
+        Me.CrypteDecryptTextToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Cryptdecrypt
+        Me.CrypteDecryptTextToolStripMenuItem.Name = "CrypteDecryptTextToolStripMenuItem"
+        Me.CrypteDecryptTextToolStripMenuItem.Size = New System.Drawing.Size(201, 22)
+        Me.CrypteDecryptTextToolStripMenuItem.Text = "Crypte/Decrypt Text"
+        '
+        'SetAsWallpaperToolStripMenuItem
+        '
+        Me.SetAsWallpaperToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Picture
+        Me.SetAsWallpaperToolStripMenuItem.Name = "SetAsWallpaperToolStripMenuItem"
+        Me.SetAsWallpaperToolStripMenuItem.Size = New System.Drawing.Size(201, 22)
+        Me.SetAsWallpaperToolStripMenuItem.Text = "Set as Wallpaper"
+        '
+        'ShowPicToolStripMenuItem
+        '
+        Me.ShowPicToolStripMenuItem.Image = Global.Microsoft.My.Resources.Resources.Picture
+        Me.ShowPicToolStripMenuItem.Name = "ShowPicToolStripMenuItem"
+        Me.ShowPicToolStripMenuItem.Size = New System.Drawing.Size(201, 22)
+        Me.ShowPicToolStripMenuItem.Text = "Show Pic"
+        '
+        'ColumnHeader1
+        '
+        Me.ColumnHeader1.Text = "Name"
+        Me.ColumnHeader1.Width = 151
+        '
+        'ColumnHeader2
+        '
+        Me.ColumnHeader2.Text = "Size"
+        Me.ColumnHeader2.Width = 105
+        '
+        'ListView1
+        '
+        Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2})
+        Me.ListView1.ContextMenuStrip = Me.ContextMenuStrip1
+        Me.ListView1.FullRowSelect = True
+        Me.ListView1.GridLines = True
+        Me.ListView1.Location = New System.Drawing.Point(3, 48)
+        Me.ListView1.MultiSelect = False
+        Me.ListView1.Name = "ListView1"
+        Me.ListView1.Size = New System.Drawing.Size(459, 346)
+        Me.ListView1.SmallImageList = Me.ImageList1
+        Me.ListView1.TabIndex = 4
+        Me.ListView1.UseCompatibleStateImageBehavior = False
+        Me.ListView1.View = System.Windows.Forms.View.Details
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(12, 22)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.ReadOnly = True
+        Me.TextBox1.Size = New System.Drawing.Size(369, 20)
+        Me.TextBox1.TabIndex = 2
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(387, 22)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 5
+        Me.Button1.Text = "Back"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'InfluenceButton4
+        '
+        Me.InfluenceButton4.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton4.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton4.Location = New System.Drawing.Point(6, 69)
+        Me.InfluenceButton4.Name = "InfluenceButton4"
+        Me.InfluenceButton4.Size = New System.Drawing.Size(115, 30)
+        Me.InfluenceButton4.TabIndex = 9
+        Me.InfluenceButton4.Text = "Recent"
+        Me.InfluenceButton4.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'InfluenceButton2
+        '
+        Me.InfluenceButton2.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton2.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton2.Location = New System.Drawing.Point(6, 177)
+        Me.InfluenceButton2.Name = "InfluenceButton2"
+        Me.InfluenceButton2.Size = New System.Drawing.Size(115, 30)
+        Me.InfluenceButton2.TabIndex = 7
+        Me.InfluenceButton2.Text = "Temp"
+        Me.InfluenceButton2.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'InfluenceButton1
+        '
+        Me.InfluenceButton1.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton1.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton1.Location = New System.Drawing.Point(6, 141)
+        Me.InfluenceButton1.Name = "InfluenceButton1"
+        Me.InfluenceButton1.Size = New System.Drawing.Size(115, 30)
+        Me.InfluenceButton1.TabIndex = 6
+        Me.InfluenceButton1.Text = "Desktop"
+        Me.InfluenceButton1.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'InfluenceButton3
+        '
+        Me.InfluenceButton3.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton3.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton3.Location = New System.Drawing.Point(6, 33)
+        Me.InfluenceButton3.Name = "InfluenceButton3"
+        Me.InfluenceButton3.Size = New System.Drawing.Size(115, 30)
+        Me.InfluenceButton3.TabIndex = 8
+        Me.InfluenceButton3.Text = "Startup"
+        Me.InfluenceButton3.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'InfluenceButton5
+        '
+        Me.InfluenceButton5.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton5.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton5.Location = New System.Drawing.Point(6, 105)
+        Me.InfluenceButton5.Name = "InfluenceButton5"
+        Me.InfluenceButton5.Size = New System.Drawing.Size(115, 30)
+        Me.InfluenceButton5.TabIndex = 10
+        Me.InfluenceButton5.Text = "History"
+        Me.InfluenceButton5.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'InfluenceButton6
+        '
+        Me.InfluenceButton6.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton6.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton6.Location = New System.Drawing.Point(6, 213)
+        Me.InfluenceButton6.Name = "InfluenceButton6"
+        Me.InfluenceButton6.Size = New System.Drawing.Size(115, 30)
+        Me.InfluenceButton6.TabIndex = 11
+        Me.InfluenceButton6.Text = "My Documents"
+        Me.InfluenceButton6.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'InfluenceButton7
+        '
+        Me.InfluenceButton7.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton7.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton7.Location = New System.Drawing.Point(6, 285)
+        Me.InfluenceButton7.Name = "InfluenceButton7"
+        Me.InfluenceButton7.Size = New System.Drawing.Size(115, 30)
+        Me.InfluenceButton7.TabIndex = 12
+        Me.InfluenceButton7.Text = "My Pictures"
+        Me.InfluenceButton7.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'InfluenceButton8
+        '
+        Me.InfluenceButton8.BackColor = System.Drawing.Color.Transparent
+        Me.InfluenceButton8.Font = New System.Drawing.Font("Verdana", 8.25!)
+        Me.InfluenceButton8.Location = New System.Drawing.Point(6, 249)
+        Me.InfluenceButton8.Name = "InfluenceButton8"
+        Me.InfluenceButton8.Size = New System.Drawing.Size(115, 30)
+        Me.InfluenceButton8.TabIndex = 13
+        Me.InfluenceButton8.Text = "My Music"
+        Me.InfluenceButton8.TextAlignment = System.Drawing.StringAlignment.Center
+        '
+        'LinkLabel1
+        '
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.LinkColor = System.Drawing.Color.White
+        Me.LinkLabel1.Location = New System.Drawing.Point(45, 318)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(28, 13)
+        Me.LinkLabel1.TabIndex = 14
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "Hide"
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.LinkLabel1)
+        Me.GroupBox1.Controls.Add(Me.InfluenceButton8)
+        Me.GroupBox1.Controls.Add(Me.InfluenceButton7)
+        Me.GroupBox1.Controls.Add(Me.InfluenceButton6)
+        Me.GroupBox1.Controls.Add(Me.InfluenceButton5)
+        Me.GroupBox1.Controls.Add(Me.InfluenceButton3)
+        Me.GroupBox1.Controls.Add(Me.InfluenceButton1)
+        Me.GroupBox1.Controls.Add(Me.InfluenceButton2)
+        Me.GroupBox1.Controls.Add(Me.InfluenceButton4)
+        Me.GroupBox1.ForeColor = System.Drawing.Color.White
+        Me.GroupBox1.Location = New System.Drawing.Point(468, 48)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(131, 338)
+        Me.GroupBox1.TabIndex = 14
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Special Folders"
+        '
+        'LinkLabel2
+        '
+        Me.LinkLabel2.AutoSize = True
+        Me.LinkLabel2.LinkColor = System.Drawing.Color.White
+        Me.LinkLabel2.Location = New System.Drawing.Point(513, 32)
+        Me.LinkLabel2.Name = "LinkLabel2"
+        Me.LinkLabel2.Size = New System.Drawing.Size(33, 13)
+        Me.LinkLabel2.TabIndex = 15
+        Me.LinkLabel2.TabStop = True
+        Me.LinkLabel2.Text = "Show"
+        Me.LinkLabel2.Visible = False
+        '
+        'pic1
+        '
+        Me.pic1.BackColor = System.Drawing.SystemColors.Control
+        Me.pic1.Location = New System.Drawing.Point(605, 101)
+        Me.pic1.Name = "pic1"
+        Me.pic1.Size = New System.Drawing.Size(266, 154)
+        Me.pic1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pic1.TabIndex = 16
+        Me.pic1.TabStop = False
+        '
+        'fm
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(603, 417)
+        Me.Controls.Add(Me.pic1)
+        Me.Controls.Add(Me.LinkLabel2)
+        Me.Controls.Add(Me.GroupBox1)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.ListView1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
+        Me.Name = "fm"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "File Manager : "
+        Me.ContextMenuStrip1.ResumeLayout(False)
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        CType(Me.pic1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents ContextMenuStrip1 As System.Windows.Forms.ContextMenuStrip
+    Friend WithEvents ImageList1 As System.Windows.Forms.ImageList
+    Friend WithEvents DeleteToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents RunToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents RenameToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents UpToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents DownToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents OpToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents DestroyFileToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents HideFileToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ShowFileToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents NewFolderToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents PlayMusicInHiddenToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents NewTextFileToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ViweeditTextFileToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CrypteDecryptTextToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents SetAsWallpaperToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ShowPicToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ColumnHeader1 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ColumnHeader2 As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ListView1 As System.Windows.Forms.ListView
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents InfluenceButton4 As Microsoft.InfluenceButton
+    Friend WithEvents InfluenceButton2 As Microsoft.InfluenceButton
+    Friend WithEvents InfluenceButton1 As Microsoft.InfluenceButton
+    Friend WithEvents InfluenceButton3 As Microsoft.InfluenceButton
+    Friend WithEvents InfluenceButton5 As Microsoft.InfluenceButton
+    Friend WithEvents InfluenceButton6 As Microsoft.InfluenceButton
+    Friend WithEvents InfluenceButton7 As Microsoft.InfluenceButton
+    Friend WithEvents InfluenceButton8 As Microsoft.InfluenceButton
+    Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
+    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents LinkLabel2 As System.Windows.Forms.LinkLabel
+    Friend WithEvents pic1 As System.Windows.Forms.PictureBox
+End Class

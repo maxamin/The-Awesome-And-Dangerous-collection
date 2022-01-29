@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EEB553BF-6374-462D-A3CC-D80067BFA6A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>njRAT_0._3._6.My.MyApplication</StartupObject>
+    <RootNamespace>njRAT_0._3._6</RootNamespace>
+    <AssemblyName>njRAT 0.3.6</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\</OutputPath>
+    <DocumentationFile>njRAT 0.3.6.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>njRAT 0.3.6.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>444.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alrt.Designer.vb">
+      <DependentUpon>alrt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="alrt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Builder.Designer.vb">
+      <DependentUpon>Builder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Builder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cam.Designer.vb">
+      <DependentUpon>Cam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cap.Designer.vb">
+      <DependentUpon>cap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chat.Designer.vb">
+      <DependentUpon>Chat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client.vb" />
+    <Compile Include="DW.Designer.vb">
+      <DependentUpon>DW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FM.Designer.vb">
+      <DependentUpon>FM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMcach.vb" />
+    <Compile Include="FN.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FURL.Designer.vb">
+      <DependentUpon>FURL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FURL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ico.vb" />
+    <Compile Include="ind.vb" />
+    <Compile Include="kl.Designer.vb">
+      <DependentUpon>kl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logs.Designer.vb">
+      <DependentUpon>Logs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Logs.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LV.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Note.Designer.vb">
+      <DependentUpon>Note.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Note.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pass.Designer.vb">
+      <DependentUpon>Pass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="proc.Designer.vb">
+      <DependentUpon>proc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="proc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="script.Designer.vb">
+      <DependentUpon>script.vb</DependentUpon>
+    </Compile>
+    <Compile Include="script.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sinf.Designer.vb">
+      <DependentUpon>sinf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sinf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SK.vb" />
+    <Compile Include="up.Designer.vb">
+      <DependentUpon>up.vb</DependentUpon>
+    </Compile>
+    <Compile Include="up.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="alrt.resx">
+      <DependentUpon>alrt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Builder.resx">
+      <DependentUpon>Builder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cam.resx">
+      <DependentUpon>Cam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cap.resx">
+      <DependentUpon>cap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chat.resx">
+      <DependentUpon>Chat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DW.resx">
+      <DependentUpon>DW.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FM.resx">
+      <DependentUpon>FM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FURL.resx">
+      <DependentUpon>FURL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kl.resx">
+      <DependentUpon>kl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logs.resx">
+      <DependentUpon>Logs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Note.resx">
+      <DependentUpon>Note.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pass.resx">
+      <DependentUpon>Pass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="proc.resx">
+      <DependentUpon>proc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="script.resx">
+      <DependentUpon>script.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sinf.resx">
+      <DependentUpon>sinf.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="up.resx">
+      <DependentUpon>up.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ASMNOM1.res" />
+    <None Include="Resources\JPEG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="444.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

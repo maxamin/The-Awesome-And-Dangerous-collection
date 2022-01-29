@@ -1,0 +1,14 @@
+﻿Public Class spa
+    Public sock As Integer
+    Private Sub spa_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub PTheme1_Click(sender As Object, e As EventArgs) Handles PTheme1.Click
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Form1.s.Send(sock, "tspam" & "||" & TextBox1.Text & "||" & NumericUpDown1.Value / 1000)
+    End Sub
+End Class

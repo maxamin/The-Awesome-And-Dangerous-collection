@@ -1,0 +1,9 @@
+Line 27: Class MSComctlLib.StatusBar of control StatusBar1 was not a loaded control class.
+Line 90: Class MSComDlg.CommonDialog of control DLGsave was not a loaded control class.
+Line 34: The property name _ExtentX in StatusBar1 is invalid.
+Line 35: The property name _ExtentY in StatusBar1 is invalid.
+Line 36: The property name _Version in StatusBar1 is invalid.
+Line 52: The property name Panels in StatusBar1 is invalid.
+Line 93: The property name _ExtentX in DLGsave is invalid.
+Line 94: The property name _ExtentY in DLGsave is invalid.
+Line 95: The property name _Version in DLGsave is invalid.

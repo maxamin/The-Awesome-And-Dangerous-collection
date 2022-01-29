@@ -1,0 +1,6 @@
+Line 22: Class RichTextLib.RichTextBox of control txtChat was not a loaded control class.
+Line 29: Class MSWinsockLib.Winsock of control sckChat was not a loaded control class.
+Line 41: Class MSComctlLib.ImageList of control imgIcons was not a loaded control class.
+Line 43: Class MSComctlLib.ListView of control lstUsers was not a loaded control class.
+Line 50: Class MSComctlLib.Toolbar of control tbConversations was not a loaded control class.
+Line 57: Class RichTextLib.RichTextBox of control txtMain was not a loaded control class.

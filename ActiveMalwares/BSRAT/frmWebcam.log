@@ -1,0 +1,4 @@
+Line 103: Class XtremeSuiteControls.ProgressBar of control pbWebcam was not a loaded control class.
+Line 110: Class MSComctlLib.Slider of control sldQuality was not a loaded control class.
+Line 117: Class XtremeSuiteControls.PushButton of control cmdActivate was not a loaded control class.
+Line 124: Class XtremeSuiteControls.CheckBox of control chkWebcamSave was not a loaded control class.

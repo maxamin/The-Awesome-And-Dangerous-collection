@@ -1,0 +1,77 @@
+C:\Users\Alaa\Desktop\Server\Server\bin\Debug\Server.exe
+C:\Users\Alaa\Desktop\Server\Server\bin\Debug\Server.pdb
+C:\Users\Alaa\Desktop\Server\Server\bin\Debug\Server.xml
+C:\Users\Alaa\Desktop\Server\Server\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Alaa\Desktop\Server\Server\obj\x86\Debug\Server.Form1.resources
+C:\Users\Alaa\Desktop\Server\Server\obj\x86\Debug\Server.Resources.resources
+C:\Users\Alaa\Desktop\Server\Server\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Alaa\Desktop\Server\Server\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Alaa\Desktop\Server\Server\obj\x86\Debug\Server.exe
+C:\Users\Alaa\Desktop\Server\Server\obj\x86\Debug\Server.xml
+C:\Users\Alaa\Desktop\Server\Server\obj\x86\Debug\Server.pdb
+E:\Server\obj\x86\Debug\Server.exe
+E:\Server\obj\x86\Debug\Server.xml
+E:\Server\obj\x86\Debug\Server.pdb
+E:\Server\bin\Debug\Server.exe
+E:\Server\bin\Debug\Server.pdb
+E:\Server\bin\Debug\Server.xml
+E:\Server\obj\x86\Debug\Server.vbprojResolveAssemblyReference.cache
+E:\Server\obj\x86\Debug\Server.Form1.resources
+E:\Server\obj\x86\Debug\Server.Resources.resources
+E:\Server\obj\x86\Debug\Server.vbproj.GenerateResource.Cache
+C:\Users\Mahmoud\Desktop\Server\obj\x86\Debug\Server.exe
+C:\Users\Mahmoud\Desktop\Server\obj\x86\Debug\Server.xml
+C:\Users\Mahmoud\Desktop\Server\obj\x86\Debug\Server.pdb
+C:\Users\Mr.Mobark\Desktop\Cleint\Server\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Mr.Mobark\Desktop\Cleint\Server\obj\x86\Debug\Stub.Form1.resources
+C:\Users\Mr.Mobark\Desktop\Cleint\Server\obj\x86\Debug\Stub.Resources.resources
+C:\Users\Mr.Mobark\Desktop\Cleint\Server\obj\x86\Debug\Server.vbproj.GenerateResource.Cache
+C:\Users\Mr.Mobark\Desktop\Cleint\Server\obj\x86\Debug\Stub.exe
+C:\Users\Mr.Mobark\Desktop\Cleint\Server\obj\x86\Debug\Stub.xml
+C:\Users\Mr.Mobark\Desktop\Cleint\Server\obj\x86\Debug\Stub.pdb
+C:\Users\Mr.Mobark\Desktop\Stub.exe
+C:\Users\Mr.Mobark\Desktop\Stub.pdb
+C:\Users\Mr.Mobark\Desktop\Stub.xml
+F:\Egypt-Rat v1.2\Server\obj\x86\Debug\Server.vbprojResolveAssemblyReference.cache
+F:\Egypt-Rat v1.2\Server\obj\x86\Debug\Stub.Form1.resources
+F:\Egypt-Rat v1.2\Server\obj\x86\Debug\Stub.Resources.resources
+F:\Egypt-Rat v1.2\Server\obj\x86\Debug\Server.vbproj.GenerateResource.Cache
+F:\Egypt-Rat v1.2\Server\obj\x86\Debug\Stub.exe
+F:\Egypt-Rat v1.2\Server\obj\x86\Debug\Stub.xml
+F:\Egypt-Rat v1.2\Server\obj\x86\Debug\Stub.pdb
+F:\Stub.exe
+F:\Stub.pdb
+F:\Stub.xml
+F:\sorces\Devils-Rat Sorce\Server\obj\x86\Debug\Stub.xml
+F:\sorces\Devils-Rat Sorce\Server\obj\x86\Debug\Stub.pdb
+F:\sorces\Devils-Rat Sorce\Server\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\sorces\Devils-Rat Sorce\Server\obj\x86\Debug\Stub.chat.resources
+F:\sorces\Devils-Rat Sorce\Server\obj\x86\Debug\Stub.Form1.resources
+F:\sorces\Devils-Rat Sorce\Server\obj\x86\Debug\Stub.Resources.resources
+F:\sorces\Devils-Rat Sorce\Server\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+F:\sorces\Devils-Rat Sorce\Server\obj\x86\Debug\ResGen.read.1.tlog
+F:\sorces\Devils-Rat Sorce\Server\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+F:\sorces\Devils-Rat Sorce\Server\obj\x86\Debug\ResGen.write.1.tlog
+F:\sorces\Devils-Rat Sorce\Server\obj\x86\Debug\Stub.exe
+F:\sorces\Stub.exe
+F:\sorces\Stub.pdb
+F:\sorces\Stub.xml
+C:\Users\Mahmoud\Desktop\ser\Stub.exe
+C:\Users\Mahmoud\Desktop\ser\Stub.pdb
+C:\Users\Mahmoud\Desktop\ser\Stub.xml
+F:\برامجي\سورسات برامجي\Devils-Rat Sorce\Server\obj\x86\Debug\Stub.exe
+F:\برامجي\سورسات برامجي\Devils-Rat Sorce\Server\obj\x86\Debug\Stub.xml
+F:\برامجي\سورسات برامجي\Devils-Rat Sorce\Server\obj\x86\Debug\Stub.pdb
+F:\برامجي\سورسات برامجي\Devils-Rat Sorce\Server\obj\x86\Debug\Stub.chat.resources
+F:\برامجي\سورسات برامجي\Devils-Rat Sorce\Server\obj\x86\Debug\Stub.Form1.resources
+F:\برامجي\سورسات برامجي\Devils-Rat Sorce\Server\obj\x86\Debug\Stub.Resources.resources
+F:\برامجي\سورسات برامجي\Devils-Rat Sorce\Server\obj\x86\Debug\Server.vbprojResolveAssemblyReference.cache
+F:\برامجي\سورسات برامجي\Devils-Rat Sorce\Server\obj\x86\Debug\Server.vbproj.GenerateResource.Cache
+F:\برامجي\Devils-Rat Sorce\Server\obj\x86\Debug\Stub.exe
+F:\برامجي\Devils-Rat Sorce\Server\obj\x86\Debug\Stub.xml
+F:\برامجي\Devils-Rat Sorce\Server\obj\x86\Debug\Stub.pdb
+F:\برامجي\Devils-Rat Sorce\Server\obj\x86\Debug\Stub.chat.resources
+F:\برامجي\Devils-Rat Sorce\Server\obj\x86\Debug\Stub.Form1.resources
+F:\برامجي\Devils-Rat Sorce\Server\obj\x86\Debug\Stub.Resources.resources
+F:\برامجي\Devils-Rat Sorce\Server\obj\x86\Debug\Server.vbproj.GenerateResource.Cache
+F:\برامجي\Devils-Rat Sorce\Server\obj\x86\Debug\Server.vbprojResolveAssemblyReference.cache

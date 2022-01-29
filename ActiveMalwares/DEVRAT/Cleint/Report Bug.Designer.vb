@@ -1,0 +1,350 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Report_Bug
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Dim Bloom1 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom2 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom3 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom4 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom5 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom6 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom7 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom8 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom9 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom10 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom11 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom12 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom13 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom14 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom15 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom16 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom17 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom18 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom19 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom20 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom21 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom22 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom23 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom24 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom25 As Microsoft.Bloom = New Microsoft.Bloom()
+        Me.CyberTheme1 = New Microsoft.CyberTheme()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.CyberButton1 = New Microsoft.CyberButton()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.CyberLabel4 = New Microsoft.CyberLabel()
+        Me.CyberLabel3 = New Microsoft.CyberLabel()
+        Me.TextBox1 = New Microsoft.CyberTextBox()
+        Me.CyberTopButton1 = New Microsoft.CyberTopButton()
+        Me.CyberGroupBox1 = New Microsoft.CyberGroupBox()
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.CyberLabel2 = New Microsoft.CyberLabel()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.CyberLabel1 = New Microsoft.CyberLabel()
+        Me.CyberTheme1.SuspendLayout()
+        Me.CyberGroupBox1.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'CyberTheme1
+        '
+        Me.CyberTheme1.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.CyberTheme1.BorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Bloom1.Name = "Back"
+        Bloom1.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Bloom2.Name = "Gradient1"
+        Bloom2.Value = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Bloom3.Name = "Gradient2"
+        Bloom3.Value = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer))
+        Bloom4.Name = "Border1"
+        Bloom4.Value = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
+        Bloom5.Name = "Border2"
+        Bloom5.Value = System.Drawing.Color.FromArgb(CType(CType(49, Byte), Integer), CType(CType(49, Byte), Integer), CType(CType(49, Byte), Integer))
+        Bloom6.Name = "Border3"
+        Bloom6.Value = System.Drawing.Color.Black
+        Bloom7.Name = "Line1"
+        Bloom7.Value = System.Drawing.Color.Black
+        Bloom8.Name = "Line2"
+        Bloom8.Value = System.Drawing.Color.Black
+        Bloom9.Name = "Hatch1"
+        Bloom9.Value = System.Drawing.Color.Black
+        Bloom10.Name = "Hatch2"
+        Bloom10.Value = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
+        Bloom11.Name = "Shade1"
+        Bloom11.Value = System.Drawing.Color.FromArgb(CType(CType(70, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Bloom12.Name = "Shade2"
+        Bloom12.Value = System.Drawing.Color.Transparent
+        Bloom13.Name = "Text"
+        Bloom13.Value = System.Drawing.Color.LightBlue
+        Me.CyberTheme1.Colors = New Microsoft.Bloom() {Bloom1, Bloom2, Bloom3, Bloom4, Bloom5, Bloom6, Bloom7, Bloom8, Bloom9, Bloom10, Bloom11, Bloom12, Bloom13}
+        Me.CyberTheme1.Controls.Add(Me.LinkLabel1)
+        Me.CyberTheme1.Controls.Add(Me.CyberButton1)
+        Me.CyberTheme1.Controls.Add(Me.TextBox2)
+        Me.CyberTheme1.Controls.Add(Me.CyberLabel4)
+        Me.CyberTheme1.Controls.Add(Me.CyberLabel3)
+        Me.CyberTheme1.Controls.Add(Me.TextBox1)
+        Me.CyberTheme1.Controls.Add(Me.CyberTopButton1)
+        Me.CyberTheme1.Controls.Add(Me.CyberGroupBox1)
+        Me.CyberTheme1.Customization = "GRkZ/yMjI/8UFBT/IiIi/zExMf8AAAD/AAAA/wAAAP8AAAD/IiIi/wAAAEb///8A5tit/w=="
+        Me.CyberTheme1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.CyberTheme1.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.CyberTheme1.Image = Nothing
+        Me.CyberTheme1.Location = New System.Drawing.Point(0, 0)
+        Me.CyberTheme1.Movable = True
+        Me.CyberTheme1.Name = "CyberTheme1"
+        Me.CyberTheme1.NoRounding = False
+        Me.CyberTheme1.Sizable = True
+        Me.CyberTheme1.Size = New System.Drawing.Size(516, 401)
+        Me.CyberTheme1.TabIndex = 0
+        Me.CyberTheme1.Text = ".:Report Bug:."
+        Me.CyberTheme1.TransparencyKey = System.Drawing.Color.Empty
+        '
+        'LinkLabel1
+        '
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.LinkColor = System.Drawing.Color.White
+        Me.LinkLabel1.Location = New System.Drawing.Point(498, 5)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(15, 13)
+        Me.LinkLabel1.TabIndex = 3
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "X"
+        '
+        'CyberButton1
+        '
+        Bloom14.Name = "BackColor"
+        Bloom14.Value = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
+        Bloom15.Name = "TextColor"
+        Bloom15.Value = System.Drawing.Color.LightBlue
+        Me.CyberButton1.Colors = New Microsoft.Bloom() {Bloom14, Bloom15}
+        Me.CyberButton1.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.CyberButton1.Customization = "KCgo/+bYrf8="
+        Me.CyberButton1.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.CyberButton1.Image = Nothing
+        Me.CyberButton1.Location = New System.Drawing.Point(12, 367)
+        Me.CyberButton1.Name = "CyberButton1"
+        Me.CyberButton1.NoRounding = False
+        Me.CyberButton1.Size = New System.Drawing.Size(497, 30)
+        Me.CyberButton1.TabIndex = 7
+        Me.CyberButton1.Text = "Send Report"
+        Me.CyberButton1.Transparent = False
+        '
+        'TextBox2
+        '
+        Me.TextBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox2.ForeColor = System.Drawing.Color.White
+        Me.TextBox2.Location = New System.Drawing.Point(12, 197)
+        Me.TextBox2.Multiline = True
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(497, 167)
+        Me.TextBox2.TabIndex = 6
+        '
+        'CyberLabel4
+        '
+        Bloom16.Name = "TextColor"
+        Bloom16.Value = System.Drawing.Color.LightBlue
+        Bloom17.Name = "BackColor"
+        Bloom17.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.CyberLabel4.Colors = New Microsoft.Bloom() {Bloom16, Bloom17}
+        Me.CyberLabel4.Customization = "5tit/xkZGf8="
+        Me.CyberLabel4.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.CyberLabel4.Image = Nothing
+        Me.CyberLabel4.Location = New System.Drawing.Point(12, 175)
+        Me.CyberLabel4.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.CyberLabel4.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.CyberLabel4.Name = "CyberLabel4"
+        Me.CyberLabel4.NoRounding = False
+        Me.CyberLabel4.Size = New System.Drawing.Size(94, 16)
+        Me.CyberLabel4.TabIndex = 5
+        Me.CyberLabel4.Text = "The Report :"
+        Me.CyberLabel4.Transparent = False
+        '
+        'CyberLabel3
+        '
+        Bloom18.Name = "TextColor"
+        Bloom18.Value = System.Drawing.Color.LightBlue
+        Bloom19.Name = "BackColor"
+        Bloom19.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.CyberLabel3.Colors = New Microsoft.Bloom() {Bloom18, Bloom19}
+        Me.CyberLabel3.Customization = "5tit/xkZGf8="
+        Me.CyberLabel3.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.CyberLabel3.Image = Nothing
+        Me.CyberLabel3.Location = New System.Drawing.Point(12, 141)
+        Me.CyberLabel3.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.CyberLabel3.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.CyberLabel3.Name = "CyberLabel3"
+        Me.CyberLabel3.NoRounding = False
+        Me.CyberLabel3.Size = New System.Drawing.Size(75, 16)
+        Me.CyberLabel3.TabIndex = 4
+        Me.CyberLabel3.Text = "Your Email :"
+        Me.CyberLabel3.Transparent = False
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Colors = New Microsoft.Bloom(-1) {}
+        Me.TextBox1.Customization = ""
+        Me.TextBox1.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.TextBox1.Image = Nothing
+        Me.TextBox1.Location = New System.Drawing.Point(91, 138)
+        Me.TextBox1.MaximumSize = New System.Drawing.Size(1000, 20)
+        Me.TextBox1.MinimumSize = New System.Drawing.Size(100, 20)
+        Me.TextBox1.Multilined = False
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.NoRounding = False
+        Me.TextBox1.Size = New System.Drawing.Size(266, 20)
+        Me.TextBox1.TabIndex = 3
+        Me.TextBox1.Transparent = False
+        '
+        'CyberTopButton1
+        '
+        Bloom20.Name = "BackColor"
+        Bloom20.Value = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
+        Bloom21.Name = "TextColor"
+        Bloom21.Value = System.Drawing.Color.LightBlue
+        Me.CyberTopButton1.Colors = New Microsoft.Bloom() {Bloom20, Bloom21}
+        Me.CyberTopButton1.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.CyberTopButton1.Customization = "KCgo/+bYrf8="
+        Me.CyberTopButton1.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.CyberTopButton1.Image = Nothing
+        Me.CyberTopButton1.Location = New System.Drawing.Point(587, 1)
+        Me.CyberTopButton1.Name = "CyberTopButton1"
+        Me.CyberTopButton1.NoRounding = False
+        Me.CyberTopButton1.Size = New System.Drawing.Size(35, 22)
+        Me.CyberTopButton1.TabIndex = 2
+        Me.CyberTopButton1.Text = "X"
+        Me.CyberTopButton1.Transparent = False
+        '
+        'CyberGroupBox1
+        '
+        Me.CyberGroupBox1.BorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.CyberGroupBox1.Colors = New Microsoft.Bloom(-1) {}
+        Me.CyberGroupBox1.Controls.Add(Me.ComboBox2)
+        Me.CyberGroupBox1.Controls.Add(Me.CyberLabel2)
+        Me.CyberGroupBox1.Controls.Add(Me.ComboBox1)
+        Me.CyberGroupBox1.Controls.Add(Me.CyberLabel1)
+        Me.CyberGroupBox1.Customization = ""
+        Me.CyberGroupBox1.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.CyberGroupBox1.Image = Nothing
+        Me.CyberGroupBox1.Location = New System.Drawing.Point(12, 36)
+        Me.CyberGroupBox1.Movable = True
+        Me.CyberGroupBox1.Name = "CyberGroupBox1"
+        Me.CyberGroupBox1.NoRounding = False
+        Me.CyberGroupBox1.Sizable = True
+        Me.CyberGroupBox1.Size = New System.Drawing.Size(175, 89)
+        Me.CyberGroupBox1.TabIndex = 1
+        Me.CyberGroupBox1.Text = "PC information"
+        Me.CyberGroupBox1.TextSub = Nothing
+        Me.CyberGroupBox1.TransparencyKey = System.Drawing.Color.Empty
+        '
+        'ComboBox2
+        '
+        Me.ComboBox2.BackColor = System.Drawing.Color.White
+        Me.ComboBox2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Items.AddRange(New Object() {"X86", "X64"})
+        Me.ComboBox2.Location = New System.Drawing.Point(43, 57)
+        Me.ComboBox2.Name = "ComboBox2"
+        Me.ComboBox2.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox2.TabIndex = 5
+        '
+        'CyberLabel2
+        '
+        Bloom22.Name = "TextColor"
+        Bloom22.Value = System.Drawing.Color.LightBlue
+        Bloom23.Name = "BackColor"
+        Bloom23.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.CyberLabel2.Colors = New Microsoft.Bloom() {Bloom22, Bloom23}
+        Me.CyberLabel2.Customization = "5tit/xkZGf8="
+        Me.CyberLabel2.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.CyberLabel2.Image = Nothing
+        Me.CyberLabel2.Location = New System.Drawing.Point(6, 61)
+        Me.CyberLabel2.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.CyberLabel2.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.CyberLabel2.Name = "CyberLabel2"
+        Me.CyberLabel2.NoRounding = False
+        Me.CyberLabel2.Size = New System.Drawing.Size(41, 16)
+        Me.CyberLabel2.TabIndex = 4
+        Me.CyberLabel2.Text = "Bit :"
+        Me.CyberLabel2.Transparent = False
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.BackColor = System.Drawing.Color.White
+        Me.ComboBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"win XP", "Win Vista", "Win 7", "Win 8", "Win 8.1 [Blue]"})
+        Me.ComboBox1.Location = New System.Drawing.Point(43, 30)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox1.TabIndex = 3
+        '
+        'CyberLabel1
+        '
+        Bloom24.Name = "TextColor"
+        Bloom24.Value = System.Drawing.Color.LightBlue
+        Bloom25.Name = "BackColor"
+        Bloom25.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.CyberLabel1.Colors = New Microsoft.Bloom() {Bloom24, Bloom25}
+        Me.CyberLabel1.Customization = "5tit/xkZGf8="
+        Me.CyberLabel1.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.CyberLabel1.Image = Nothing
+        Me.CyberLabel1.Location = New System.Drawing.Point(6, 34)
+        Me.CyberLabel1.MaximumSize = New System.Drawing.Size(600, 16)
+        Me.CyberLabel1.MinimumSize = New System.Drawing.Size(16, 16)
+        Me.CyberLabel1.Name = "CyberLabel1"
+        Me.CyberLabel1.NoRounding = False
+        Me.CyberLabel1.Size = New System.Drawing.Size(41, 16)
+        Me.CyberLabel1.TabIndex = 0
+        Me.CyberLabel1.Text = "OS :"
+        Me.CyberLabel1.Transparent = False
+        '
+        'Report_Bug
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(516, 401)
+        Me.Controls.Add(Me.CyberTheme1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
+        Me.Name = "Report_Bug"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.CyberTheme1.ResumeLayout(False)
+        Me.CyberTheme1.PerformLayout()
+        Me.CyberGroupBox1.ResumeLayout(False)
+        Me.ResumeLayout(False)
+
+    End Sub
+    Friend WithEvents CyberTheme1 As Microsoft.CyberTheme
+    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents CyberLabel4 As Microsoft.CyberLabel
+    Friend WithEvents CyberLabel3 As Microsoft.CyberLabel
+    Friend WithEvents TextBox1 As Microsoft.CyberTextBox
+    Friend WithEvents CyberTopButton1 As Microsoft.CyberTopButton
+    Friend WithEvents CyberGroupBox1 As Microsoft.CyberGroupBox
+    Friend WithEvents ComboBox2 As System.Windows.Forms.ComboBox
+    Friend WithEvents CyberLabel2 As Microsoft.CyberLabel
+    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents CyberLabel1 As Microsoft.CyberLabel
+    Friend WithEvents CyberButton1 As Microsoft.CyberButton
+    Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
+End Class

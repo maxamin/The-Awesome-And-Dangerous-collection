@@ -1,0 +1,27 @@
+C:\Users\Docteur\Desktop\Clean\spliter\spliter\spliter\bin\Debug\spliter.exe
+C:\Users\Docteur\Desktop\Clean\spliter\spliter\spliter\bin\Debug\spliter.pdb
+C:\Users\Docteur\Desktop\Clean\spliter\spliter\spliter\bin\Debug\spliter.xml
+C:\Users\Docteur\Desktop\Clean\spliter\spliter\spliter\obj\Debug\spliter.Form1.resources
+C:\Users\Docteur\Desktop\Clean\spliter\spliter\spliter\obj\Debug\spliter.Resources.resources
+C:\Users\Docteur\Desktop\Clean\spliter\spliter\spliter\obj\Debug\spliter.vbproj.GenerateResource.Cache
+C:\Users\Docteur\Desktop\Clean\spliter\spliter\spliter\obj\Debug\spliter.exe
+C:\Users\Docteur\Desktop\Clean\spliter\spliter\spliter\obj\Debug\spliter.xml
+C:\Users\Docteur\Desktop\Clean\spliter\spliter\spliter\obj\Debug\spliter.pdb
+C:\Users\xes\Desktop\Crypter\spliterfinal\spliter\spliter\bin\Debug\Crypter.exe
+C:\Users\xes\Desktop\Crypter\spliterfinal\spliter\spliter\bin\Debug\Crypter.pdb
+C:\Users\xes\Desktop\Crypter\spliterfinal\spliter\spliter\bin\Debug\Crypter.xml
+C:\Users\xes\Desktop\Crypter\spliterfinal\spliter\spliter\obj\Debug\Crypter.Form1.resources
+C:\Users\xes\Desktop\Crypter\spliterfinal\spliter\spliter\obj\Debug\Crypter.Resources.resources
+C:\Users\xes\Desktop\Crypter\spliterfinal\spliter\spliter\obj\Debug\spliter.vbproj.GenerateResource.Cache
+C:\Users\xes\Desktop\Crypter\spliterfinal\spliter\spliter\obj\Debug\Crypter.exe
+C:\Users\xes\Desktop\Crypter\spliterfinal\spliter\spliter\obj\Debug\Crypter.xml
+C:\Users\xes\Desktop\Crypter\spliterfinal\spliter\spliter\obj\Debug\Crypter.pdb
+C:\Users\xes\Desktop\Crypter By Ben Moh\spliter\bin\Debug\Crypter.exe
+C:\Users\xes\Desktop\Crypter By Ben Moh\spliter\bin\Debug\Crypter.pdb
+C:\Users\xes\Desktop\Crypter By Ben Moh\spliter\bin\Debug\Crypter.xml
+C:\Users\xes\Desktop\Crypter By Ben Moh\spliter\obj\Debug\Crypter.Form1.resources
+C:\Users\xes\Desktop\Crypter By Ben Moh\spliter\obj\Debug\Crypter.Resources.resources
+C:\Users\xes\Desktop\Crypter By Ben Moh\spliter\obj\Debug\spliter.vbproj.GenerateResource.Cache
+C:\Users\xes\Desktop\Crypter By Ben Moh\spliter\obj\Debug\Crypter.exe
+C:\Users\xes\Desktop\Crypter By Ben Moh\spliter\obj\Debug\Crypter.xml
+C:\Users\xes\Desktop\Crypter By Ben Moh\spliter\obj\Debug\Crypter.pdb

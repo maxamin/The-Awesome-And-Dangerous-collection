@@ -1,0 +1,5 @@
+E:\تعلم البرمجة\stub 6\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\تعلم البرمجة\stub 6\bin\Debug\ClassLibrary1.exe
+E:\تعلم البرمجة\stub 6\bin\Debug\ClassLibrary1.pdb
+E:\تعلم البرمجة\stub 6\obj\x86\Debug\ClassLibrary1.exe
+E:\تعلم البرمجة\stub 6\obj\x86\Debug\ClassLibrary1.pdb

@@ -1,0 +1,113 @@
+﻿Imports System.IO
+
+Public Class Form1
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim ofd As New OpenFileDialog With
+            {
+                .Filter = "ExE Files (*.exe) | *.exe"
+                }
+        If ofd.ShowDialog() = Windows.Forms.DialogResult.OK Then
+            TextBox1.Text = ofd.FileName
+        End If
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim Brow1 As New FolderBrowserDialog
+        Dim Brow2 As FolderBrowserDialog = Brow1
+        If Brow2.ShowDialog() = Windows.Forms.DialogResult.OK Then
+            Dim a As String = NumericUpDown1.Value
+            Dim b As String = Convert.ToBase64String(IO.File.ReadAllBytes(TextBox1.Text))
+            IO.File.WriteAllText(Brow2.SelectedPath & "\all" & ".txt", b)
+            Dim c As String = b.Length
+            Dim d As String = c / a
+            Dim lop As Integer
+            Dim split As String
+            Dim kyam As String = ""
+            Dim haj As String = "str2"
+            For i As Integer = 1 To a
+                For lop = 0 To c - 1 Step +a
+                    split += Mid(b, lop + i, 1)
+                Next
+                IO.File.WriteAllText(Brow2.SelectedPath & "\part" & i & ".txt", split)
+                Dim j As String = i
+                haj = haj + " & Strings.Mid(paracetamol" + j + ", i, 1)"
+                kyam = kyam + "dim paracetamol" + j + " as string= """ + split + """" + ChrW(10)
+                split = ""
+            Next
+            TextBox2.Text = My.Resources.stub.Replace("maloumat", kyam).Replace("rahj", haj)
+        End If
+
+        MsgBox("Done !! ")
+    End Sub
+
+    Private Sub NumericUpDown1_ValueChanged(sender As Object, e As EventArgs) Handles NumericUpDown1.ValueChanged
+
+    End Sub
+
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub ProgressBar1_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        If (Not String.IsNullOrEmpty(TextBox2.Text)) Then
+            TextBox2.SelectionStart = 0
+            TextBox2.SelectionLength = TextBox2.Text.Length
+        End If
+        TextBox2.Copy()
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        If (Me.TextBox1.Text = "") Then
+            Interaction.MsgBox("No server Selected", MsgBoxStyle.ApplicationModal, "Erorr")
+        Else
+            Dim dialog As New SaveFileDialog
+            Dim dialog2 As SaveFileDialog = dialog
+            dialog2.Title = "Save"
+            dialog2.Filter = "Text Documents(*.txt)|.txt"
+            dialog2.FileName = "*.txt"
+            dialog2 = Nothing
+            If (dialog.ShowDialog = DialogResult.OK) Then
+                File.WriteAllText(dialog.FileName, TextBox2.Text)
+                Interaction.MsgBox(dialog.FileName, MsgBoxStyle.ApplicationModal, Nothing)
+            End If
+        End If
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Dim a As String = NumericUpDown1.Value
+        If (Not String.IsNullOrEmpty(TextBox1.Text)) Then
+            Dim b As String = Convert.ToBase64String(IO.File.ReadAllBytes(TextBox1.Text))
+            Dim c As String = b.Length
+            Dim d As String = c / a
+            Dim lop As Integer
+            Dim split As String
+            Dim kyam As String = ""
+            Dim haj As String = "str2"
+            For i As Integer = 1 To a
+                For lop = 0 To c - 1 Step +a
+                    split += Mid(b, lop + i, 1)
+                Next
+                Dim j As String = i
+                haj = haj + " & Strings.Mid(paracetamol" + j + ", i, 1)"
+                kyam = kyam + "dim paracetamol" + j + " as string= """ + split + """" + ChrW(10)
+                split = ""
+            Next
+            TextBox2.Text = My.Resources.stub.Replace("maloumat", kyam).Replace("rahj", haj)
+        End If
+        MsgBox("Done !! ")
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        Me.Close()
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs)
+
+    End Sub
+End Class

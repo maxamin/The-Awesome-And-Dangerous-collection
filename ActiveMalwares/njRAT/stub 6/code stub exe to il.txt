@@ -1,0 +1,9 @@
+exe to il
+******************
+
+Ildasm C:\stu\stub.exe /out=C:\stu\stub.il
+**************
+il to exe
+*********************
+
+ilasm C:\stub\stub.il

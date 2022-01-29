@@ -1,0 +1,4 @@
+Line 32: Class MSComctlLib.ImageList of control lstimgFileExt was not a loaded control class.
+Line 34: Class MSComctlLib.ListView of control lstFileMgrDirs was not a loaded control class.
+Line 41: Class MSComctlLib.StatusBar of control sbFilemanager was not a loaded control class.
+Line 48: Class MSComctlLib.ListView of control lstFileMgrFiles was not a loaded control class.

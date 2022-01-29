@@ -1,0 +1,52 @@
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.Resources.resources
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT 0.3.6.vbproj.GenerateResource.Cache
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT 0.3.6.exe
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT 0.3.6.xml
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT 0.3.6.pdb
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.About.resources
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.alrt.resources
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.Builder.resources
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.Cam.resources
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.cap.resources
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.Chat.resources
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.DW.resources
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.FM.resources
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.Form1.resources
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.FURL.resources
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.kl.resources
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.Logs.resources
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.Note.resources
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.Pass.resources
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.proc.resources
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.script.resources
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.sinf.resources
+C:\Users\BU8\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.up.resources
+C:\Users\BU8\Desktop\njRAT 0.3.6.exe
+C:\Users\BU8\Desktop\njRAT 0.3.6.pdb
+C:\Users\BU8\Desktop\njRAT 0.3.6.xml
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT 0.3.6.exe
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT 0.3.6.xml
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT 0.3.6.pdb
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.About.resources
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.alrt.resources
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.Builder.resources
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.Cam.resources
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.cap.resources
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.Chat.resources
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.DW.resources
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.FM.resources
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.Form1.resources
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.FURL.resources
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.kl.resources
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.Logs.resources
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.Resources.resources
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.Note.resources
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.Pass.resources
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.proc.resources
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.script.resources
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.sinf.resources
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT_0._3._6.up.resources
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6\njRAT 0.3.6\obj\Debug\njRAT 0.3.6.vbproj.GenerateResource.Cache
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6.exe
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6.pdb
+C:\Users\Samad.Dz\Desktop\njRAT 0.3.6.xml

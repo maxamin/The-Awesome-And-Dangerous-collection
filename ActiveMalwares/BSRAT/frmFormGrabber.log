@@ -1,0 +1,4 @@
+Line 24: Class XtremeSuiteControls.GroupBox of control gbFormGrabber was not a loaded control class.
+Line 30: Class MSComctlLib.ListView of control lstFilter was not a loaded control class.
+Line 38: Class MSComctlLib.StatusBar of control sbStatus was not a loaded control class.
+Line 45: Class MSComctlLib.ListView of control lstGrabs was not a loaded control class.

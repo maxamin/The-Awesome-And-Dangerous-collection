@@ -1,0 +1,4 @@
+Line 22: Class XtremeSuiteControls.CheckBox of control chkRemember was not a loaded control class.
+Line 29: Class XtremeSuiteControls.PushButton of control cmdAgree was not a loaded control class.
+Line 36: Class XtremeSuiteControls.PushButton of control cmdDisagree was not a loaded control class.
+Line 43: Class XtremeSuiteControls.FlatEdit of control txtTerms was not a loaded control class.

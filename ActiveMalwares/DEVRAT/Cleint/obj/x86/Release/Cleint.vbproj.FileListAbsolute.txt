@@ -1,0 +1,72 @@
+F:\Egyption rat\-\الدرس الاول\Cleint\Cleint\bin\Release\Cleint.exe
+F:\Egyption rat\-\الدرس الاول\Cleint\Cleint\bin\Release\Cleint.pdb
+F:\Egyption rat\-\الدرس الاول\Cleint\Cleint\bin\Release\Cleint.xml
+F:\Egyption rat\-\الدرس الاول\Cleint\Cleint\obj\x86\Release\Cleint.vbproj.GenerateResource.Cache
+F:\Egyption rat\-\الدرس الاول\Cleint\Cleint\obj\x86\Release\Client.exe
+F:\Egyption rat\-\الدرس الاول\Cleint\Cleint\obj\x86\Release\Client.xml
+F:\Egyption rat\-\الدرس الاول\Cleint\Cleint\obj\x86\Release\Client.pdb
+F:\Egyption rat\-\الدرس الاول\Cleint\Cleint\obj\x86\Release\Client.Form1.resources
+F:\Egyption rat\-\الدرس الاول\Cleint\Cleint\obj\x86\Release\Client.Form2.resources
+F:\Egyption rat\-\الدرس الاول\Cleint\Cleint\obj\x86\Release\Client.Form3.resources
+F:\Egyption rat\-\الدرس الاول\Cleint\Cleint\obj\x86\Release\Client.Resources.resources
+F:\Egyption rat\-\الدرس الاول\Cleint\Cleint\obj\x86\Release\Client.fm.resources
+F:\Egyption rat\-\الدرس الاول\Cleint\Cleint\obj\x86\Release\Client.cap.resources
+F:\Egyption rat\-\الدرس الاول\Cleint\Cleint\obj\x86\Release\Client.cam.resources
+F:\Egyption rat\-\الدرس الاول\Cleint\Cleint\obj\x86\Release\Client.Form7.resources
+F:\Egyption rat\-\الدرس الاول\Cleint\Cleint\obj\x86\Release\Client.pw.resources
+E:\Cleint\Cleint\obj\x86\Release\Client.exe
+E:\Cleint\Cleint\obj\x86\Release\Client.xml
+E:\Cleint\Cleint\obj\x86\Release\Client.pdb
+C:\Users\Mahmoud\Desktop\cl\Egypt-Rat v1.2.exe
+C:\Users\Mahmoud\Desktop\cl\Egypt-Rat v1.2.pdb
+C:\Users\Mahmoud\Desktop\cl\Egypt-Rat v1.2.xml
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.Form1.resources
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.Form3.resources
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.fm.resources
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.cap.resources
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.cam.resources
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.pw.resources
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.Resources.resources
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Cleint.vbproj.GenerateResource.Cache
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Egypt-Rat v1.2.exe
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Egypt-Rat v1.2.xml
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Egypt-Rat v1.2.pdb
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.Form27.resources
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.builder.resources
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.ipport.resources
+F:\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.Form7.resources
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Egypt-Rat v1.2.exe
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Egypt-Rat v1.2.xml
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Egypt-Rat v1.2.pdb
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.cap.resources
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.Form1.resources
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.Form12.resources
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.builder.resources
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.Form3.resources
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.fm.resources
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.cam.resources
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.Form27.resources
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.Form7.resources
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.ipport.resources
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.pw.resources
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.Resources.resources
+C:\Users\Mahmoud\Google Drive\Egypt-Rat v1.2\Egypt-Rat v1.2\Egypt-Rat v1.2\Cleint\obj\x86\Release\Cleint.vbproj.GenerateResource.Cache
+F:\Egypt-Rat v1.2\Cleint\obj\x86\Release\Egypt-Rat v1.2.exe
+F:\Egypt-Rat v1.2\Cleint\obj\x86\Release\Egypt-Rat v1.2.xml
+F:\Egypt-Rat v1.2\Cleint\obj\x86\Release\Egypt-Rat v1.2.pdb
+F:\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.cap.resources
+F:\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.Form1.resources
+F:\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.Form12.resources
+F:\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.builder.resources
+F:\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.Form3.resources
+F:\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.fm.resources
+F:\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.cam.resources
+F:\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.Form27.resources
+F:\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.Form7.resources
+F:\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.ipport.resources
+F:\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.pw.resources
+F:\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.Resources.resources
+F:\Egypt-Rat v1.2\Cleint\obj\x86\Release\Cleint.vbproj.GenerateResource.Cache
+F:\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.Form13.resources
+F:\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.skypespread.resources
+F:\Egypt-Rat v1.2\Cleint\obj\x86\Release\Client.background.resources

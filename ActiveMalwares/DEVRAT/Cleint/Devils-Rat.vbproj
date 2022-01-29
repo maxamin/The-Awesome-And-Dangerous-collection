@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A4E82671-07FF-4CB6-9071-262C5D87A792}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Microsoft.My.MyApplication</StartupObject>
+    <RootNamespace>Microsoft</RootNamespace>
+    <AssemblyName>Devils-Rat 6.0</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <ApplicationIcon>Ico_2.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\..\Devils-Rat TsT\</OutputPath>
+    <DocumentationFile>Devils-Rat 6.0.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>C:\Users\Mahmoud\Desktop\cl\</OutputPath>
+    <DocumentationFile>Devils-Rat 6.0.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="rec">
+      <HintPath>..\..\..\Dev point soundrec by volkano\WindowsApplication1\WindowsApplication1\bin\Debug\rec.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cap.Designer.vb">
+      <DependentUpon>cap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chat.Designer.vb">
+      <DependentUpon>chat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="chat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class1.vb" />
+    <Compile Include="Class2.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Class3.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Class4.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Class5.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Class6.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CP.Designer.vb">
+      <DependentUpon>CP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12.Designer.vb">
+      <DependentUpon>Form12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form120.Designer.vb">
+      <DependentUpon>Form120.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form120.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13.Designer.vb">
+      <DependentUpon>Form13.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form13.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14.Designer.vb">
+      <DependentUpon>Form14.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form14.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15.Designer.vb">
+      <DependentUpon>Form15.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form15.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cam.Designer.vb">
+      <DependentUpon>cam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Information.Designer.vb">
+      <DependentUpon>Information.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Information.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyLogger.Designer.vb">
+      <DependentUpon>KeyLogger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KeyLogger.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.vb">
+      <DependentUpon>Form7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="No-Ip.Designer.vb">
+      <DependentUpon>No-Ip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="No-Ip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pw.Designer.vb">
+      <DependentUpon>pw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="reg.Designer.vb">
+      <DependentUpon>reg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Regedit.Designer.vb">
+      <DependentUpon>Regedit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Regedit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report Bug.Designer.vb">
+      <DependentUpon>Report Bug.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report Bug.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\rec.Designer.vb">
+      <DependentUpon>rec.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\rec.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rev.Designer.vb">
+      <DependentUpon>rev.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rev.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="s.Designer.vb">
+      <DependentUpon>s.vb</DependentUpon>
+    </Compile>
+    <Compile Include="s.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scan.Designer.vb">
+      <DependentUpon>Scan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Scan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Script.Designer.vb">
+      <DependentUpon>Script.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Script.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="spa.Designer.vb">
+      <DependentUpon>spa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="spa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Text Editor.Designer.vb">
+      <DependentUpon>Text Editor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Text Editor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.vb">
+      <DependentUpon>UserControl1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="cap.resx">
+      <DependentUpon>cap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="chat.resx">
+      <DependentUpon>chat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CP.resx">
+      <DependentUpon>CP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12.resx">
+      <DependentUpon>Form12.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form120.resx">
+      <DependentUpon>Form120.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13.resx">
+      <DependentUpon>Form13.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form14.resx">
+      <DependentUpon>Form14.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form15.resx">
+      <DependentUpon>Form15.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cam.resx">
+      <DependentUpon>cam.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Information.resx">
+      <DependentUpon>Information.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyLogger.resx">
+      <DependentUpon>KeyLogger.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="No-Ip.resx">
+      <DependentUpon>No-Ip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pw.resx">
+      <DependentUpon>pw.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reg.resx">
+      <DependentUpon>reg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Regedit.resx">
+      <DependentUpon>Regedit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report Bug.resx">
+      <DependentUpon>Report Bug.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\rec.resx">
+      <DependentUpon>rec.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rev.resx">
+      <DependentUpon>rev.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="s.resx">
+      <DependentUpon>s.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scan.resx">
+      <DependentUpon>Scan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Script.resx">
+      <DependentUpon>Script.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="spa.resx">
+      <DependentUpon>spa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Text Editor.resx">
+      <DependentUpon>Text Editor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="64 x 64.ico" />
+    <Content Include="Ico_2.ico" />
+    <None Include="Resources\179.png" />
+    <None Include="Resources\175.png" />
+    <None Include="Resources\004.png" />
+    <None Include="Resources\0031.png" />
+    <None Include="Resources\059.png" />
+    <None Include="Resources\R_4.png" />
+    <None Include="Resources\007.png" />
+    <None Include="Resources\067.png" />
+    <None Include="Resources\001.png" />
+    <None Include="Resources\049.png" />
+    <None Include="Resources\003.png" />
+    <None Include="Resources\102.png" />
+    <None Include="Resources\095.png" />
+    <None Include="Resources\152.png" />
+    <None Include="Resources\147.png" />
+    <None Include="Resources\rec.dll" />
+    <None Include="Resources\141.png" />
+    <None Include="Resources\151.png" />
+    <None Include="Resources\لل.jpg" />
+    <None Include="Resources\ش1.png" />
+    <None Include="Resources\Exit.gif" />
+    <None Include="Resources\Save.bmp" />
+    <None Include="Resources\Picture.gif" />
+    <None Include="Resources\Cryptdecrypt.png" />
+    <None Include="Resources\Edittext.png" />
+    <None Include="Resources\ش.png" />
+    <None Include="Resources\Apps-scan-monitor-icon.png" />
+    <None Include="Resources\ي.png" />
+    <None Include="Resources\0..png" />
+    <None Include="Resources\Create1.png" />
+    <None Include="Resources\Repair.bmp" />
+    <None Include="Resources\media_scripts.png" />
+    <None Include="Resources\get_info.png" />
+    <None Include="Resources\script_editor.png" />
+    <None Include="Resources\Microphone.png" />
+    <None Include="Resources\microphonehot %281%29.png" />
+    <None Include="Resources\microphonehot.png" />
+    <None Include="Resources\command_prompt %282%29.png" />
+    <None Include="Resources\command_prompt %281%29.png" />
+    <None Include="Resources\command_prompt.png" />
+    <None Include="Resources\Win-Command-Prompt-icon %281%29.png" />
+    <None Include="Resources\Win-Command-Prompt-icon.png" />
+    <None Include="Resources\devils-rat.jpg" />
+    <None Include="Resources\My-Computer-icon.png" />
+    <None Include="Resources\Cancel.bmp" />
+    <None Include="Resources\Back.bmp" />
+    <None Include="Resources\block Mouse-Keyboard.png" />
+    <None Include="Resources\Audio.png" />
+    <None Include="Resources\add_folder.png" />
+    <None Include="Resources\show_folder.png" />
+    <None Include="Resources\hide_folder.gif" />
+    <None Include="Resources\Abort.bmp" />
+    <None Include="Resources\Open Folder.png" />
+    <None Include="Resources\Download.png" />
+    <None Include="Resources\Upload.bmp" />
+    <None Include="Resources\Delete.bmp" />
+    <None Include="Resources\Delete File.png" />
+    <None Include="Resources\Internet Explorer.png" />
+    <None Include="Resources\Safari.png" />
+    <None Include="Resources\Opera.png" />
+    <None Include="Resources\Mozilla Firefox.png" />
+    <None Include="Resources\Chrome.png" />
+    <None Include="Resources\Default URL.png" />
+    <None Include="Resources\Webcam.png" />
+    <None Include="Resources\Redo.png" />
+    <None Include="Resources\Refresh.bmp" />
+    <None Include="Resources\Delete.png" />
+    <None Include="Resources\sport_soccer.png" />
+    <None Include="Resources\About.png" />
+    <None Include="Resources\Create.png" />
+    <None Include="Resources\0.png" />
+    <None Include="Resources\1359145624_link_add.png" />
+    <None Include="Resources\Up.gif" />
+    <None Include="Resources\Load.gif" />
+    <None Include="Resources\server.png" />
+    <None Include="Resources\sound.png" />
+    <None Include="Resources\6.png" />
+    <None Include="Resources\keyboard.png" />
+    <None Include="Resources\Computer 16x16.bmp" />
+    <None Include="Resources\2.png" />
+    <None Include="Resources\monitor.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

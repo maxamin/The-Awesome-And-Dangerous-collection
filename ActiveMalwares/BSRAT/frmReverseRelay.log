@@ -1,0 +1,7 @@
+Line 14: Class XtremeSuiteControls.ListView of control lstHistory was not a loaded control class.
+Line 21: Class MSWinsockLib.Winsock of control wsRemote was not a loaded control class.
+Line 24: Class MSWinsockLib.Winsock of control wsBrowser was not a loaded control class.
+Line 27: Class XtremeSuiteControls.GroupBox of control gbOptions was not a loaded control class.
+Line 51: Class XtremeSuiteControls.PushButton of control cmdListen was not a loaded control class.
+Line 58: Class XtremeSuiteControls.PushButton of control cmdHelp was not a loaded control class.
+Line 86: Class MSComctlLib.StatusBar of control sbReverseRelay was not a loaded control class.

@@ -1,0 +1,222 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class cap
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim Bloom1 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom2 As Microsoft.Bloom = New Microsoft.Bloom()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.c1 = New System.Windows.Forms.ComboBox()
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.c2 = New System.Windows.Forms.ComboBox()
+        Me.c = New System.Windows.Forms.NumericUpDown()
+        Me.MenuStrip2 = New System.Windows.Forms.MenuStrip()
+        Me.MenuStrip3 = New System.Windows.Forms.MenuStrip()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.p1 = New System.Windows.Forms.PictureBox()
+        Me.Button1 = New Microsoft.CyberButton()
+        CType(Me.c, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.p1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'Timer1
+        '
+        Me.Timer1.Interval = 1000
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.CheckBox1.ForeColor = System.Drawing.Color.Yellow
+        Me.CheckBox1.Location = New System.Drawing.Point(491, 16)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(42, 17)
+        Me.CheckBox1.TabIndex = 3
+        Me.CheckBox1.Text = "line"
+        Me.CheckBox1.UseVisualStyleBackColor = False
+        '
+        'c1
+        '
+        Me.c1.FormattingEnabled = True
+        Me.c1.Location = New System.Drawing.Point(161, 12)
+        Me.c1.Name = "c1"
+        Me.c1.Size = New System.Drawing.Size(121, 21)
+        Me.c1.TabIndex = 1
+        '
+        'CheckBox2
+        '
+        Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.CheckBox2.ForeColor = System.Drawing.Color.Yellow
+        Me.CheckBox2.Location = New System.Drawing.Point(539, 16)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.CheckBox2.Size = New System.Drawing.Size(57, 17)
+        Me.CheckBox2.TabIndex = 4
+        Me.CheckBox2.Text = "mouse"
+        Me.CheckBox2.UseVisualStyleBackColor = False
+        '
+        'c2
+        '
+        Me.c2.FormattingEnabled = True
+        Me.c2.Location = New System.Drawing.Point(364, 13)
+        Me.c2.Name = "c2"
+        Me.c2.Size = New System.Drawing.Size(121, 21)
+        Me.c2.TabIndex = 2
+        '
+        'c
+        '
+        Me.c.Location = New System.Drawing.Point(665, 14)
+        Me.c.Name = "c"
+        Me.c.Size = New System.Drawing.Size(43, 20)
+        Me.c.TabIndex = 5
+        Me.c.Value = New Decimal(New Integer() {50, 0, 0, 0})
+        '
+        'MenuStrip2
+        '
+        Me.MenuStrip2.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.MenuStrip2.Location = New System.Drawing.Point(0, 24)
+        Me.MenuStrip2.Name = "MenuStrip2"
+        Me.MenuStrip2.Size = New System.Drawing.Size(757, 24)
+        Me.MenuStrip2.TabIndex = 8
+        Me.MenuStrip2.Text = "MenuStrip2"
+        '
+        'MenuStrip3
+        '
+        Me.MenuStrip3.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.MenuStrip3.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip3.Name = "MenuStrip3"
+        Me.MenuStrip3.Size = New System.Drawing.Size(757, 24)
+        Me.MenuStrip3.TabIndex = 9
+        Me.MenuStrip3.Text = "MenuStrip3"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.Label1.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.Yellow
+        Me.Label1.Location = New System.Drawing.Point(298, 16)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(60, 17)
+        Me.Label1.TabIndex = 11
+        Me.Label1.Text = "Interval :"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.Label2.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.Yellow
+        Me.Label2.Location = New System.Drawing.Point(116, 14)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(39, 17)
+        Me.Label2.TabIndex = 12
+        Me.Label2.Text = "Size :"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.Label3.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.Yellow
+        Me.Label3.Location = New System.Drawing.Point(602, 16)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(57, 17)
+        Me.Label3.TabIndex = 13
+        Me.Label3.Text = "Quality :"
+        '
+        'p1
+        '
+        Me.p1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.p1.Location = New System.Drawing.Point(0, 48)
+        Me.p1.Name = "p1"
+        Me.p1.Size = New System.Drawing.Size(757, 339)
+        Me.p1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.p1.TabIndex = 6
+        Me.p1.TabStop = False
+        '
+        'Button1
+        '
+        Bloom1.Name = "BackColor"
+        Bloom1.Value = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
+        Bloom2.Name = "TextColor"
+        Bloom2.Value = System.Drawing.Color.LightBlue
+        Me.Button1.Colors = New Microsoft.Bloom() {Bloom1, Bloom2}
+        Me.Button1.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Button1.Customization = "KCgo/+bYrf8="
+        Me.Button1.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.Button1.Image = Nothing
+        Me.Button1.Location = New System.Drawing.Point(12, 7)
+        Me.Button1.Name = "Button1"
+        Me.Button1.NoRounding = False
+        Me.Button1.Size = New System.Drawing.Size(100, 30)
+        Me.Button1.TabIndex = 14
+        Me.Button1.Text = "Start"
+        Me.Button1.Transparent = False
+        '
+        'cap
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoSize = True
+        Me.ClientSize = New System.Drawing.Size(757, 387)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.c)
+        Me.Controls.Add(Me.CheckBox2)
+        Me.Controls.Add(Me.c2)
+        Me.Controls.Add(Me.CheckBox1)
+        Me.Controls.Add(Me.p1)
+        Me.Controls.Add(Me.c1)
+        Me.Controls.Add(Me.MenuStrip2)
+        Me.Controls.Add(Me.MenuStrip3)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
+        Me.Name = "cap"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Remote Screen : "
+        CType(Me.c, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.p1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents Timer1 As System.Windows.Forms.Timer
+    Friend WithEvents p1 As System.Windows.Forms.PictureBox
+    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
+    Friend WithEvents c1 As System.Windows.Forms.ComboBox
+    Friend WithEvents CheckBox2 As System.Windows.Forms.CheckBox
+    Friend WithEvents c2 As System.Windows.Forms.ComboBox
+    Friend WithEvents c As System.Windows.Forms.NumericUpDown
+    Friend WithEvents MenuStrip2 As System.Windows.Forms.MenuStrip
+    Friend WithEvents MenuStrip3 As System.Windows.Forms.MenuStrip
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Button1 As Microsoft.CyberButton
+End Class

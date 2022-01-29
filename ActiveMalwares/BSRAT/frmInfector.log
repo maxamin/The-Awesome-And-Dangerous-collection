@@ -1,0 +1,6 @@
+Line 14: Class XtremeSuiteControls.ListView of control lstInfector was not a loaded control class.
+Line 21: Class XtremeSuiteControls.GroupBox of control gbInfector was not a loaded control class.
+Line 50: Class XtremeSuiteControls.ComboBox of control cmbSize was not a loaded control class.
+Line 58: Class XtremeSuiteControls.ComboBox of control cmbTarget was not a loaded control class.
+Line 66: Class XtremeSuiteControls.PushButton of control cmdStart was not a loaded control class.
+Line 73: Class XtremeSuiteControls.PushButton of control cmdStop was not a loaded control class.

@@ -1,0 +1,9 @@
+C:\Users\Ratatouille\Desktop\Morpheus Crypter_Source\bin\Debug\EladitosCrypter.exe.config
+C:\Users\Ratatouille\Desktop\Morpheus Crypter_Source\bin\Debug\EladitosCrypter.exe
+C:\Users\Ratatouille\Desktop\Morpheus Crypter_Source\bin\Debug\EladitosCrypter.pdb
+C:\Users\Ratatouille\Desktop\Morpheus Crypter_Source\obj\Debug\EladitosCrypter.csprojResolveAssemblyReference.cache
+C:\Users\Ratatouille\Desktop\Morpheus Crypter_Source\obj\Debug\EladitosCrypter.Form1.resources
+C:\Users\Ratatouille\Desktop\Morpheus Crypter_Source\obj\Debug\EladitosCrypter.Properties.Resources.resources
+C:\Users\Ratatouille\Desktop\Morpheus Crypter_Source\obj\Debug\EladitosCrypter.csproj.GenerateResource.Cache
+C:\Users\Ratatouille\Desktop\Morpheus Crypter_Source\obj\Debug\EladitosCrypter.exe
+C:\Users\Ratatouille\Desktop\Morpheus Crypter_Source\obj\Debug\EladitosCrypter.pdb

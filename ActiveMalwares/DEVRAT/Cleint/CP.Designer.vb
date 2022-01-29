@@ -1,0 +1,166 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class CP
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Dim Bloom1 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom2 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom3 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom4 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom5 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom6 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom7 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom8 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom9 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom10 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom11 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom12 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom13 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom14 As Microsoft.Bloom = New Microsoft.Bloom()
+        Dim Bloom15 As Microsoft.Bloom = New Microsoft.Bloom()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.CyberTheme1 = New Microsoft.CyberTheme()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.CyberButton1 = New Microsoft.CyberButton()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.CyberTheme1.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(12, 202)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(363, 24)
+        Me.Button1.TabIndex = 5
+        Me.Button1.Text = "Get"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'CyberTheme1
+        '
+        Me.CyberTheme1.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.CyberTheme1.BorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Bloom1.Name = "Back"
+        Bloom1.Value = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Bloom2.Name = "Gradient1"
+        Bloom2.Value = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
+        Bloom3.Name = "Gradient2"
+        Bloom3.Value = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer))
+        Bloom4.Name = "Border1"
+        Bloom4.Value = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
+        Bloom5.Name = "Border2"
+        Bloom5.Value = System.Drawing.Color.FromArgb(CType(CType(49, Byte), Integer), CType(CType(49, Byte), Integer), CType(CType(49, Byte), Integer))
+        Bloom6.Name = "Border3"
+        Bloom6.Value = System.Drawing.Color.Black
+        Bloom7.Name = "Line1"
+        Bloom7.Value = System.Drawing.Color.Black
+        Bloom8.Name = "Line2"
+        Bloom8.Value = System.Drawing.Color.Black
+        Bloom9.Name = "Hatch1"
+        Bloom9.Value = System.Drawing.Color.Black
+        Bloom10.Name = "Hatch2"
+        Bloom10.Value = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
+        Bloom11.Name = "Shade1"
+        Bloom11.Value = System.Drawing.Color.FromArgb(CType(CType(70, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Bloom12.Name = "Shade2"
+        Bloom12.Value = System.Drawing.Color.Transparent
+        Bloom13.Name = "Text"
+        Bloom13.Value = System.Drawing.Color.LightBlue
+        Me.CyberTheme1.Colors = New Microsoft.Bloom() {Bloom1, Bloom2, Bloom3, Bloom4, Bloom5, Bloom6, Bloom7, Bloom8, Bloom9, Bloom10, Bloom11, Bloom12, Bloom13}
+        Me.CyberTheme1.Controls.Add(Me.LinkLabel1)
+        Me.CyberTheme1.Controls.Add(Me.TextBox1)
+        Me.CyberTheme1.Controls.Add(Me.CyberButton1)
+        Me.CyberTheme1.Customization = "GRkZ/yMjI/8UFBT/IiIi/zExMf8AAAD/AAAA/wAAAP8AAAD/IiIi/wAAAEb///8A5tit/w=="
+        Me.CyberTheme1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.CyberTheme1.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.CyberTheme1.Image = Nothing
+        Me.CyberTheme1.Location = New System.Drawing.Point(0, 0)
+        Me.CyberTheme1.Movable = True
+        Me.CyberTheme1.Name = "CyberTheme1"
+        Me.CyberTheme1.NoRounding = False
+        Me.CyberTheme1.Sizable = True
+        Me.CyberTheme1.Size = New System.Drawing.Size(387, 222)
+        Me.CyberTheme1.TabIndex = 6
+        Me.CyberTheme1.Text = "Get Clibarod"
+        Me.CyberTheme1.TransparencyKey = System.Drawing.Color.Empty
+        '
+        'TextBox1
+        '
+        Me.TextBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox1.ForeColor = System.Drawing.Color.Lime
+        Me.TextBox1.Location = New System.Drawing.Point(12, 45)
+        Me.TextBox1.Multiline = True
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(363, 134)
+        Me.TextBox1.TabIndex = 1
+        '
+        'CyberButton1
+        '
+        Bloom14.Name = "BackColor"
+        Bloom14.Value = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
+        Bloom15.Name = "TextColor"
+        Bloom15.Value = System.Drawing.Color.LightBlue
+        Me.CyberButton1.Colors = New Microsoft.Bloom() {Bloom14, Bloom15}
+        Me.CyberButton1.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.CyberButton1.Customization = "KCgo/+bYrf8="
+        Me.CyberButton1.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.CyberButton1.Image = Nothing
+        Me.CyberButton1.Location = New System.Drawing.Point(12, 185)
+        Me.CyberButton1.Name = "CyberButton1"
+        Me.CyberButton1.NoRounding = False
+        Me.CyberButton1.Size = New System.Drawing.Size(363, 30)
+        Me.CyberButton1.TabIndex = 0
+        Me.CyberButton1.Text = "Get"
+        Me.CyberButton1.Transparent = False
+        '
+        'LinkLabel1
+        '
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.LinkColor = System.Drawing.Color.Lime
+        Me.LinkLabel1.Location = New System.Drawing.Point(367, 29)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(15, 13)
+        Me.LinkLabel1.TabIndex = 2
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "X"
+        '
+        'CP
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(387, 222)
+        Me.Controls.Add(Me.CyberTheme1)
+        Me.Controls.Add(Me.Button1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Name = "CP"
+        Me.Text = "CP"
+        Me.CyberTheme1.ResumeLayout(False)
+        Me.CyberTheme1.PerformLayout()
+        Me.ResumeLayout(False)
+
+    End Sub
+    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents CyberTheme1 As Microsoft.CyberTheme
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents CyberButton1 As Microsoft.CyberButton
+    Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
+End Class
