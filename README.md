@@ -1,4 +1,4 @@
-# The-Awoesome-And-Dangerous-collection
+# The-Awesome-And-Dangerous-collection
 None of these were made by me and I take no resonsibility for anything done with the code. This is all just for research purposes.
 
 Included Malware
